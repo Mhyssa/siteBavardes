@@ -5,3 +5,14 @@ li {
 img {
     border: none!important;
 }
+
+@media only screen and (min-width: 976px){
+    .large{
+           display: none;
+    }
+}
+@media only screen and (max-width: 976cpx){
+    .small{
+           display: none;
+    }
+}
