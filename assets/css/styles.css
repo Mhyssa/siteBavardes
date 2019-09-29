@@ -20,9 +20,19 @@ img {
 
 .container-fluid
     {
-background-color: rgba(255, 255, 255, 0.788);
-    }
+    background-color: #EEEEEE;
+    padding: 0px;  
+}
+    
+.col-md-9 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
+.col-md-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 h1,a,li,h5 {
     
