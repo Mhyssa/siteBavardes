@@ -11,8 +11,13 @@ img {
            display: none;
     }
 }
-@media only screen and (max-width: 976cpx){
+@media only screen and (max-width: 976px){
     .small{
            display: none;
     }
+}
+
+h1,p,a,li {
+    
+    font-family: 'Quicksand', sans-serif;
 }
