@@ -17,7 +17,34 @@ img {
     }
 }
 
-h1,p,a,li {
+
+.container-fluid
+    {
+background-color: rgba(255, 255, 255, 0.788);
+    }
+
+
+h1,a,li,h5 {
     
     font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* .nav-link:link {
+    background-color: #FD9C18;
+} */
+
+
+
+.nav-link:hover {
+    background-color: #FFAD3F;
+    text-transform: uppercase;
+}
+
+.nav-item.active {
+    background-color: #FFAD3F;
 }

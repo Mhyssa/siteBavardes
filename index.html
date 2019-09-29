@@ -15,6 +15,8 @@
   </head>
   
   <body>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0"></script>
   <div class="container-fluid">
   <header>
   <!-- ------------------------------------------------------------------------------------------------------------------------ -->
@@ -26,7 +28,7 @@
   
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <a class="navbar-brand" href="index.html">
-      <img src="assets/img/logo_bavardes.jpg" width="70" height="70" class="d-inline-block align-top" alt="icon">
+      <img src="assets/img/logo_bavardes_png.png" width="70" height="70" class="d-inline-block align-top" alt="icon">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +37,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">ACCUEIL <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="About.html">Qui Sommes Nous ?</a>
@@ -55,13 +57,14 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
-      </ul>
-        <!-- ------------------------------------------------------------------------------------------------------------------------ -->
-  <!-- Appel media queries  -->
-  <!-- Network -->
-  <!-- ------------------------------------------------------------------------------------------------------------------------ -->
-      <div class="small">
 
+      </ul>
+      <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+      <!-- Appel media queries  -->
+      <!-- Network -->
+      <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+      <div class="small">
+        
         <ul class="list-group list-group-horizontal" class="w-100"> 
           <li class="list-group-item"><a class="list-group-item" alt="facebook" href="https://fr-fr.facebook.com/bavardes/" target="_blank" ><img src="assets/img/link/facebook.png" width="35" height="35"></a></li>
           <li class="list-group-item"><a class="list-group-item" alt="instagram" href="https://www.instagram.com/les.bavardes/" target="_blank" ><img src="assets/img/link/instagram.png" width="35" height="35" ></a></li>
@@ -70,17 +73,18 @@
         </ul> 
       </div>
     </div>
+    
+    <div class="large">
+      
+      <ul class="list-group list-group-horizontal" class="w-100"> 
+        <li class="list-group-item"><a class="list-group-item" alt="facebook" href="https://fr-fr.facebook.com/bavardes/" target="_blank" ><img src="assets/img/link/facebook.png" width="35" height="35"></a></li>
+        <li class="list-group-item"><a class="list-group-item" alt="instagram" href="https://www.instagram.com/les.bavardes/" target="_blank" ><img src="assets/img/link/instagram.png" width="35" height="35" ></a></li>
+        <li class="list-group-item"><a class="list-group-item" alt="youtube" href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" target="_blank" ><img src="assets/img/link/youtube.png" width="35" height="35"></a></li>
+        <li class="list-group-item"><a class="list-group-item" alt="twitter" href="https://twitter.com/lesbavardes_" target="_blank" ><img src="assets/img/link/twitter.png" width="35" height="35"></a></li> 
+      </ul> 
+    </div>
   </nav>
-
-  <div class="large">
-
-    <ul class="list-group list-group-horizontal" class="w-100"> 
-      <li class="list-group-item"><a class="list-group-item" alt="facebook" href="https://fr-fr.facebook.com/bavardes/" target="_blank" ><img src="assets/img/link/facebook.png" width="35" height="35"></a></li>
-      <li class="list-group-item"><a class="list-group-item" alt="instagram" href="https://www.instagram.com/les.bavardes/" target="_blank" ><img src="assets/img/link/instagram.png" width="35" height="35" ></a></li>
-      <li class="list-group-item"><a class="list-group-item" alt="youtube" href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" target="_blank" ><img src="assets/img/link/youtube.png" width="35" height="35"></a></li>
-      <li class="list-group-item"><a class="list-group-item" alt="twitter" href="https://twitter.com/lesbavardes_" target="_blank" ><img src="assets/img/link/twitter.png" width="35" height="35"></a></li> 
-    </ul> 
-  </div>
+  <h1>Collectif féministe & lesbien Amiens 2017</h1>
 </header>
    
   <!-- ------------------------------------------------------------------------------------------------------------------------ -->
@@ -101,8 +105,9 @@
     <!-- UPF -->
     <!-- 40% meuf -->
     <!-- Ovaires Bookées Ecoutez ici sur Radio Campus Amiens 87.7 FM http://www.radiocampusamiens.fr/emissions/ovairesbookees/ -->
+   
     <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-8">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -112,7 +117,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel/ims.jpg" class="d-block w-100" alt="intervention en milieu scolaire">
+            <img src="assets/img/carousel/ims.jpg" class="d-block w-100 " alt="intervention en milieu scolaire">
             <div class="carousel-caption ">
               <h5>Intervention en milieu scolaire</h5>
               <p>Intervention en milieu scolaire Amiens</p>
@@ -122,7 +127,7 @@
             <img src="assets/img/carousel/o_b.jpg" class="d-block w-100" alt="émission ovaires bookées radio campus">
             <div class="carousel-caption ">
               <h5>Ovaires Bookées</h5>
-              <p>Radio Campus Amiens 87.7 fm</p>
+              <p>Radio Campus Amiens 87.7 <br><br><a class="btn btn-secondary btn-lg" href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/" role="button">Click</a> </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -150,6 +155,13 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </div>
+    <div class="col-md-4">
+        <div class="fb-page" 
+        data-href="https://www.facebook.com/bavardes" 
+        data-tabs="timeline, events" data-width="" data-height="800" 
+        data-small-header="false" data-adapt-container-width="true" 
+        data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/bavardes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bavardes">Les Bavardes</a></blockquote></div>
     </div>
   </div>
 
