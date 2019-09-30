@@ -42,7 +42,11 @@ h1,a,li,h5 {
 }
 
 #titre {
-    padding: 0.7rem;
+    padding: 0.5rem;
+    text-align: right;
+    text-transform: none;
+    font-size:1.5rem;
+    
 }
 p {
     font-family: 'Quicksand', sans-serif;
@@ -65,8 +69,10 @@ p {
 
 
 aside {
-    display: flex;
-right: 100%;
+    display: absolute
+    ;
+    right: 100%;
+    padding-left: 3rem;
 }
 .fa {
     padding: 20px;
@@ -75,6 +81,7 @@ right: 100%;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    
   }
 
   .fa:hover {
