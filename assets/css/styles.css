@@ -20,7 +20,7 @@ img {
 
 .container-fluid
     {
-    background-color: #EEEEEE;
+    background-color: #ecffec;
     padding: 0px;  
 }
 
@@ -69,10 +69,9 @@ p {
 
 
 aside {
-    display: absolute
-    ;
+    display: absolute;
     right: 100%;
-    padding-left: 3rem;
+    
 }
 .fa {
     padding: 20px;
