@@ -19,7 +19,10 @@ img {
 
 #navBar {
     padding-bottom: 0;
+    
 }
+
+
 .container-fluid
     {
     
@@ -50,7 +53,9 @@ h1,a,li,h5 {
     font-size:1.5rem;
     color: #FFAD3F;
     padding-bottom: 15px;
+  
     text-transform: uppercase;
+
     
 }
 p {
