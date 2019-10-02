@@ -17,10 +17,12 @@ img {
     }
 }
 
-
+#navBar {
+    padding-bottom: 0;
+}
 .container-fluid
     {
-    background-color: #ecffec;
+    
     padding: 0px;  
 }
 
@@ -42,10 +44,13 @@ h1,a,li,h5 {
 }
 
 #titre {
-    padding: 0.5rem;
-    text-align: right;
+  
+    text-align: center;
     text-transform: none;
     font-size:1.5rem;
+    color: #FFAD3F;
+    padding-bottom: 15px;
+    text-transform: uppercase;
     
 }
 p {
@@ -108,4 +113,21 @@ aside {
 .fa-instagram {
 background: #125688;
 color: white;
+}
+
+
+
+/* About.html */
+.textAbout {
+    background-color: rgba(235, 223, 206, 0.7);
+    padding: 20px;
+}
+
+
+
+
+
+
+footer {
+    background-color: rgba(105, 103, 100, 0.7);
 }
