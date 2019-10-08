@@ -1,5 +1,7 @@
 <?php  
-require("header.php")
+$ma_pages = 'action';
+require("header.php");
+
 ?>
 
 <div class="container">

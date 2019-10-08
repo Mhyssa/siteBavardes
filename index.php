@@ -1,5 +1,7 @@
 <?php
-require("header.php")
+$ma_pages = 'index';
+require("header.php");
+
 ?>
      
 

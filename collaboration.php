@@ -1,5 +1,7 @@
 <?php  
-require("header.php")
+$ma_pages = 'collaboration';
+require("header.php");
+
 ?>
 
 <div class="container">

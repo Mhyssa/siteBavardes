@@ -1,6 +1,8 @@
 
 <?php  
-require("header.php")
+$ma_pages = 'artistes';
+require("header.php");
+
 ?>
 
 <div class="container">

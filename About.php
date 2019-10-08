@@ -1,5 +1,7 @@
 <?php  
-require("header.php")
+$ma_pages = 'about';
+require("header.php");
+
 ?>
 
 <div class="container">

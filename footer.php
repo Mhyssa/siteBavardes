@@ -11,9 +11,9 @@
   <!-- copiright Mentions légales -->
   <!-- Cookies -->
 <footer>
-    <div class="container-fluid pt-5">
+    <div class="container-fluid pt-4 pb-4">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 pl-5">
           <p>Mentions légales</p>
           <p>Politique de confidentialité</p>
           <div>Copyright © 2017. Tous droits réservés.</div>

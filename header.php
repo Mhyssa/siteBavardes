@@ -41,32 +41,101 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                   <img src="assets/img/logo.png" width="" height="80" class="d-inline-block align-top"
                     alt="icon">
                 </a>
                 <ul class="navbar-nav">
-                  <li class="nav-item ">
-                    <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="About.php">Qui Sommes Nous ?</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="action.php">Nos actions</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="collaboration.php">Collaboration</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="artistes.php">Artistes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="presse.php">La Presse</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
-                  </li>
+
+
+                     <!-- Actif index ou non -->
+                    <?php if($ma_pages == 'index'){ ?> 
+                           
+                        <li class="nav-item active">
+                            <a class="nav-link " href="index.php">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                    <?php  }else{    ?>
+                          
+                        <li class="nav-item ">
+                            <a class="nav-link " href="index.php">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                    <?php  }  ?>    
+               
+
+
+                        <!-- Actif about ou non -->
+                    <?php if($ma_pages == 'about'){ ?> 
+                        <li class="nav-item active">
+                            <a class="nav-link " href="About.php">Qui Sommes Nous ?</a>
+                    </li>
+                    <?php  }else{    ?>
+                        <li class="nav-item">
+                            <a class="nav-link " href="About.php">Qui Sommes Nous ?</a>
+                    </li>
+                    <?php  }  ?>    
+                    
+
+                            <!-- Actif action ou non -->
+                    <?php if($ma_pages == 'action'){ ?> 
+                        <li class="nav-item active">
+                            <a class="nav-link " href="action.php">Nos actions</a>
+                        </li>
+                    <?php  }else{    ?>
+                        <li class="nav-item">
+                            <a class="nav-link " href="action.php">Nos actions</a>
+                        </li>
+                    <?php  }  ?>                
+
+                     <!-- Actif collaboration ou non -->
+                    <?php if($ma_pages == 'collaboration'){ ?> 
+                        <li class="nav-item active">
+                            <a class="nav-link " href="collaboration.php">Collaboration</a>
+                        </li>
+                        <?php  }else{    ?>
+                        <li class="nav-item">
+                            <a class="nav-link " href="collaboration.php">Collaboration</a>
+                        </li>
+                    <?php  }  ?>        
+                    
+                
+                       <!-- Actif artistes ou non -->
+                  <?php if($ma_pages == 'artistes'){ ?> 
+                     <li class="nav-item active">
+                         <a class="nav-link " href="artistes.php">Artistes</a>
+                     </li>
+                  <?php  }else{    ?>
+                     <li class="nav-item">
+                         <a class="nav-link " href="artistes.php">Artistes</a>
+                     </li>
+                  <?php  }  ?>        
+                 
+                    <!-- Actif presse ou non -->
+                  <?php if($ma_pages == 'presse'){ ?> 
+                    <li class="nav-item active">
+                         <a class="nav-link " href="presse.php">La Presse</a>
+                     </li>
+                  <?php  }else{    ?>
+                     <li class="nav-item">
+                         <a class="nav-link " href="presse.php">La Presse</a>
+                     </li>
+                  <?php  }  ?>        
+                 
+                  <!-- Actif contact ou non -->
+                  <?php 
+                  if($ma_pages == 'contact'){ ?>                 
+                    <li class="nav-item active">
+                        <a class="nav-link " href="contact.php">Contact</a>
+                    </li>
+                  <?php 
+                  }else{    ?>
+                    <li class="nav-item">
+                      <a class="nav-link " href="contact.php">Contact</a>
+                    </li>                 
+                <?php  }
+                 
+                  ?>
+
+
                 </ul>
               </div>
               
