@@ -19,7 +19,9 @@ http://www.radiocampusamiens.fr/emissions/ovairesbookees/
 -Lycée Michelis
 -Bsp éco féministe bsp migrants
 
-Remerciment merci Barrio Gargouille Charleston le Cafe Capuccino bsp de nous avoir accueilli
+Remerciment Barrio Gargouille Charleston le Cafe 
+Capuccino La boite sans Projet Cite Crter Centre leo lagrange le Mic Mac Enfant terribles le Fut et a mersure La Taverne electrique le Red and white La lune des pirates Le lapin vert 
+Radio campus de nous avoir accueilli
 </div>
     </div>
     <div class="row">
