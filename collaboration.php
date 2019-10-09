@@ -8,12 +8,19 @@ require("header.php");
     <div class="row">
       <div class="col-md-12">
         <h1>Collaboration</h1>
-        <p> La lune des pirates : http://www.lalune.net/concert-amiens/programme/expoconcert-bavardes/
-          Cité Carter :
-          Pride ( Idahot ) :
-          Radio campus :
-          http://www.radiocampusamiens.fr/emissions/ovairesbookees/</p>
-      </div>
+        <p> La lune des pirates :
+Cité Carter :
+Pride ( Idahot ) :
+Radio campus :
+http://www.radiocampusamiens.fr/emissions/ovairesbookees/
+-Alimentation generale
+-le mois des violences faites aux femmes 2017 page facebook Amiens non aux violences faite aux femmes 
+- iles aux fruits
+-Lycée Michelis
+-Bsp éco féministe bsp migrants
+
+Remerciment merci Barrio Gargouille Charleston le Cafe Capuccino bsp de nous avoir accueilli
+</div>
     </div>
     <div class="row">
       <div class="col-md-12">
