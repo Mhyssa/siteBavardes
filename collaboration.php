@@ -9,6 +9,7 @@ require("header.php");
       <div class="col-md-12">
         <h1>Collaboration</h1>
         <p> La lune des pirates :
+        https://www.facebook.com/events/822173224810869/
 Cité Carter :
 Pride ( Idahot ) :
 Radio campus :
