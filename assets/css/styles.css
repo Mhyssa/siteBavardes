@@ -1,27 +1,28 @@
-li {
-    border: none!important;
-}
 
-img {
-    border: none!important;
+h2{
+    font-family: 'Indie Flower', cursive;
+    color : black;
 }
-
-@media only screen and (min-width: 976px){
-    .large{
-           display: none;
-    }
+h3{
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    color : black;
 }
-@media only screen and (max-width: 976px){
-    .small{
-           display: none;
-    }
+.brl{
+    border-right: #ffad3f 2px solid;
 }
 
 #navBar {
     padding-bottom: 0;
     
 }
-
+.ombre{
+    background-color: white;
+    background-image: url(../img/ombre.jpg);
+   background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
 
 .container-fluid
     {
@@ -29,7 +30,7 @@ img {
     padding: 0px;  
 }
 
-.col-md-9 {
+/* .col-md-9 {
     padding-right: 0px;
     padding-left: 10px;
 }
@@ -37,7 +38,7 @@ img {
 .col-md-3 {
     padding-right: 10px;
     padding-left: 0px;
-}
+} */
 
 h1,a,li,h5 {
     
@@ -45,26 +46,23 @@ h1,a,li,h5 {
     text-transform: uppercase;
     
 }
-
+.pagetitre{
+    font-family: 'Indie Flower', cursive;
+    color : #3e3a3a;
+    border-bottom: #212529 2px solid;
+}
 #titre {
   
     text-align: center;
     text-transform: none;
-    font-size:1.5rem;
-    color: #FFAD3F;
-    padding-bottom: 15px;
-  
-    text-transform: uppercase;
-
-    
+    font-size:1.7rem;
+    color: #FFAD3F;    
+    text-transform: uppercase; 
 }
 p {
     font-family: 'Quicksand', sans-serif;
 }
 
-/* .nav-link:link {
-    background-color: #FD9C18;
-} */
 
 
 
@@ -74,15 +72,12 @@ p {
 }
 
 .nav-item.active {
-    background-color: #FFAD3F;
+
+    border-bottom: #FFAD3F 3px solid;
 }
 
 
-aside {
-    display: absolute;
-    right: 100%;
-    
-}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -119,24 +114,39 @@ aside {
 background: #125688;
 color: white;
 }
-.test{
-    width: 320px;
+/* 
+-------%media sociaux--------------------- */
+.black{
+
     height:40px;
     background-color: black;
+    padding-top: 0.2%;
 }
-.test2{
-    width: 320px;
-    height:50px;
-    background-color: yellow;
-}
+.yellow{
 
+    height:40px;
+    background-color: #ffad3f;
+    padding-top: 0.2%;
+}
+.imgSocialmedia{
+    max-width: 40px;
+}
+/* 
+-------%media sociaux--------------------- */
 
 /* About.html */
 .textAbout {
-    background-color: rgba(235, 223, 206, 0.7);
+    /* background-color: rgba(235, 223, 206, 0.7); */
     padding: 20px;
+
 }
 footer {
-    background-color:#212529;
+    background-color:#151414;
     color : white;
+}
+.imgAbsolu{
+    margin-top: -4%;
+    z-index: 800;
+    position: absolute;
+    margin-left: -6%;
 }

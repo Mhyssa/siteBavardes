@@ -10,29 +10,56 @@
   <!-- Contact -->
   <!-- copiright Mentions légales -->
   <!-- Cookies -->
-<footer>
-    <div class="container-fluid pt-4 pb-4">
+  <div class="row ">
+                
+                <a href="https://www.instagram.com/les.bavardes/"class="yellow float-left col-lg-3" >
+                 <div class="text-center" >
+                   <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
+                  </div>
+                </a>
+                <a href="https://fr-fr.facebook.com/bavardes/"class="black float-left col-lg-3">
+                <div class="text-center" >
+                  <img src="assets/img/navbar/facebook.png" class="imgSocialmedia">
+                  </div>
+              </a>
+
+              <div class="text-center" >
+                  <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu">
+                </div>
+
+                <a href="https://twitter.com/lesbavardes_"class="yellow float-left col-lg-3">
+                <div class="text-center" >
+                  <img src="assets/img/navbar/twitter.png" class="imgSocialmedia">
+                </div>
+              </a>
+                <a href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw"  class="black float-left col-lg-3">
+                <div class="text-center">
+                  <img src="assets/img/navbar/youtube.png" class="imgSocialmedia">
+                </div>
+              </a>
+                        
+            </div>
+
+<footer class="pt-2 pb-4">
+  <h2></h2>
+    <div class="container-fluid pt-5 pb-4">
       <div class="row">
-        <div class="col-md-4 pl-5">
+        <div class="col-md-4 pt-5 pb-5 pl-5 mx-auto">
           <p>Mentions légales</p>
           <p>Politique de confidentialité</p>
           <div>Copyright © 2017. Tous droits réservés.</div>
         </div>
-        <div class="col-md-4">
-          <h4>Contact</h4>
-            <img  src="assets/img/logo.png" width="" height="70" class="d-inline-block align-top"
+        <div class="col-md-4  mx-auto p-3">
+          <h4 class="pb-3">Contact</h4>
+          <p>N'hésitez pas à nous écrire un petit mot pour des informations ou pour nous rejoindre,<br> les Bavardes seront tout.e.s ravi.e.s de vous lire et de vous répondre. <br> Alors soyons Bavardes tout.e.s ensemble !</p>
+            <img  src="assets/img/logocouleur.png" width="" height="70" class="d-inline-block align-top"
             alt="icon">
-          <a href="mailto:lesbavardesamiens@gmail.com">lesbavardesamiens.com</a>
+          <a href="mailto:lesbavardesamiens@gmail.com">lesbavardesamiens@gmail.com</a>
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <h4>Suivez nous !</h4>
-          <a href="https://www.instagram.com/les.bavardes/" class="fa fa-instagram"></a>
-                <a href="https://fr-fr.facebook.com/bavardes/" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/lesbavardes_" class="fa fa-twitter"></a>
-                
-                <a href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" class="fa fa-youtube">
-          </a>
-        </div>
+       
+        </div> -->
 
       </div>
     </div>
