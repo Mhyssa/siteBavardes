@@ -8,11 +8,27 @@ require("header.php");
 <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Artistes et intervenants</h1>
-        <p>Sur notre route
-
-
+      
+<img src="assets/img/artistes/roxaane.jpg" class="Artiste" alt="">
  <a href="https://www.youtube.com/channel/UCytIqXqtZlAPhZ53_wMMsRQ">Roxaane</a>
+
+
+ <img src="assets/img/artistes/lisa_balavoine.jpg" class="Artiste" alt="">
+ 
+<img src="assets/img/artistes/kty.png" class="Artiste" alt="">
+
+<img src="assets/img/artistes/ame.png" class="Artiste" alt="">
+
+<img src="assets/img/artistes/mekias.jpg" class="Artiste" alt="">
+
+<img src="assets/img/artistes/van_campo.jpg" class="Artiste" alt="">
+
+<img src="assets/img/artistes/louiz.jpg" class="Artiste" alt="">
+
+  <h1>Artistes et intervenants</h1>
+        <p>Sur notre route</p>
+
+
 <a href="https://www.instagram.com/bali.dou/">Bali Dou</a> 
 <a href="https://www.instagram.com/mekiasmusic/">Mekias</a> 
 <a href="https://soundcloud.com/manopolosound">Manopolo</a> 
@@ -40,7 +56,7 @@ require("header.php");
 <a href="https://twitter.com/officiel_manoah">Manoah</a>
 
 
-</p>
+
       </div>
     </div>
     <div class="row">
