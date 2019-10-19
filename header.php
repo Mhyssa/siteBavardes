@@ -163,3 +163,10 @@
       </div>
     </header>
   </div>
+ <div class="row">
+<div class="test float-left"></div>
+<div class="test2 float-left"></div>
+<div class="test float-left"></div>
+<div class="test2 float-left"></div>
+<div class="test float-left"></div>
+</div>
