@@ -3,12 +3,12 @@ $ma_pages = 'about';
 require("header.php");
 
 ?>
-
-<div class="container">
-    <h1>Qui sommes nous ?</h1>
-    <div class="row">
+<div class="row  "></div>
+<div class="col-lg-12 ombre pt-5 pb-5 ">
+    <h1 class="col-lg-8 pb-3 mx-auto pagetitre">Qui sommes nous ?</h1>
+    <div class="col-lg-8 mx-auto text-left">
       <div class="">
-        <div class="textAbout"><p >Les Bavardes collectif féministe et lesbien créé en 2017 à Amiens par 5 meufs voulant rendre visible
+        <div class="textAbout pt-5"><p >Les Bavardes collectif féministe et lesbien créé en 2017 à Amiens par 5 meufs voulant rendre visible
           la lutte pour les droits de toutes les femmes, et des personnes LBTQI+, en proposant un espace à
           toutes pour partager, échanger et s'émanciper. <br><br>
 
@@ -24,14 +24,14 @@ require("header.php");
           l'ensemble de nos actions nous mènent à Paris, Lille, et à l'international Brighton, Le Bénin...
         </p>
       </div>
-      <div class="">
+      <div class="pt-5">
         
-          <iframe width="" height="" src="https://www.youtube.com/embed/pcDgFROzY44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="" height="" src="https://www.youtube.com/embed/NtttY9GAaAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="" height="" src="https://www.youtube.com/embed/IFvYv6seJMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="" height="" src="https://www.youtube.com/embed/akLfSOXkd1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="" height="" src="https://www.youtube.com/embed/qa1qlgrZrWE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="" height="" src="https://www.youtube.com/embed/u1vCM8nzeas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="385px" height="" src="https://www.youtube.com/embed/pcDgFROzY44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="385px" height="" src="https://www.youtube.com/embed/NtttY9GAaAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="385px" height="" src="https://www.youtube.com/embed/IFvYv6seJMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="385px" height="" src="https://www.youtube.com/embed/akLfSOXkd1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="385px" height="" src="https://www.youtube.com/embed/qa1qlgrZrWE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="385px" height="" src="https://www.youtube.com/embed/u1vCM8nzeas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
