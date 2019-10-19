@@ -24,6 +24,8 @@ require("header.php");
 <img src="assets/img/artistes/van_campo.jpg" class="Artiste" alt="">
 
 <img src="assets/img/artistes/louiz.jpg" class="Artiste" alt="">
+<img src="assets/img/artistes/manoah.jpg" class="Artiste" alt="">
+
 
   <h1>Artistes et intervenants</h1>
         <p>Sur notre route</p>
