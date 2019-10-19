@@ -53,7 +53,7 @@
           <h4 class="pb-3">Contact</h4>
           <p>N'hésitez pas à nous écrire un petit mot pour des informations ou pour nous rejoindre,<br> les Bavardes seront tout.e.s ravi.e.s de vous lire et de vous répondre. <br> Alors soyons Bavardes tout.e.s ensemble !</p>
             <img  src="assets/img/logocouleur.png" width="" height="70" class="d-inline-block align-top"
-            alt="icon">
+            alt="icone">
           <a href="mailto:lesbavardesamiens@gmail.com">lesbavardesamiens@gmail.com</a>
         </div>
         <!-- <div class="col-md-4">
