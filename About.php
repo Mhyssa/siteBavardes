@@ -3,7 +3,7 @@ $ma_pages = 'about';
 require("header.php");
 
 ?>
-<div class="row  "></div>
+
 <div class="col-lg-12 ombre pt-5 pb-5 ">
     <h1 class="col-lg-8 pb-3 mx-auto pagetitre">Qui sommes nous ?</h1>
     <div class="col-lg-8 mx-auto text-left">

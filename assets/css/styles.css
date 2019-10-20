@@ -31,21 +31,18 @@ h3{
 }
 .Artiste{
     border-radius: 50%;
-    border: 4px solid gray;
+    border: 4px solid #FFAD3F;
     padding: 4px;
- 
     max-height: 10em;
+    transition-duration: 0.3s;
 }
-
-/* .col-md-9 {
-    padding-right: 0px;
-    padding-left: 10px;
+.Artiste:hover{
+ 
+    border: 4px solid black;
+    padding: 0px;
+   
+    transition-duration: 0.3s;
 }
-
-.col-md-3 {
-    padding-right: 10px;
-    padding-left: 0px;
-} */
 
 h1,a,li,h5 {
     
@@ -69,22 +66,14 @@ h1,a,li,h5 {
 p {
     font-family: 'Quicksand', sans-serif;
 }
-
-
-
-
 .nav-link:hover {
     color: #FFAD3F!important;
     text-transform: uppercase;
 }
-
 .nav-item.active {
 
     border-bottom: #FFAD3F 3px solid;
 }
-
-
-
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -135,6 +124,12 @@ color: white;
     background-color: #ffad3f;
     padding-top: 0.2%;
 }
+.bgyellow{
+    background-color: #db8d0069;
+}
+/* .bgblack{
+   background-color: black;
+} */
 .imgSocialmedia{
     max-width: 40px;
 }
@@ -143,8 +138,7 @@ color: white;
 
 /* About.html */
 .textAbout {
-    /* background-color: rgba(235, 223, 206, 0.7); */
-    padding: 20px;
+       padding: 20px;
 
 }
 footer {
@@ -152,8 +146,13 @@ footer {
     color : white;
 }
 .imgAbsolu{
-    margin-top: -4%;
+    margin-top: -3.3%;
     z-index: 800;
     position: absolute;
     margin-left: -6%;
+    width: 10%;
 }
+
+
+
+
