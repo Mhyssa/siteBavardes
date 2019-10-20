@@ -9,7 +9,7 @@ require("header.php");
    
       <div class="col-md-12 pt-5 pb-5">
         <h1 class="">Artistes et intervenants</h1>
-        <p class="">Sur notre route</p>
+        <p class="">Un grand merci à toutes ces belles personnes sur notre route Bavardesque !</p>
       <div>
       <div class="row shadow pt-5 pb-4">
 
@@ -25,9 +25,10 @@ require("header.php");
     </div>
 
     <div class="col-lg-3 text-center float-left">
-          <img src="assets/img/artistes/lisa_balavoine.jpg" class="Artiste " alt="lisa_balavoine">
-          <br>
-          <a href="https://leschroniquesculturelles.com/2018/01/23/eparse-de-lisa-balavoine/" class="col-lg-12">Lisa Balavoine</a> 
+          <img src="assets\img\artistes\manoah.jpg" class="Artiste" alt="Mefy">   
+          <br>       
+          <a href="https://twitter.com/officiel_manoah">Manoah</a>
+          <!--   -->
     </div>
     <div class="col-lg-3 text-center float-left">
           <img src="assets/img/artistes/kty.png" class="Artiste" alt="">
@@ -35,9 +36,9 @@ require("header.php");
           <a href="https://www.facebook.com/events/2221463397907792/">Kty Patinet</a> 
     </div>
     <div class="col-lg-3 text-center float-left">
-          <img src="assets/img/artistes/ame.png" class="Artiste" alt="Amé">
+    <img src="assets\img\artistes\pijama.PNG" class="Artiste" alt="Pi Ja Ma">
           <br>
-          <a href="https://www.facebook.com/Am%C3%A9-One-Wo-man-Show-1814308848851811/" class="col-lg-12"> Amé</a>
+          <a href="https://www.instagram.com/pijamaofficial/"> Pi Ja Ma</a>
     </div>
 </div>
  
@@ -113,9 +114,9 @@ require("header.php");
 
     </div>
     <div class="col-lg-3 text-center float-left">
-          <img src="assets/img/artistes/ami_sene.jpg" class="Artiste" alt="Ami Sene">   
-          <br>       
-          <a href="https://www.instagram.com/amisenepoledancer/?hl=en">Ami Sene</a>
+    <img src="assets\img\artistes\audrey_jesus.PNG" class="Artiste" alt="Audrey Jesus">
+          <br>
+          <a href="https://www.instagram.com/audreyjesus/?hl=en"> Audrey Jesus</a>
     </div>
 </div>
  
@@ -128,63 +129,65 @@ require("header.php");
     </div>
     
     <div class="col-lg-3 text-center float-left">         
-          <img src="assets\img\artistes\audrey_jesus.PNG" class="Artiste" alt="Audrey Jesus">
-          <br>
-          <a href="https://www.instagram.com/audreyjesus/?hl=en"> Audrey Jesus</a>
-    </div>
-
-    <div class="col-lg-3 text-center float-left">
-          <img src="assets/img/artistes/jules_falquet.jpg" class="Artiste" alt="Jules Falquet ">
-          <br>
-          <a href="http://julesfalquet.com/"> Jules Falquet </a>
-
-    </div>
-    <div class="col-lg-3 text-center float-left">
-          <img src="assets\img\artistes\mefy.PNG" class="Artiste" alt="Mefy">   
+    <img src="assets\img\artistes\mefy.PNG" class="Artiste" alt="Mefy">   
           <br>       
           <a href="http://www.radiocampusamiens.fr/la-n12-dovaires-bookees/?fbclid=IwAR0csYdsiiSAJfV006-GEic-a8XcKDdsw0j0_Uf8K9dOfACB52h8Q6NXFPM">Mefy</a>
+    
     </div>
+
+    <div class="col-lg-3 text-center float-left">
+          <!--  -->
+
+    </div>
+    <div class="col-lg-3 text-center float-left">
+          </div>
 </div>
 </div>
 
 <div class="row  shadow pt-5">
 <div class="col-lg-12 pt-3 pb-3 text-center bgyellow">
-          <h2 class="">intervenants</h2>
+          <h2 class="">Intervenant.es</h2>
         </div>
 <div class="col-lg-12  pt-4 pb-5">
     <div class="col-lg-3 text-center float-left">
-           <img src="assets\img\artistes\noemie_fy.PNG" class="Artiste" alt="Audrey Vernon">
+           <img src="assets\img\artistes\noemie_fy.PNG" class="Artiste" alt="Noemie Fy">
            <br>
            <a href="https://www.noemiefy.com/"> noemie fy</a>
     </div>
     
     <div class="col-lg-3 text-center float-left">         
-          <img src="assets\img\artistes\pijama.PNG" class="Artiste" alt="Audrey Jesus">
-          <br>
-          <a href="https://www.instagram.com/pijamaofficial/"> Pi Ja Ma</a>
+    <img src="assets\img\artistes\giovana.PNG" class="Artiste" alt="Giovana Ricon">   
+          <br>       
+          <a href="https://www.huffingtonpost.fr/giovanna-rincon/a-l-ecole-dans-la-rue-dans-ma-famille-tout-a-bascule-pour-moi-quand-je-suis-devenue-une-femme-transgenre_a_23436276/"> Giovana Ricon</a>
+    
     </div>
 
     <div class="col-lg-3 text-center float-left">
-          <img src="assets\img\artistes\editions_du_monstre.png" class="Artiste" alt="Jules Falquet ">
-          <br>
+          <img src="assets\img\artistes\editions_du_monstre.png" class="Artiste" alt="Les Editions du Monstre">
+         <br>
          <a href="http://editionsdumonstre.blogspot.com/"> Les Editions du Monstre</a>
 
     </div>
     <div class="col-lg-3 text-center float-left">
-          <img src="assets\img\artistes\manoah.jpg" class="Artiste" alt="Mefy">   
-          <br>       
-          <a href="https://twitter.com/officiel_manoah">Manoah</a>
+        <img src="assets/img/artistes/lisa_balavoine.jpg" class="Artiste " alt="lisa_balavoine">
+        <br>
+        <a href="https://leschroniquesculturelles.com/2018/01/23/eparse-de-lisa-balavoine/" class="col-lg-12">Lisa Balavoine</a>
     </div>
 </div>
- 
+  
 <div class="col-lg-12 pb-5 ">
   
     <div class="col-lg-3 text-center float-left">
-          <img src="assets\img\artistes\giovana.PNG" class="Artiste" alt="Mefy">   
+    <img src="assets/img/artistes/jules_falquet.jpg" class="Artiste" alt="Jules Falquet ">
+          <br>
+          <a href="http://julesfalquet.com/"> Jules Falquet </a>
+          </div>
+
+<div class="col-lg-3 text-center float-left">
+          <img src="assets/img/artistes/ami_sene.jpg" class="Artiste" alt="Ami Sene">   
           <br>       
-          <a href="https://www.huffingtonpost.fr/giovanna-rincon/a-l-ecole-dans-la-rue-dans-ma-famille-tout-a-bascule-pour-moi-quand-je-suis-devenue-une-femme-transgenre_a_23436276/"> Giovana Ricon</a>
+          <a href="https://www.instagram.com/amisenepoledancer/?hl=en">Ami Sene</a>
     </div>
-</div>
  </div>
 
 
