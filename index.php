@@ -49,7 +49,7 @@ require("header.php");
             </div>
             
   <div class="row ">
-    <div class="col-md-9">
+    <div class="col-md-9 bg-dark">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>

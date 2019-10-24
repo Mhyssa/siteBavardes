@@ -23,7 +23,10 @@ h3{
     background-position: top;
     background-size: contain;
 }
-
+.col-md-9{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
 .container-fluid
     {
     
@@ -153,6 +156,18 @@ footer {
     width: 10%;
 }
 
+.w-100 {
+    width: 104%!important;
+}
 
-
-
+@media screen and (max-width: 1600px) {
+    h3{
+        font-family: 'Quicksand', sans-serif;
+        text-transform: uppercase;
+        color : black;
+        font-size: 1em;
+    }
+    h4{
+        font-size: 1em;
+    }
+  }
