@@ -160,7 +160,6 @@ footer {
     width: 104%!important;
 }
 
-@media screen and (max-width: 1600px) {
     h3{
         font-family: 'Quicksand', sans-serif;
         text-transform: uppercase;
@@ -170,4 +169,4 @@ footer {
     h4{
         font-size: 1em;
     }
-  }
+  
