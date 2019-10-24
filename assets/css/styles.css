@@ -156,8 +156,12 @@ footer {
     width: 10%;
 }
 
-.w-100 {
+
+.w-100revis {
     width: 104%!important;
+}
+header{
+    overflow: hidden;
 }
 
     h3{
@@ -170,3 +174,11 @@ footer {
         font-size: 1em;
     }
   
+.link{
+    color:grey!important;
+    text-decoration: none;
+}
+.link:hover{
+ text-decoration: none;
+ color : black!important;
+}

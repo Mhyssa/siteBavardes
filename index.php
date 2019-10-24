@@ -59,14 +59,14 @@ require("header.php");
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100 " alt="intervention en milieu scolaire">
+            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100revis " alt="intervention en milieu scolaire">
             <div class="carousel-caption ">
               <h5>Intervention en milieu scolaire</h5>
               <p>Intervention en milieu scolaire Amiens</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100" alt="émission ovaires bookées radio campus">
+            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100revis" alt="émission ovaires bookées radio campus">
             <div class="carousel-caption ">
               <h5>Ovaires Bookées</h5>
               <p>Radio Campus Amiens 87.7 <br><br><a class="btn btn-secondary btn-lg"
@@ -74,7 +74,7 @@ require("header.php");
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100" alt="université populaire féministe">
+            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100revis" alt="université populaire féministe">
             <div class="carousel-caption ">
               <h5>Université Populaire Féministe</h5>
               <p>Unique en France espace mensuel d'échange et de partage permettant d'aborder en toute
@@ -83,7 +83,7 @@ require("header.php");
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100" alt="le blabla des Bavardes">
+            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100revis" alt="le blabla des Bavardes">
             <div class="carousel-caption">
               <h5>Le blabla des Bavardes</h5>
               <p>Tous les 5 du mois groupe de paroles en non mixité</p>

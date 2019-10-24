@@ -40,9 +40,9 @@
                         
             </div>
 
-<footer class="pt-2 pb-4">
+<footer class="pt-2  row">
   <h2></h2>
-    <div class="container-fluid pt-5 pb-4">
+    <div class="pt-5 pb-4">
       <div class="row">
         <div class="col-md-4 pt-5 pb-5 pl-5 mx-auto">
           <p>Mentions légales</p>

@@ -3,7 +3,7 @@ $ma_pages = 'action';
 require("header.php");
 
 ?>
-
+<div class="col-lg-12 ombre pt-5 ">
 <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -45,7 +45,7 @@ require("header.php");
       </div>
     </div>
   </div>
-
+</div>
   <?php  
 require("footer.php")
 ?>
