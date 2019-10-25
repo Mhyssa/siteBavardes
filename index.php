@@ -70,7 +70,7 @@ require("header.php");
             <div class="carousel-caption ">
               <h5>Ovaires Bookées</h5>
               <p>Radio Campus Amiens 87.7 <br><br><a class="btn btn-secondary btn-lg"
-                  href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/" role="button">Click</a> </p>
+                  href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/" role="button" target="_blank">Click</a> </p>
             </div>
           </div>
           <div class="carousel-item">

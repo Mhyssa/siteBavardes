@@ -8,7 +8,15 @@ require("header.php");
     <div class="row">
       <div class="col-md-12">
 
-        <h1>Nos actions</h1>
+
+      <img src="assets\img\actions\ims1.JPG" alt="Interventions en milieu scolaire michelis">
+      <img src="assets\img\actions\ims2.JPG" alt="Interventions en milieu scolaire michelis">
+      <img src="assets\img\actions\ims3.JPG" alt="Interventions en milieu scolaire michelis">
+      <img src="assets\img\actions\ims4.JPG" alt="Interventions en milieu scolaire michelis">
+      <img src="assets\img\actions\ims5.JPG" alt="Interventions en milieu scolaire michelis">
+
+
+        <!-- <h1>Nos actions</h1>
         <ul>
           <li>
             Sensibiliser :
@@ -28,22 +36,14 @@ require("header.php");
           <li>
             Accompagner :
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
     <!-- ------------------------------------------------------------------------------------------------------------------------ -->
     <!-- Banniere -->
     <!-- Network -->
     <!-- ------------------------------------------------------------------------------------------------------------------------ -->
-    <div class="row">
-      <div class="col-md-12">
-        <div>
-          <img class="d-block w-100" src="assets/img/ban_yt.JPG" alt="banniere">
-
-        </div>
-
-      </div>
-    </div>
+    
   </div>
 </div>
   <?php  
