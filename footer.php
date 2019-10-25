@@ -24,7 +24,7 @@
               </a>
 
               <div class="text-center" >
-                  <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu">
+                 <a href="https://linktr.ee/les.bavardes"> <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu"> </a>
                 </div>
 
                 <a href="https://twitter.com/lesbavardes_"class="yellow float-left col-lg-3">
