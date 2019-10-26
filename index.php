@@ -49,7 +49,7 @@ require("header.php");
             </div>
             
   <div class="row ">
-    <div class="col-md-9">
+    <div class="col-md-9 bg-dark">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -59,34 +59,33 @@ require("header.php");
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100 " alt="intervention en milieu scolaire">
+            <img src="assets/img/carousel/scene_rd.jpg" class="d-block w-100revis " alt="">
             <div class="carousel-caption ">
-              <h5>Intervention en milieu scolaire</h5>
-              <p>Intervention en milieu scolaire Amiens</p>
+              <h5></h5>
+              <p></p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100" alt="émission ovaires bookées radio campus">
+            <img src="assets\img\carousel\radio_campus_rd.jpg" class="d-block w-100revis" alt="émission ovaires bookées radio campus">
             <div class="carousel-caption ">
               <h5>Ovaires Bookées</h5>
               <p>Radio Campus Amiens 87.7 <br><br><a class="btn btn-secondary btn-lg"
-                  href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/" role="button">Click</a> </p>
+                  href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/" role="button" target="_blank">Click</a> </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100" alt="université populaire féministe">
+            <img src="assets/img/carousel/salon_lgbt_lille.jpg" class="d-block w-100revis" alt="">
             <div class="carousel-caption ">
-              <h5>Université Populaire Féministe</h5>
-              <p>Unique en France espace mensuel d'échange et de partage permettant d'aborder en toute
-                simplicité, <br> les luttes féministes et LBTQI en France et dans le monde.
+              <h5></h5>
+              <p>
               </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/blabla.jpg" class="d-block w-100" alt="le blabla des Bavardes">
+            <img src="assets/img/carousel/camille_rd.jpg" class="d-block w-100revis" alt="">
             <div class="carousel-caption">
-              <h5>Le blabla des Bavardes</h5>
-              <p>Tous les 5 du mois groupe de paroles en non mixité</p>
+              <h5></h5>
+              <p></p>
             </div>
           </div>
         </div>

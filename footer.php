@@ -24,7 +24,7 @@
               </a>
 
               <div class="text-center" >
-                  <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu">
+                 <a href="https://linktr.ee/les.bavardes"> <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu"> </a>
                 </div>
 
                 <a href="https://twitter.com/lesbavardes_"class="yellow float-left col-lg-3">
@@ -40,9 +40,9 @@
                         
             </div>
 
-<footer class="pt-2 pb-4">
+<footer class="pt-2  row">
   <h2></h2>
-    <div class="container-fluid pt-5 pb-4">
+    <div class="pt-5 pb-4">
       <div class="row">
         <div class="col-md-4 pt-5 pb-5 pl-5 mx-auto">
           <p>Mentions légales</p>
@@ -68,9 +68,9 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
   </script>
@@ -78,6 +78,15 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
   <script type="text/javascript" src="tarteaucitron/tarteaucitron.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+
+
+  <script src="assets/js/javascript.js"></script>
   <script type="text/javascript">
     tarteaucitron.init({
       "privacyUrl": "",
