@@ -12,31 +12,51 @@ require("header.php");
   <div class="row">
     <div class="col-md-12">
 
-      <form action="traitement.php" method="post">
-
-        <label for="nom">Nom</label>
-        <input type="text" name="nom" id="nom" required><br>
-        <span id="missNom"></span><br>
-
-
-        <label for="prenom">Prenom</label>
-        <input type="text" name="prenom" id="prenom"><br>
-        <span id="missPrenom"></span><br>
+      <form method="POST" action="traitement.php">
+        <div class="form-group">
+          <!--Champ nom-->
+          <label for="nom">Votre Nom *:</label>
+          <span id="missNom"></span><br>
+          <input type="text" class="form-control" name="nom" id="nom" maxlength="20" required>
 
 
-        <label for="mail">Adresse e-mail</label>
-        <input type="email" name="mail" id="mail" required><br>
-        <span id="missMail"></span><br>
+          <br>
+
+          <!--Champ prenom-->
+
+          <label for="prenom">Votre Prénom * :</label>
+          <span id="missPrenom"></span><br>
+          <input type="text" class="form-control" name="prenom" id="prenom" required="">
+          <br>
+ 
+
+          <!--Champ adresse mail-->
+          <label for="mail">Adresse mail *: </label>
+          <span id="missMail"></span><br>
+          <input type="email" class="form-control" name="mail" id="mail" placeholder="simone.veil@bavardes.fr" required>
 
 
-        <label for="">Votre Message</label>
-        <textarea name="message" id="message" required></textarea> <br>
-        <span id="missMessage"></span><br>
+          <br>
 
-        <input type="submit" value="Envoyer" id="bouton_envoi">
-        <input type="reset" value="Annuler">
+          <!--Champ Zone De Texte-->
+          <label for="question">Votre question :</label>
+          <span id="missQuestion"></span><br>
+          <textarea name="question" id="question" class="form-control" required></textarea>
 
 
+          <br>
+
+          <!--Champ checkbox-->
+          <input type="checkbox" id="validCheck" required>
+          <label for="validCheck">J'accepte le traitement informatique de ce formulaire.</label>
+          <span id="missCheck"></span>
+
+
+          <br>
+
+          <input type="submit" name="submit" value="Envoyer !" id="bouton_envoi" class="btn btn-warning" />
+          <input type="reset" name="reset" value="Annuler!" id="bouton_annuler" class="btn btn-dark"/>
+        </div>
       </form>
 
 

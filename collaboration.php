@@ -32,7 +32,7 @@ require("header.php");
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Cité Carter</h5>
        
         <a class="card-text link"href="  https://www.facebook.com/events/822173224810869/">La lune des pirates</a>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -53,7 +53,7 @@ require("header.php");
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Idahot</h5>
         <a class="card-text link"href="  https://www.facebook.com/events/822173224810869/">La lune des pirates</a>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
@@ -68,8 +68,8 @@ require("header.php");
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <a class="card-text link"href="  https://www.facebook.com/events/822173224810869/">La lune des pirates</a>
+        <h5 class="card-title">Radio Campus Amiens</h5>
+        <a class="card-text link"href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/">Radio Campus Amiens</a>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
@@ -81,12 +81,8 @@ require("header.php");
 
 
         <p class="pt-5"> 
-Cité Carter :
-Pride ( Idahot ) :
-Radio campus :
-http://www.radiocampusamiens.fr/emissions/ovairesbookees/
 -Alimentation generale
--le mois des violences faites aux femmes 2017 page facebook Amiens non aux violences faite aux femmes 
+<!-- -le mois des violences faites aux femmes 2017 page facebook Amiens non aux violences faite aux femmes  -->
 - iles aux fruits
 -Lycée Michelis
 -Bsp éco féministe bsp migrants
