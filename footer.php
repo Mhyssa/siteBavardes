@@ -42,24 +42,32 @@
 
 <footer class="pt-2  row">
   <h2></h2>
-    <div class="pt-5 pb-4">
-      <div class="row">
-        <div class="col-md-4 pt-5 pb-5 pl-5 mx-auto">
-          <p> <a href="mentions.php"> Mentions légales</a></p>
-          <p>Politique de confidentialité</p>
-          <div>Copyright © 2019. Tous droits réservés.</div>
-        </div>
-        <div class="col-md-4  mx-auto p-3">
-          <h4 class="pb-3">Contact</h4>
-          <p>N'hésitez pas à nous écrire un petit mot pour des informations ou pour nous rejoindre,<br> les Bavardes seront tout.e.s ravi.e.s de vous lire et de vous répondre. <br> Alors soyons Bavardes tout.e.s ensemble !</p>
-            <img  src="assets/img/logocouleur.png" width="" height="70" class="d-inline-block align-top"
+
+      <div class="col-lg-7 m-auto">
+          <div class="pt-5 pb-3">
+
+          <div class="col-lg-12 p-3 ">
+          <h3 class="pb-3 colorpolice ">Contact</h3>
+          <p class="colorpolice2 col-lg-10">N'hésitez pas à nous écrire un petit mot pour des informations ou pour nous rejoindre,les Bavardes seront tout.e.s ravi.e.s de vous lire et de vous répondre. <br><p class="font-weight-bold colorpolice2 pl-3">Alors soyons Bavardes tout.e.s ensemble !</p></p>
+            <img  src="assets/img/logocouleur.png" width="" height="70" class="d-inline-block align-top  "
             alt="icone">
-          <a href="mailto:staffbavardes@gmail.com">lesbavardesamiens@gmail.com</a>
+          <a href="mailto:staffbavardes@gmail.com" class="link">lesbavardesamiens@gmail.com</a>
         </div>
-        <!-- <div class="col-md-4">
-          <h4>Suivez nous !</h4>
-       
-        </div> -->
+
+<div class="col-lg-5 m-auto lignefooter "></div>
+
+         <div class=" pt-5 pb-3 pl-5 mx-auto d-flex justify-content-around">
+           <p class=""> <a href="mentions.php" class="link"> Mentions légales  </a></p>
+           <p class="link">I</p>
+           <p class=" "> <a href="mentions.php" class="link"> Politique de confidentialité</a></p>
+           <p class="link">I</p>
+           <p class=""><a href="mentions.php" class="link">  Cookies </a></p>
+           <p class="link">I</p>
+           <p class=" link police1">Copyright © 2019. Tous droits réservés.</p>
+           
+         </div>
+
+ 
 
       </div>
     </div>

@@ -163,8 +163,15 @@ footer {
 header{
     overflow: hidden;
 }
+.police1{
+    font-family: 'Quicksand', sans-serif;
+}
 
-    h3{
+/* .police2{
+
+} */
+
+    /* h3{
         font-family: 'Quicksand', sans-serif;
         text-transform: uppercase;
         color : black;
@@ -172,13 +179,24 @@ header{
     }
     h4{
         font-size: 1em;
-    }
+    } */
   
+
 .link{
     color:grey!important;
     text-decoration: none;
 }
 .link:hover{
  text-decoration: none;
- color : black!important;
+ color :#b37420!important;
+}
+.colorpolice{
+    color :#b37420!important;
+}
+.colorpolice2{
+    color :grey!important;
+}
+.lignefooter{
+    background-color:#ffad3f!important;
+    height: 2px;
 }
