@@ -59,11 +59,11 @@
          <div class=" pt-5 pb-3 pl-5 mx-auto d-flex justify-content-around">
            <p class=""> <a href="mentions.php" class="link"> Mentions légales  </a></p>
            <p class="link">I</p>
-           <p class=" "> <a href="mentions.php" class="link"> Politique de confidentialité</a></p>
+           <p class=" "> <a href="politique.php" class="link"> Politique de confidentialité</a></p>
            <p class="link">I</p>
-           <p class=""><a href="mentions.php" class="link">  Cookies </a></p>
+           <p class=""><a href="politique.php" class="link">  Cookies </a></p>
            <p class="link">I</p>
-           <p class=" link police1">Copyright © 2019. Tous droits réservés.</p>
+           <p class=" link police1">Copyright ©2019. Tous droits réservés.</p>
            
          </div>
 
