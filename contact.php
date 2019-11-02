@@ -49,6 +49,7 @@ require("header.php");
           <!--Champ checkbox-->
           <input type="checkbox" id="validCheck" required>
           <label for="validCheck">J'accepte le traitement informatique de ce formulaire.</label>
+          <p> Pour en savoir plus vous pouvez consulter les <a href="mentions.php"> Mentions légales</a>. </p>
           <span id="missCheck"></span>
 
 

@@ -45,7 +45,7 @@
     <div class="pt-5 pb-4">
       <div class="row">
         <div class="col-md-4 pt-5 pb-5 pl-5 mx-auto">
-          <p>Mentions légales</p>
+          <p> <a href="mentions.php"> Mentions légales</a></p>
           <p>Politique de confidentialité</p>
           <div>Copyright © 2019. Tous droits réservés.</div>
         </div>

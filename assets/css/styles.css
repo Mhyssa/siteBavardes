@@ -1,6 +1,6 @@
 
 h2{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Quicksand', cursive;
     color : black;
 }
 h3{
@@ -19,7 +19,7 @@ h3{
 .ombre{
     background-color: white;
     background-image: url(../img/ombre.jpg);
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
 }
@@ -54,7 +54,7 @@ h1,a,li,h5 {
     
 }
 .pagetitre{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Quicksand', cursive;
     color : #3e3a3a;
     border-bottom: #212529 2px solid;
 }
