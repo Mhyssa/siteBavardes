@@ -49,7 +49,7 @@ require("header.php");
             </div>
             
   <div class="row ">
-    <div class="col-md-9 bg-dark">
+    <div class="col-xl-9 col-lg-12 col-md-12 bg-dark">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -100,16 +100,16 @@ require("header.php");
       </div>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-xl-3 col-lg-12 col-md-12">
 
 
       <h2 class="p-3 text-center">Nos événements</h2>
     
 <!-- -----------------1----------------- -->
-<article class="pt-5 pl-3">
+<article class="pt-5 pl-1">
     <div class="col-lg-12">
-      <h4 class="col-lg-2 float-left brl mr-2">26 <br> Oct.</h4>
-    <h3 class="">Atelier danse contact</h3>
+      <h4 class="float-left brl mr-1">26 <br> Oct.</h4>
+      <h3 class="">Atelier danse contact</h3>
   </div>
   <br>
     <p class="col-lg-12">
@@ -118,9 +118,9 @@ require("header.php");
   
 </article>
 <!-- -----------------2----------------- -->
-<article class="pt-5 pl-3">
+<article class="pt-5 pl-1">
     <div class="col-lg-12">
-      <h4 class="col-lg-2 float-left brl mr-2">26 <br> Oct.</h4>
+      <h4 class=" float-left brl mr-1">26 <br> Oct.</h4>
     <h3 class="">Scène ouverte </h3>
   </div>
   <br>
@@ -132,7 +132,7 @@ require("header.php");
 <!-- -----------------3----------------- -->
 <article class="pt-5 pl-3">
     <div class="col-lg-12">
-      <h4 class="col-lg-2 float-left brl mr-2">27 <br> Oct.</h4>
+      <h4 class="float-left brl mr-1">27 <br> Oct.</h4>
     <h3 class="">Université Pop Féministe</h3>
   </div>
   <br>
@@ -144,7 +144,7 @@ require("header.php");
 <!-- -----------------4----------------- -->
 <article class="pt-5 pl-3">
     <div class="col-lg-12">
-      <h4 class="col-lg-2 float-left brl mr-2">27 <br> Oct.</h4>
+      <h4 class="float-left brl mr-1">27 <br> Oct.</h4>
     <h3 class="">Loto Anniversaire</h3>
   </div>
   <br>

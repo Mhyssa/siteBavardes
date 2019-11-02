@@ -24,7 +24,7 @@
               </a>
 
               <div class="text-center" >
-                 <a href="https://linktr.ee/les.bavardes"> <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu"> </a>
+                 <a href="https://linktr.ee/les.bavardes"> <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu disap"> </a>
                 </div>
 
                 <a href="https://twitter.com/lesbavardes_"class="yellow float-left col-lg-3">
@@ -41,36 +41,46 @@
             </div>
 
 <footer class="pt-2  row">
-  <h2></h2>
 
-      <div class="col-lg-7 m-auto">
-          <div class="pt-5 pb-3">
+
+      <div class="col-lg-7 m-auto pt-5 pb-3">
+        
 
           <div class="col-lg-12 p-3 ">
-          <h3 class="pb-3 colorpolice ">Contact</h3>
-          <p class="colorpolice2 col-lg-10">N'hésitez pas à nous écrire un petit mot pour des informations ou pour nous rejoindre,les Bavardes seront tout.e.s ravi.e.s de vous lire et de vous répondre. <br><p class="font-weight-bold colorpolice2 pl-3">Alors soyons Bavardes tout.e.s ensemble !</p></p>
-            <img  src="assets/img/logocouleur.png" width="" height="70" class="d-inline-block align-top  "
-            alt="icone">
-          <a href="mailto:staffbavardes@gmail.com" class="link">lesbavardesamiens@gmail.com</a>
-        </div>
+             <h3 class="pb-3 colorpolice  ">Contact</h3>
+               <p class="colorpolice2 col-lg-12">N'hésitez pas à nous écrire un petit mot pour des informations ou pour nous rejoindre,les
+                   Bavardes seront tout.e.s ravi.e.s de vous lire et de vous répondre. </p><br>
+                   <p class="font-weight-bold colorpolice2 pl-3">Alors soyons Bavardes tout.e.s ensemble !</p>
+           </div>
 
-<div class="col-lg-5 m-auto lignefooter "></div>
+          <div class="col-lg-6 pt-3 pb-5 m-auto">
+            <div class="float-left"> <img  src="assets/img/logocouleur.png" width="" height="70" class="d-inline-block align-top  "
+                 alt="icone">
+            </div>
+            <div class="float-left pt-2"><a href="mailto:staffbavardes@gmail.com" class="link">lesbavardesamiens@gmail.com</a></div>
+                   
+          </div>
 
-         <div class=" pt-5 pb-3 pl-5 mx-auto d-flex justify-content-around">
-           <p class=""> <a href="mentions.php" class="link"> Mentions légales  </a></p>
-           <p class="link">I</p>
-           <p class=" "> <a href="politique.php" class="link"> Politique de confidentialité</a></p>
-           <p class="link">I</p>
-           <p class=""><a href="politique.php" class="link">  Cookies </a></p>
-           <p class="link">I</p>
-           <p class=" link police1">Copyright ©2019. Tous droits réservés.</p>
-           
-         </div>
+       </div>     
+<div class="col-lg-6 col-md-12 pt-3 m-auto">
+<div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
 
- 
+         <div class=" pt-5 pb-3 m-auto   d-flex justify-content-around">
+           <p class=""> <a href="mentions.php" class="footlink"> Mentions légales  </a></p>
+           <p class="footlink disap">I</p>
+           <p class=" "> <a href="politique.php" class="footlink"> Politique de confidentialité</a></p>
+           <p class="footlink disap">I</p>
 
-      </div>
-    </div>
+           <p class=""><a href="politique.php" class="footlink">  Cookies </a></p>
+           <p class="footlink disap">I</p>
+           <p class=" footlink police1">Copyright ©2019</p>
+          </div>
+         
+
+ </div>
+
+   
+
   </footer>
 
 
