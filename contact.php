@@ -41,7 +41,7 @@ require("header.php");
           <!--Champ Zone De Texte-->
           <label for="question">Votre question :</label>
           <span id="missQuestion"></span><br>
-          <textarea name="question" id="question" class="form-control" required></textarea>
+          <textarea name="question" id="question"  class="form-control" required></textarea>
 
 
           <br>
