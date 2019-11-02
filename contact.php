@@ -63,7 +63,7 @@ require("header.php");
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 pb-5">
       <div>
         <img class="d-block w-100" src="assets/img/ban_yt.JPG" alt="banniere">
 

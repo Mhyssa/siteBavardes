@@ -9,11 +9,11 @@ require("header.php");
       <div class="col-md-12">
 
 
-      <img src="assets\img\actions\ims1.JPG" alt="Interventions en milieu scolaire michelis">
-      <img src="assets\img\actions\ims2.JPG" alt="Interventions en milieu scolaire michelis">
-      <img src="assets\img\actions\ims3.JPG" alt="Interventions en milieu scolaire michelis">
-      <img src="assets\img\actions\ims4.JPG" alt="Interventions en milieu scolaire michelis">
-      <img src="assets\img\actions\ims5.JPG" alt="Interventions en milieu scolaire michelis">
+      <img class="d-block w-100" src="assets\img\actions\ims1.JPG" alt="Interventions en milieu scolaire michelis">
+      <img class="d-block w-100" src="assets\img\actions\ims2.JPG" alt="Interventions en milieu scolaire michelis">
+      <img class="d-block w-100" src="assets\img\actions\ims3.JPG" alt="Interventions en milieu scolaire michelis">
+      <img class="d-block w-100" src="assets\img\actions\ims4.JPG" alt="Interventions en milieu scolaire michelis">
+      <img class="d-block w-100" src="assets\img\actions\ims5.JPG" alt="Interventions en milieu scolaire michelis">
 
 
         <!-- <h1>Nos actions</h1>
