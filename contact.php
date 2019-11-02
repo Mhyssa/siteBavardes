@@ -7,7 +7,7 @@ require("header.php");
 <!-- ------------------------------------------------------------------------------------------------------------------------ -->
 <!--  -->
 <!-- ------------------------------------------------------------------------------------------------------------------------ -->
-
+<div class="col-lg-12 ombre pt-5 ">
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -47,21 +47,19 @@ require("header.php");
           <br>
 
           <!--Champ checkbox-->
-          <input type="checkbox" id="validCheck" required>
-          <label for="validCheck">J'accepte le traitement informatique de ce formulaire.</label>
-          <p> Pour en savoir plus vous pouvez consulter les <a href="mentions.php"> Mentions légales</a>. </p>
-          <span id="missCheck"></span>
+          <p> Pour en savoir plus sur le traitement de vos données personnelles vous pouvez consulter les <a href="mentions.php"> Mentions légales</a>. </p>
+          
 
 
           <br>
 
           <input type="submit" name="submit" value="Envoyer !" id="bouton_envoi" class="btn btn-warning" />
-          <input type="reset" name="reset" value="Annuler!" id="bouton_annuler" class="btn btn-dark"/>
+          <input type="reset" name="reset" value="Annuler !" id="bouton_annuler" class="btn btn-dark"/>
         </div>
       </form>
 
 
-
+      </div>
     </div>
   </div>
   <div class="row">
