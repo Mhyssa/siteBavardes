@@ -56,6 +56,7 @@ require("header.php");
           <input type="submit" name="submit" value="Envoyer !" id="bouton_envoi" class="btn btn-warning" />
           <input type="reset" name="reset" value="Annuler !" id="bouton_annuler" class="btn btn-dark"/>
         </div>
+        <div class="g-recaptcha" data-sitekey="sitekey"></div>
       </form>
 
 
