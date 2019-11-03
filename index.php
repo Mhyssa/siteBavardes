@@ -69,8 +69,8 @@ require("header.php");
             <img src="assets\img\carousel\radio_campus_rd.jpg" class="d-block w-100revis" alt="émission ovaires bookées radio campus">
             <div class="carousel-caption ">
               <h5>Ovaires Bookées</h5>
-              <p>Radio Campus Amiens 87.7 <br><br><a class="btn btn-secondary btn-lg"
-                  href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/" role="button" target="_blank">Click</a> </p>
+              <p>Radio Campus Amiens 87.7 <br><br><a class="btn btn-secondary btn-lg btn-success"
+                  href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/" role="button" target="_blank">► Replay</a> </p>
             </div>
           </div>
           <div class="carousel-item">

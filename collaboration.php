@@ -13,7 +13,7 @@ require("header.php");
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="assets\img\collaborateurs\oh_les_filles.jpg" class="card-img"
+                <img src="assets\img\collaborateurs\oh_les_filles.jpg" class="card-img d-block w-100"
                   alt="La lune des pirates salle de concert Amiens">
               </div>
               <div class="col-md-8">
@@ -26,17 +26,18 @@ require("header.php");
             </div>
           </div>
 
-          <div class="card mb-3" style="max-width: 540px; min-width:540px">
+          <div class="card mb-3" style="max-width: 540px; ">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="assets\img\collaborateurs\ww.jpg" class="card-img" alt="festival witches week">
+                <img src="assets\img\collaborateurs\ww.jpg"  class="card-img d-block w-100" alt="festival witches week">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Cité Carter</h5>
 
-                  <a class="card-text link" href="https://www.facebook.com/events/2441237112758468/">La Witches Week</a>
-                  <p class="card-text"><small class="text-muted">femmes hors-normes</small></p>
+                  <a class="card-text link" href="https://www.facebook.com/events/2441237112758468/">Festival Witches Week</a>
+                  <p class="card-text"><small class="text-muted"> [ Femmes bizarres, émancipées, 
+originales, oubliées, montrées du doigt ] </small></p>
                 </div>
               </div>
             </div>
@@ -47,10 +48,10 @@ require("header.php");
         </div>
 
         <div class="row pt-5">
-          <div class="card mb-3" style="max-width: 540px; min-width:540px">
+          <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="assets\img\collaborateurs\pride.jpg" class="card-img" alt="Collectif Idahot">
+                <img src="assets\img\collaborateurs\pride.jpg"  class="card-img d-block w-100" alt="Collectif Idahot">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -62,10 +63,10 @@ require("header.php");
             </div>
           </div>
 
-          <div class="card mb-3" style="max-width: 540px; min-width:540px">
+          <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="assets\img\collaborateurs\ob.jpg" class="card-img" alt="Radios campus amiens">
+                <img src="assets\img\collaborateurs\ob.jpg"  class="card-img d-block w-100" alt="Radios campus amiens">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -82,7 +83,7 @@ require("header.php");
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="assets\img\collaborateurs\michelis.jpg" class="card-img"
+                <img src="assets\img\collaborateurs\michelis.jpg"  class="card-img d-block w-100"
                   alt="Interventions en milieu scolaire lycée michelis">
               </div>
               <div class="col-md-8">
@@ -95,16 +96,16 @@ require("header.php");
             </div>
           </div>
 
-          <div class="card mb-3" style="max-width: 540px; min-width:540px">
+          <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="assets\img\collaborateurs\alimentation.jpg" class="card-img" alt="alimentation général pinkmoloko">
+                <img src="assets\img\collaborateurs\alimentation.jpg"  class="card-img d-block w-100" alt="alimentation général pinkmoloko">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">L'alimentation Général</h5>
 
-                  <a class="card-text link" href="http://alimentation-generale.net/evenements/2019-10-04#.Xb2_6ppKiUk"></a>
+                  <a class="card-text link" href="http://alimentation-generale.net/evenements/2019-10-04#.Xb2_6ppKiUk">NDA SPÉCIALE MEUFS AUX PLATINES W/ MORELLO, IZZY, STELLA & MORE</a>
                   <p class="card-text"><small class="text-muted"></small></p>
                 </div>
               </div>
@@ -114,10 +115,10 @@ require("header.php");
 
 
 
-        </div>
+        </div> <br>
 
 
-        <p class="pt-5">
+       
           
           <!-- -le mois des violences faites aux femmes 2017 page facebook Amiens non aux violences faite aux femmes  -->
 
@@ -126,43 +127,29 @@ require("header.php");
 
 
 
-          <p>
-            Mentions speciales pour votre accueil
-          </p>
-
           <div class="row">
-            <div class="col-md-4">
-              <ul>
-                <li>Le Barrio</li>
-                <li>La Gargouille</li>
-                <li>Radio Campus Amiens</li>
-                <li>Le CharlestonLe Café</li>
-                <li>Le Capuccino</li>
-                <li>La boîte sans projet</li>
-              </ul>
-            </div>
-          
-    
-            <div class="col-md-4">
-              <ul>
-                <li>Cité Carter</li>
-                <li>Centre Leo Lagrange</li>
-                <li>Le Mic Mac</li>
-                <li>Les Enfants Terribles</li>
-                <li>Le füt et à mesure</li>
-                <li>La Taverne électrique</li>
-              </ul>
-            </div>
-          
-        
-            <div class="col-md-4">
-              <ul>
-                <li>Le Red & White</li>
-                <li>La lune des pirates</li>
-                <li>La peniche du lapin vert</li>
-                <li>L'île aux fruits</li>
-                
-              </ul>
+            <div class="col-md-12">
+              
+             <h4>
+               Merci de votre confiance et de votre chaleureux acceuil :
+
+             </h4> 
+             <p> Le Barrio,
+                 La Gargouille,
+                 Le CharlestonLe Café,
+                 Le Capuccino,
+                 La boîte sans projet,
+                 Centre Leo Lagrange,
+                 Le Mic Mac, 
+                 Les Enfants Terribles,
+                 Le füt et à mesure, 
+                 La Taverne électrique,
+                 Le Red & White,               
+                 La peniche du lapin vert,
+                 L'île aux fruits... 
+</p>
+         
+
             </div>
           </div>
 
