@@ -39,7 +39,7 @@ require("header.php");
                                     <div class="col-lg-3 text-center float-left">
                                           <a href="https://www.facebook.com/events/2221463397907792/"
                                                 class="col-lg-12 link" target="_blank"><img
-                                                      src="assets/img/artistes/kty.png" class="Artiste"
+                                                      src="assets/img/artistes/kty.PNG" class="Artiste"
                                                       alt="kty patinet"></a>
                                           <br>
                                           <a href="https://www.facebook.com/events/2221463397907792/"
@@ -78,7 +78,7 @@ require("header.php");
                                     </div>
                                     <div class="col-lg-3 text-center float-left">
                                           <a href="https://www.youtube.com/user/louiiz07/" class="col-lg-12 link"
-                                                target="_blank"> <img src="assets/img/artistes/louiz.jpg"
+                                                target="_blank"> <img src="assets/img/artistes/Louiz.jpg"
                                                       class="Artiste" alt="Louiz"></a>
                                           <br>
                                           <a href="https://www.youtube.com/user/louiiz07/" class="col-lg-12 link"

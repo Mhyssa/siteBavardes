@@ -4,9 +4,9 @@ require("header.php");
 
 ?>
      
+<div class="container-fluid">
 
-
-  <div class="row mt-5">              
+  <div class="row mt-5  m-0">              
                 <a href="https://www.instagram.com/les.bavardes/"class="yellow float-left col-lg-3" >
                  <div class="text-center" >
                    <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
@@ -32,9 +32,9 @@ require("header.php");
   
   
   
+
   
-  
-<div class="row ">
+<div class="row m-0">
     <div class="p-0 col-sm-12 col-xl-9 ">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -143,10 +143,10 @@ require("header.php");
 
 
     </div>
-</div>
   </div>
+</div>
 
- 
+
   <?php
 require("footer.php")
 ?>

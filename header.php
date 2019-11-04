@@ -5,6 +5,9 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Noémie CLAUDE,Marion Joly" />
+  <meta name="copyright" content="Les Bavardes Amiens" />
+  <meta name="description" content="Les Bavardes Amiens collectif lesbien et féministe engagées pour la visibilité de toutes les femmes et dans la luttes lgbtqi+"/>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -14,7 +17,7 @@
 
   <!-- icone de l'onglet -->
   <link rel="icon" href="assets/img/logo_bavardes.ico" />
-  <title>Les Bavardes</title>
+  <title>Les Bavardes Amiens</title>
 
   <!-- polices 'Quicksand' et 'Concert One' -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -26,9 +29,7 @@
 </head>
 
 <body>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v4.0">
-  </script>
+  
  <div class="container-fluid">
     <header>
       <!-- ------------------------------------------------------------------------------------------------------------------------ -->
