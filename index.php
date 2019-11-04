@@ -49,7 +49,7 @@ require("header.php");
             </div>
             
   <div class="row ">
-    <div class="col-xl-9 col-lg-12 col-md-12 bg-dark">
+    <div class="p-0 col-xl-9 col-lg-12 col-md-12 bg-dark">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -106,52 +106,51 @@ require("header.php");
       <h2 class="p-3 text-center">Nos événements</h2>
     
 <!-- -----------------1----------------- -->
-<article class="pt-5 pl-1">
+<article class="pt-4 pl-1">
     <div class="col-lg-12">
-      <h4 class="float-left brl mr-1">26 <br> Oct.</h4>
-      <h3 class="">Atelier danse contact</h3>
+      <h4 class="float-left brl mr-1">05<br>NOV</h4>
+      <h3 class="pt-2">Festival Witches Week</h3>
   </div>
   <br>
     <p class="col-lg-12">
-      Venez à ..
+    du 5 nov. 19H30 au 9 nov. 22H30 <br> Cité Carter 3 rue georges guynemer, 80080 Amiens
     </p>
   
 </article>
 <!-- -----------------2----------------- -->
-<article class="pt-5 pl-1">
+<article class="pt-4 pl-1">
     <div class="col-lg-12">
-      <h4 class=" float-left brl mr-1">26 <br> Oct.</h4>
-    <h3 class="">Scène ouverte </h3>
+      <h4 class=" float-left brl mr-1">06<br>NOV</h4>
+    <h3 class="pt-2">Le Bla-Bla des Sorcières #16</h3>
   </div>
   <br>
     <p class="col-lg-12">
-      Venez à la Gargouille participer a notre scène ouverte !
+    Inscription par mail à : lesbavardesamiens@gmail.com
     </p>
   
 </article>
 <!-- -----------------3----------------- -->
-<article class="pt-5 pl-3">
+<article class="pt-4 pl-1">
     <div class="col-lg-12">
-      <h4 class="float-left brl mr-1">27 <br> Oct.</h4>
-    <h3 class="">Université Pop Féministe</h3>
+      <h4 class="float-left brl mr-1">08<br>NOV</h4>
+    <h3 class="pt-2">CONCERT • Fleche Love • Mano Polo •</h3>
   </div>
   <br>
     <p class="col-lg-12">
-    2 rue ledieu entrée D
+    21H - Cité Carter - FESTIVAL HAUTE FREQUENCE
     </p>
   
 </article>
 <!-- -----------------4----------------- -->
-<article class="pt-5 pl-3">
+<article class="pt-4 pl-1">
     <div class="col-lg-12">
-      <h4 class="float-left brl mr-1">27 <br> Oct.</h4>
-    <h3 class="">Loto Anniversaire</h3>
+      <h4 class="float-left brl mr-1">09<br>NOV</h4>
+    <h3 class="pt-2">Witches Week - Atelier Méli Juestz</h3>
   </div>
   <br>
     <p class="col-lg-12">
-    La Taverne Elektrik
-    Amiens
-
+    18H - ATELIER Inscription par mail à : witchesweek@gmail.com <br>
+    19H - PERFORMANCE Live painting "Regard de femme"
     </p>  
 </article>
 <!-- ---------------------------------- -->
@@ -164,6 +163,7 @@ require("header.php");
             href="https://www.facebook.com/bavardes">Les Bavardes</a></blockquote>
       </div> -->
     </div>
+
   </div>
 
  
