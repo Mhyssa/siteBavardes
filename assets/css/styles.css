@@ -60,7 +60,7 @@ h1,a,li,h5 {
     border-bottom: #212529 2px solid;
 }
 #titre {
-  
+    font-family: 'Concert One', sans-serif;
     text-align: center;
     text-transform: none;
     font-size:1.7rem;
@@ -69,6 +69,14 @@ h1,a,li,h5 {
 }
 p {
     font-family: 'Quicksand', sans-serif;
+}
+
+/* page collaboration */
+.merci {
+    font-family: 'Concert One', sans-serif;
+    font-weight: bold;
+    font-size:1.3rem;
+
 }
 .nav-link:hover {
     color: #FFAD3F!important;

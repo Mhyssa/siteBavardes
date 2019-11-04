@@ -115,7 +115,7 @@ originales, oubliées, montrées du doigt ] </small></p>
 
 
 
-        </div> <br>
+        </div> 
 
 
        
@@ -129,14 +129,16 @@ originales, oubliées, montrées du doigt ] </small></p>
 
           <div class="row">
             <div class="col-md-12">
-              
-             <h4>
+            <br><br>
+             <h4 id="titre">
                Merci de votre confiance et de votre chaleureux acceuil :
 
              </h4> 
-             <p> Le Barrio,
+             <br>
+             <p class="merci"> Le Barrio,
                  La Gargouille,
-                 Le CharlestonLe Café,
+                 Le Charleston,
+                 Le Café,
                  Le Capuccino,
                  La boîte sans projet,
                  Centre Leo Lagrange,

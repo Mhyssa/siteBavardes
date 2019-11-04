@@ -11,11 +11,16 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- styles CSS -->
   <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- icone de l'onglet -->
   <link rel="icon" href="assets/img/logo_bavardes.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Les Bavardes</title>
 
+  <!-- polices 'Quicksand' et 'Concert One' -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
 
         <script type="text/javascript">
@@ -148,7 +153,7 @@
                      </li>
                   <?php  }  ?>        
                  
-                  <!-- Actif contact ou non -->
+                  <!-- Actif contact ou non 
                   <?php 
                   if($ma_pages == 'contact'){ ?>                 
                     <li class="nav-item active pr-4  pl-4">
@@ -161,7 +166,7 @@
                     </li>                 
                 <?php  }
                  
-                  ?>
+                  ?> -->
 
 
                 </ul>
