@@ -166,9 +166,7 @@ require("header.php");
     </div>
   </div>
 
-  <script type="text/javascript">
-        (tarteaucitron.job = tarteaucitron.job || []).push('recaptcha');
-        </script>
+ 
   <?php
 require("footer.php")
 ?>

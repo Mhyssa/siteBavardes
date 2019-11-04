@@ -21,33 +21,8 @@
   <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
-
-        <script type="text/javascript">
-        tarteaucitron.init({
-    	  "privacyUrl": "", /* Privacy policy url */
-
-    	  "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
-    	  "cookieName": "tarteaucitron", /* Cookie name */
-    
-    	  "orientation": "middle", /* Banner position (top - bottom) */
-    	  "showAlertSmall": true, /* Show the small banner on bottom right */
-    	  "cookieslist": true, /* Show the cookie list */
-
-    	  "adblocker": false, /* Show a Warning if an adblocker is detected */
-    	  "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
-    	  "highPrivacy": true, /* Disable auto consent */
-    	  "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
-
-    	  "removeCredit": false, /* Remove credit link */
-    	  "moreInfoLink": true, /* Show more info link */
-    	  "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
-
-    	  //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
-                          
-    	  "readmoreLink": "/cookiespolicy" /* Change the default readmore link */
-        });
-        </script>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>

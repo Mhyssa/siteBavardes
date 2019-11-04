@@ -95,7 +95,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
-  <script type="text/javascript" src="tarteaucitron/tarteaucitron.js"></script>
+  
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <script
@@ -105,42 +105,27 @@
 
 
   <script src="assets/js/javascript.js"></script>
-  <script type="text/javascript">
-    tarteaucitron.init({
-      "privacyUrl": "",
-      "hashtag": "#tarteaucitron",
-      /* Open the panel with this hashtag */
-      "cookieName": "tarteaucitron",
-      /* Cookie name */
-
-      "orientation": "bottom",
-      /* Banner position (top - bottom) */
-      "showAlertSmall": true,
-      /* Show the small banner on bottom right */
-      "cookieslist": true,
-      /* Show the cookie list */
-
-      "adblocker": true,
-      /* Show a Warning if an adblocker is detected */
-      "AcceptAllCta": true,
-      /* Show the accept all button when highPrivacy on */
-      "highPrivacy": true,
-      /* Disable auto consent */
-      "handleBrowserDNTRequest": false,
-      /* If Do Not Track == 1, disallow all */
-
-      "removeCredit": false,
-      /* Remove credit link */
-      "moreInfoLink": true,
-      /* Show more info link */
-      "useExternalCss": false,
-      /* If false, the tarteaucitron.css file will be loaded */
-
-      //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
-
-      "readmoreLink": "/cookiespolicy" /* Change the default readmore link */
-    });
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#ffad3f"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
+    "dismiss": "J'accepte",
+    "link": "En savoir plus",
+    "href": "politique.php"
+  }
+});
+</script>
 </body>
 
 </html>
