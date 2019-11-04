@@ -5,26 +5,8 @@ require("header.php");
 ?>
      
 
-  <!-- ------------------------------------------------------------------------------------------------------------------------ -->
-  <!-- Banniere -->
-  <!-- ------------------------------------------------------------------------------------------------------------------------ -->
 
-
-
-  <!-- <div>
-  <img class="d-block w-100" src="assets/img/ban_yt.JPG" alt="banniere">
-</div> -->
-  <!-- MAIN -->
-  <!-- ------------------------------------------------------------------------------------------------------------------------ -->
-  <!-- Carousel -->
-  <!-- ------------------------------------------------------------------------------------------------------------------------ -->
-  <!-- Prochainement -->
-  <!-- Blabla -->
-  <!-- UPF -->
-  <!-- 40% meuf -->
-  <!-- Ovaires Bookées Ecoutez ici sur Radio Campus Amiens 87.7 FM http://www.radiocampusamiens.fr/emissions/ovairesbookees/ -->
-  <div class="row mt-5">
-                
+  <div class="row mt-5">              
                 <a href="https://www.instagram.com/les.bavardes/"class="yellow float-left col-lg-3" >
                  <div class="text-center" >
                    <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
@@ -44,12 +26,16 @@ require("header.php");
                 <div class="text-center">
                   <img src="assets/img/navbar/youtube.png" class="imgSocialmedia">
                 </div>
-              </a>
-                        
-            </div>
+              </a>                    
+ </div>
             
-  <div class="row ">
-    <div class="p-0 col-xl-9 col-lg-12 col-md-12 bg-dark">
+  
+  
+  
+  
+  
+<div class="row ">
+    <div class="p-0 col-sm-12 col-xl-9 ">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -59,7 +45,7 @@ require("header.php");
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel/scene_rd.jpg" class="d-block w-100revis " alt="">
+            <img src="assets/img/carousel/ww_rd.jpg" class="d-block w-100revis " alt="festival witches week">
             <div class="carousel-caption ">
               <h5></h5>
               <p></p>
@@ -74,7 +60,7 @@ require("header.php");
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/salon_lgbt_lille.jpg" class="d-block w-100revis" alt="">
+            <img src="assets/img/carousel/salon_lgbt_lille.jpg" class="d-block w-100revis" alt="salon lgbt lille">
             <div class="carousel-caption ">
               <h5></h5>
               <p>
@@ -82,7 +68,7 @@ require("header.php");
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel/camille_rd.jpg" class="d-block w-100revis" alt="">
+            <img src="assets/img/carousel/camille_rd.jpg" class="d-block w-100revis" alt="eat pussy it's vegan">
             <div class="carousel-caption">
               <h5></h5>
               <p></p>
@@ -100,7 +86,7 @@ require("header.php");
       </div>
     </div>
 
-    <div class="col-xl-3 col-lg-12 col-md-12">
+    <div class="col-sm-12 col-xl-3 overflow-auto " style=" max-height: 533px;">
 
 
       <h2 class="p-3 text-center">Nos événements</h2>
@@ -113,7 +99,7 @@ require("header.php");
   </div>
   <br>
     <p class="col-lg-12">
-    du 5 nov. 19H30 au 9 nov. 22H30 <br> Cité Carter 3 rue georges guynemer, 80080 Amiens
+    Du 5 nov. 19H30 au 9 nov. 22H30 <br> Cité Carter 3 rue georges guynemer, 80080 Amiens
     </p>
   
 </article>
@@ -156,14 +142,8 @@ require("header.php");
 <!-- ---------------------------------- -->
 
 
-      <!-- <div class="fb-page" data-href="https://www.facebook.com/bavardes" data-tabs="events, timeline" data-width="450"
-        data-height="710" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true"
-        data-show-facepile="true">
-        <blockquote cite="https://www.facebook.com/bavardes" class="fb-xfbml-parse-ignore"><a
-            href="https://www.facebook.com/bavardes">Les Bavardes</a></blockquote>
-      </div> -->
     </div>
-
+</div>
   </div>
 
  
