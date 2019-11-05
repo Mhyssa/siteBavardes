@@ -8,7 +8,7 @@ require("header.php");
     <div class="row">
       <div class="col-md-12">
 
-      <img class="d-block w-100" src="assets\img\actions\Diapositive6.JPG" alt="nos actions">
+      <img class="d-block w-100" src="assets\img\actions\diapo.png" alt="nos actions">
       <img class="d-block w-100" src="assets\img\actions\ims1.JPG" alt="Interventions en milieu scolaire michelis">
       <img class="d-block w-100" src="assets\img\actions\ims2.JPG" alt="Interventions en milieu scolaire michelis">
       <img class="d-block w-100" src="assets\img\actions\ims3.JPG" alt="Interventions en milieu scolaire michelis">

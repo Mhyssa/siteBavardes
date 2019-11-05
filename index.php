@@ -104,14 +104,14 @@ require("header.php");
   
 </article>
 <!-- -----------------2----------------- -->
-<article class="pt-4 pl-1">
+<article class=pt-4 pl"-1">
     <div class="col-lg-12">
       <h4 class=" float-left brl mr-1">06<br>NOV</h4>
     <h5 class="pt-2"> <a href="https://www.facebook.com/events/1838622449614692/" class="link"> Le Bla-Bla des Sorcières #16</a></h5>
   </div>
   <br>
     <p class="col-lg-12">
-    Inscription par mail à : lesbavardesamiens@gmail.com
+    
     </p>
   
 </article>
@@ -136,7 +136,8 @@ require("header.php");
   <br>
     <p class="col-lg-12">
     18H - ATELIER Inscription par mail à : witchesweek@gmail.com <br>
-    19H - PERFORMANCE Live painting "Regard de femme"
+    19H - PERFORMANCE Live painting "Regard de femme" <br>
+    FINAL - DISCUSSION & DJ'S Bar festif et repas  DJ Pink MOLOKO
     </p>  
 </article>
 <!-- ---------------------------------- -->

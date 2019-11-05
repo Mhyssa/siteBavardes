@@ -98,11 +98,11 @@
                      <!-- Actif collaboration ou non -->
                     <?php if($ma_pages == 'collaboration'){ ?> 
                         <li class="nav-item active pr-4  pl-4">
-                            <a class="nav-link text-center" href="collaboration.php">Collaboration</a>
+                            <a class="nav-link text-center" href="collaboration.php">Nos Collaborations</a>
                         </li>
                         <?php  }else{    ?>
                         <li class="nav-item pr-4  pl-4">
-                             <a class="nav-link text-center" href="collaboration.php">Collaboration</a>
+                             <a class="nav-link text-center" href="collaboration.php">Nos Collaborations</a>
                         </li>
                     <?php  }  ?>        
                     
