@@ -103,7 +103,7 @@ originales, oubliées, montrées du doigt ] </small></p>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">L'alimentation Général</h5>
+                  <h5 class="card-title">L'alimentation Générale</h5>
 
                   <a class="card-text link" href="http://alimentation-generale.net/evenements/2019-10-04#.Xb2_6ppKiUk">NDA SPÉCIALE MEUFS AUX PLATINES W/ MORELLO, IZZY, STELLA & MORE</a>
                   <p class="card-text"><small class="text-muted"></small></p>
