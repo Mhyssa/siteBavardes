@@ -105,27 +105,19 @@
 
 
   <script src="assets/js/javascript.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000",
-      "text": "#ffffff"
-    },
-    "button": {
-      "background": "#ffad3f"
-    }
-  },
-  "theme": "classic",
-  "content": {
-    "message": "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
-    "dismiss": "J'accepte",
-    "link": "En savoir plus",
-    "href": "politique.php"
-  }
-});
-</script>
+ 
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151775781-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151775781-1');
+  </script>
+<script type="text/javascript" src="//opt-out.ferank.eu/tarteaucitron.js?domain=lesbavardes.org&uuid=f4e584c593da5523bf707be6f7e3bf61f3a9d1d8"></script>
 </body>
 
 </html>

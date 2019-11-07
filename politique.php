@@ -104,8 +104,7 @@ Organisme à but non lucratif (association loi 1901, fondations, fonds de dotati
 
             <div class="col-md-12">
                 <h3>
-                    Cookies (Le bouton « en savoir plus » doit renvoyer sur la page « Mentions légales » du site
-                    internet.)
+                    Cookies 
                 </h3>
                 <h4>
                     Définition d’un cookie :
@@ -193,7 +192,7 @@ Organisme à but non lucratif (association loi 1901, fondations, fonds de dotati
 
             <div class="col-md-12">
                 <h3>
-                    FORMULAIRE DE CONTACT (à indiquer au niveau des formulaires de contact)
+                    FORMULAIRE DE CONTACT 
                 </h3>
                 <p>
                     Le site internet des bavardes recueille des données personnelles (nom, prénom, adresse mail) afin de
@@ -222,7 +221,7 @@ Organisme à but non lucratif (association loi 1901, fondations, fonds de dotati
 
             <div class="col-md-12">
                 <h3>
-                    Inscription newsletter (à indiquer au niveau des formulaires d’inscription à la newsletter)
+                    Inscription newsletter 
                 </h3>
                 <p>
                     Le site internet des bavardes recueille des données personnelles (nom, prénom, adresse mail) afin de
@@ -246,7 +245,7 @@ Organisme à but non lucratif (association loi 1901, fondations, fonds de dotati
                     Vous avez la possibilité à tout moment de vous désinscrire de la newsletter en nous contactant
                     <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a> ou en cliquant sur « se
                     désinscrire » en bas de page.
-                </p>
+                </p><br> <br>
 
 
 

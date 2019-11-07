@@ -46,7 +46,7 @@ require("header.php");
                     Marie De Souza pour la conception et la rédaction.<br>
                     Noémie Claude et Marion Joly pour la conception, le developpement et le design.<br>
                     Catherine pour le logo et ses bons conseils.<br>
-                    Lucille, Audrey et bien d'autres pour leur collaboration.<br>
+                    Lucille, Audrey, Marion B, Jeanne et bien d'autres pour leur collaboration.<br><br> <br>
                 </p>
             </div>
 
