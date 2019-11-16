@@ -196,6 +196,17 @@ require("header.php");
 
                                     </div>
 
+                                    <div class="col-lg-3 text-center float-left">
+                                          <a href="http://sandrankake.com/"
+                                                class="col-lg-12 link" target="_blank"><img
+                                                      src="assets\img\artistes\sandra.jpg" class="Artiste" alt="Sandra Nkaké">
+                                          </a>
+                                          <br>
+                                          <a href="http://sandrankake.com/"
+                                                class="col-lg-12 link" target="_blank">Sandra Nkaké</a>
+
+                                    </div>
+
 
                               </div>
                         </div>

@@ -45,10 +45,23 @@ require("header.php");
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel/ww_rd.jpg" class="d-block w-100revis " alt="festival witches week">
+            <img src="assets/img/carousel/upf.jpg" class="d-block w-100revis " alt="Université populaire féministe">
             <div class="carousel-caption ">
-              <h5></h5>
-              <p></p>
+              <h5>Université Populaire Féministe #6</h5>
+              <p>2 rue Ledieu (entrée D) Amiens - 15h<br><br>
+              <a class="btn btn-secondary btn-lg btn-warning"
+                  href="https://www.facebook.com/events/432637857446314/" role="button" target="_blank">En savoir +</a> </p>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel/idahot.jpg" class="d-block w-100revis" alt="Réunion publique pour festival lgbtqi+">
+            <div class="carousel-caption ">
+              <h5>Réunion publique pour festival lgbtqi+</h5>
+              <p>2 rue Ledieu (entrée D) Amiens - 18h30<br><br>
+              <a class="btn btn-secondary btn-lg btn-danger"
+                  href="https://www.facebook.com/events/2352206374877941/" role="button" target="_blank">En savoir +</a> </p>
+              </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -92,7 +105,7 @@ require("header.php");
       <h2 class="p-3 text-center">Nos événements</h2>
     
 <!-- -----------------1----------------- -->
-<article class="pt-4 pl-1">
+<!-- <article class="pt-4 pl-1">
     <div class="col-lg-12">
       <h4 class="float-left brl mr-1">05<br>NOV</h4>
       <h5 class="pt-2"> <a href="https://www.facebook.com/events/2441237112758468/" class="link"> Festival Witches Week</a></h5>
@@ -103,8 +116,8 @@ require("header.php");
     </p>
   
 </article>
-<!-- -----------------2----------------- -->
-<article class=pt-4 pl"-1">
+<-----------------2----------------- -->
+<!-- <article class="pt-4 pl-1">
     <div class="col-lg-12">
       <h4 class=" float-left brl mr-1">06<br>NOV</h4>
     <h5 class="pt-2"> <a href="https://www.facebook.com/events/1838622449614692/" class="link"> Le Bla-Bla des Sorcières #16</a></h5>
@@ -114,9 +127,9 @@ require("header.php");
     
     </p>
   
-</article>
+</article> -->
 <!-- -----------------3----------------- -->
-<article class="pt-4 pl-1">
+<!-- <article class="pt-4 pl-1">
     <div class="col-lg-12">
       <h4 class="float-left brl mr-1">08<br>NOV</h4>
     <h5 class="pt-2"> <a href="https://www.facebook.com/events/2388166354763477/" class="link"> CONCERT • Fleche Love • Mano Polo •</a></h5>
@@ -126,9 +139,9 @@ require("header.php");
     21H - Cité Carter - FESTIVAL HAUTE FREQUENCE
     </p>
   
-</article>
+</article> --> 
 <!-- -----------------4----------------- -->
-<article class="pt-4 pl-1">
+<!-- <article class="pt-4 pl-1">
     <div class="col-lg-12">
       <h4 class="float-left brl mr-1">09<br>NOV</h4>
     <h5 class="pt-2"> <a href="https://www.facebook.com/events/2529888527333045/" class="link"> Witches Week - Atelier Méli Juestz</a></h5>
@@ -139,8 +152,35 @@ require("header.php");
     19H - PERFORMANCE Live painting "Regard de femme" <br>
     FINAL - DISCUSSION & DJ'S Bar festif et repas  DJ Pink MOLOKO
     </p>  
+</article> -->
+<!-- ---------------------------------- -->
+<!-- -----------------4----------------- -->
+<article class="pt-4 pl-1">
+    <div class="col-lg-12">
+      <h4 class="float-left brl mr-1">24<br>NOV</h4>
+    <h5 class="pt-2"> <a href="https://www.facebook.com/events/432637857446314/" class="link">Université Populaire Féministe #6</a></h5>
+  </div>
+  <br>
+    <p class="col-lg-12">
+    2 rue Ledieu (entrée D) Amiens<br>
+Pour cette dernière UPF, les Bavardes proposent de lire un livre en entier ce coup ci (même pas peur^^) <br>
+Qu'est ce que le continuum des violences sexistes et sexuelles ? qu'est ce que les échanges économico-sexuel? <br> 
+Inscription par mail : lesbavardesamiens@gmail.com 
+    </p>  
 </article>
 <!-- ---------------------------------- -->
+<article class="pt-4 pl-1">
+    <div class="col-lg-12">
+      <h4 class="float-left brl mr-1">27<br>NOV</h4>
+    <h5 class="pt-2"> <a href="https://www.facebook.com/events/2352206374877941/" class="link">Réunion publique pour festival lgbtqi+</a></h5>
+  </div>
+  <br>
+    <p class="col-lg-12">
+    2 rue Ledieu (entrée D) Amiens<br>
+    18h30 - 21h Nous vous invitons toutes et tous pour la réunion de préparation du festival IDAHOT 2020 !
+    </p>  
+</article>
+
 
 
     </div>
