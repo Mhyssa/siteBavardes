@@ -10,7 +10,7 @@ require("header.php");
 
 
 <div class= "col-lg-8 mx-auto text-left">
-  <img src="assets\img\seminaire.jpg" alt="l'équipe bénévoles bavardes" class="d-block w-100">
+  <img src="assets\img\seminaire.jpg" alt="l'équipe bénévoles bavardes" class="d-block w-100 shadow">
 </div>
 
 

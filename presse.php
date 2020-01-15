@@ -24,6 +24,8 @@ require("header.php");
             </li>
             <li> <a class="nav-link link" target="_blank" href="https://www.jeanne-magazine.com/le-magazine/2019/06/21/rencontre-avec-les-bavardes-coorganisatrices-de-la-premiere-marche-des-fiertes-a-amiens_17073/">Rencontre avec les Bavardes</a>
             </li>
+            <li> <a class="nav-link link" target="_blank" href="https://www.jeanne-magazine.com/le-magazine/2020/01/06/les-bavardes-a-la-rencontre-desdra-yaveth-sosa-sierra-militante-hondurienne_18885/">Les Bavardes à la rencontre d’Esdra Yaveth Sosa Sierra, militante hondurienne</a>
+            </li>
           </ul>
 
         </div>
@@ -89,6 +91,15 @@ require("header.php");
             </li>
 
           </ul>
+          <!-- https://www.francebleu.fr/infos/societe/grenelle-des-violences-conjugales-attend-des-mesures-concretes-durables-et-efficaces-1574667622?fbclid=IwAR28AUEdiI-PZfDN_I4SUqK1vXZgCEETJH_RRWJfzex_HYuedDVtjGZILtQ
+          Grenelle des violences conjugales : "On attend des mesures concrètes, durables et efficaces"  
+
+          https://www.francebleu.fr/infos/societe/pas-une-de-plus-une-centaine-de-manifestantes-contre-les-violences-faites-aux-femmes-a-amiens-1574541556?fbclid=IwAR0-ACD5MNdYqAH9oWJpPih5u69apnBH1dYQ_kdprTVotjqx9cPyH2u4kM8
+          "Stop féminicides !" : une centaine de manifestantes contre les violences faites aux femmes à Amiens
+          https://twitter.com/fbleupicardie/status/1198270977383247874?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1198270977383247874&ref_url=https%3A%2F%2Fwww.francebleu.fr%2Finfos%2Fsociete%2Fpas-une-de-plus-une-centaine-de-manifestantes-contre-les-violences-faites-aux-femmes-a-amiens-1574541556 -->
+
+
+
 
         </div>
         </div>

@@ -57,7 +57,7 @@
             <div class="float-left"> <img  src="assets/img/logocouleur.png" width="" height="70" class="d-inline-block align-top  "
                  alt="icone">
             </div>
-            <div class="float-left pt-2"><a href="mailto:staffbavardes@gmail.com" class="link">lesbavardesamiens@gmail.com</a></div>
+            <div class="float-left pt-2"><a href="" class="link">lesbavardesamiens@gmail.com</a></div>
                    
           </div>
 
