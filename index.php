@@ -6,7 +6,7 @@ require("header.php");
 
 <div class="container-fluid">
 
-  <div class="row mt-5  m-0">
+  <div class="row mt-5">
     <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3">
       <div class="text-center">
         <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
@@ -31,11 +31,17 @@ require("header.php");
 
 
 
+<div class="row ml-0">
+<div class="container p-0">
 
+  <img src="assets\img\prog_jencreve.png" alt="Festival j'en(c)rêve des Bavardes" class="img-fluid">
+</div>
+  
+</div>
 
-
-  <div class="row m-0">
-    <div class="p-0 col-sm-12 col-xl-9 ">
+<!-- 
+  <div class="row m-0"> -->
+    <!-- <div class="p-0 col-sm-12 col-xl-9 ">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -50,10 +56,10 @@ require("header.php");
             <img src="assets/img/carousel/janvier/ag_rd.jpg" class="d-block w-100revis " alt="Université populaire féministe">
             <div class="carousel-caption ">
               <h5></h5>
-              <p><br><br>
+              <p><br><br> -->
                 <!-- <a class="btn btn-secondary btn-lg btn-warning" href="https://www.facebook.com/pg/bavardes/events/?ref=page_internal"
                   role="button" target="_blank">En savoir +</a> </p> -->
-              </p>
+              <!-- </p>
             </div>
           </div>
           
@@ -63,10 +69,10 @@ require("header.php");
               alt="femmes de sport">
             <div class="carousel-caption ">
               <h5></h5>
-              <p><br><br>
+              <p><br><br> -->
                 <!-- <a class="btn btn-secondary btn-lg btn-danger" href="hhttps://www.facebook.com/pg/bavardes/events/?ref=page_internal"
                   role="button" target="_blank">En savoir +</a> </p> -->
-              </p>
+              <!-- </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -110,14 +116,14 @@ require("header.php");
     <div class="col-sm-12 col-xl-3 overflow-auto " style=" ">
 
 
-      <h2 class="p-3 text-center">Nos événements</h2>
+      <h2 class="p-3 text-center">Nos événements</h2> -->
       <!-- JANVEMBRE
 JANVEMBRE
 JANVEMBRE
 JANVEMBRE -->
 
       <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-      <article class="pt-4 pl-1">
+      <!-- <article class="pt-4 pl-1">
         <div class="col-lg-12">
           <h4 class="float-left brl mr-1">23<br>JANV</h4>
           <h5 class="pt-2"> <a href="https://www.facebook.com/pg/bavardes/events/?ref=page_internal" class="link"> Les
@@ -128,10 +134,10 @@ JANVEMBRE -->
           Jeudi 23 janvier 2020 de 20:00 à 22:00 <br> Espace Dewailly 80000 Amiens</a>
         </p>
 
-      </article>
+      </article> -->
 
       <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-      <article class="pt-4 pl-1">
+      <!-- <article class="pt-4 pl-1">
         <div class="col-lg-12">
           <h4 class="float-left brl mr-1">24<br>JANV</h4>
           <h5 class="pt-2"> <a href="https://www.facebook.com/pg/bavardes/events/?ref=page_internal" class="link">
@@ -143,10 +149,10 @@ JANVEMBRE -->
           </a>
         </p>
 
-      </article>
+      </article> -->
 
       <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-      <article class="pt-4 pl-1">
+      <!-- <article class="pt-4 pl-1">
         <div class="col-lg-12">
           <h4 class="float-left brl mr-1">25<br>JANV</h4>
           <h5 class="pt-2"> <a href="https://www.facebook.com/pg/bavardes/events/?ref=page_internal" class="link">
@@ -157,10 +163,10 @@ JANVEMBRE -->
           Samedi 25 janvier 2020 de 12:00 à 15:00 <br> La Boîte sans projet</a>
         </p>
 
-      </article>
+      </article> -->
 
       <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-      <article class="pt-4 pl-1">
+      <!-- <article class="pt-4 pl-1">
         <div class="col-lg-12">
           <h4 class="float-left brl mr-1">25<br>JANV</h4>
           <h5 class="pt-2"> <a href="https://www.facebook.com/pg/bavardes/events/?ref=page_internal" class="link"> Scène ouverte 100% meuf #7</a></h5>
@@ -172,10 +178,10 @@ JANVEMBRE -->
           7 rue Fernel, 80 000 Amiens</a>
         </p>
 
-      </article>
+      </article> -->
 
       <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-      <article class="pt-4 pl-1">
+      <!-- <article class="pt-4 pl-1">
         <div class="col-lg-12">
           <h4 class="float-left brl mr-1">26<br>JANV</h4>
           <h5 class="pt-2"> <a href="https://www.facebook.com/pg/bavardes/events/?ref=page_internal" class="link"> Loto
@@ -189,7 +195,7 @@ JANVEMBRE -->
           54 rue Saint-Leu, 80000 Amiens</a>
         </p>
 
-      </article>
+      </article> -->
 
       <!-- -----------------1----------------- -->
       <!-- ----------ARCHIVES    ------------- -->
