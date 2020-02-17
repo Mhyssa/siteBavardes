@@ -135,7 +135,9 @@ originales, oubliées, montrées du doigt ] </small></p>
 
              </h4> 
              <br>
-             <p class="merci"> Le Barrio,
+             <p class="merci"> 
+             Le Network,
+             Le Barrio,
                  La Gargouille,
                  Le Charleston,
                  Le Café,
