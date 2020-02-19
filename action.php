@@ -8,13 +8,13 @@ require("header.php");
     <div class="row">
       <div class="col-md-12">
 
-      <img class="d-block w-100" src="assets\img\actions\diapo.png" alt="nos actions">
-      <img class="d-block w-100" src="assets\img\actions\ims1.JPG" alt="Interventions en milieu scolaire michelis">
-      <img class="d-block w-100" src="assets\img\actions\ims2.JPG" alt="Interventions en milieu scolaire michelis">
-      <img class="d-block w-100" src="assets\img\actions\ims3.JPG" alt="Interventions en milieu scolaire michelis">
-      <img class="d-block w-100" src="assets\img\actions\ims4.JPG" alt="Interventions en milieu scolaire michelis">
-      <img class="d-block w-100" src="assets\img\actions\ims5.JPG" alt="Interventions en milieu scolaire michelis">
-
+     <h2 class="text-center">Rapport d'activité</h2>
+     <ul>
+       <li>Le rapport d'activité de 2018 télécharger: <a class="btn btn-secondary btn-md btn-warning"
+                  href="assets\doc\Rapport d'activité LES BAVARDES.pdf" role="button" target="_blank"> &#x23CF</a></li> <br>
+       <li>Le rapport d'activité de 2019 à télécharger: <a class="btn btn-secondary btn-md btn-warning"
+       href="assets\doc\Rapport d'activité LES BAVARDES.pdf" role="button" target="_blank"> &#x23CF</a></li>
+     </ul>
 
         <!-- <h1>Nos actions</h1>
         <ul>
