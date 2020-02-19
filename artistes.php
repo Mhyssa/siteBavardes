@@ -277,31 +277,10 @@ require("header.php");
                                                 class="col-lg-12 link" target="_blank">Ami Sene</a>
                                     </div>
                               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         </div>
                   </div>
-                  <div class="row">
+                  
+                  <!-- <div class="row">
                         <div class="col-md-12">
                               <div>
                                     <img class="d-block w-100" src="assets/img/ban_yt.JPG" alt="banniere">
@@ -309,7 +288,7 @@ require("header.php");
                               </div>
 
                         </div>
-                  </div>
+                  </div> -->
 
             </div>
       </div>

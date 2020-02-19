@@ -1,5 +1,5 @@
 <?php  
-$ma_pages = 'contact';
+$ma_pages = 'mentions';
 require("header.php");
 ?>
 
