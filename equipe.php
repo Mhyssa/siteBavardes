@@ -9,7 +9,7 @@ require("header.php");
     <div class="container">
     <div class="row">
       <div class="col-md-12 pb-2">
-        <h1 class="pagetitre">L'équipe</h1>
+        <h2 class="pagetitre">L'équipe</h2>
       </div>
     </div>
       <!-- Section Title -->

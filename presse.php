@@ -7,7 +7,7 @@ require("header.php");
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="pagetitre">La Presse</h1>
+        <h2 class="pagetitre">La Presse</h2>
       </div>
     </div>
     <div class="row">

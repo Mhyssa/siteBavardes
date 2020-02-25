@@ -6,10 +6,13 @@ require("header.php");
 <div class="col-lg-12 ombre pt-5 ">
       <div class="container">
 
-            <div class="col-md-12 pt-5 pb-5 ">
-                  <h1 class="">Artistes et intervenants</h1>
-                  <p class="">Un grand merci à toutes ces belles personnes sur notre route Bavardesque !</p>
-                  <div>
+         
+                  <div class="row">
+      <div class="col-md-12">
+        <h2 class="pagetitre">Artistes et intervenants</h2>
+      </div>
+    </div>
+                  
                         <div class="row shadow pt-5 pb-4">
 
                               <div class="col-lg-12 pt-3 pb-3 text-center bgyellow">
