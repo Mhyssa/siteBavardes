@@ -7,6 +7,11 @@ require("header.php");
   <!-- Team -->
   <section id="team" class="">
     <div class="container">
+    <div class="row">
+      <div class="col-md-12 pb-2">
+        <h1 class="pagetitre">L'équipe</h1>
+      </div>
+    </div>
       <!-- Section Title -->
       <!-- <h5 class="section-title h1">Le staff</h5> -->
       <div class="row">
@@ -21,7 +26,7 @@ require("header.php");
                         alt="Audrey Gondallier co présidente et co fondatrice des Bavardes">
                     </p>
                     <h4 class="card-title">Audrey</h4>
-                    <p class="card-text">Co-fondatrice</p>
+                    <p class="card-text">Chargé de projet</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -31,12 +36,12 @@ require("header.php");
                 <div class="card">
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Audrey</h4>
-                    <p class="card-text">"Un collectif créé, pensé et porté par et pour des femmes, pour leurs droits et
-                      contre les inégalités qu'elles subissent, c'était un rêve, de ceux que l'on fait le soir avant de
-                      s'endormir, sans trop y croire vraiment. Un projet comme celui là, à Amiens, dans notre contexte
-                      social, politique et économique, c'était impossible, et c'est pour ça qu'on l'a fait.
-                      Nous étions 5 et nous avons écrit l'histoire des Bavardes, collectif féministe et lesbien à
-                      Amiens. Aujourd'hui nous sommes des dizaines et nous avons réalisé de grandes prouesses."
+                    <p class="card-text">" Netflix, bière/fromage ou fromage/bière. Militante avec les femmes et pour
+                      les femmes.
+                      Les Bavardes pour moi c'est expérimenter l'expérience de l'auto gestion en permettant de vivre et
+                      de pratiquer la sororité.
+                      Je m'occupe de l'administratif, la comptabilité, le demarchage, répondre aux sollicitations, la
+                      com et l'animation des temps fort. "
                     </p>
                   </div>
                 </div>
@@ -56,7 +61,7 @@ require("header.php");
                         alt="Marie de souza co présidente et co fondatrice des Bavardes">
                     </p>
                     <h4 class="card-title">Marie</h4>
-                    <p class="card-text">Co-fondatrice</p>
+                    <p class="card-text">Chargé de mission</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -152,7 +157,7 @@ require("header.php");
                         alt="Photo d'une Bavardes">
                     </p>
                     <h4 class="card-title">Marion J</h4>
-                    <p class="card-text">Super Bénévole Bavarde !</p>
+                    <p class="card-text">Formatrice Web</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -162,9 +167,11 @@ require("header.php");
                 <div class="card">
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Marion J</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae
-                      recusandae quis numquam eius ab dolores? Provident vero repellat ducimus! Eveniet quidem illo
-                      molestias fugit facere porro adipisci nihil impedit.</p>
+                    <p class="card-text">" Bénévole active sur la plupart des évènements depuis la création. Je m'occupe
+                      principalement de la logistique, de la cohésion et du site internet.
+                      Dans les Bavardes pour agir localement et pour maintenir un lien social entre les différents
+                      acteur.ices de la vie amiénoise.
+                      "</p>
                   </div>
                 </div>
               </div>
@@ -179,11 +186,11 @@ require("header.php");
               <div class="frontside">
                 <div class="card">
                   <div class="card-body text-center">
-                    <p><img class=" img-fluid" src="https://randomuser.me/api/portraits/women/88.jpg"
+                    <p><img class=" img-fluid" src="assets\img\equipe\500x500\maud500.jpg"
                         alt="Photo d'une Bavardes">
                     </p>
                     <h4 class="card-title">Maud</h4>
-                    <p class="card-text">Super Bénévole Bavarde !</p>
+                    <p class="card-text">Magaziniere d'une épicerie solidaire</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -193,9 +200,12 @@ require("header.php");
                 <div class="card">
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Maud</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est expedita
-                      numquam repellendus sed eos? Quisquam eveniet tempore quaerat repellat, reiciendis dolore suscipit
-                      incidunt eaque autem. Minima consequuntur non cupiditate!</p>
+                    <p class="card-text">" Je suis Maud, bientôt 30 ans. Je suis maintenant magaziniere d'une épicerie
+                      solidaire mobile.
+                      Je suis dans les bavardes depuis juin 2018 et j'ai tout de suite adoré la force de ce collectif.
+                      Dans les bavardes j'aime m'occuper de la logistic terrain et je suis à l'aise avec la nourriture
+                      et la boissons (rires). Ce qui compte pour moi dans les bavardes comme dans la vie c'est la force
+                      de la sororité "</p>
                   </div>
                 </div>
               </div>
@@ -252,9 +262,9 @@ require("header.php");
                 <div class="card">
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Estelle</h4>
-                    <p class="card-text"> Estelle, coordinatrice de formation de formation et passionnée de danse.
+                    <p class="card-text">" Estelle, coordinatrice de formation de formation et passionnée de danse.
                       Presente chez les bavardes depuis la première soirée, bénévole active depuis mars 2019. Je suis
-                      dans ce collectif pour militer et pour l'esprit de sororité qui y réside !
+                      dans ce collectif pour militer et pour l'esprit de sororité qui y réside ! "
                     </p>
                   </div>
                 </div>
@@ -372,7 +382,7 @@ require("header.php");
                         alt="Photo d'une Bavardes">
                     </p>
                     <h4 class="card-title">Justine</h4>
-                    <p class="card-text">Super Bénévole Bavarde !</p>
+                    <p class="card-text">Technicienne de laboratoire</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -447,7 +457,7 @@ require("header.php");
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Ludivine</h4>
                     <p class="card-text">" Vadrouilleuse dans le monde des plantes.
-                      Dans les Bavardes pour soutenir le collectif dans la lutte contre les inégalités. </p>
+                      Dans les Bavardes pour soutenir le collectif dans la lutte contre les inégalités. "</p>
                   </div>
                 </div>
               </div>
@@ -465,7 +475,7 @@ require("header.php");
                     <p><img class=" img-fluid" src="assets\img\equipe\500x500\marine500.jpg" alt="Photo d'une Bavardes">
                     </p>
                     <h4 class="card-title">Marine</h4>
-                    <p class="card-text">Agent de protection planétaire</p>
+                    <p class="card-text">Etudiante</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -475,9 +485,10 @@ require("header.php");
                 <div class="card">
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Marine</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestiae
-                      eius illum praesentium harum? Et odio corrupti repellat harum cupiditate culpa facere ipsa aperiam
-                      consequuntur, praesentium vero maiores perspiciatis obcaecati.</p>
+                    <p class="card-text">" Dans les Bavardes pour rencontrer des gens, en tant que lesbienne ca me fait
+                      du bien, je me sens mieux dans la société.
+                      J'aime l'art, la musique, le chèvre et la tarte citron. Je m'occuppe de tenir les stands,
+                      participer aux actions et de la technique à la radio. "</p>
                   </div>
                 </div>
               </div>
@@ -495,7 +506,7 @@ require("header.php");
                     <p><img class=" img-fluid" src="assets\img\equipe\500x500\orlia500.jpg" alt="Photo d'une Bavardes">
                     </p>
                     <h4 class="card-title">Orlia</h4>
-                    <p class="card-text">Super Bénévole Bavarde !</p>
+                    <p class="card-text">Etudiante</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -523,7 +534,7 @@ require("header.php");
               <div class="frontside">
                 <div class="card">
                   <div class="card-body text-center">
-                    <p><img class=" img-fluid" src="https://randomuser.me/api/portraits/women/89.jpg"
+                    <p><img class=" img-fluid" src="assets\img\equipe\500x500\alexandra500.jpg"
                         alt="Photo d'une Bavardes">
                     </p>
                     <h4 class="card-title">Alexandra</h4>
@@ -537,9 +548,7 @@ require("header.php");
                 <div class="card">
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Alexandra</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae
-                      recusandae quis numquam eius ab dolores? Provident vero repellat ducimus! Eveniet quidem illo
-                      molestias fugit facere porro adipisci nihil impedit.</p>
+                    <p class="card-text"></p>
                   </div>
                 </div>
               </div>
@@ -554,11 +563,11 @@ require("header.php");
               <div class="frontside">
                 <div class="card">
                   <div class="card-body text-center">
-                    <p><img class=" img-fluid" src="https://randomuser.me/api/portraits/women/88.jpg"
+                    <p><img class=" img-fluid" src="assets\img\equipe\500x500\lucille500.jpg"
                         alt="Photo d'une Bavardes">
                     </p>
                     <h4 class="card-title">Lucille</h4>
-                    <p class="card-text">Super Bénévole Bavarde !</p>
+                    <p class="card-text">Cheffe de projet</p>
                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
                 </div>
@@ -568,9 +577,11 @@ require("header.php");
                 <div class="card">
                   <div class="card-body text-center mt-4">
                     <h4 class="card-title">Lucille</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est expedita
-                      numquam repellendus sed eos? Quisquam eveniet tempore quaerat repellat, reiciendis dolore suscipit
-                      incidunt eaque autem. Minima consequuntur non cupiditate!</p>
+                    <p class="card-text">" J'aime la musique, dessiner, discuter. Dans les Bavardes pour donner un sens
+                      à la vie, pas que pour moi mais aussi pour les autres.
+                      Je participe aux évènements juste pour kiffer ou être bénévole au temps fort comme la IDAHOT ou la
+                      Pride. Je participe à la vision stratégique et politique de l'asso, de la technique
+                      à la radio et des chroniques. "</p>
 
                   </div>
                 </div>

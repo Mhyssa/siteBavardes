@@ -8,14 +8,11 @@ require("header.php");
     <div class="row">
       <div class="col-md-12">
 
-     <h2 class="text-center">Rapport d'activité</h2>
-     <ul>
-       <li>Le rapport d'activité de 2018 télécharger: <a class="btn btn-secondary btn-md btn-warning"
-                  href="assets\doc\Rapport d'activité LES BAVARDES.pdf" role="button" target="_blank"> &#x23CF</a></li> <br>
-       <li>Le rapport d'activité de 2019 à télécharger: <a class="btn btn-secondary btn-md btn-warning"
-       href="assets\doc\Rapport d'activité LES BAVARDES.pdf" role="button" target="_blank"> &#x23CF</a></li>
-     </ul>
-
+     <h2 class="text-center">Rapport d'activité 2019</h2>
+     <object class="my-4" data="assets\doc\Rapport.pdf" type="application/pdf" width="100%" height="800">
+  lien alternatif : <a href="assets\doc\Rapport.pdf">Rapport d'activité 2019.pdf</a>
+</object>
+     
         <!-- <h1>Nos actions</h1>
         <ul>
           <li>

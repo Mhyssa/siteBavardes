@@ -56,12 +56,12 @@
         interrogeons-nous et émancipons-nous !</p><br>
     </div>
 
-    <div class="col-lg-12  pt-3 pb-5 d-flex flex-column">
+    <div class="col-lg-12 pb-5 d-flex flex-column">
       <div class="mx-auto"> <img src="assets/img/logocouleur.png" width="" height="70"
           class="d-inline-block align-top  " alt="icone">
       </div>
-      <div class="mx-auto pt-2"><a href="mailto:lesbavardesamiens@gmail.com"
-          class="link">lesbavardesamiens@gmail.com</a></div>
+      <div class="mx-auto pt-5"><a href="mailto:contact@lesbavardes.org"
+          class="link">contact@lesbavardes.org</a></div>
 
     </div>
 
