@@ -7,14 +7,14 @@ require("header.php");
 <div class="col-lg-12 ombre pt-5 ">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <h2 class="pagetitre">La Presse</h2>
-      </div>
+      <img src="assets\img\banniere\presse.png"
+        alt="liste des articles de presses ou les bavardes sont Jeanne Magazine Courrier picard france bleu"
+        class="img-fluid pb-3">
     </div>
     <div class="row">
       <div class="col-lg-12 shadow p-3 mt-5">
 
-        <h3>Jeanne Magazine </h3>
+        <h2>Jeanne Magazine </h2>
         <ul>
 
           <li><a class="nav-link link" target="_blank" href="https://www.jeanne-magazine.com/?s=les+bavardes">Résultats
@@ -48,7 +48,7 @@ require("header.php");
     </div>
     <div class="row">
       <div class="col-lg-12 shadow p-3 mt-5">
-        <h3> Courrier Picard </h3>
+        <h2> Courrier Picard </h2>
         <ul>
           <li>
             <a class="nav-link link" target="_blank" href="https://www.courrier-picard.fr/art/69282/article/2017-11-07/violences-envers-les-femmes-la-lutte-prend-de-lampleur-amiens
@@ -87,7 +87,7 @@ require("header.php");
       <div class="col-lg-12 shadow p-3 mt-5 mb-5">
 
 
-        <h3> Luttes LGBTQI+ </h3>
+        <h2> Luttes LGBTQI+ </h2>
         <ul>
 
           <li>
@@ -144,7 +144,7 @@ require("header.php");
       <div class="col-lg-12 shadow p-3 mt-1 mb-5">
 
 
-        <h3> Divers </h3>
+        <h2> Divers </h2>
         <ul>
 
           <li>

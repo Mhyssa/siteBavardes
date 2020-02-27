@@ -6,19 +6,20 @@ require("header.php");
 
 
   <div class="col-lg-12 ombre pt-5 pb-5 ">
-<div class="row">
-    <h2 class="col-lg-8 pb-3 mx-auto pagetitre">Qui sommes nous ?</h2>
-  </div>
-</div>
+    <div class="container">
+  <div class="row">
+                  <img src="assets\img\banniere\about.png" alt="banniere qui sommes nous pour décrire les bavardes, leurs origines et leurs actions" class="img-fluid pb-3">
+            </div>
 
 <div class="row">
-<div class="col-lg-8 mx-auto text-left">
+<div class="col-lg-12 p-0">
   <img src="assets\img\seminaire.jpg" alt="l'équipe bénévoles bavardes" class="d-block w-100 shadow">
 </div>
+</div>
 
 
-
-<div class="col-lg-8 mx-auto text-left">
+<div class="row">
+<div class="col-lg-12 mx-auto text-left">
 
   <div class="textAbout pt-5">
     <p>Les Bavardes collectif féministe et lesbien créé en 2017 à Amiens par 5 meufs voulant rendre visible
@@ -71,7 +72,7 @@ require("header.php");
     </div>
 
   </div>
-
+  </div></div>
 </div>
 </div>
 </div>

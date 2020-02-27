@@ -5,11 +5,9 @@ require("header.php");
 ?>
 <div class="col-lg-12 ombre pt-5 ">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="pagetitre">Collaboration</h2>
-      </div>
-    </div>
+  <div class="row">
+                  <img src="assets\img\banniere\collab.png" alt="banniere collaboration DRJSCS DDCS Amiens Métropole Amiens Métropole Natation La LIG" class="img-fluid pb-3">
+            </div>
 
     <div class="row">
 

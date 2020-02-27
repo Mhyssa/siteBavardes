@@ -83,6 +83,23 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 
+
+/* page action */
+blockquote {
+    font-family: 'Quicksand';   
+    font-style: italic;
+    font-size:1.5em;
+    background:url(right-quote.gif) no-repeat right bottom;    
+    color:#b37420;   
+}
+
+blockquote:first-letter {
+    background:url(left-quote.gif) no-repeat left top;
+    font-size:2em;
+}
+
+
+
 /* page collaboration */
 .merci {
     font-family: 'Concert One', sans-serif;
