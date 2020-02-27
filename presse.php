@@ -3,6 +3,7 @@ $ma_pages = 'presse';
 require("header.php");
 
 ?>
+
 <div class="col-lg-12 ombre pt-5 ">
   <div class="container">
     <div class="row">
@@ -140,7 +141,7 @@ require("header.php");
     </div>
 
     <div class="row">
-      <div class="col-lg-12 shadow p-3 mt-5 mb-5">
+      <div class="col-lg-12 shadow p-3 mt-1 mb-5">
 
 
         <h3> Divers </h3>
@@ -173,9 +174,9 @@ require("header.php");
   </div>
 </div>
 
+</div>
+</div>
 <!-- https://www.facebook.com/gazettesportsamiens/videos/1053192861541012/ -->
-</div>
-</div>
 <?php  
 require("footer.php")
 ?>

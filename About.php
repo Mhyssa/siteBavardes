@@ -5,8 +5,8 @@ require("header.php");
 ?>
 
 
-<div class="row">
   <div class="col-lg-12 ombre pt-5 pb-5 ">
+<div class="row">
     <h2 class="col-lg-8 pb-3 mx-auto pagetitre">Qui sommes nous ?</h2>
   </div>
 </div>

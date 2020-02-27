@@ -145,37 +145,56 @@ require("header.php");
       </h4>
       <br>
       <p class="merci">
-        Le Network,
-        Le Barrio,
-        La Gargouille,
-        Le Charleston,
-        Le Café,
-        Le Capuccino,
-        La boîte sans projet,
-        Centre Leo Lagrange,
-        Le Mic Mac,
-        Les Enfants Terribles,
-        Le füt et à mesure,
-        La Taverne électrique,
-        Le Red & White,
-        La peniche du lapin vert,
-        L'île aux fruits...
+        Le Network
+        Le Barrio
+        La Gargouille
+        Le Charleston
+        Le Café
+        Le Capuccino
+        La boîte sans projet
+        Centre Leo Lagrange
+        Le Mic Mac
+        Les Enfants Terribles
+        Le füt et à mesure
+        La Taverne électrique
+        Le Red & White
+        La peniche du lapin vert
+        L'île aux fruits
+        Sports bar 
+        CSC d'étouvie
+        La lune des pirates
+        La cave du houblon
       </p>
 
+      <p class="merci">
+        Lycée Michelis
+        Lycée La Hotoie
+        Groupe d'Appui et de solidarité
+        Radio Campus
+        Carmen
+        Translucide
+        Flash our true colors 
+        Jeanne Magazine
+        OSAM
+        UPJV Amiens
+        Cité Carter
+        AIDES
+        Collectif IDAHOT
+        L'alimentation générale
+      </p>
+
+      <p class="merci">
+        DRJSCS
+        DDCS
+        Amiens Métropole
+        Amiens Métropole Natation
+        La LIG
+      </p>
 
     </div>
   </div>
 
 
-  <div class="row">
-    <div class="col-md-12 pb-5">
-      <div>
-        <img class="d-block w-100" src="assets/img/ban_yt.JPG" alt="banniere">
-
-      </div>
-
-    </div>
-  </div>
 </div>
 </div>
 

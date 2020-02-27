@@ -12,12 +12,12 @@
 
 <div class="row">
 
-  <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3">
+  <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3 col-sm-12">
     <div class="text-center">
       <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
     </div>
   </a>
-  <a href="https://fr-fr.facebook.com/bavardes/" class="black float-left col-lg-3">
+  <a href="https://fr-fr.facebook.com/bavardes/" class="black float-left col-lg-3 col-sm-12">
     <div class="text-center">
       <img src="assets/img/navbar/facebook.png" class="imgSocialmedia">
     </div>
@@ -25,12 +25,12 @@
 
 <!-- <div class="text-center" ><a href="https://linktr.ee/les.bavardes"> <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu disap"> </a></div> -->
 
-  <a href="https://twitter.com/lesbavardes_" class="yellow float-left col-lg-3">
+  <a href="https://twitter.com/lesbavardes_" class="yellow float-left col-lg-3 col-sm-12">
     <div class="text-center">
       <img src="assets/img/navbar/twitter.png" class="imgSocialmedia">
     </div>
   </a>
-  <a href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" class="black float-left col-lg-3">
+  <a href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" class="black float-left col-lg-3 col-sm-12">
     <div class="text-center">
       <img src="assets/img/navbar/youtube.png" class="imgSocialmedia">
     </div>

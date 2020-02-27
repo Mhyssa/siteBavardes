@@ -2,7 +2,7 @@
 $ma_pages = 'equipe';
 require("header.php");
 ?>
-
+<div class="row">
 <div class="col-lg-12 ombre pt-5 ">
   <!-- Team -->
   <section id="team" class="">
@@ -624,6 +624,7 @@ require("header.php");
     </div>
   </section>
 </div>
+</div> <!-- Fin de la div row -->
 <?php  
 require("footer.php")
 ?>

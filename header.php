@@ -3,8 +3,6 @@
 
 <head>
 
-
-
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +29,8 @@
   <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 
   <title>Les Bavardes à Amiens</title>
@@ -49,7 +48,7 @@
 
       <div class="row">
 
-        <div class="col-sm-12">
+        <div class="col-sm-12 col-lg-12">
 
           <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4" id="navBar">
             <div class="col-lg-12 col-md-12">
@@ -93,17 +92,17 @@
 
                   <!-- Actif equipe ou non -->
                   <?php 
-                  if($ma_pages == 'equipe'){ ?>                 
+                  if($ma_pages == 'equipe'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                        <a class="nav-link text-center" href="equipe.php">L'équipe</a>
-                    </li>
+                    <a class="nav-link text-center" href="equipe.php">L'équipe</a>
+                  </li>
                   <?php 
                   }else{    ?>
-                    <li class="nav-ite pr-4  pl-4 ">
-                      <a class="nav-link text-center" href="equipe.php">L'équipe</a>
-                    </li>                 
-                <?php  }                 
-                  ?> 
+                  <li class="nav-ite pr-4  pl-4 ">
+                    <a class="nav-link text-center" href="equipe.php">L'équipe</a>
+                  </li>
+                  <?php  }                 
+                  ?>
 
                   <!-- Actif action ou non -->
                   <?php if($ma_pages == 'action'){ ?>
@@ -149,32 +148,18 @@
                     <a class="nav-link text-center" href="presse.php">La Presse</a>
                   </li>
                   <?php  }  ?>
-
                   
-
-
                 </ul>
               </div>
-
             </div>
-
-
-
           </nav>
-
         </div>
-
       </div>
 
       <div class="row">
-        <div class="col-md-12 mb-4 mt-3">
+        <div class="col-md-12 col-lg-12 mb-4 mt-3">
           <h1 id="titre">Les Bavardes Collectif Féministe & Lesbien <br> à Amiens depuis 2017</h1>
         </div>
       </div>
     </header>
   </div>
-
-
-
-
-  <!-- <div class="black float-left col-lg-2"><a href="mailto:lesbavardesamiens@gmail.com" ><img src="assets/img/navbar/youtube.png"></a></div> -->
