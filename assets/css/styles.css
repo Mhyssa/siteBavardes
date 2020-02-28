@@ -118,6 +118,12 @@ blockquote:first-letter {
     border-bottom: #FFAD3F 3px solid;
 }
 
+
+.marge {
+
+    margin-right: -15px;
+    margin-left: -15px;
+}
 .fa {
     padding: 20px;
     font-size: 30px;

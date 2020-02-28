@@ -10,14 +10,14 @@
 <!-- copiright Mentions légales -->
 <!-- Cookies -->
 
-<div class="row">
+<div class="row p-0">
 
-  <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3 col-sm-12">
+  <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3 col-sm-12 px-0">
     <div class="text-center">
       <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
     </div>
   </a>
-  <a href="https://fr-fr.facebook.com/bavardes/" class="black float-left col-lg-3 col-sm-12">
+  <a href="https://fr-fr.facebook.com/bavardes/" class="black float-left col-lg-3 col-sm-12 px-0">
     <div class="text-center">
       <img src="assets/img/navbar/facebook.png" class="imgSocialmedia">
     </div>
@@ -25,12 +25,12 @@
 
 <!-- <div class="text-center" ><a href="https://linktr.ee/les.bavardes"> <img src="assets/img/navbar/suivez_nous.png" class="imgAbsolu disap"> </a></div> -->
 
-  <a href="https://twitter.com/lesbavardes_" class="yellow float-left col-lg-3 col-sm-12">
+  <a href="https://twitter.com/lesbavardes_" class="yellow float-left col-lg-3 col-sm-12 px-0">
     <div class="text-center">
       <img src="assets/img/navbar/twitter.png" class="imgSocialmedia">
     </div>
   </a>
-  <a href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" class="black float-left col-lg-3 col-sm-12">
+  <a href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" class="black float-left col-lg-3 col-sm-12 px-0">
     <div class="text-center">
       <img src="assets/img/navbar/youtube.png" class="imgSocialmedia">
     </div>
@@ -44,7 +44,7 @@
   <div class="col-lg-12 m-auto pt-3">
 
 
-    <div class="col-lg-12 p-3 ">
+    <div class="col-lg-12">
       <h3 class="pb-3 colorpolice ml-5 ">Les bavardes </B></h3>
       <p class="font-weight-bold colorpolice2 pl-3 ml-4">LE COLLECTIF LESBIEN ET FÉMINISTE ENGAGÉ POUR LA VISIBILITÉ DE
         TOUTES LES FEMMES</p>
@@ -82,7 +82,7 @@
 
   </div>
 </footer>
-
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -4,13 +4,13 @@ require("header.php");
 
 ?>
 
-<div class="container-fluid">
 
-  <div class="row no-glutter mt-5">
+  <div class="row mt-5">
+  <div class="col-md-12">
     <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3 col-sm-12">
       <div class="text-center">
         <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
-      </div>
+</div>    
     </a>
     <a href="https://fr-fr.facebook.com/bavardes/" class="black float-left col-lg-3 col-sm-12">
       <div class="text-center">
@@ -28,18 +28,13 @@ require("header.php");
       </div>
     </a>
   </div>
+  </div>
 
 
-
-<div class="row ml-0">
-<div class="container p-0">
-
-  <img src="assets\img\prog_jencreve.png" alt="Festival j'en(c)rêve des Bavardes" class="img-fluid">
-</div>
-  
-</div>
-
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="assets\img\prog_jencreve.png" alt="Festival j'en(c)rêve des Bavardes" class="img-fluid">
     </div>
   </div>
 </div>

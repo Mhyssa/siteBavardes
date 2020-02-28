@@ -156,10 +156,10 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row marge">
         <div class="col-md-12 col-lg-12 mb-4 mt-3">
           <h1 id="titre">Les Bavardes Collectif Féministe & Lesbien <br> à Amiens depuis 2017</h1>
         </div>
       </div>
     </header>
-  </div>
+  
