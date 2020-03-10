@@ -163,6 +163,11 @@ blockquote:first-letter {
     color: white;
 }
 
+ul {
+    list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/External_link_font_awesome.svg");
+    
+}
+
 /* 
 -------%media sociaux--------------------- */
 .black {
