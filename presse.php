@@ -40,6 +40,10 @@ require("header.php");
               href="https://www.jeanne-magazine.com/le-magazine/2020/01/06/les-bavardes-a-la-rencontre-desdra-yaveth-sosa-sierra-militante-hondurienne_18885/">Les
               Bavardes à la rencontre d’Esdra Yaveth Sosa Sierra, militante hondurienne</a>
           </li>
+          <li> <a class="nav-link link" target="_blank"
+              href="https://www.jeanne-magazine.com/actualites/2020/03/11/municipales-amiens-2020-une-fausse-campagne-avec-de-vraies-revendications_19163/">Municipales Amiens 2020 : une fausse campagne avec de vraies revendications !</a>
+          </li>
+          
         </ul>
 
       </div>

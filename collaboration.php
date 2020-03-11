@@ -48,7 +48,7 @@ require("header.php");
 
 
 
-    </div>
+   
 
     <div class="row pt-5">
       <div class="card mb-3" style="max-width: 540px;">
@@ -142,57 +142,72 @@ require("header.php");
 
       </h4>
       <br>
-      <p class="merci">
-        Le Network
-        Le Barrio
-        La Gargouille
-        Le Charleston
-        Le Café
-        Le Capuccino
-        La boîte sans projet
-        Centre Leo Lagrange
-        Le Mic Mac
-        Les Enfants Terribles
-        Le füt et à mesure
-        La Taverne électrique
-        Le Red & White
-        La peniche du lapin vert
-        L'île aux fruits
-        Sports bar 
-        CSC d'étouvie
-        La lune des pirates
-        La cave du houblon
-      </p>
-
-      <p class="merci">
-        Lycée Michelis
-        Lycée La Hotoie
-        Groupe d'Appui et de solidarité
-        Radio Campus
-        Carmen
-        Translucide
-        Flash our true colors 
-        Jeanne Magazine
-        OSAM
-        UPJV Amiens
-        Cité Carter
-        AIDES
-        Collectif IDAHOT
-        L'alimentation générale
-      </p>
-
-      <p class="merci">
-        DRJSCS
-        DDCS
-        Amiens Métropole
-        Amiens Métropole Natation
-        La LIG
-      </p>
-
+      <div class="row">
+      <div class="col-md-3 col-12">
+      
+      <ul >
+        <li>Le Network</li>
+        <li>Le Barrio</li>
+        <li>La Gargouille</li>
+        <li>Le Charleston</li>
+        <li>Le Café</li>
+        <li>Le Capuccino</li>
+        <li>La boîte sans projet</li>
+        <li>Centre Leo Lagrange</li>
+        <li>Le Mic Mac</li>
+        <li>Les Enfants Terribles</li>
+       
+       
+      </ul>
+      
+</div>
+<div class="col-md-3 col-12">
+<ul > 
+<li>Le Red & White</li>
+        <li>La peniche du lapin vert</li>
+        <li>L'île aux fruits</li> 
+        <li>Le füt et à mesure</li>
+        <li>La Taverne électrique</li>
+        <li>Sports bar </li>
+       <li> CSC d'étouvie</li>
+       <li> La lune des pirates</li>
+       <li> La cave du houblon</li>
+       <li> Lycée Michelis</li>
+       <li> Lycée La Hotoie</li>
+        
+        
+      </ul>
+      </div>
+      <div class="col-md-3 col-12">
+      <ul>
+     <li> Groupe d'Appui et de solidarité</li>
+       <li> Radio Campus</li>
+      <li>  Carmen</li>
+     <li> Translucide</li>
+     <li>   Flash our true colors </li>
+     <li>   Jeanne Magazine</li>
+     <li>   OSAM</li>
+      <li>  UPJV Amiens</li>
+      <li>  Cité Carter</li>
+      <li>  AIDES</li>
+        
+      </ul>
+      </div>
+      
+      <div class="col-md-3 col-12">
+      <ul ><li>Collectif IDAHOT</li>
+       <li> L'alimentation générale</li>
+      <li>  DRJSCS</li>
+       <li> DDCS</li>
+      <li>  Amiens Métropole</li>
+      <li>  Amiens Métropole Natation</li>
+      <li>  La LIG</li>
+        </ul>
     </div>
+   </div>
   </div>
 
-
+  </div>
 </div>
 </div>
 
