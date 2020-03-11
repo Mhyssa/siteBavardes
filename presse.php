@@ -163,6 +163,19 @@ require("header.php");
               à #Amiens, place Gambetta</a>
           </li>
 
+          <li>
+            <a class="nav-link link" target="_blank"
+              href="https://premium.courrier-picard.fr/id73569/article/2020-03-06/jen-creve-un-festival-pour-les-droits-des-femmes-amiens">«J’en (c)rêve!», un festival pour les droits des femmes à Amiens</a>
+          </li>
+          <li>
+            <a class="nav-link link" target="_blank"
+              href="https://premium.courrier-picard.fr/id74372/article/2020-03-10/une-fausse-campagne-avec-de-vraies-revendications-feministes-amiens">Une fausse campagne avec de vraies revendications féministes à Amiens</a>
+          </li>
+          <li>
+            <a class="nav-link link" target="_blank"
+              href="https://france3-regions.francetvinfo.fr/hauts-de-france/hauts-france-femmes-gagnent-toujours-25-moins-que-hommes-1795893.html?fbclid=IwAR1-3wXiN9B9J3qrERoU8knglo7FWXpwK8GxqRD9LbkXHsfExuPu8Ehf7Es">Dans les Hauts-de-France, les femmes gagnent toujours 25% de moins que les hommes</a>
+          </li>
+
 
         </ul>
 
