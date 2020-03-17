@@ -152,6 +152,7 @@ require("header.php");
               <li>Centre Leo Lagrange</li>
               <li>Le Mic Mac</li>
               <li>Les Enfants Terribles</li>
+              <li>L' Officine déphasée</li>
 
 
             </ul>
@@ -165,10 +166,11 @@ require("header.php");
               <li>Le füt et à mesure</li>
               <li>La Taverne électrique</li>
               <li>Sports bar </li>
-              <li> CSC d'étouvie</li>
-              <li> La lune des pirates</li>
-              <li> Lycée Michelis</li>
-              <li> Lycée La Hotoie</li>
+              <li>CSC d'étouvie</li>
+              <li>La lune des pirates</li>
+              <li>Lycée Michelis</li>
+              <li>Lycée La Hotoie</li>
+              <li>AESP Amiens</li>
 
 
             </ul>
@@ -185,6 +187,8 @@ require("header.php");
               <li> UPJV Amiens</li>
               <li> Cité Carter</li>
               <li> AIDES</li>
+              <li> La courte échelle</li>
+
 
             </ul>
           </div>
@@ -197,8 +201,10 @@ require("header.php");
               <li> DDCS</li>
               <li> Amiens Métropole</li>
               <li> Amiens Métropole Natation</li>
-              <li> La LIG</li>
+              <li> Fonds de dotation Lesbiennes d'Intérêt Général</li>
               <li> La cave du houblon</li>
+              <li> AfroBenin</li>
+              <li> Pas à Passo Théâtre de l'Opprimé</li>
             </ul>
           </div>
         </div>

@@ -8,7 +8,8 @@ require("header.php");
 
 
             <div class="row">
-                  <img src="assets\img\banniere\artistes.png" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+                  <img src="assets\img\banniere\artistes.png" alt="banniere artistes et intervenants"
+                        class="img-fluid pb-3">
             </div>
 
             <div class="row shadow pt-5 pb-4">
@@ -197,9 +198,44 @@ require("header.php");
 
                         </div>
 
+                        <div class="col-lg-3 text-center float-left">
+                              <a href="https://www.lesculotteesdubocal.org/" class="col-lg-12 link" target="_blank"><img
+                                          src="assets\img\artistes\cullotes.jpg" class="Artiste" alt="LES CULOTTÉES DU BOCAL">
+                              </a>
+                              <br>
+                              <a href="https://www.lesculotteesdubocal.org/" class="col-lg-12 link" target="_blank">LES CULOTTÉES DU BOCAL</a>
+
+                        </div>
+
+
+                  </div>
+                  <div class="col-lg-12  pb-5">
+                        <div class="col-lg-3 text-center float-left">
+                              <a href="https://www.instagram.com/minabandita.ttt/" class="col-lg-12 link" target="_blank"><img
+                                          src="assets\img\artistes\mina.jpg" class="Artiste"
+                                          alt="Mina Bandita"></a>
+                              <br>
+                              <a href="https://www.instagram.com/minabandita.ttt/" class="col-lg-12 link" target="_blank">
+                              Mina Bandita</a>
+                        </div>
+
+                        <div class="col-lg-3 text-center float-left">
+                              <a href="https://www.instagram.com/tahneelautre/"
+                                    class="col-lg-12 link" target="_blank"><img src="assets\img\artistes\thanee.jpg"
+                                          class="Artiste" alt="Tahnee, L'autre">
+                              </a>
+                              <br>
+                              <a href="https://www.instagram.com/tahneelautre/"
+                                    class="col-lg-12 link" target="_blank">Tahnee, L'autre</a>
+
+                        </div>
+
+
+
 
                   </div>
             </div>
+<!-- -----------------------------------------------------------------Les Intervenant.es----------------------------------------------------------------------------- -->
 
             <div class="row  shadow pt-5 mt-4">
                   <div class="col-lg-12 pt-3 pb-3 text-center bgyellow">
@@ -263,6 +299,37 @@ require("header.php");
                               <a href="https://www.instagram.com/amisenepoledancer/?hl=en" class="col-lg-12 link"
                                     target="_blank">Ami Sene</a>
                         </div>
+
+                        <div class="col-lg-3 text-center float-left">
+                              <a href="https://www.facebook.com/AfroBenin/" class="col-lg-12 link" target="_blank"><img
+                                          src="assets/img/artistes/andrea.jpg" class="Artiste"
+                                          alt="Andréa, AfroBenin"></a>
+                              <br>
+                              <a href="https://www.facebook.com/AfroBenin/" class="col-lg-12 link" target="_blank">
+                                    Andréa, AfroBenin </a>
+                        </div>
+
+                        <div class="col-lg-3 text-center float-left">
+                              <a href="http://www.calames.abes.fr/pub/#details?id=FileId-1808" class="col-lg-12 link"
+                                    target="_blank"><img src="assets/img/artistes/immedianes.jpg" class="Artiste"
+                                          alt="Les Immédianes"> </a>
+                              <br>
+                              <a href="http://www.calames.abes.fr/pub/#details?id=FileId-1808" class="col-lg-12 link"
+                                    target="_blank">Les Immédianes</a>
+                        </div>
+                  </div>
+
+                  <div class="col-lg-12 pb-5 ">
+
+                        <div class="col-lg-3 text-center float-left">
+                              <a href="https://www.fondslesbien.org/nous-connaitre/" class="col-lg-12 link" target="_blank"><img
+                                          src="assets/img/artistes/suzette.jpg" class="Artiste"
+                                          alt="Suzette Robichon"></a>
+                              <br>
+                              <a href="https://www.fondslesbien.org/nous-connaitre/" class="col-lg-12 link" target="_blank">Suzette Robichon</a>
+                        </div>
+
+
                   </div>
             </div>
       </div>
