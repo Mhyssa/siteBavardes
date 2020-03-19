@@ -165,6 +165,7 @@ blockquote:first-letter {
 
 ul {
     list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/External_link_font_awesome.svg");
+    padding-left: 10px;
     
 }
 

@@ -11,7 +11,8 @@ require("header.php");
           <div class="col-md-12 pb-2">
             <div class="row">
               <img src="assets\img\banniere\staff.png"
-                alt="banniere l'équipe pour décrire les bénévoles bavardes, leurs origines et leurs actions " class="img-fluid pb-3">
+                alt="banniere l'équipe pour décrire les bénévoles bavardes, leurs origines et leurs actions "
+                class="img-fluid pb-3">
             </div>
           </div>
         </div>
@@ -549,11 +550,10 @@ require("header.php");
                 <div class="frontside">
                   <div class="card">
                     <div class="card-body text-center">
-                      <p><img class=" img-fluid" src="assets\img\equipe\500x500\alexandra500.jpg"
-                          alt="Photo d'une Bavardes">
+                      <p><img class=" img-fluid" src="assets\img\equipe\img_helene.jpg" alt="Photo d'une Bavardes">
                       </p>
-                      <h4 class="card-title">Alexandra</h4>
-                      <p class="card-text">Super Bénévole Bavarde !</p>
+                      <h4 class="card-title">Hélène</h4>
+                      <p class="card-text">Prof de lettres-HG</p>
                       <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                     </div>
                   </div>
@@ -562,8 +562,11 @@ require("header.php");
                 <div class="backside">
                   <div class="card">
                     <div class="card-body text-center mt-4">
-                      <h4 class="card-title">Alexandra</h4>
-                      <p class="card-text"></p>
+                      <h4 class="card-title">Hélène</h4>
+                      <p class="card-text">" Je suis prof de lettres-HG en Lycée Professionnel. J'aime la philosophie et
+                        la couleur orange. Les Bavardes pour moi c'est une rencontre alors que je me sentais isolée avec
+                        ma conscience féministe et mon envie de lutter.
+                        "</p>
                     </div>
                   </div>
                 </div>
@@ -614,10 +617,10 @@ require("header.php");
                 <div class="frontside">
                   <div class="card">
                     <div class="card-body text-center">
-                      <p><img class="img-fluid" src="assets\img\equipe\img_helene.jpg" alt="Photo d'une Bavardes">
+                      <p><img class="img-fluid" src="assets\img\equipe\500x500\louiz500.jpg" alt="Photo d'une Bavardes">
                       </p>
-                      <h4 class="card-title">Hélène</h4>
-                      <p class="card-text">Prof de lettres-HG</p>
+                      <h4 class="card-title">Louiz'</h4>
+                      <p class="card-text">Chargée de projet</p>
                       <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                     </div>
                   </div>
@@ -626,11 +629,13 @@ require("header.php");
                 <div class="backside">
                   <div class="card">
                     <div class="card-body text-center mt-4">
-                      <h4 class="card-title">Hélène</h4>
-                      <p class="card-text">" Je suis prof de lettres-HG en Lycée Professionnel. J'aime la philosophie et
-                        la couleur orange. Les Bavardes pour moi c'est une rencontre alors que je me sentais isolée avec
-                        ma conscience féministe et mon envie de lutter.
-                        "</p>
+                      <h4 class="card-title">Louiz'</h4>
+                      <p class="card-text">" Les Bavardes pour moi ça a été le grand tournant, la montagne russe de la
+                        déconstruction. Ma deuxième naissance.
+                        Rien dans ma vie n'a eu plus de sens que de participer à la construction de ce collectif. Et le
+                        voir continuer, m'emplie de joie et de fierté.
+                        Aujourd'hui, un peu à distance, je continue ce combat contre les inégalités à travers mon
+                        travail autour des déchets et de l'environnement.Et puis on verra, où tout ça nous mène ! "</p>
                     </div>
                   </div>
                 </div>
