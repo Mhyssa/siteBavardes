@@ -42,46 +42,42 @@
       <footer class="pt-2 m-0">
 <div class="row m-0">
 
-      <div class="col-sm-3 col-12">
-        <div class="mx-auto">
-          <h3 class="pb-3 colorpolice">Les bavardes </h3>
-        </div>
-        
+      <div class="col-sm-3 col-12">      
+          <h3 class="colorpolice text-center mt-3">Les bavardes </h3>  
       </div>
 
-      <div class="col-sm-6 col-12 d-inline">
+      <div class="col-sm-9 col-12 d-inline mb-3">
         
           <img src="assets/img/logocouleur.png" height="70" >
         
       <span class="font-weight-bold colorpolice2 pl-3 ml-4">LE COLLECTIF LESBIEN ET FÉMINISTE ENGAGÉ POUR LA VISIBILITÉ DE TOUTES LES FEMMES</span>
       </div>
 
-        <div class="col-sm-3 col-12"></div>
+        
         <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
 </div>      
 
-<div class="row m-0">
+<div class="row m-0 pt-4">
   <div class="col-lg-3 col-sm-12">       
-    <p>Nous Contacter</p>
+    <p class="colorpolice2 text-center">Une Question ? Un projet fou ? Ecris Nous !</p>
     <a href="mailto:contact@lesbavardes.org"
-    class="link">contact@lesbavardes.org</a>          
+    class="colorpolice link justify-content-center">contact@lesbavardes.org</a>          
   </div>
               <div class="col-lg-6 col-sm-12">     
-                <p class="colorpolice2 col-lg-12">Les bavardes, c'est un collectif lesbien, bi, trans, queer et hétéro
+                <p class="colorpolice2 col-lg-12 text-center">Les bavardes, c'est un collectif lesbien, bi, trans, queer et hétéro
                   féministe engagé pour la visibilité de toutes les femmes, au travers d’espaces et d’actions culturelles et
                   artistiques, ouvert à toutes et tous, visant à agir, se rencontrer, s’interroger et faire la fête. Radio, atelier, débat, cinéma, soirée… Retrouvons-nous,
                   interrogeons-nous et émancipons-nous !</p>
               </div>
     <div class="col-lg-3 col-sm-12">    
-        <p>Nous Soutenir</p>
-      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020"
-          class="link"> <button>ahdésion 2020</button> </a>          
+        <p class="colorpolice2 text-center">Pour nous soutenir c'est par ici !</p>
+      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020"> <button class="yellow">Ahdésion 2020</button> </a>          
   </div>
   
   <div class="col-lg-12 col-md-12 pt-2 m-auto">
     <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
 
-    <div class=" pt-5 pb-3 m-auto   d-flex justify-content-around">
+    <div class=" pt-4 pb-3 m-auto   d-flex justify-content-around">
       <p class=""> <a href="mentions.php" class="footlink"> Mentions légales </a></p>
       <p class="footlink disap">I</p>
       <p class=" "> <a href="politique.php" class="footlink"> Politique de confidentialité</a></p>
