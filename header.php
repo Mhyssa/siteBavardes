@@ -148,6 +148,17 @@
                     <a class="nav-link text-center" href="presse.php">La Presse</a>
                   </li>
                   <?php  }  ?>
+
+                  <!-- Actif Nos podcasts ou non -->
+                  <?php if($ma_pages == 'podcasts'){ ?>
+                  <li class="nav-item active pr-4  pl-4">
+                    <a class="nav-link text-center" href="podcasts.php">Nos podcasts</a>
+                  </li>
+                  <?php  }else{    ?>
+                  <li class="nav-item pr-4  pl-4">
+                    <a class="nav-link text-center" href="podcasts.php">Nos podcasts</a>
+                  </li>
+                  <?php  }  ?>
                   
                 </ul>
               </div>

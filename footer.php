@@ -59,9 +59,8 @@
 
 <div class="row m-0 pt-4">
   <div class="col-lg-3 col-sm-12">       
-    <p class="colorpolice2 text-center">Une Question ? Un projet fou ? Ecris Nous !</p>
-    <a href="mailto:contact@lesbavardes.org"
-    class="colorpolice link justify-content-center">contact@lesbavardes.org</a>          
+    <p class="colorpolice2 text-center">Une Question ? Un projet fou ? Ecris Nous !</p>            
+    <a href="mailto:contact@lesbavardes.org" class="link"><p class="colorpolice link text-center">contact@lesbavardes.org</p></a> 
   </div>
               <div class="col-lg-6 col-sm-12">     
                 <p class="colorpolice2 col-lg-12 text-center">Les bavardes, c'est un collectif lesbien, bi, trans, queer et hétéro
@@ -70,8 +69,8 @@
                   interrogeons-nous et émancipons-nous !</p>
               </div>
     <div class="col-lg-3 col-sm-12">    
-        <p class="colorpolice2 text-center">Pour nous soutenir c'est par ici !</p>
-      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020"> <button class="yellow">Ahdésion 2020</button> </a>          
+      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"> <button class="btn btn-outline-warning btn-lg btn-block">Ahdésion 2020</button> </a>          
+        <p class="colorpolice2 text-center pt-2">Pour nous soutenir c'est par ici !</p>
   </div>
   
   <div class="col-lg-12 col-md-12 pt-2 m-auto">
