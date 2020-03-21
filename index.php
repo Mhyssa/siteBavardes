@@ -5,7 +5,7 @@ require("header.php");
 ?>
 
 
-  <div class="row mt-5">
+  <div class="row m-0 mt-5">
   <div class="col-md-12">
     <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3 col-sm-12">
       <div class="text-center">
@@ -31,15 +31,14 @@ require("header.php");
   </div>
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <img src="assets\img\prog_jencreve.png" alt="Festival j'en(c)rêve des Bavardes" class="img-fluid">
-    </div>
+<div class="container-fluid">
+  <div class="row m-0">
   </div>
 </div>
 
 
+<div class="elfsight-app-64be235b-928e-4da1-8c53-ad8aeb5c55dc"></div>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <?php
 require("footer.php")
 ?>

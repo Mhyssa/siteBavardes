@@ -25,10 +25,6 @@ require("header.php");
               la rencontre des militantes Béninoises</a>
           </li>
           <li> <a class="nav-link link" target="_blank"
-              href="https://www.jeanne-magazine.com/le-magazine/2019/05/29/sortie-de-jeanne-magazine-n64-mai-2019_16936/">Sortie
-              de Jeanne Magazine n°64 – mai 2019</a>
-          </li>
-          <li> <a class="nav-link link" target="_blank"
               href="https://www.jeanne-magazine.com/le-magazine/2017/11/28/rencontre-bavardes-debarquent-a-amiens_13003/">Les
               Bavardes qui débarquent à Amiens</a>
           </li>
@@ -43,7 +39,13 @@ require("header.php");
           <li> <a class="nav-link link" target="_blank"
               href="https://www.jeanne-magazine.com/actualites/2020/03/11/municipales-amiens-2020-une-fausse-campagne-avec-de-vraies-revendications_19163/">Municipales Amiens 2020 : une fausse campagne avec de vraies revendications !</a>
           </li>
-          
+          <li> <a class="nav-link link" target="_blank"
+              href="https://www.jeanne-magazine.com/le-magazine/2020/03/21/sortie-de-jeanne-magazine-n73-mars-2020_19207/">Militantisme – Les Bavardes à la rencontre du collectif lesbien les Immédianes</a>
+          </li>
+          <li> <a class="nav-link link" target="_blank"
+              href="https://www.jeanne-magazine.com/le-magazine/2019/05/29/sortie-de-jeanne-magazine-n64-mai-2019_16936/">Sortie
+              de Jeanne Magazine n°64 – mai 2019</a>
+          </li>
         </ul>
 
       </div>
