@@ -129,7 +129,7 @@ require("header.php");
     <div class="row shadow">
       <div class="col-md-12">
         <br><br>
-        <h4 id="titre"> Merci de votre confiance et de votre chaleureux acceuil :</h4>
+        <h4 id="titre"> Merci de votre confiance et de votre chaleureux accueil :</h4>
         <br>
 
         <div class="row">
