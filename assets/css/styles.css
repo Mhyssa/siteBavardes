@@ -2,7 +2,7 @@
 
 /* Header Parallax Element Style*/
 .paral {
-    min-height: 600px;
+    min-height: 683px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -17,8 +17,8 @@
 }
 
 /* Heading for Parallax Section */
-.paral h1 {
-    color: rgba(255, 255, 255, 0.8);
+.paral h2 {
+    color: rgba(255, 255, 255);
     font-size: 60px;
     text-align: center;
     padding-top: 60px;
@@ -27,15 +27,19 @@
 
 /* Image for Parallax Section */
 .paralsec {
-    background-image: url("https://img.webnots.com/2017/05/parallax.jpg");
+    background-image: url("../img/index/seminaire.jpg");
 }
 
 .paralsec1 {
-    background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");
+    background-image: url("../img/index/ob.jpg");
 }
 
 .paralsec2 {
-    background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+    background-image: url("../img/index/pride.jpg");
+}
+
+.paralsec3 {
+    background-image: url("../img/index/scene_mathilde.jpg");
 }
 
 /* Add more images for more sections */
