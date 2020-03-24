@@ -23,9 +23,9 @@ require("header.php");
     <div class="row">
       <div class="col-lg-12 mx-auto text-left">
 
-        <div class="textAbout pt-5">
-          <p>
-            Créé en juin 2017, les Bavardes est une association qui cherche à visibiliser les femmes et à
+        <div class="text-center my-5 px-5">
+        <div class="col-lg-5  col-md-12 m-auto lignefooter mb-5 "></div><br>
+            " Créé en juin 2017, les Bavardes est une association qui cherche à visibiliser les femmes et à
             lutter contre les préjugés, les violences et les discriminations faites à toutes les femmes.<br><br>
             Aujourd'hui nous comptabilisons près de 30 bénévoles très actives, qui mènent à bien de
             nombreux projets : festivals, actions de sensibilisation en milieu scolaire, co-organisation
@@ -34,14 +34,16 @@ require("header.php");
             Nous employons des méthodes d'éducation populaire, participatives, inclusives et
             bienveillantes afin que toutes les femmes que nous rencontrons se sentent accompagnées et
             valorisées.<br><br>
+            <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div><br>
             Avec plus de 50 projets est près de 4000 personnes touchées, nous sommes fières de pouvoir
             affirmer que non seulement nos actions ont du sens, mais aussi de l'impact. Nous sommes
             heureuses d'être reconnues et légitimes et ce, même au delà du territoire amiénois.<br><br>
             Nous tentons de répondre aux nombreuses sollicitations, mais il nous semble désormais
             important d'à la fois solidifier nos actions, notre réseau bénévole et d'
             avoir l'ambition d'essaimer nos pratiques militantes féministes, tant dans le répertoire d'
-            action, que sur les modalités d'organisation que le projet de société que nous défendons.
-          </p>
+            action, que sur les modalités d'organisation que le projet de société que nous défendons. "<br><br>
+            <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
+          
           <!-- <p>Les Bavardes collectif féministe et lesbien créé en 2017 à Amiens par 5 meufs voulant rendre visible
       la lutte pour les droits de toutes les femmes, et des personnes LBTQI+, en proposant un espace à
       toutes pour partager, échanger et s'émanciper. <br><br>

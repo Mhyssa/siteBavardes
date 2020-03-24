@@ -2,12 +2,12 @@
 $ma_pages = 'equipe';
 require("header.php");
 ?>
-<div class="row">
+<div class="row m-0">
   <div class="col-lg-12 ombre pt-5 ">
     <!-- Team -->
     <section id="team" class="">
       <div class="container">
-        <div class="row">
+        <div class="row m-0">
           <div class="col-md-12 pb-2">
             <div class="row">
               <img src="assets\img\banniere\staff.png"
@@ -18,7 +18,7 @@ require("header.php");
         </div>
         <!-- Section Title -->
         <!-- <h5 class="section-title h1">Le staff</h5> -->
-        <div class="row">
+        <div class="row m-0">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
               <div class="mainflip">

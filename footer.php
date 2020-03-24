@@ -69,7 +69,7 @@
                   interrogeons-nous et émancipons-nous !</p>
               </div>
     <div class="col-lg-3 col-sm-12">    
-      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"> <button class="btn btn-outline-warning btn-lg btn-block">Ahdésion 2020</button> </a>          
+      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"> <button class="button2 btn-block">Ahdésion 2020</button> </a>          
         <p class="colorpolice2 text-center pt-2">Pour nous soutenir c'est par ici !</p>
   </div>
   

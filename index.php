@@ -36,11 +36,15 @@ require("header.php");
   <!-- First Parallax Section -->
   <div class="jumbotron paral paralsec">
     <!-- <h2 class="display-3">Here is a heading 1</h2> -->
-    <blockquote class="d-flex align-items-center lead sur-noir text-center p-5">" Les bavardes, c'est un collectif lesbien, bi, trans, queer et hétéro féministe engagé pour la visibilité de toutes les femmes, au travers d’espaces et d’actions culturelles et artistiques, ouvert à toutes et tous, visant à agir, se rencontrer, s’interroger et faire la fête. Radio, atelier, débat, cinéma, soirée… Retrouvons-nous, interrogeons-nous et émancipons-nous ! "</blockquote>
-    <p class="lead mt-5">
-      <a class="button" href="About.php" role="button">qui sommes nous ?</a><br>
-      <a class="button" href="equipe.php" role="button">qui sont-elles ?</a>
-    </p>
+    
+    <div class="col-lg-12 col-sm-12">
+      <a class="button btn-block col-lg-12 col-sm-12" href="About.php" role="button"><div class="text-center">qui sommes nous ?</div></a>
+      <blockquote class="d-flex align-items-center lead sur-noir text-center m-5 p-5">" Les bavardes, c'est un collectif lesbien, bi, trans, queer et hétéro féministe engagé pour la visibilité de toutes les femmes, au travers d’espaces et d’actions culturelles et artistiques, ouvert à toutes et tous, visant à agir, se rencontrer, s’interroger et faire la fête. Radio, atelier, débat, cinéma, soirée… Retrouvons-nous, interrogeons-nous et émancipons-nous ! " 
+        <br> [...]</blockquote>
+      <a class="button btn-block col-lg-12 col-sm-12" href="equipe.php" role="button"><div class="text-center">&#10150;qui sont-elles ?</div></a>
+</div>
+      
+      
   </div>
 
   <!-- Second Parallax Section -->
@@ -56,15 +60,18 @@ require("header.php");
 
   <!-- Third Parallax Section -->
   <div class="jumbotron paral paralsec2">
-    <h2>Les Bavardes dans la presse</h2>
-    <p class="lead">Découvre notre dernier article sur <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
-    <p class="lead"><a class="yellow" href="presse.php">&#10150; Consulte les 30 articles parlant de nous au fil de notre histoire !</a></p>
+    <h2 class="sur-noir m-5 p-5">LES BAVARDES DANS LA PRESSE</h2>
+    <div>
+
+      <p class="sur-noir">Découvre notre dernier article sur <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
+      <p><a class="sur-noir" href="presse.php">&#10150; Consulte les 30 articles parlant de nous au fil de notre histoire !</a></p>
+    </div>
   </div>
 
   <!-- Fourth Parallax Section -->
   <div class="jumbotron paral paralsec3">
-    <h2>Artistes & Intervenantes</h2>
-    <p class="lead"><a class="button" href="artistes.php" role="button"> &#10150; Lumiere sur ces femmes incroyables qui ont croisées nos routes au cours de nos évènements</a></p>
+    <h2 class="sur-orange m-5 p-5">RENCONTRES D'ARTISTES</h2>
+    <p><a class="button2" href="artistes.php" role="button"> &#10150; Lumiere sur ces femmes incroyables qui ont croisées nos routes au cours de nos évènements</a></p>
   </div>
   <!-- Add More Parallax Sections Here -->
 </div>

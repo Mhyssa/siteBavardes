@@ -149,16 +149,15 @@ p {
 .sur-orange {
     font-weight:bold;
     color: rgb(255, 255, 255);
-    background-color: #ffa632ad;
+    background-color: #ffa63248;
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
 
 .sur-noir {
-    color: rgb(255, 255, 255);
-    background-color: #000000a8;
     font-weight:bold;
     color: rgb(255, 255, 255);
+    background-color: #000000a8;
   
     -webkit-border-radius: 8px;
     border-radius: 8px;
@@ -183,12 +182,27 @@ p {
    text-decoration:none;
  
    }
-.button:active {
-   border-top-color: #b37320;
-   background: #b37320;
-   }
 
 
+   .button2 {
+      border: 2px solid #ffac3f;
+      background: #00000000;
+      padding: 15.5px 31px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px; 
+      color: #ffac3f;
+      font-size: 19px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      text-decoration: none;
+      vertical-align: middle;
+      }
+   .button2:hover {
+     
+      background: #ffad3f;
+      color: rgb(255, 255, 255);
+      }
+   
 
 /* page action */
 blockquote {
@@ -312,7 +326,7 @@ header {
 
 .link:hover {
     text-decoration: none;
-    color: #b37420 !important;
+    color: #ffad3f !important;
 }
 
 .footlink {
@@ -323,12 +337,11 @@ header {
 
 .footlink:hover {
     text-decoration: none;
-    color: #b37420 !important;
-    width: max-content;
+    color: #ffad3f !important;
 }
 
 .colorpolice {
-    color: #b37420 !important;
+    color: #ffad3f !important;
 }
 
 .colorpolice2 {
