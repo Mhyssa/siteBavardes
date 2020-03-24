@@ -32,6 +32,7 @@
 
 .paralsec1 {
     background-image: url("../img/index/ob.jpg");
+    
 }
 
 .paralsec2 {
@@ -51,6 +52,11 @@
     border-radius: 0;
 }
 
+/* style pour la selection de tous les textes */
+::selection {
+    color: rgb(255, 255, 255);
+    background-color: #ffad3f;
+} 
 
 
 /* styles general */
@@ -140,6 +146,49 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 
+.sur-orange {
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    background-color: #ffa632ad;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.sur-noir {
+    color: rgb(255, 255, 255);
+    background-color: #000000a8;
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+  
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+/* mes bouttons personnalisés */
+.button {
+   background:#ffa632ad;
+   padding: 15.5px 31px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: white;
+   font-size: 19px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   background: #ffac3f;
+   color: rgb(255, 255, 255);
+   text-decoration:none;
+ 
+   }
+.button:active {
+   border-top-color: #b37320;
+   background: #b37320;
+   }
+
+
 
 /* page action */
 blockquote {
@@ -177,47 +226,8 @@ blockquote:first-letter {
 
 
 .marge {
-
     margin-right: -15px;
     margin-left: -15px;
-}
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
 }
 
 ul {
