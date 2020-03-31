@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <meta name="author" content="Marion JOLY, Noémie CLAUDE" />
+  <meta name="author" content="Marion JOLY, Noémie CLAUDE, Jade GUEHOUN" />
   <meta name="copyright" content="Les Bavardes Amiens" />
   <meta name="description"
     content="Les Bavardes Amiens collectif lesbien et féministe engagées pour la visibilité de toutes les femmes et dans les luttes lgbtqi+" />
@@ -30,6 +30,30 @@
 
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+  <?php if($ma_pages == 'index'){ ?>
+      <title>Accueil | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'about') {    ?>
+      <title>Qui sommes nous? | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'equipe') {    ?>
+      <title>L'Equipe | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'action') {    ?>
+      <title>Nos Actions | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'collaboration') {    ?>
+      <title>Nos Collaborations | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'artistes') {    ?>
+      <title>Artistes et Intervenantes | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'presse') {    ?>
+      <title>La Presse | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'podcasts') {    ?>
+      <title>Nos Podcasts | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'mentions') {    ?>
+      <title>Mentions Légales | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'politique') {    ?>
+      <title>RGPD | Les Bavardes Amiens</title>
+  <?php  } else {?>
+      <title>Les Bavardes Amiens</title>
+  <?php  } ?>
 
 
   <title>Les Bavardes à Amiens</title>
