@@ -31,8 +31,8 @@ require("header.php");
 </div>
 
 
-<div class="container-fluid">
 
+<div class="row">
   <!-- First Parallax Section -->
   <div class="jumbotron paral paralsec">
     <!-- <h2 class="display-3">Here is a heading 1</h2> -->
@@ -44,9 +44,6 @@ require("header.php");
       <a class="button btn-block col-lg-12 col-sm-12" href="equipe.php" role="button"><div class="text-center">&#10150;qui sont-elles ?</div></a>
 </div>
       
-      
-  </div>
-
   <!-- Second Parallax Section -->
   <div class="jumbotron paral paralsec1">
     <h2>OVAIRES BOOKÉES</h2>
@@ -74,12 +71,9 @@ require("header.php");
     <p><a class="button2" href="artistes.php" role="button"> &#10150; Lumiere sur ces femmes incroyables qui ont croisées nos routes au cours de nos évènements</a></p>
   </div>
   <!-- Add More Parallax Sections Here -->
-</div>
-
 
 
 </div>
-
 
 
 <!-- <div class="elfsight-app-64be235b-928e-4da1-8c53-ad8aeb5c55dc"></div>
