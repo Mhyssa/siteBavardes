@@ -63,21 +63,21 @@ require("header.php");
     <h2 class="sur-noir m-5 p-5">LES BAVARDES DANS LA PRESSE</h2>
     <div>
 
-      <p class="sur-noir">Déc   ouvre notre dernier article sur <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
+      <p class="sur-noir">Découvre notre dernier article sur <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
       <p><a class="sur-noir" href="presse.php">&#10150; Consulte les 30 articles parlant de nous au fil de notre histoire !</a></p>
     </div>
   </div>
 
   <!-- Fourth Parallax Section -->
   <div class="jumbotron paral paralsec3">
-    <h2 class="sur-orange m-5 p-5">R   ENCONTRES D'ARTISTES</h2>
+    <h2 class="sur-orange m-5 p-5">RENCONTRES D'ARTISTES</h2>
     <p><a class="button2" href="artistes.php" role="button"> &#10150; Lumiere sur ces femmes incroyables qui ont croisées nos routes au cours de nos évènements</a></p>
   </div>
   <!-- Add More Parallax Sections Here -->
 </div>
 
 
-
+</div>
 </div>
 
 

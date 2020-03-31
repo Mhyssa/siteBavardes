@@ -19,7 +19,7 @@ require("header.php");
         <!-- Section Title -->
         <!-- <h5 class="section-title h1">Le staff</h5> -->
         <div class="row m-0">
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -55,7 +55,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 2 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -81,9 +81,10 @@ require("header.php");
                         avant
                         de s'endormir, sans trop y croire vraiment. Un projet comme celui là, à Amiens, dans notre
                         contexte social, politique et économique, c'était impossible, et c'est pour ça qu'on l'a fait.
-                        Nous étions 5 et nous avons écrit l'histoire des Bavardes, collectif féministe et lesbien à
-                        Amiens. Aujourd'hui nous sommes des dizaines et nous avons réalisé de grandes prouesses. "
+                        
                         "</p>
+                        <!-- Nous étions 5 et nous avons écrit l'histoire des Bavardes, collectif féministe et lesbien à -->
+                        <!-- Amiens. Aujourd'hui nous sommes des dizaines et nous avons réalisé de grandes prouesses. " -->
                     </div>
                   </div>
                 </div>
@@ -91,7 +92,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 3 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -122,7 +123,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 4 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -153,7 +154,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 5 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -187,7 +188,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 6 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -220,7 +221,7 @@ require("header.php");
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -252,7 +253,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 2 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -284,7 +285,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 3 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -319,7 +320,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 4 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -349,7 +350,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 5 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -383,7 +384,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 6 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -419,7 +420,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 1 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -448,7 +449,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 2 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -478,7 +479,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 3 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -511,7 +512,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 4 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -543,7 +544,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 5 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -574,7 +575,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 6 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip">
               <div class="mainflip">
                 <!-- Front side of the card -->
@@ -610,7 +611,7 @@ require("header.php");
             </div>
           </div>
           <!-- Team member 1 -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="col-12 col-xs-12 col-lg-6 col-xl-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
               <div class="mainflip">
                 <!-- Front side of the card -->
