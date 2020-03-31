@@ -49,7 +49,7 @@ require("header.php");
 
   <!-- Second Parallax Section -->
   <div class="jumbotron paral paralsec1">
-    <h2>OVAIRES   BOOKÉES</h2>
+    <h2>OVAIRES BOOKÉES</h2>
     <p class="lead sur-orange">Retrouvez notre émission spéciale 10 ans de Radio Campus Amiens diffusée le 8 mars dernier, <br> à l'occasion de la journée internationale des droits des femmes et dans le cadre du Festival J'en(c)rêve.</p>
     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/774191071&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
