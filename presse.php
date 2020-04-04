@@ -46,8 +46,11 @@ require("header.php");
               href="https://www.jeanne-magazine.com/le-magazine/2019/05/29/sortie-de-jeanne-magazine-n64-mai-2019_16936/">Sortie
               de Jeanne Magazine n°64 – mai 2019</a>
           </li>
+          <li> <a class="nav-link link" target="_blank"
+              href="https://www.jeanne-magazine.com/le-magazine/2020/04/04/les-bavardes-a-la-rencontre-du-collectif-lesbien-les-immedianes_19268/">LES BAVARDES À LA RENCONTRE DU COLLECTIF LESBIEN LES IMMÉDIANES</a>
+          </li>
         </ul>
-
+        
       </div>
 
 
