@@ -9,22 +9,22 @@ require("header.php");
   <div class="col-md-12 p-0">
     <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3 col-sm-12">
       <div class="text-center">
-        <img src="assets/img/navbar/instagram.png" class="imgSocialmedia">
+        <img src="assets/img/navbar/instagram.png" class="imgSocialmedia" alt="logo instagram menant vers notre chaine les bavardes">
       </div>
     </a>
     <a href="https://fr-fr.facebook.com/bavardes/" class="black float-left col-lg-3 col-sm-12">
       <div class="text-center">
-        <img src="assets/img/navbar/facebook.png" class="imgSocialmedia">
+        <img src="assets/img/navbar/facebook.png" class="imgSocialmedia"alt="logo facebook menant vers notre chaine les bavardes">
       </div>
     </a>
     <a href="https://twitter.com/lesbavardes_" class="yellow float-left col-lg-3 col-sm-12">
       <div class="text-center">
-        <img src="assets/img/navbar/twitter.png" class="imgSocialmedia">
+        <img src="assets/img/navbar/twitter.png" class="imgSocialmedia" alt="logo twitter menant vers notre chaine les bavardes">
       </div>
     </a>
     <a href="https://www.youtube.com/channel/UCqYtRC_VtIqcB9snDMf78Dw" class="black float-left col-lg-3 col-sm-12">
       <div class="text-center">
-        <img src="assets/img/navbar/youtube.png" class="imgSocialmedia">
+        <img src="assets/img/navbar/youtube.png" class="imgSocialmedia" alt="logo youtube menant vers notre chaine les bavardes">
       </div>
     </a>
   </div>
