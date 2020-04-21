@@ -121,8 +121,6 @@ function index(){
                 // Form field validation rules 
                 $this->form_validation->set_rules('collab_name','nom','required');              
                 
-                $this->form_validation->set_rules('image','image','');
-                
                 // Prepare gallery data 
                 $formArray = array( 
                     'collab_name' => $this->input->post('collab_name', true),
