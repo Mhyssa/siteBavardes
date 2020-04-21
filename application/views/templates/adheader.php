@@ -79,29 +79,28 @@
     <title>Ajout Presse | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'edit_presse') {    ?>
     <title>Modification Presse | Les Bavardes Amiens</title>
-  
 
 
     <!--PAGES PODCAST-->
-  <?php  }elseif($ma_pages == 'ad_index_podcasts') {    ?>
+  <?php  }elseif($ma_pages == 'ad_index_podcast') {    ?>
     <title>Podcast ADMIN | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'ad_view_podcasts') {    ?>
+  <?php  }elseif($ma_pages == 'ad_view_podcast') {    ?>
     <title>Detail Podcast | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'add_podcasts') {    ?>
+  <?php  }elseif($ma_pages == 'add_podcast') {    ?>
     <title>Ajout Podcast | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'edit_podcasts') {    ?>
+  <?php  }elseif($ma_pages == 'edit_podcast') {    ?>
     <title>Modification Podcast | Les Bavardes Amiens</title>
   
 
 
     <!--PAGES COLLAB-->
-  <?php  }elseif($ma_pages == 'ad_index_collaboration') {    ?>
+  <?php  }elseif($ma_pages == 'ad_index_collab') {    ?>
     <title>Collaborations ADMIN | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'ad_view_collaboration') {    ?>
+  <?php  }elseif($ma_pages == 'ad_view_collab') {    ?>
     <title>Detail Collaboration | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'add_collaboration') {    ?>
+  <?php  }elseif($ma_pages == 'add_collab') {    ?>
     <title>Ajout Collaboration | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'edit_collaboration') {    ?>
+  <?php  }elseif($ma_pages == 'edit_collab') {    ?>
     <title>Modification Collaboration | Les Bavardes Amiens</title>
 
 
@@ -208,20 +207,20 @@
 
                   
                   <!-- Actif collaboration ou non -->
-                  <?php if($ma_pages == 'ad_index_collaboration'){ ?>
+                  <?php if($ma_pages == 'ad_index_collab'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'collaboration/ad_index'?>">Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'collab/ad_index'?>">Collaborations</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'collaboration/ad_index'?>">Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'collab/ad_index'?>">Collaborations</a>
                   </li>
                   <?php  }  ?>
 
 
 
                   <!-- Actif Nos podcasts ou non -->
-                  <?php if($ma_pages == 'ad_index_podcasts'){ ?>
+                  <?php if($ma_pages == 'ad_index_podcast'){ ?>
                   <li class="nav-item active pr-4  pl-4">
                     <a class="nav-link text-center" href="<?php echo base_url().'podcast/ad_index'?>">podcasts</a>
                   </li>

@@ -1,7 +1,7 @@
 
 
 <div class="container">
-    <h1>Ajout d'un.e artiste/intervenant.e</h1>
+    <h1>Ajout d'un.e Artiste/Intervenant.e</h1>
     <hr>
     
     <!-- Display status message -->

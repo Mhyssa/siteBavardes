@@ -1,5 +1,5 @@
 <?php  
- class Event_model extends CI_Model  
+ class Event_Model extends CI_Model  
  {  
 
       
@@ -102,3 +102,4 @@
 
 
  }  //Model ends here
+ ?>

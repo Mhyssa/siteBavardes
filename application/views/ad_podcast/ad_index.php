@@ -37,6 +37,7 @@
        <thead>
        <tr>
            <th>N°</th>
+           <th>Photo</th>
            <th>Nom</th>
            <th>Lien</th>
 
@@ -44,12 +45,15 @@
        </tr>
        </thead>
        <tbody>
-           <?php if(!empty($pod)){ 
+           <?php if(!empty($podcast)){ 
                    
-               foreach($pod as $row){ 
+               foreach($podcast as $row){ 
+                $image = !empty($row['file_name'])?'<img src="'.base_url().'uploads/podcast_img/'.$row['file_name'].'" width="150" class="thumbnail" id="img" />':''; 
+
            ?>
            <tr>
                <td><?php echo $row['podcast_id']; ?></td>
+               <td><?php echo $image; ?></td>
                <td><?php echo ucfirst($row['podcast_name']); ?></td>
                <td><a href="<?php echo $row['podcast_link']; ?>" class="btn btn-sm btn-info">Ici</a></td>             
 
@@ -73,5 +77,3 @@
         </div>  
     </div>
 </div>
-
-

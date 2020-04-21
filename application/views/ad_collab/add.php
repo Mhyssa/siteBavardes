@@ -35,7 +35,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <a href="<?php echo base_url().'collaboration/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                    <a href="<?php echo base_url().'collab/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
                     <input type="submit" name="collab_add" class="btn btn-success btn-sm" value="Ajouter">
                 </div>
 

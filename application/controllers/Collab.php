@@ -3,22 +3,22 @@
 
 <?php  
  defined('BASEPATH') OR exit('No direct script access allowed');  
- class Presse extends CI_Controller {  
+ class Collab extends CI_Controller {  
 
     
       
       function __construct() { 
           parent::__construct(); 
            
-          // Load Presse_Model model 
-          $this->load->model('Presse_Model'); 
+          // Load Collab_Model model 
+          $this->load->model('Collab_Model'); 
            
           $this->load->helper('form'); 
           $this->load->library('form_validation'); 
 
   
                 // File upload path 
-        $this->uploadPath = 'uploads/presse_img/'; 
+        $this->uploadPath = 'uploads/collab_img/'; 
   
         $this->isUserLoggedIn = $this->session->userdata('isUserLoggedIn'); 
       } 
@@ -33,13 +33,13 @@ function index(){
         $data = array(); 
          
 
-             $data['presse'] = $this->Presse_Model->getRowsPresse(); 
-             $data['ma_pages'] = 'index_presse'; 
+             $data['collab'] = $this->Collab_Model->getRowsCollab(); 
+             $data['ma_pages'] = 'index_collab'; 
 
 
               // Load the index page view 
         $this->load->view('templates/header', $data); 
-        $this->load->view('presse/index', $data); 
+        $this->load->view('collab/index', $data); 
         $this->load->view('templates/footer'); 
 
 
@@ -86,13 +86,13 @@ function index(){
           } 
    
 
-               $data['presse'] = $this->Presse_Model->getRowsPresse(); 
-               $data['ma_pages'] = 'ad_index_presse'; 
+               $data['collab'] = $this->Collab_Model->getRowsCollab(); 
+               $data['ma_pages'] = 'ad_index_collab'; 
 
 
                 // Load the list page view 
           $this->load->view('templates/adheader', $data); 
-          $this->load->view('ad_presse/ad_index', $data); 
+          $this->load->view('ad_collab/ad_index', $data); 
           $this->load->view('templates/adfooter'); 
 
         } else {
@@ -106,7 +106,7 @@ function index(){
 
 
       
-    public function add_presse(){ 
+    public function add_collab(){ 
 
 
 
@@ -117,20 +117,16 @@ function index(){
       
 
                 // If create request is submitted 
-                if($this->input->post('presse_add')){ 
+                if($this->input->post('collab_add')){ 
                 // Form field validation rules 
-                $this->form_validation->set_rules('presse_name', 'nom', 'required');
-                $this->form_validation->set_rules('presse_cat', 'catégorie', 'required');
-                $this->form_validation->set_rules('presse_link', 'lien', 'required'); 
-
-                $this->form_validation->set_rules('image', 'image file', ''); 
+                $this->form_validation->set_rules('collab_name','nom','required');              
+                
+                $this->form_validation->set_rules('image','image','');
                 
                 // Prepare gallery data 
                 $formArray = array( 
-                    'presse_name' => $this->input->post('presse_name',TRUE),
-                    'presse_cat' => $this->input->post('presse_cat',TRUE),
-                    'presse_description' => $this->input->post('presse_description',TRUE),
-                    'presse_link' => $this->input->post('presse_link',TRUE)
+                    'collab_name' => $this->input->post('collab_name', true),
+                    'collab_link' => $this->input->post('collab_link', true)
                 ); 
                 
                 // Validate submitted form data 
@@ -159,11 +155,11 @@ function index(){
                     
                     if(empty($error)){ 
                         // Insert data 
-                        $insert = $this->Presse_Model->insert($formArray); 
+                        $insert = $this->Collab_Model->insert($formArray); 
                         
                         if($insert){ 
                             $this->session->set_userdata('success_msg', 'Ajout - Réussie.'); 
-                            redirect('presse/ad_index'); 
+                            redirect('collab/ad_index'); 
                         }else{ 
                             $error = 'Quelques problèmes sont survenus, veuillez réessayer.'; 
                         } 
@@ -175,13 +171,13 @@ function index(){
                 }
         
         
-        $data['ma_pages'] = 'add_presse'; 
-        $data['presse'] = $formArray; 
+        $data['ma_pages'] = 'add_collab'; 
+        $data['collab'] = $formArray; 
 
         
         // Load the add page view 
         $this->load->view('templates/adheader', $data); 
-        $this->load->view('ad_presse/add', $data); 
+        $this->load->view('ad_collab/add', $data); 
         $this->load->view('templates/adfooter'); 
 
             } else {
@@ -210,32 +206,28 @@ function index(){
 
 
   
- public function edit_presse($id){ 
+ public function edit_collab($id){ 
 
     if($this->isUserLoggedIn){ 
 
      $data = $formArray = array(); 
       
      // Get image data 
-     $con = array('presse_id' => $id); 
-     $formArray = $this->Presse_Model->getRowsPresse($con); 
+     $con = array('collab_id' => $id); 
+     $formArray = $this->Collab_Model->getRowsCollab($con); 
      $prevFArray = $formArray['file_name']; 
       
 
      // If update request is submitted 
-     if($this->input->post('presse_edit')){ 
+     if($this->input->post('collab_edit')){ 
          // Form field validation rules 
-         $this->form_validation->set_rules('presse_name', 'nom', 'required');
-         $this->form_validation->set_rules('presse_cat', 'catégorie', 'required');
-         $this->form_validation->set_rules('presse_link', 'lien', 'required'); 
-
+         $this->form_validation->set_rules('collab_name','nom','required');
           
          // Prepare gallery data 
          $formArray = array( 
-            'presse_name' => $this->input->post('presse_name',TRUE),
-            'presse_cat' => $this->input->post('presse_cat',TRUE),
-            'presse_description' => $this->input->post('presse_description',TRUE),
-            'presse_link' => $this->input->post('presse_link',TRUE)
+            'collab_name' => $this->input->post('collab_name', true),
+            'collab_link' => $this->input->post('collab_link', true)
+
          ); 
           
          // Validate submitted form data 
@@ -269,11 +261,11 @@ function index(){
               
              if(empty($error)){ 
                  // Update image data 
-                 $update = $this->Presse_Model->update($formArray, $id); 
+                 $update = $this->Collab_Model->update($formArray, $id); 
                   
                  if($update){ 
                      $this->session->set_userdata('success_msg', 'Mise à jour - Réussie.'); 
-                     redirect('presse/ad_index'); 
+                     redirect('collab/ad_index'); 
                  }else{ 
                      $error = 'Quelques problèmes sont survenus, veuillez réessayer.'; 
                  } 
@@ -286,13 +278,13 @@ function index(){
 
 
        
-           $data['ma_pages'] = 'edit_presse'; 
-           $data['presse'] = $formArray; 
+           $data['ma_pages'] = 'edit_collab'; 
+           $data['collab'] = $formArray; 
 
             
            // Load the edit page view 
            $this->load->view('templates/adheader', $data); 
-           $this->load->view('ad_presse/edit', $data); 
+           $this->load->view('ad_collab/edit', $data); 
            $this->load->view('templates/adfooter');  
 
     } else {
@@ -313,7 +305,7 @@ function index(){
 
 
 
- public function ad_view_presse($id){ 
+ public function ad_view_collab($id){ 
 
     if($this->isUserLoggedIn){ 
 
@@ -321,20 +313,20 @@ function index(){
      
     // Check whether id is not empty 
     if(!empty($id)){ 
-        $con = array('presse_id' => $id); 
-        $data['presse'] = $this->Presse_Model->getRowsPresse($con); 
-        $data['ma_pages'] = 'ad_view_presse'; 
+        $con = array('collab_id' => $id); 
+        $data['collab'] = $this->Collab_Model->getRowsCollab($con); 
+        $data['ma_pages'] = 'ad_view_collab'; 
 
         
          
 
     }else{ 
-        redirect('presse/ad_index'); 
+        redirect('collab/ad_index'); 
     } 
 
        // Load the add page view 
               $this->load->view('templates/adheader', $data); 
-              $this->load->view('ad_presse/ad_view', $data); 
+              $this->load->view('ad_collab/ad_view', $data); 
               $this->load->view('templates/adfooter'); 
 
 
@@ -357,16 +349,16 @@ function index(){
 
 
 
- public function delete_presse($id){ 
+ public function delete_collab($id){ 
 
     if($this->isUserLoggedIn){ 
      // Check whether id is not empty 
      if($id){ 
-         $con = array('presse_id' => $id); 
-         $formArray = $this->Presse_Model->getRowsPresse($con); 
+         $con = array('collab_id' => $id); 
+         $formArray = $this->Collab_Model->getRowsCollab($con); 
           
-         // Delete presse data 
-         $delete = $this->Presse_Model->delete($id); 
+         // Delete collab data 
+         $delete = $this->Collab_Model->delete($id); 
           
          if($delete){ 
              // Remove file from the server  
@@ -375,7 +367,7 @@ function index(){
              }  
               
              $this->session->set_userdata('success_msg', 'Suppression - Réussie.');
-             redirect('presse/ad_index'); 
+             redirect('collab/ad_index'); 
          }else{ 
              $this->session->set_userdata('error_msg', 'Veuillez rééssayer'); 
          } 

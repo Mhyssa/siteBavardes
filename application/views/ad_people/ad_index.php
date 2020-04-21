@@ -1,6 +1,5 @@
 
 
-
 <div class="container">
        <!-- Display status message -->
        <?php if(!empty($success_msg)){ ?>

@@ -15,7 +15,7 @@
         
         
         </div>
-        <a href="<?php echo base_url().'collaboration/ad_index'; ?>" >Retour</a>
+        <a href="<?php echo base_url().'collab/ad_index'; ?>" >Retour</a>
     </div>
 </div>
 

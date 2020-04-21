@@ -24,7 +24,7 @@
 <h3>Liste des Collaborations</h3>
             <!-- Add link -->
             <div class="float-right">
-                <a href="<?php echo base_url(); ?>collaboration/add_collab" class="btn btn-sm btn-success">Ajouter</a>
+                <a href="<?php echo base_url(); ?>collab/add_collab" class="btn btn-sm btn-success">Ajouter</a>
             </div>
         </div>
 
@@ -57,9 +57,9 @@
                <td><a href="<?php echo $row['collab_link']; ?>" class="btn btn-sm btn-info">Ici</a></td>             
 
                <td>
-                   <a href="<?php echo base_url().'collaboration/ad_view_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
-                   <a href="<?php echo base_url().'collaboration/edit_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
-                   <a href="<?php echo base_url().'collaboration/delete_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                   <a href="<?php echo base_url().'collab/ad_view_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
+                   <a href="<?php echo base_url().'collab/edit_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
+                   <a href="<?php echo base_url().'collab/delete_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
                </td>
            </tr>
            <?php }}else{ ?>

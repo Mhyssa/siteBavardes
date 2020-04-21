@@ -11,11 +11,12 @@
 <div class="col-sm-12">
 
 
-            <?php if(!empty($pod)){ 
+            <?php if(!empty($podcast)){ 
                    
-                   foreach($pod as $row){ ?>
+                   foreach($podcast as $row){ ?>
                        
                 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="<?php echo $row['podcast_link'] ?>"></iframe>
+                <?php //!empty($row['file_name'])?'<img src="'.base_url().'uploads/podcast_img/'.$row['file_name'].'" width="150" class="thumbnail" id="img" />':'';?> 
 
             <?php }}else{ ?>
                 Aucune(s) donnée(s) trouvée(s)...

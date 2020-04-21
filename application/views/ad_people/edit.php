@@ -3,7 +3,7 @@
 
 
 <div class="container">
-    <h1>Modification d'une Artiste/Intervenant.e</h1>
+    <h1>Modification d'un.e Artiste/Intervenant.e</h1>
     <hr>
     
     <!-- Display status message -->
@@ -75,4 +75,11 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
 

@@ -10,8 +10,8 @@
       function __construct() { 
           parent::__construct(); 
            
-          // Load Event_model model 
-          $this->load->model('Event_model'); 
+          // Load Event_Model model 
+          $this->load->model('Event_Model'); 
            
           $this->load->helper('form'); 
           $this->load->library('form_validation'); 
@@ -33,7 +33,7 @@ function index(){
         $data = array(); 
          
 
-             $data['event'] = $this->Event_model->getRowsEvent(); 
+             $data['event'] = $this->Event_Model->getRowsEvent(); 
              $data['ma_pages'] = 'index_event'; 
 
 
@@ -86,7 +86,7 @@ function index(){
           } 
    
 
-               $data['event'] = $this->Event_model->getRowsEvent(); 
+               $data['event'] = $this->Event_Model->getRowsEvent(); 
                $data['ma_pages'] = 'ad_index_event'; 
 
 
@@ -120,15 +120,8 @@ function index(){
                 if($this->input->post('event_add')){ 
                 // Form field validation rules 
                 $this->form_validation->set_rules('event_name', 'nom', 'required');
-                $this->form_validation->set_rules('event_date', 'date', '');  
-                $this->form_validation->set_rules('event_heure', 'heure', ''); 
-                $this->form_validation->set_rules('event_lieu', 'couleur', '');  
-                $this->form_validation->set_rules('event_adresse', 'stock', ''); 
-                $this->form_validation->set_rules('event_link', 'prix', '');  
-                $this->form_validation->set_rules('event_inscription', 'inscription', ''); 
-                $this->form_validation->set_rules('event_non_mix', 'non_mix', ''); 
+                $this->form_validation->set_rules('event_date', 'date', 'required');  
                 $this->form_validation->set_rules('event_nombre_pers', 'nombre personne', 'integer');
-                $this->form_validation->set_rules('event_description', 'description', '');    
 
                 $this->form_validation->set_rules('image', 'image file', ''); 
                 
@@ -172,7 +165,7 @@ function index(){
                     
                     if(empty($error)){ 
                         // Insert data 
-                        $insert = $this->Event_model->insert($formArray); 
+                        $insert = $this->Event_Model->insert($formArray); 
                         
                         if($insert){ 
                             $this->session->set_userdata('success_msg', 'Ajout - Réussie.'); 
@@ -231,7 +224,7 @@ function index(){
       
      // Get image data 
      $con = array('event_id' => $id); 
-     $formArray = $this->Event_model->getRowsEvent($con); 
+     $formArray = $this->Event_Model->getRowsEvent($con); 
      $prevFArray = $formArray['file_name']; 
       
 
@@ -239,15 +232,8 @@ function index(){
      if($this->input->post('event_edit')){ 
          // Form field validation rules 
          $this->form_validation->set_rules('event_name', 'nom', 'required');
-         $this->form_validation->set_rules('event_date', 'date', '');  
-         $this->form_validation->set_rules('event_heure', 'heure', ''); 
-         $this->form_validation->set_rules('event_lieu', 'couleur', '');  
-         $this->form_validation->set_rules('event_adresse', 'stock', ''); 
-         $this->form_validation->set_rules('event_link', 'prix', '');  
-         $this->form_validation->set_rules('event_inscription', 'inscription', ''); 
-         $this->form_validation->set_rules('event_non_mix', 'non_mix', ''); 
+         $this->form_validation->set_rules('event_date', 'date', 'required');  
          $this->form_validation->set_rules('event_nombre_pers', 'nombre personne', 'integer');
-         $this->form_validation->set_rules('event_description', 'description', '');    
 
           
          // Prepare gallery data 
@@ -296,7 +282,7 @@ function index(){
               
              if(empty($error)){ 
                  // Update image data 
-                 $update = $this->Event_model->update($formArray, $id); 
+                 $update = $this->Event_Model->update($formArray, $id); 
                   
                  if($update){ 
                      $this->session->set_userdata('success_msg', 'Mise à jour - Réussie.'); 
@@ -349,7 +335,7 @@ function index(){
     // Check whether id is not empty 
     if(!empty($id)){ 
         $con = array('event_id' => $id); 
-        $data['events'] = $this->Event_model->getRowsEvent($con); 
+        $data['events'] = $this->Event_Model->getRowsEvent($con); 
         $data['ma_pages'] = 'ad_view_event'; 
 
         
@@ -390,10 +376,10 @@ function index(){
      // Check whether id is not empty 
      if($id){ 
          $con = array('event_id' => $id); 
-         $formArray = $this->Event_model->getRowsEvent($con); 
+         $formArray = $this->Event_Model->getRowsEvent($con); 
           
          // Delete event data 
-         $delete = $this->Event_model->delete($id); 
+         $delete = $this->Event_Model->delete($id); 
           
          if($delete){ 
              // Remove file from the server  

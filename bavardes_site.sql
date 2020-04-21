@@ -298,44 +298,46 @@ CREATE TABLE IF NOT EXISTS `presse` (
   `presse_name` varchar(500) NOT NULL,
   `presse_link` varchar(200) NOT NULL,
   `presse_cat` varchar(100) NOT NULL,
+  `presse_description` varchar(500) DEFAULT NULL,
+  `file_name` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`presse_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `presse`
 --
 
-INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`) VALUES
-(1, 'Résultats de recherche pour : les bavardes', 'https://www.jeanne-magazine.com/?s=les+bavardes', 'Jeanne Magazine'),
-(2, 'à la rencontre des militantes Béninoises', 'https://www.jeanne-magazine.com/le-magazine/2019/10/02/les-bavardes-a-la-rencontre-des-militantes-beninoises_18029/', 'Jeanne Magazine'),
-(3, 'Les Bavardes qui débarquent à Amiens', 'https://www.jeanne-magazine.com/le-magazine/2017/11/28/rencontre-bavardes-debarquent-a-amiens_13003/', 'Jeanne Magazine'),
-(4, 'Rencontre avec les Bavardes', 'https://www.jeanne-magazine.com/le-magazine/2019/06/21/rencontre-avec-les-bavardes-coorganisatrices-de-la-premiere-marche-des-fiertes-a-amiens_17073/', 'Jeanne Magazine'),
-(5, 'Les Bavardes à la rencontre d’Esdra Yaveth Sosa Sierra, militante hondurienne', 'https://www.jeanne-magazine.com/le-magazine/2020/01/06/les-bavardes-a-la-rencontre-desdra-yaveth-sosa-sierra-militante-hondurienne_18885/', 'Jeanne Magazine'),
-(6, 'Municipales Amiens 2020 : une fausse campagne avec de vraies revendications !', 'https://www.jeanne-magazine.com/actualites/2020/03/11/municipales-amiens-2020-une-fausse-campagne-avec-de-vraies-revendications_19163/', 'Jeanne Magazine'),
-(7, 'Militantisme – Les Bavardes à la rencontre du collectif lesbien les Immédianes', 'https://www.jeanne-magazine.com/le-magazine/2020/03/21/sortie-de-jeanne-magazine-n73-mars-2020_19207/', 'Jeanne Magazine'),
-(8, 'Sortie de Jeanne Magazine n°64 – mai 2019', 'https://www.jeanne-magazine.com/le-magazine/2019/05/29/sortie-de-jeanne-magazine-n64-mai-2019_16936/', 'Jeanne Magazine'),
-(9, 'Violences envers les femmes: la lutte prend de l’ampleur à Amiens', 'https://www.courrier-picard.fr/art/69282/article/2017-11-07/violences-envers-les-femmes-la-lutte-prend-de-lampleur-amiens', 'Courrier Picard'),
-(10, '« Les Bavardes » leur ont donné la parole', 'https://www.courrier-picard.fr/art/98873/article/2018-03-23/les-bavardes-leur-ont-donne-la-parole', 'Courrier Picard'),
-(11, 'Soirées cabaret sur la péniche du Lapin Vert', 'https://www.courrier-picard.fr/art/124752/article/2018-07-19/soirees-cabaret-sur-la-peniche-du-lapin-vert-ce-week-end-amiens', 'Courrier Picard'),
-(12, 'Une Journée de la femme très active à Amiens', 'https://www.courrier-picard.fr/art/95333/article/2018-03-07/une-journee-de-la-femme-tres-active-amiens', 'Courrier Picard'),
-(13, 'le festival IDAHOT lutte contre les discriminations', 'https://www.courrier-picard.fr/art/183348/article/2019-05-14/amiens-le-festival-idahot-lutte-contre-les-discriminations', 'Courrier Picard'),
-(14, 'La Marche des fiertés dans les starting-blocks à Amiens', 'https://premium.courrier-picard.fr/id12663/article/2019-05-24/la-marche-des-fiertes-dans-les-starting-blocks-amiens?bot=1', 'Courrier Picard'),
-(15, 'Amiens accueille les premiers pas de la Marche des fiertés', 'https://premium.courrier-picard.fr/id20127/article/2019-06-21/amiens-accueille-les-premiers-pas-de-la-marche-des-fiertes?bot=1', 'Courrier Picard'),
-(16, 'KOMITID', 'https://www.komitid.fr/2019/06/21/nous-vivons-un-moment-historique-on-a-assiste-a-la-preparation-de-la-toute-premiere-marche-des-fiertes-a-amiens/', 'Luttes LGBTQI+'),
-(17, 'france bleu', 'https://www.francebleu.fr/infos/societe/premiere-marche-des-fiertes-a-amiens-une-sensibilisation-necessaire-1557077042', 'Luttes LGBTQI+'),
-(18, 'france 3 hdf', 'https://france3-regions.francetvinfo.fr/hauts-de-france/somme/embargo-au-14-mai-7h-picardie-lutte-contre-homophobie-avance-1668769.html', 'Luttes LGBTQI+'),
-(19, 'Gaypers', 'https://gaypers.com/fr/sortie/Mobilisation-contre-les-LGBTPhobies-a-Amiens-371151', 'Luttes LGBTQI+'),
-(20, 'Orange weo', 'https://actu.orange.fr/societe/videos/amiens-80-premiere-marche-des-fiertes-le-22-juin-CNT000001fzkM0.html', 'Luttes LGBTQI+'),
-(21, 'Courrier Picard', 'https://premium.courrier-picard.fr/id20379/article/2019-06-22/amiens-ils-se-donnent-la-main-sans-craindre-les-quolibets?bot=1', 'Luttes LGBTQI+'),
-(22, 'Belle affluence pour la première marche des fiertés d\'Amiens', 'https://www.francebleu.fr/infos/societe/en-images-belle-affluence-pour-la-premiere-marche-des-fiertes-d-amiens-1561218833', 'Luttes LGBTQI+'),
-(23, 'Franc succès pour la marche des fiertés d’Amiens', 'https://www.courrier-picard.fr/id20345/article/2019-06-22/franc-succes-pour-la-marche-des-fiertes-damiens', 'Luttes LGBTQI+'),
-(24, 'Près de 2000 personnes rassemblées pour la 1e marche des fiertés d\'Amiens', 'https://france3-regions.francetvinfo.fr/hauts-de-france/somme/amiens/pres-2000-personnes-rassemblees-1e-marche-fiertes-amiens-1689316.html', 'Luttes LGBTQI+'),
-(25, 'Grenelle des violences conjugales : \"On attend des mesures concrètes, durables et efficaces', 'https://www.francebleu.fr/infos/societe/grenelle-des-violences-conjugales-attend-des-mesures-concretes-durables-et-efficaces-1574667622?fbclid=IwAR28AUEdiI-PZfDN_I4SUqK1vXZgCEETJH_RRWJfzex_HYuedDVtjGZ', 'Divers'),
-(26, 'Stop féminicides !\" : une centaine de manifestantes contre les violences faites aux femmes à Amiens', 'https://www.francebleu.fr/infos/societe/pas-une-de-plus-une-centaine-de-manifestantes-contre-les-violences-faites-aux-femmes-a-amiens-1574541556?fbclid=IwAR0-ACD5MNdYqAH9oWJpPih5u69apnBH1dYQ_kdprTVotj', 'Divers'),
-(27, 'Manifestation à #Amiens, place Gambetta', 'https://twitter.com/fbleupicardie/status/1198270977383247874?ref_src=twsrc^tfw|twcamp^tweetembed|twterm^1198270977383247874&ref_url=https://www.francebleu.fr/infos/societe/pas-une-de-plus-une-centaine', 'Divers'),
-(28, '«J’en (c)rêve!», un festival pour les droits des femmes à Amiens', 'https://premium.courrier-picard.fr/id73569/article/2020-03-06/jen-creve-un-festival-pour-les-droits-des-femmes-amiens', 'Divers'),
-(29, 'Une fausse campagne avec de vraies revendications féministes à Amiens', 'https://premium.courrier-picard.fr/id74372/article/2020-03-10/une-fausse-campagne-avec-de-vraies-revendications-feministes-amiens', 'Divers'),
-(30, 'Dans les Hauts-de-France, les femmes gagnent toujours 25? moins que les hommes', 'https://france3-regions.francetvinfo.fr/hauts-de-france/hauts-france-femmes-gagnent-toujours-25-moins-que-hommes-1795893.html?fbclid=IwAR1-3wXiN9B9J3qrERoU8knglo7FWXpwK8GxqRD9LbkXHsfExuPu8Ehf7Es', 'Divers');
+INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`, `presse_description`, `file_name`) VALUES
+(1, 'Résultats de recherche pour : les bavardes', 'https://www.jeanne-magazine.com/?s=les+bavardes', 'Jeanne Magazine', '', ''),
+(2, 'à la rencontre des militantes Béninoises', 'https://www.jeanne-magazine.com/le-magazine/2019/10/02/les-bavardes-a-la-rencontre-des-militantes-beninoises_18029/', 'Jeanne Magazine', '', ''),
+(3, 'Les Bavardes qui débarquent à Amiens', 'https://www.jeanne-magazine.com/le-magazine/2017/11/28/rencontre-bavardes-debarquent-a-amiens_13003/', 'Jeanne Magazine', '', ''),
+(4, 'Rencontre avec les Bavardes', 'https://www.jeanne-magazine.com/le-magazine/2019/06/21/rencontre-avec-les-bavardes-coorganisatrices-de-la-premiere-marche-des-fiertes-a-amiens_17073/', 'Jeanne Magazine', '', ''),
+(5, 'Les Bavardes à la rencontre d’Esdra Yaveth Sosa Sierra, militante hondurienne', 'https://www.jeanne-magazine.com/le-magazine/2020/01/06/les-bavardes-a-la-rencontre-desdra-yaveth-sosa-sierra-militante-hondurienne_18885/', 'Jeanne Magazine', '', ''),
+(6, 'Municipales Amiens 2020 : une fausse campagne avec de vraies revendications !', 'https://www.jeanne-magazine.com/actualites/2020/03/11/municipales-amiens-2020-une-fausse-campagne-avec-de-vraies-revendications_19163/', 'Jeanne Magazine', '', ''),
+(7, 'Militantisme – Les Bavardes à la rencontre du collectif lesbien les Immédianes', 'https://www.jeanne-magazine.com/le-magazine/2020/03/21/sortie-de-jeanne-magazine-n73-mars-2020_19207/', 'Jeanne Magazine', '', ''),
+(8, 'Sortie de Jeanne Magazine n°64 – mai 2019', 'https://www.jeanne-magazine.com/le-magazine/2019/05/29/sortie-de-jeanne-magazine-n64-mai-2019_16936/', 'Jeanne Magazine', '', ''),
+(9, 'Violences envers les femmes: la lutte prend de l’ampleur à Amiens', 'https://www.courrier-picard.fr/art/69282/article/2017-11-07/violences-envers-les-femmes-la-lutte-prend-de-lampleur-amiens', 'Courrier Picard', '', ''),
+(10, '« Les Bavardes » leur ont donné la parole', 'https://www.courrier-picard.fr/art/98873/article/2018-03-23/les-bavardes-leur-ont-donne-la-parole', 'Courrier Picard', '', ''),
+(11, 'Soirées cabaret sur la péniche du Lapin Vert', 'https://www.courrier-picard.fr/art/124752/article/2018-07-19/soirees-cabaret-sur-la-peniche-du-lapin-vert-ce-week-end-amiens', 'Courrier Picard', '', ''),
+(12, 'Une Journée de la femme très active à Amiens', 'https://www.courrier-picard.fr/art/95333/article/2018-03-07/une-journee-de-la-femme-tres-active-amiens', 'Courrier Picard', '', ''),
+(13, 'le festival IDAHOT lutte contre les discriminations', 'https://www.courrier-picard.fr/art/183348/article/2019-05-14/amiens-le-festival-idahot-lutte-contre-les-discriminations', 'Courrier Picard', '', ''),
+(14, 'La Marche des fiertés dans les starting-blocks à Amiens', 'https://premium.courrier-picard.fr/id12663/article/2019-05-24/la-marche-des-fiertes-dans-les-starting-blocks-amiens?bot=1', 'Courrier Picard', '', ''),
+(15, 'Amiens accueille les premiers pas de la Marche des fiertés', 'https://premium.courrier-picard.fr/id20127/article/2019-06-21/amiens-accueille-les-premiers-pas-de-la-marche-des-fiertes?bot=1', 'Courrier Picard', '', ''),
+(16, 'KOMITID', 'https://www.komitid.fr/2019/06/21/nous-vivons-un-moment-historique-on-a-assiste-a-la-preparation-de-la-toute-premiere-marche-des-fiertes-a-amiens/', 'Luttes LGBTQI+', '', ''),
+(17, 'france bleu', 'https://www.francebleu.fr/infos/societe/premiere-marche-des-fiertes-a-amiens-une-sensibilisation-necessaire-1557077042', 'Luttes LGBTQI+', '', ''),
+(18, 'france 3 hdf', 'https://france3-regions.francetvinfo.fr/hauts-de-france/somme/embargo-au-14-mai-7h-picardie-lutte-contre-homophobie-avance-1668769.html', 'Luttes LGBTQI+', '', ''),
+(19, 'Gaypers', 'https://gaypers.com/fr/sortie/Mobilisation-contre-les-LGBTPhobies-a-Amiens-371151', 'Luttes LGBTQI+', '', ''),
+(20, 'Orange weo', 'https://actu.orange.fr/societe/videos/amiens-80-premiere-marche-des-fiertes-le-22-juin-CNT000001fzkM0.html', 'Luttes LGBTQI+', '', ''),
+(21, 'Courrier Picard', 'https://premium.courrier-picard.fr/id20379/article/2019-06-22/amiens-ils-se-donnent-la-main-sans-craindre-les-quolibets?bot=1', 'Luttes LGBTQI+', '', ''),
+(22, 'Belle affluence pour la première marche des fiertés d\'Amiens', 'https://www.francebleu.fr/infos/societe/en-images-belle-affluence-pour-la-premiere-marche-des-fiertes-d-amiens-1561218833', 'Luttes LGBTQI+', '', ''),
+(23, 'Franc succès pour la marche des fiertés d’Amiens', 'https://www.courrier-picard.fr/id20345/article/2019-06-22/franc-succes-pour-la-marche-des-fiertes-damiens', 'Luttes LGBTQI+', '', ''),
+(24, 'Près de 2000 personnes rassemblées pour la 1e marche des fiertés d\'Amiens', 'https://france3-regions.francetvinfo.fr/hauts-de-france/somme/amiens/pres-2000-personnes-rassemblees-1e-marche-fiertes-amiens-1689316.html', 'Luttes LGBTQI+', '', ''),
+(25, 'Grenelle des violences conjugales : \"On attend des mesures concrètes, durables et efficaces', 'https://www.francebleu.fr/infos/societe/grenelle-des-violences-conjugales-attend-des-mesures-concretes-durables-et-efficaces-1574667622?fbclid=IwAR28AUEdiI-PZfDN_I4SUqK1vXZgCEETJH_RRWJfzex_HYuedDVtjGZ', 'Divers', '', ''),
+(26, 'Stop féminicides !\" : une centaine de manifestantes contre les violences faites aux femmes à Amiens', 'https://www.francebleu.fr/infos/societe/pas-une-de-plus-une-centaine-de-manifestantes-contre-les-violences-faites-aux-femmes-a-amiens-1574541556?fbclid=IwAR0-ACD5MNdYqAH9oWJpPih5u69apnBH1dYQ_kdprTVotj', 'Divers', '', ''),
+(27, 'Manifestation à #Amiens, place Gambetta', 'https://twitter.com/fbleupicardie/status/1198270977383247874?ref_src=twsrc^tfw|twcamp^tweetembed|twterm^1198270977383247874&ref_url=https://www.francebleu.fr/infos/societe/pas-une-de-plus-une-centaine', 'Divers', '', ''),
+(28, '«J’en (c)rêve!», un festival pour les droits des femmes à Amiens', 'https://premium.courrier-picard.fr/id73569/article/2020-03-06/jen-creve-un-festival-pour-les-droits-des-femmes-amiens', 'Divers', '', ''),
+(29, 'Une fausse campagne avec de vraies revendications féministes à Amiens', 'https://premium.courrier-picard.fr/id74372/article/2020-03-10/une-fausse-campagne-avec-de-vraies-revendications-feministes-amiens', 'Divers', '', ''),
+(30, 'Dans les Hauts-de-France, les femmes gagnent toujours 25? moins que les hommes', 'https://france3-regions.francetvinfo.fr/hauts-de-france/hauts-france-femmes-gagnent-toujours-25-moins-que-hommes-1795893.html?fbclid=IwAR1-3wXiN9B9J3qrERoU8knglo7FWXpwK8GxqRD9LbkXHsfExuPu8Ehf7Es', 'Divers', '', '');
 
 -- --------------------------------------------------------
 
@@ -403,7 +405,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`us_id`, `us_fname`, `us_lname`, `us_email`, `us_password`, `us_gender`, `us_phone`, `us_status`) VALUES
 (1, 'Jade', 'Guehoun', 'wwejgulip@gmail.com', 'db496a2e9e18cb15227ac7abb08c9ba38f339821', 'Femme', '0698129757', 1),
-(2, 'Orlia', 'Bemba', 'orlia.bemba@yahoo.fr', 'd17a9c9781e19690f0b7e6d24ea9735378f86f9a', 'Femme', '', 0);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

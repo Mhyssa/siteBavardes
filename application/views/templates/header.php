@@ -42,13 +42,13 @@
       <title>Nos Actions | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_event') {    ?>
       <title>Nos Évènements | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_collaboration') {    ?>
+  <?php  }elseif($ma_pages == 'index_collab') {    ?>
       <title>Nos Collaborations | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_people') {    ?>
       <title>Artistes et Intervenantes | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_presse') {    ?>
       <title>La Presse | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_podcasts') {    ?>
+  <?php  }elseif($ma_pages == 'index_podcast') {    ?>
       <title>Nos Podcasts | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_mentions') {    ?>
       <title>Mentions Légales | Les Bavardes Amiens</title>
@@ -60,6 +60,7 @@
       <title>Se Connecter | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'registration') {    ?>
       <title>S'Inscrire | Les Bavardes Amiens</title>
+
   <?php  } else {?>
       <title>Les Bavardes Amiens</title>
   <?php  } ?>
@@ -160,13 +161,13 @@
 
 
                   <!-- Actif collaboration ou non -->
-                  <?php if($ma_pages == 'index_collaboration'){ ?>
+                  <?php if($ma_pages == 'index_collab'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Collaboration'?>">Nos Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Collab'?>">Nos Collaborations</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Collaboration'?>">Nos Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Collab'?>">Nos Collaborations</a>
                   </li>
                   <?php  }  ?>
 
@@ -194,7 +195,7 @@
                   <?php  }  ?>
 
                   <!-- Actif Nos podcasts ou non -->
-                  <?php if($ma_pages == 'index_podcasts'){ ?>
+                  <?php if($ma_pages == 'index_podcast'){ ?>
                   <li class="nav-item active pr-4  pl-4">
                     <a class="nav-link text-center" href="<?php echo base_url().'Podcast'?>">Nos podcasts</a>
                   </li>
