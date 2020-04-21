@@ -123,7 +123,6 @@ function index(){
                 $this->form_validation->set_rules('presse_cat', 'catégorie', 'required');
                 $this->form_validation->set_rules('presse_link', 'lien', 'required'); 
 
-                $this->form_validation->set_rules('image', 'image file', ''); 
                 
                 // Prepare gallery data 
                 $formArray = array( 
