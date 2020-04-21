@@ -122,8 +122,6 @@ function index(){
                 $this->form_validation->set_rules('event_name', 'nom', 'required');
                 $this->form_validation->set_rules('event_date', 'date', 'required');  
                 $this->form_validation->set_rules('event_nombre_pers', 'nombre personne', 'integer');
-
-                $this->form_validation->set_rules('image', 'image file', ''); 
                 
                 // Prepare gallery data 
                 $formArray = array( 
