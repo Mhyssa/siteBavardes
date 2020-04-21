@@ -112,7 +112,7 @@
                                 $this->form_validation->set_rules('people_status', 'status', 'required');
                                 $this->form_validation->set_rules('people_link', 'lien', 'required'); 
 
-                                $this->form_validation->set_rules('image', 'image file', 'callback_file_check'); 
+                                $this->form_validation->set_rules('image', 'image', 'callback_file_check'); 
                                 
                                 // Prepare gallery data 
                                 $formArray = array( 
