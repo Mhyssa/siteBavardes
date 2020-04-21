@@ -267,6 +267,7 @@ CREATE TABLE IF NOT EXISTS `podcast` (
   `podcast_id` int(11) NOT NULL AUTO_INCREMENT,
   `podcast_link` varchar(200) NOT NULL,
   `podcast_name` varchar(100) NOT NULL,
+  `file_name` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`podcast_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
