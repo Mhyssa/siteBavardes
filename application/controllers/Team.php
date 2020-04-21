@@ -123,7 +123,7 @@ function index(){
                     $this->form_validation->set_rules('team_title', 'titre', 'required');  
                     $this->form_validation->set_rules('team_description', 'description', 'required'); 
 
-                    $this->form_validation->set_rules('image', 'image file', 'callback_file_check'); 
+                    $this->form_validation->set_rules('image', 'image', 'callback_file_check'); 
                 
                 // Prepare gallery data 
                 $formArray = array( 
