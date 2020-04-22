@@ -405,7 +405,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`us_id`, `us_fname`, `us_lname`, `us_email`, `us_password`, `us_gender`, `us_phone`, `us_status`) VALUES
-(1, 'Jade', 'Guehoun', 'wwejgulip@gmail.com', 'db496a2e9e18cb15227ac7abb08c9ba38f339821', 'Femme', '0698129757', 1),
+(1, 'Jade', 'Guehoun', 'wwejgulip@gmail.com', 'db496a2e9e18cb15227ac7abb08c9ba38f339821', 'Femme', '0698129757', 1)
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
