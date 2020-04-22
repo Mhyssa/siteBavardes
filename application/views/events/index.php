@@ -50,6 +50,11 @@
 
                 </p>
                 <a href="<?php echo $row['event_link']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
+                <td>
+                        <?php if($row['event_inscription']  == 'Sur Inscription'){
+                         echo '<a href="mailto:contact@lesbavardes.org" class="btn btn-sm btn-secondary float-right">Viens t\'inscrire</a>';
+                        }?>
+                    </td>
                 </div>
 
             </div>
