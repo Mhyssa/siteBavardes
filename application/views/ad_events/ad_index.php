@@ -85,7 +85,12 @@
                         <?php } ?>
                     </td>
                     
-                    <td><?php echo ucfirst($row['event_inscription']); ?></td>
+                    <td>
+                        <?php if($row['event_inscription']  == 'Sur Inscription'){
+                         echo '<a href="mailto:contact@lesbavardes.org" class="btn btn-dark">Viens t\'inscrire</a>';
+                        }?>
+                    </td>
+                     
                     <td><?php echo ucfirst($row['event_non_mix']); ?></td>
                     <td><?php echo ucfirst($row['event_description']); ?></td>             
                     <td>
