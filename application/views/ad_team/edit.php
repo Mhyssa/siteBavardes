@@ -31,7 +31,7 @@
                
                 <div class="form-group">
                     <label>Description : </label>
-                    <textarea name="team_description" class="form-control" id="team_description" cols="30" rows="10" value="<?php echo !empty($team['team_description'])?$team['team_description']:''; ?>"></textarea>
+                    <textarea name="team_description" class="form-control" id="team_description" cols="30" rows="10" value="<?php echo !empty($team['team_description'])?$team['team_description']:''; ?>"><?php echo !empty($team['team_description'])?$team['team_description']:''; ?></textarea>
                     <?php echo form_error('team_description','<p class="help-block text-danger">','</p>'); ?>
                 </div>
 
