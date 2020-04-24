@@ -45,7 +45,7 @@
 
                 <div class="form-group">
                     <label>Description : </label>
-                    <textarea name="presse_description" class="form-control" id="presse_description" cols="30" rows="10" value="<?php echo !empty($presse['presse_description'])?$presse['presse_description']:''; ?>"></textarea>
+                    <textarea name="presse_description" class="form-control" id="presse_description" cols="30" rows="10" value="<?php echo !empty($presse['presse_description'])?$presse['presse_description']:''; ?>"><?php echo !empty($presse['presse_description'])?$presse['presse_description']:''; ?></textarea>
                 </div>
 
 
