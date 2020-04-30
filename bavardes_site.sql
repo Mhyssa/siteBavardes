@@ -276,16 +276,27 @@ CREATE TABLE IF NOT EXISTS `podcast` (
 --
 
 INSERT INTO `podcast` (`podcast_id`, `podcast_link`, `podcast_name`) VALUES
-(1, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/635684736&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'Ovaires Bookées #1'),
-(2, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/635781318&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'Ovaires Bookées #2'),
-(3, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/635837934&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'Ovaires Bookées #3'),
-(4, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/636911088&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'Ovaires Bookées #4'),
-(5, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553523859&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #5'),
-(6, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553539093&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #6 d\'Ete'),
-(7, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553542291&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #7'),
-(8, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553560159&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #8'),
-(9, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/557935875&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #9'),
-(10, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/774191071&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Bavardes Emission du 8 Mars 2020');
+(1, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/635684736&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'OVAIRES BOOKÉES #1 // Cup, Gouines Rouges, Emma, Lady Jane'),
+(2, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/635781318&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'OVAIRES BOOKÉES #2 // Pisse debout, intersectionnalité, droit d’asile LGBTQIF, Elle 1972'),
+(3, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/635837934&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'OVAIRES BOOKÉES #3 // Mes poils, espace public, polyamour, livres, balade sonore'),
+(4, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/636911088&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=tr', 'OVAIRES BOOKÉES #4 // Sexualité et communication, Cannes, hétéronormativité, Alison Bechdel, Fishback'),
+(5, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553523859&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'OVAIRES BOOKÉES #5 // Sexisme ordinaire, Constance Debré, Sexy Sushi'),
+(6, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553539093&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'OVAIRES BOOKÉES #6 (été) // Musique, cuisine et lectures'),
+(7, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553542291&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'OVAIRES BOOKÉES #7 // Pilosité, injonction, cisnormativité, FiÈres, droit des femmes migrantes, révolution sexuelle'),
+(8, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553560159&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'OVAIRES BOOKÉES #8 // Slam, dans l’espace, contre les violences, Flora Tristan, non désir d’enfant'),
+(9, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/557935875&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'OVAIRES BOOKÉES #9 // Cybermilitantisme, femme et politique, Kollontaï, injonctions des normes conjugales'),
+(10,'', 'OVAIRES BOOKÉES #10 // Red&White, sorcières et dumpster diving'),
+(11,'', 'OVAIRES BOOKÉES #11 // Écoféminisme et convergence des militantismes'),
+(13,'', 'OVAIRES BOOKÉES #13 // TDOV, lesbienne au Moyen-Âge, contraception, C. Guillaumin, humour féministe'),
+(15,'', 'OVAIRES BOOKÉES #15 // 1ère marche des fiertés d'Amiens'),
+(16,'', 'OVAIRES BOOKÉES #16 // Fraca label, Body Positive, vêtements genrés'),
+(17,'', 'OVAIRES BOOKÉES #17 // Films et séries LGBTQIF'),
+(18,'', 'OVAIRES BOOKÉES #18 // collage #stopféminicides, militantisme lesbien, planète sur Uranus, les Slits'),
+(19,'', 'OVAIRES BOOKÉES #19 // Terre lesbienne, Buffy féministe?, Body Positive'),
+(20,'', 'OVAIRES BOOKÉES #20 // Twittosphère, Stop féminicides, films et séries LGBTQIF, humour politique'),
+(21,'', 'OVAIRES BOOKÉES #21 // Queen Blood, Conférence gesticulée, Miyazaki féministe?'),
+(22,'', 'OVAIRES BOOKÉES #22 // Slam onirique, les Immédianes, culture du viol, humour politique'),
+(23, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/774191071&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Bavardes Emission du 8 Mars 2020');
 
 -- --------------------------------------------------------
 
