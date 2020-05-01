@@ -125,12 +125,80 @@ require("header.php");
 
     <!-- -le mois des violences faites aux femmes 2017 page facebook Amiens non aux violences faite aux femmes  -->
 
+        <!-- debut banniere partenaires -->
+        <div class="row mt-4">
+      <img src="assets\img\banniere\partenaires.png" alt="banniere partenaires" class="img-fluid pb-3">
+    </div>
+    <!-- fin banniere partenaires -->
     <!-- debut Merci de votre confiance et de votre chaleureux acceuil -->
     <div class="row shadow">
+
       <div class="col-md-12">
         <br><br>
-        <h4 id="titre"> Merci de votre confiance et de votre chaleureux accueil :</h4>
+        <h4 id="titre"> Merci de votre confiance et de votre chaleureux accueil </h4>
         <br>
+      </div>
+
+<h5>Partenaires financiers</h5>
+<div class="row">
+
+<span > DRJSCS</span>
+<span > DDCS</span>
+<span > Amiens Métropole</span>
+<span > Amiens Métropole Natation</span>
+<span > Fonds de dotation Lesbiennes d'Intérêt Général</span>
+</div>
+
+<div class="row">
+<h5>" On travaille ensemble ! "</h5>
+<span>L' Officine déphasée</span>
+<span>Lycée Michespans</span>
+              <span>Lycée La Hotoie</span>
+              <span>AESP Amiens</span>
+              <span> Groupe d'Appui et de sospandarité</span>
+              <span> Radio Campus</span>
+
+              <span> Carmen</span>
+              <span> Translucide</span>
+              <span> Flash our true colors </span>
+              <span> Jeanne Magazine</span>
+              <span> OSAM</span>
+              <span> UPJV Amiens</span>
+
+              <span> Cité Carter</span>
+              <span> AIDES</span>
+              <span> La cave du houblon</span>
+              <span> AfroBenin</span>
+              <span> Pas à Passo Théâtre de l'Opprimé</span>
+</div>
+
+<div class="row">
+<h5>" Ils nous ont accueilli ! "</h5>
+<span>Le Network</span>
+              <span>Le Barrio</span>
+              <span>La Gargouille</span>
+              <span>Le Charleston</span>
+              <span>Le Café</span>
+              <span>Le Capuccino</span>
+              <span>La boîte sans projet</span>
+
+              <span>Centre Leo Lagrange</span>
+              <span>Le Mic Mac</span>
+              <span>Les Enfants Terribles</span>
+              <span>Le Red & White</span>
+              <span>La peniche du lapin vert</span>
+              <span>L'île aux fruits</span>
+
+              <span>Le füt et à mesure</span>
+              <span>La Taverne électrique</span>
+              <span>Sports bar </span>
+              <span>CSC d'étouvie</span>
+              <span>La lune des pirates</span>
+              <span> La courte échelle</span>
+
+              <span> L'aspanmentation générale</span>
+</div>
+
 
         <div class="row">
           <div class="col-sm-6 col-lg-3 col-12">
@@ -146,6 +214,7 @@ require("header.php");
               <li>Le Mic Mac</li>
               <li>Les Enfants Terribles</li>
               <li>L' Officine déphasée</li>
+              <li>Collectif IDAHOT</li>
             </ul>
           </div>
 
