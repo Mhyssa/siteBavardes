@@ -238,6 +238,16 @@ blockquote:first-letter {
     border-bottom: #FFAD3F 3px solid;
 }
 
+.titre-collab {
+    background-color: #FFAD3F;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-color: #b37420;
+}
 
 .marge {
     margin-right: -15px;

@@ -125,8 +125,8 @@ require("header.php");
 
     <!-- -le mois des violences faites aux femmes 2017 page facebook Amiens non aux violences faite aux femmes  -->
 
-        <!-- debut banniere partenaires -->
-        <div class="row mt-4">
+    <!-- debut banniere partenaires -->
+    <div class="row mt-4">
       <img src="assets\img\banniere\partenaires.png" alt="banniere partenaires" class="img-fluid pb-3">
     </div>
     <!-- fin banniere partenaires -->
@@ -138,136 +138,287 @@ require("header.php");
         <h4 id="titre"> Merci de votre confiance et de votre chaleureux accueil </h4>
         <br>
       </div>
-
-<h5>Partenaires financiers</h5>
-<div class="row">
-
-<span > DRJSCS</span>
-<span > DDCS</span>
-<span > Amiens Métropole</span>
-<span > Amiens Métropole Natation</span>
-<span > Fonds de dotation Lesbiennes d'Intérêt Général</span>
-</div>
-
-<div class="row">
-<h5>" On travaille ensemble ! "</h5>
-<span>L' Officine déphasée</span>
-<span>Lycée Michespans</span>
-              <span>Lycée La Hotoie</span>
-              <span>AESP Amiens</span>
-              <span> Groupe d'Appui et de sospandarité</span>
-              <span> Radio Campus</span>
-
-              <span> Carmen</span>
-              <span> Translucide</span>
-              <span> Flash our true colors </span>
-              <span> Jeanne Magazine</span>
-              <span> OSAM</span>
-              <span> UPJV Amiens</span>
-
-              <span> Cité Carter</span>
-              <span> AIDES</span>
-              <span> La cave du houblon</span>
-              <span> AfroBenin</span>
-              <span> Pas à Passo Théâtre de l'Opprimé</span>
-</div>
-
-<div class="row">
-<h5>" Ils nous ont accueilli ! "</h5>
-<span>Le Network</span>
-              <span>Le Barrio</span>
-              <span>La Gargouille</span>
-              <span>Le Charleston</span>
-              <span>Le Café</span>
-              <span>Le Capuccino</span>
-              <span>La boîte sans projet</span>
-
-              <span>Centre Leo Lagrange</span>
-              <span>Le Mic Mac</span>
-              <span>Les Enfants Terribles</span>
-              <span>Le Red & White</span>
-              <span>La peniche du lapin vert</span>
-              <span>L'île aux fruits</span>
-
-              <span>Le füt et à mesure</span>
-              <span>La Taverne électrique</span>
-              <span>Sports bar </span>
-              <span>CSC d'étouvie</span>
-              <span>La lune des pirates</span>
-              <span> La courte échelle</span>
-
-              <span> L'aspanmentation générale</span>
-</div>
+      <div class="col-md-12">
+        <br><br>
+        <h5 class="titre-collab">Partenaires financiers</h5>
+        <br>
+      </div>
 
 
-        <div class="row">
-          <div class="col-sm-6 col-lg-3 col-12">
-            <ul>
-              <li>Le Network</li>
-              <li>Le Barrio</li>
-              <li>La Gargouille</li>
-              <li>Le Charleston</li>
-              <li>Le Café</li>
-              <li>Le Capuccino</li>
-              <li>La boîte sans projet</li>
-              <li>Centre Leo Lagrange</li>
-              <li>Le Mic Mac</li>
-              <li>Les Enfants Terribles</li>
-              <li>L' Officine déphasée</li>
-              <li>Collectif IDAHOT</li>
-            </ul>
-          </div>
+      <div class="col-lg-12">
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://hauts-de-france.drjscs.gouv.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_drjscs.jpg" class="img-fluid" alt="">
+            <!-- <p class="label-part"> DRJSCS</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://www.somme.gouv.fr/Services-de-l-Etat/Sante-et-cohesion-sociale/Direction-departementale-de-la-cohesion-sociale-DDCS" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_ddcs.jpg" class="img-fluid" alt="">
+            <!-- <p class="label-part"> DDCS</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.amiens.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_amiensMetro.jpg" class="img-fluid" alt="">
+            <!-- <p class="label-part"> Amiens Métropole</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://amiensnatation.com/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_amiensMetroNatation.jpg" class="img-fluid" alt="">
+            <!-- <p class="label-part"> Amiens Métropole Natation</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.fondslesbien.org/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_lig.jpg" class="img-fluid" alt="">
+            <!-- <p class="label-part">La LIG</p> -->
+          </a>
+        </div>
+      </div>
 
-          <div class="col-sm-6 col-12 col-lg-3">
-            <ul>
-              <li>Le Red & White</li>
-              <li>La peniche du lapin vert</li>
-              <li>L'île aux fruits</li>
-              <li>Le füt et à mesure</li>
-              <li>La Taverne électrique</li>
-              <li>Sports bar </li>
-              <li>CSC d'étouvie</li>
-              <li>La lune des pirates</li>
-              <li>Lycée Michelis</li>
-              <li>Lycée La Hotoie</li>
-              <li>AESP Amiens</li>
-            </ul>
-          </div>
 
-          <div class="col-lg-3 col-sm-6 col-12">
-            <ul>
-              <li> Groupe d'Appui et de solidarité</li>
-              <li> Radio Campus</li>
-              <li> Carmen</li>
-              <li> Translucide</li>
-              <li> Flash our true colors </li>
-              <li> Jeanne Magazine</li>
-              <li> OSAM</li>
-              <li> UPJV Amiens</li>
-              <li> Cité Carter</li>
-              <li> AIDES</li>
-              <li> La courte échelle</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-12">
-            <ul>
-              <li>Collectif IDAHOT</li>
-              <li> L'alimentation générale</li>
-              <li> DRJSCS</li>
-              <li> DDCS</li>
-              <li> Amiens Métropole</li>
-              <li> Amiens Métropole Natation</li>
-              <li> Fonds de dotation Lesbiennes d'Intérêt Général</li>
-              <li> La cave du houblon</li>
-              <li> AfroBenin</li>
-              <li> Pas à Passo Théâtre de l'Opprimé</li>
-            </ul>
-          </div>
+      <div class="col-md-12">
+        <br><br>
+        <h5 class="titre-collab">" On travaille ensemble ! "</h5>
+        <br>
+      </div>
+      <div class="col-lg-12">
+      
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/officinedephasee/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_officine.jpg" class="img-fluid" alt="L' Officine déphasée">
+            <!-- <p class="label-part">L' Officine déphasée</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://michelis.lyc.ac-amiens.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_michelis.jpg" class="img-fluid" alt="Lycée Michelis">
+            <!-- <p class="label-part">Lycée Michelis</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://lahotoie.lyc.ac-amiens.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_laHotoie.jpg" class="img-fluid" alt="Lycée La Hotoie">
+            <!-- <p class="label-part">Lycée La Hotoie</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/aesp.amiens" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_aesp.jpg" class="img-fluid" alt="AESP Amiens">
+            <!-- <p class="label-part">AESP Amiens</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.gas-asso.org/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_gas.jpg" class="img-fluid" alt="Le GAS">
+            <!-- <p class="label-part">Le GAS</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://www.radiocampusamiens.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_radio.jpg" class="img-fluid" alt="Radio Campus">
+            <!-- <p class="label-part">Radio Campus</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://canalnord.org/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_carmen.jpg" class="img-fluid" alt="Carmen">
+            <!-- <p class="label-part">Carmen</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/Translucide80/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_translucide.jpg" class="img-fluid" alt="Translucide">
+            <!-- <p class="label-part">Translucide</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://afrobenin.org/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_afroBenin.jpg" class="img-fluid" alt="AfroBenin">
+            <!-- <p class="label-part">AfroBenin</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://flash-our-true-colors.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_flash.jpg" class="img-fluid" alt="Flash our true colors">
+            <!-- <p class="label-part">Flash our true colors</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.jeanne-magazine.com" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_jeanne.jpg" class="img-fluid" alt="Jeanne Magazine">
+            <!-- <p class="label-part">Jeanne Magazine</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/PasaPassoTO/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_pap.jpg" class="img-fluid" alt="Pas à Passo">
+            <!-- <p class="label-part">Pas à Passo</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://www.osam.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_osam.jpg" class="img-fluid" alt="OSAM">
+            <!-- <p class="label-part">OSAM</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.u-picardie.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_upjv.jpg" class="img-fluid" alt="UPJV Amiens">
+            <!-- <p class="label-part">UPJV Amiens</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://www.citecarter.com/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_citeCarter.jpg" class="img-fluid" alt="Cité Carter">
+            <!-- <p class="label-part">Cité Carter</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.aides.org/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_aides.jpg" class="img-fluid" alt="AIDES">
+            <!-- <p class="label-part">AIDES</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.lacaveduhoublon.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_cave.jpg" class="img-fluid" alt="La cave du houblon">
+            <!-- <p class="label-part">La cave du houblon</p> -->
+          </a>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <br><br>
+        <h5 class="titre-collab">" Ils nous ont accueilli ! </h5>
+        <br>
+      </div>
+      <div class="col-lg-12">
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/nw.amiens" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_network.jpg" class="img-fluid" alt="Le Network">
+            <!-- <p class="label-part">Le Network</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.barrio-amiens.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_barrio.jpg" class="img-fluid" alt="Le Barrio">
+            <!-- <p class="label-part">Le Barrio</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/LaGargouilleAmiens/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_gargouille.jpg" class="img-fluid" alt="La Gargouille">
+            <!-- <p class="label-part">La Gargouille</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/lecharlestoncafe/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_charleston.jpg" class="img-fluid" alt="Le Charleston">
+            <!-- <p class="label-part">Le Charleston</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/lecafeamiens/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_cafe.jpg" class="img-fluid" alt="Le Café">
+            <!-- <p class="label-part">Le Café</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/LeCapuccino" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_capuccino.jpg" class="img-fluid" alt="Le Capuccino">
+            <!-- <p class="label-part">Le Capuccino</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://www.boite-sans-projet.org/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_bsp.jpg" class="img-fluid" alt="La boîte sans projet">
+            <!-- <p class="label-part">La boîte sans projet</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://ccll-amiens.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_centreLeoLagrange.jpg" class="img-fluid" alt="Leo Lagrange">
+            <!-- <p class="label-part">Leo Lagrange</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/MicMacAndCot/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_micMac.jpg" class="img-fluid" alt="Le Mic Mac">
+            <!-- <p class="label-part">Le Mic Mac</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/Les-Enfants-Terribles-176177469406995/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_enfants.jpg" class="img-fluid" alt="Les Enfants Terribles">
+            <!-- <p class="label-part">Les Enfants Terribles</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/pages/category/Pub/Red-and-White-Bar-Amiens-203412793125652/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_red.jpg" class="img-fluid" alt="Le Red & White">
+            <!-- <p class="label-part">Le Red & White</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/lelapinvert/?__tn__=K-R&eid=ARAZCFENvegkjgmwZnyzeInEPcmUrcLfhbMr6xsScXRBZ2h6ZFU-p8RySF3Qj3Y2dirr2PV-VfRMVPvG&fref=mentions&__xts__[0]=68.ARCTl2i66tL39HSXNnsHzL_4mt8vjEeiwmNCt0" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_lapin.jpg" class="img-fluid" alt="La peniche du lapin vert">
+            <!-- <p class="label-part">La peniche du lapin vert</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/ileauxfruits80/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_ile.jpg" class="img-fluid" alt="L'île aux fruits">
+            <!-- <p class="label-part">L'île aux fruits</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://aufutetamesure.fr/bar/aufut-amiens/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_fut.jpg" class="img-fluid" alt="Le füt et à mesure">
+            <!-- <p class="label-part">Le füt et à mesure</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/pages/category/Pub/La-Taverne-Elektrik-646909932108464/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_taverne.jpg" class="img-fluid" alt="La Taverne électrique">
+            <!-- <p class="label-part">La Taverne électrique</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="'https://www.facebook.com/sportsbaramiens/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_sports.jpg" class="img-fluid" alt="Sports bar">
+            <!-- <p class="label-part">Le Sports bar</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://cscetouvie.fr/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_csc.jpg" class="img-fluid" alt="CSC d'étouvie">
+            <!-- <p class="label-part">CSC d'étouvie</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://www.lalune.net/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_lune.jpg" class="img-fluid" alt="La lune des pirates">
+            <!-- <p class="label-part">La lune des pirates</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.maam.fr/annuaire/association/la-courte-echelle-3240" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_courteEchelle.jpg" class="img-fluid" alt="La courte échelle">
+            <!-- <p class="label-part">La courte échelle</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="http://alimentation-generale.net/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_alg.jpg" class="img-fluid" alt="L'alimentation générale">
+            <!-- <p class="label-part">L'alimentation générale</p> -->
+          </a>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 <!-- fin Merci de votre confiance et de votre chaleureux acceuil -->
 <?php  
