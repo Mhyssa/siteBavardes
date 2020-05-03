@@ -12,12 +12,25 @@
     <div class="row">
         <div class="col-9 container-fluid">
         <?php echo form_open_multipart() ;?>
-                <div class="form-group">
-                    <label>Nom : </label>
-                    <input type="text" name="collab_name" class="form-control" value="<?php echo !empty($collab['collab_name'])?$collab['collab_name']:''; ?>" >
-                    <?php echo form_error('collab_name','<p class="help-block text-danger">','</p>'); ?>
-                </div>
 
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="collab_cat">Catégorie: </label> <br>
+                            <input type="radio" name="collab_cat" id="collab_cat" value="Financiers" <?php if($collab['collab_cat'] == "Financiers"){echo "checked";}?>> Financiers <br>  
+                            <input type="radio" name="collab_cat" id="collab_cat" value="Collaborations" <?php if($collab['collab_cat'] == "Collaborations"){echo "checked";}?>> Collaborations <br>
+                            <input type="radio" name="collab_cat" id="collab_cat" value="Lieux" <?php if($collab['collab_cat'] == "Lieux"){echo "checked";}?>> Lieux <br>
+                            <?php echo form_error('collab_cat','<p class="help-block text-danger">','</p>'); ?>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="form-group">
+                            <label>Nom : </label>
+                            <input type="text" name="collab_name" class="form-control" value="<?php echo !empty($collab['collab_name'])?$collab['collab_name']:''; ?>" >
+                            <?php echo form_error('collab_name','<p class="help-block text-danger">','</p>'); ?>
+                        </div>
+                    </div>
+                </div>
                
                 <div class="form-group">
                     <label>Lien Internet : </label>
@@ -40,7 +53,7 @@
                 
 
                 <div class="form-group">
-                        <a href="<?php echo base_url().'collaboration/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                        <a href="<?php echo base_url().'collab/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
                         <input type="hidden" name="collab_id" value="<?php echo !empty($collab['collab_id'])?$collab['collab_id']:''; ?>">
 
                         <input type="submit" name="collab_edit" class="btn btn-sm btn-warning" value="Modifier">

@@ -3,8 +3,13 @@
 
 
             <div class="row">
+            <?php// if($lang == 'fr'){ ?>
                   <img src="<?php echo base_url(); ?>assets\img\banniere\podcasts.png" alt="banniere artistes et intervenants"
                         class="img-fluid pb-3">
+            <?php/* } else { 
+              echo 'Podcast';
+            }*/
+            ?>
             </div>
 
 <div class="row">
@@ -18,9 +23,8 @@
                 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="<?php echo $row['podcast_link'] ?>"></iframe>
                 <?php //!empty($row['file_name'])?'<img src="'.base_url().'uploads/podcast_img/'.$row['file_name'].'" width="150" class="thumbnail" id="img" />':'';?> 
 
-            <?php }}else{ ?>
-                Aucune(s) donnée(s) trouvée(s)...
-            <?php } ?>
+            <?php }
+            } ?>
 
 
 

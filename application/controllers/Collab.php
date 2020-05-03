@@ -28,19 +28,83 @@
 
 
 
-function index(){
+function index($lang = ''){
 
         $data = array(); 
          
+        $data['collab'] = $this->Collab_Model->getRowsCollab(); 
+        $data['ma_pages'] = 'index_collab'; 
 
-             $data['collab'] = $this->Collab_Model->getRowsCollab(); 
-             $data['ma_pages'] = 'index_collab'; 
+
+             $this->lang->load('content', $lang == ''?'fr':$lang);
+             $data['controller'] = 'collab';
+             $data['function'] = 'index';
+
+
+             //définition de la langue
+             $data['lang'] = $this->lang->line('lang');
+
+             //header
+             $data['header_acc'] = $this->lang->line('header_acc');
+             $data['header_about'] = $this->lang->line('header_about');
+             $data['header_team'] = $this->lang->line('header_team');
+             $data['header_act'] = $this->lang->line('header_act');
+             $data['header_event'] = $this->lang->line('header_event');
+             $data['header_col'] = $this->lang->line('header_col');
+             $data['header_ppl'] = $this->lang->line('header_ppl');
+             $data['header_presse'] = $this->lang->line('header_presse');
+             $data['header_pod'] = $this->lang->line('header_pod');
+             $data['header_esmem'] = $this->lang->line('header_esmem');
+                 $data['header_user_acc'] = $this->lang->line('header_user_acc');
+                 $data['header_login'] = $this->lang->line('header_login');
+                 $data['header_reg'] = $this->lang->line('header_reg');
+     
+             $data['header_titre'] = $this->lang->line('header_titre');
+
+
+
+             //collab/index
+             $data['collab_body_text1_pt1'] = $this->lang->line('collab_body_text1_pt1');
+             $data['collab_body_text1_pt2'] = $this->lang->line('collab_body_text1_pt2');
+
+             $data['collab_body_text2'] = $this->lang->line('collab_body_text2');
+             $data['collab_body_button_text2'] = $this->lang->line('collab_body_button_text2');
+
+             $data['collab_body_text3'] = $this->lang->line('collab_body_text3');
+             $data['collab_body_button_text3'] = $this->lang->line('collab_body_button_text3');
+
+             $data['collab_body_text4'] = $this->lang->line('collab_body_text4');
+             $data['collab_body_button_text4'] = $this->lang->line('collab_body_button_text4');
+
+             $data['collab_body_p_text5'] = $this->lang->line('collab_body_p_text5');
+             $data['collab_body_text5'] = $this->lang->line('collab_body_text5');
+             $data['collab_body_button_text5'] = $this->lang->line('collab_body_button_text5');
+
+             $data['collab_body_text6'] = $this->lang->line('collab_body_text6');
+             $data['collab_body_button_text6'] = $this->lang->line('collab_body_button_text6');
+
+             $data['collab_thank'] = $this->lang->line('collab_thank');
+
+
+
+
+             //footer
+             $data['footer_line1'] = $this->lang->line('footer_line1');
+             $data['footer_line2'] = $this->lang->line('footer_line2');
+             $data['footer_body_text'] = $this->lang->line('footer_body_text');
+                 $data['footer_button_support'] = $this->lang->line('footer_button_support');
+             $data['footer_line3'] = $this->lang->line('footer_line3');
+        
+             $data['footer_mentions'] = $this->lang->line('footer_mentions');
+             $data['footer_rgpd'] = $this->lang->line('footer_rgpd');
+
+
 
 
               // Load the index page view 
         $this->load->view('templates/header', $data); 
         $this->load->view('collab/index', $data); 
-        $this->load->view('templates/footer'); 
+        $this->load->view('templates/footer', $data); 
 
 
 
@@ -120,11 +184,14 @@ function index(){
                 if($this->input->post('collab_add')){ 
                 // Form field validation rules 
                 $this->form_validation->set_rules('collab_name','nom','required');              
+                $this->form_validation->set_rules('collab_cat','catégorie','required');              
+               
                 
                 // Prepare gallery data 
                 $formArray = array( 
                     'collab_name' => $this->input->post('collab_name', true),
-                    'collab_link' => $this->input->post('collab_link', true)
+                    'collab_link' => $this->input->post('collab_link', true),
+                    'collab_cat' => $this->input->post('collab_cat', true)
                 ); 
                 
                 // Validate submitted form data 
@@ -220,11 +287,14 @@ function index(){
      if($this->input->post('collab_edit')){ 
          // Form field validation rules 
          $this->form_validation->set_rules('collab_name','nom','required');
+         $this->form_validation->set_rules('collab_cat','catégorie','required');              
+
           
          // Prepare gallery data 
          $formArray = array( 
             'collab_name' => $this->input->post('collab_name', true),
-            'collab_link' => $this->input->post('collab_link', true)
+            'collab_link' => $this->input->post('collab_link', true),
+            'collab_cat' => $this->input->post('collab_cat', true)
 
          ); 
           

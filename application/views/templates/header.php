@@ -4,7 +4,7 @@
 <head>
 
   <!-- Required meta tags -->
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
@@ -33,33 +33,33 @@
 
 
     <?php if($ma_pages == 'index_accueil'){ ?>
-      <title>Accueil | Les Bavardes Amiens</title>
+      <title><?php echo $header_acc; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_about') {    ?>
-      <title>Qui sommes nous? | Les Bavardes Amiens</title>
+      <title><?php echo $header_about; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_team') {    ?>
-      <title>L'Equipe | Les Bavardes Amiens</title>
+      <title><?php echo $header_team; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_action') {    ?>
-      <title>Nos Actions | Les Bavardes Amiens</title>
+      <title><?php echo $header_act; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_event') {    ?>
-      <title>Nos Évènements | Les Bavardes Amiens</title>
+      <title><?php echo $header_event; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_collab') {    ?>
-      <title>Nos Collaborations | Les Bavardes Amiens</title>
+      <title><?php echo $header_col; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_people') {    ?>
-      <title>Artistes et Intervenantes | Les Bavardes Amiens</title>
+      <title><?php echo $header_ppl; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_presse') {    ?>
-      <title>La Presse | Les Bavardes Amiens</title>
+      <title><?php echo $header_presse; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_podcast') {    ?>
-      <title>Nos Podcasts | Les Bavardes Amiens</title>
+      <title><?php echo $header_pod; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_mentions') {    ?>
-      <title>Mentions Légales | Les Bavardes Amiens</title>
+      <title><?php echo $footer_mentions; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_politique') {    ?>
-      <title>RGPD | Les Bavardes Amiens</title>
+      <title><?php echo $footer_rgpd; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'account') {    ?>
-      <title>Compte Utilisateur | Les Bavardes Amiens</title>
+      <title><?php echo $header_user_acc; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'login') {    ?>
-      <title>Se Connecter | Les Bavardes Amiens</title>
+      <title><?php echo $header_login; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'registration') {    ?>
-      <title>S'Inscrire | Les Bavardes Amiens</title>
+      <title><?php echo $header_reg; ?> | Les Bavardes Amiens</title>
 
   <?php  } else {?>
       <title>Les Bavardes Amiens</title>
@@ -90,7 +90,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url();?>">
+                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'Accueil/index/'.$lang; ?>">
                   <img src="<?php echo base_url(); ?>assets/img/logo.png" width="" height="80" class="d-inline-block align-top" alt="icon">
                 </a>
                 <ul class="navbar-nav">
@@ -100,12 +100,12 @@
                   <?php if($ma_pages == 'index_accueil'){ ?>
 
                   <li class="nav-item active pr-4 pl-4 ">
-                    <a class="nav-link text-center" href="<?php echo base_url()?>">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Accueil/index/'.$lang; ?>"><?php echo $header_acc; ?><span class="sr-only">(current)</span></a>
                   </li>
                   <?php  }else{    ?>
 
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url()?>">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Accueil/index/'.$lang; ?>"><?php echo $header_acc; ?><span class="sr-only">(current)</span></a>
                   </li>
                   <?php  }  ?>
 
@@ -114,11 +114,11 @@
                   <!-- Actif about ou non -->
                   <?php if($ma_pages == 'index_about'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'About'?>">Qui Sommes Nous ?</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'About/index/'.$lang; ?>"><?php echo $header_about; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'About'?>">Qui Sommes Nous ?</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'About/index/'.$lang; ?>"><?php echo $header_about; ?></a>
                   </li>
                   <?php  }  ?>
 
@@ -126,12 +126,12 @@
                   <?php 
                   if($ma_pages == 'index_team'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Team'?>">L'équipe</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
                   </li>
                   <?php 
                   }else{    ?>
                   <li class="nav-ite pr-4  pl-4 ">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Team'?>">L'équipe</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
                   </li>
                   <?php  }                 
                   ?>
@@ -139,11 +139,11 @@
                   <!-- Actif action ou non -->
                   <?php if($ma_pages == 'index_action'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Action'?>">Nos actions</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Action/index/'.$lang; ?>"><?php echo $header_act; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Action'?>">Nos actions</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Action/index/'.$lang; ?>"><?php echo $header_act; ?></a>
                   </li>
                   <?php  }  ?>
 
@@ -151,11 +151,11 @@
                   <!-- Actif évènements ou non -->
                   <?php if($ma_pages == 'index_event'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Event'?>">Nos Évènements</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Event/index/'.$lang; ?>"><?php echo $header_event; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Event'?>">Nos Évènements</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Event/index/'.$lang; ?>"><?php echo $header_event; ?></a>
                   </li>
                   <?php  }  ?>
 
@@ -163,11 +163,11 @@
                   <!-- Actif collaboration ou non -->
                   <?php if($ma_pages == 'index_collab'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Collab'?>">Nos Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Collab'?>">Nos Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
                   </li>
                   <?php  }  ?>
 
@@ -175,44 +175,44 @@
                   <!-- Actif artistes ou non -->
                   <?php if($ma_pages == 'index_people'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'People'?>">Artistes & intervenant.es</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'People/index/'.$lang; ?>"><?php echo $header_ppl; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'People'?>">Artistes & intervenant.es</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'People/index/'.$lang; ?>"><?php echo $header_ppl; ?></a>
                   </li>
                   <?php  }  ?>
 
                   <!-- Actif presse ou non -->
                   <?php if($ma_pages == 'index_presse'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Presse'?>">La Presse</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Presse/index/'.$lang; ?>"><?php echo $header_presse; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Presse'?>">La Presse</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Presse/index/'.$lang; ?>"><?php echo $header_presse; ?></a>
                   </li>
                   <?php  }  ?>
 
                   <!-- Actif Nos podcasts ou non -->
                   <?php if($ma_pages == 'index_podcast'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Podcast'?>">Nos podcasts</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Podcast/index/'.$lang; ?>"><?php echo $header_pod; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Podcast'?>">Nos podcasts</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Podcast/index/'.$lang; ?>"><?php echo $header_pod; ?></a>
                   </li>
                   <?php  }  ?>
 
                   <!-- Actif Nos podcasts ou non -->
                   <?php if($ma_pages == 'login' || $ma_pages == 'registration'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Users/login'?>">Espace Membre</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Users/login/'.$lang; ?>"><?php echo $header_esmem; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Users/login'?>">Espace Membre</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'Users/login/'.$lang; ?>"><?php echo $header_esmem; ?></a>
                   </li>
                   <?php  }  ?>
                   
@@ -225,8 +225,13 @@
 
       <div class="row marge">
         <div class="col-md-12 col-lg-12 mb-2 mt-2">
-          <h1 id="titre">Les Bavardes Collectif Féministe & Lesbien <br> à Amiens depuis 2017</h1>
+          <h1 id="titre"><?php echo $header_titre; ?></h1>
         </div>
+      </div>
+
+      <div class="float-right">
+        <a href="<?php echo base_url().'index.php/'.$controller.'/'.$function.'/fr'; ?>"><img src="<?php echo base_url(); ?>assets/img/lang/fr.png" width="25"></a>
+        <a href="<?php echo base_url().'index.php/'.$controller.'/'.$function.'/en'; ?>"><img src="<?php echo base_url(); ?>assets/img/lang/en.png" width="25"></a>
       </div>
     </header>
   

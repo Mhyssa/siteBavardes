@@ -72,6 +72,7 @@
                 
             <?php } ?>
             </p>
+            <p>Catégorie : <?php echo $events['event_cat']; ?></p>
     </div>
 </div>
 

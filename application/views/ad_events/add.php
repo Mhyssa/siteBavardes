@@ -14,11 +14,28 @@
     <div class="row">
         <div class="col-9 container-fluid">
         <?php echo form_open_multipart() ;?>
-                <div class="form-group">
-                    <label>Nom de l'évènement : </label>
-                    <input type="text" name="event_name" class="form-control" value="<?php echo !empty($events['event_name'])?$events['event_name']:''; ?>" >
-                    <?php echo form_error('event_name','<p class="help-block text-danger">','</p>'); ?>
+
+        
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="event_cat">Catégorie: </label> <br>
+                            <input type="radio" name="event_cat" id="event_cat" value="Festivals"> Festivals <br>  
+                            <input type="radio" name="event_cat" id="event_cat" value="Scènes ouvertes"> Scènes ouvertes <br>
+                            <input type="radio" name="event_cat" id="event_cat" value="Bla bla"> Bla bla <br>
+                            <input type="radio" name="event_cat" id="event_cat" value="Divers"> Divers 
+                            <?php echo form_error('event_cat','<p class="help-block text-danger">','</p>'); ?>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="form-group">
+                            <label>Nom : </label>
+                            <input type="text" name="event_name" class="form-control" value="<?php echo !empty($events['event_name'])?$events['event_name']:''; ?>" >
+                            <?php echo form_error('event_name','<p class="help-block text-danger">','</p>'); ?>
+                        </div>
+                    </div>
                 </div>
+
 
                 <div class="form-group">
                     <div class="row">

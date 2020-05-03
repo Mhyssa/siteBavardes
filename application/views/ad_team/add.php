@@ -16,7 +16,7 @@
         <div class="col-9 container-fluid">
         <?php echo form_open_multipart() ;?>
                 <div class="form-group">
-                    <label>Prènom : </label>
+                    <label>Prénom : </label>
                     <input type="text" name="team_name" class="form-control" value="<?php echo !empty($team['team_name'])?$team['team_name']:''; ?>" >
                     <?php echo form_error('team_name','<p class="help-block text-danger">','</p>'); ?>
                 </div>

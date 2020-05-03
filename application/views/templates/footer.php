@@ -50,7 +50,7 @@
         
           <img src="<?php echo base_url(); ?>assets/img/logocouleur.png" height="70" >
         
-      <span class="font-weight-bold colorpolice2 pl-3 ml-4">LE COLLECTIF LESBIEN ET FÉMINISTE ENGAGÉ POUR LA VISIBILITÉ DE TOUTES LES FEMMES</span>
+      <span class="font-weight-bold colorpolice2 pl-3 ml-4"><?php echo $footer_line1; ?></span>
       </div>
 
         
@@ -59,29 +59,26 @@
 
 <div class="row m-0 pt-4">
   <div class="col-lg-3 col-sm-12">       
-    <p class="colorpolice2 text-center">Une Question ? Un projet fou ? Ecris Nous !</p>            
+    <p class="colorpolice2 text-center"><?php echo $footer_line2; ?></p>            
     <a href="mailto:contact@lesbavardes.org" class="link"><p class="colorpolice link text-center">contact@lesbavardes.org</p></a> 
   </div>
               <div class="col-lg-6 col-sm-12">     
-                <p class="colorpolice2 col-lg-12 text-center">Les bavardes, c'est un collectif lesbien, bi, trans, queer et hétéro
-                  féministe engagé pour la visibilité de toutes les femmes, au travers d’espaces et d’actions culturelles et
-                  artistiques, ouvert à toutes et tous, visant à agir, se rencontrer, s’interroger et faire la fête. Radio, atelier, débat, cinéma, soirée… Retrouvons-nous,
-                  interrogeons-nous et émancipons-nous !</p>
+                <p class="colorpolice2 col-lg-12 text-center"><?php echo $footer_body_text; ?></p>
               </div>
     <div class="col-lg-3 col-sm-12">    
-      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"> <button class="button2 btn-block">Ahdésion 2020</button> </a>          
-        <p class="colorpolice2 text-center pt-2">Pour nous soutenir c'est par ici !</p>
+      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"> <button class="button2 btn-block"><?php echo $footer_button_support;?></button> </a>          
+        <p class="colorpolice2 text-center pt-2"><?php echo $footer_line3; ?></p>
   </div>
   
   <div class="col-lg-12 col-md-12 pt-2 m-auto">
     <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
 
     <div class=" pt-4 pb-3 m-auto   d-flex justify-content-around">
-      <p class=""> <a href="<?php echo base_url().'Mentions';?>" class="footlink"> Mentions légales </a></p>
+      <p class=""> <a href="<?php echo base_url().'Mentions/index/'.$lang;?>" class="footlink"> <?php echo $footer_mentions; ?> </a></p>
       <p class="footlink disap">I</p>
-      <p class=" "> <a href="<?php echo base_url().'Politique';?>" class="footlink"> Politique de confidentialité</a></p>
+      <p class=" "> <a href="<?php echo base_url().'Politique/index/'.$lang;?>" class="footlink"> <?php echo $footer_rgpd; ?></a></p>
       <p class="footlink disap">I</p>
-      <p class=""><a href="<?php echo base_url().'Politique';?>" class="footlink"> Cookies </a></p>
+      <p class=""><a href="<?php echo base_url().'Politique/index/'.$lang;?>" class="footlink"> Cookies </a></p>
       <p class="footlink disap">I</p>
       <p class=" footlink police1">Copyright ©2019</p>
     </div>

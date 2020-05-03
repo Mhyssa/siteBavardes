@@ -3,7 +3,7 @@
 
     <div class="row">
       <img src="<?php echo base_url(); ?>assets\img\banniere\actions.png" alt="banniere action avec les rapport d'activité 2019" class="img-fluid pb-3">
-      <blockquote>Sensibiliser, Partager, Transmettre, Se retrouver, Lutter, Accompagner ! "</blockquote>
+      <blockquote><?php echo $act_titre1; ?></blockquote>
     </div> <!-- Fin de la div row -->
 
 
@@ -16,3 +16,4 @@
     </div> <!-- Fin de la div row -->
 
   </div> <!-- Fin de la div container -->
+</div> <!-- Fin de la div col-lg-12 ombre pt-5 -->

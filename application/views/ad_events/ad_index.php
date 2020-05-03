@@ -37,6 +37,7 @@
                 <th>N°</th>
                 <th>Photo</th>
                 <th>Nom</th>
+                <th>Catégorie</th>
                 <th>Date</th>
                 <th>Heure</th>
                 <th>Lieu</th>
@@ -58,6 +59,7 @@
                     <td><?php echo $row['event_id']; ?></td>
                     <td><?php echo $image; ?></td>
                     <td><?php echo ucfirst($row['event_name']); ?></td>
+                    <td><?php echo ucfirst($row['event_cat']); ?></td>
                     <td>
                         <?php
                             if(!empty($row['event_date'])){
@@ -85,12 +87,7 @@
                         <?php } ?>
                     </td>
                     
-                    <td>
-                        <?php if($row['event_inscription']  == 'Sur Inscription'){
-                         echo '<a href="mailto:contact@lesbavardes.org" class="btn btn-dark">Viens t\'inscrire</a>';
-                        }?>
-                    </td>
-                     
+                    <td><?php echo ucfirst($row['event_inscription']); ?></td>
                     <td><?php echo ucfirst($row['event_non_mix']); ?></td>
                     <td><?php echo ucfirst($row['event_description']); ?></td>             
                     <td>

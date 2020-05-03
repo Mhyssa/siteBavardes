@@ -44,6 +44,10 @@
                 <p class="text-light">Nom : <?php echo $collab['collab_name']; ?></p>
             <?php } ?>
 
+            <?php if(!empty($collab['collab_cat'])){ ?>
+                <p class="text-light">Catégorie : <?php echo $collab['collab_cat']; ?></p>
+            <?php } ?>
+
             <?php if(!empty($collab['collab_link'])){ ?>
                 <p class="text-light">Vous pouvez la retrouver par <a href="<?php echo $collab['collab_link']; ?>">ce lien</a></p>
             <?php } ?>

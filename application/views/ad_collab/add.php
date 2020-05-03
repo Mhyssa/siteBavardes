@@ -14,11 +14,26 @@
     <div class="row">
         <div class="col-9 container-fluid">
         <?php echo form_open_multipart() ;?>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="collab_cat">Catégorie: </label> <br>
+                    <input type="radio" name="collab_cat" id="collab_cat" value="Financiers"> Financiers <br>  
+                    <input type="radio" name="collab_cat" id="collab_cat" value="Collaborations"> Collaborations <br>
+                    <input type="radio" name="collab_cat" id="collab_cat" value="Lieux"> Lieux 
+                    <?php echo form_error('collab_cat','<p class="help-block text-danger">','</p>'); ?>
+                </div>
+            </div>
+            <div class="col-8">
                 <div class="form-group">
                     <label>Nom : </label>
                     <input type="text" name="collab_name" class="form-control" value="<?php echo !empty($collab['collab_name'])?$collab['collab_name']:''; ?>" >
                     <?php echo form_error('collab_name','<p class="help-block text-danger">','</p>'); ?>
                 </div>
+            </div>
+        </div>
+
 
                
                 <div class="form-group">
@@ -27,7 +42,7 @@
                     <?php echo form_error('collab_link','<p class="help-block text-danger">','</p>'); ?>
                 </div>
 
-
+                
                 <div class="form-group">
                     <label>Images (.jpg .jpeg .png .gif) :</label>
                     <input type="file" name="image" class="form-control" value="<?php echo !empty($collab['file_name'])?$collab['file_name']:''; ?>">

@@ -5,14 +5,19 @@
 
 
             <div class="row">
+            <?php// if($lang == 'fr'){ ?>
                   <img src="<?php echo base_url(); ?>assets\img\banniere\artistes.png" alt="banniere artistes et intervenants"
                         class="img-fluid pb-3">
+            <?php/* } else { 
+            echo 'Artists & Speakers';
+            }*/
+            ?>
             </div>
 
             <div class="row shadow pt-5 pb-4">
 
                   <div class="col-lg-12 pt-3 pb-3 text-center bgyellow">
-                        <h2 class="">Artistes</h2>
+                        <h2 class=""><?php echo $people_h2_1; ?></h2>
                   </div>
 
                   <div class="col-lg-12 pt-5 pb-5">
@@ -39,9 +44,7 @@
 
 
 
-                  <?php }}}else{ 
-                    echo "Aucune donnée(s) trouvée(s)...";
-                 } ?>
+                  <?php }}}?>
 
                   </div>
 
@@ -50,7 +53,7 @@
 
             <div class="row  shadow pt-5 mt-4">
                   <div class="col-lg-12 pt-3 pb-3 text-center bgyellow">
-                        <h2 class="">Intervenant.es</h2>
+                        <h2 class=""><?php echo $people_h2_2; ?></h2>
                   </div>
 
 
@@ -81,9 +84,7 @@
 
 
 
-                  <?php }}}else{ 
-                    echo "Aucune donnée(s) trouvée(s)...";
-                 } ?>
+                  <?php }}}?>
 
 
 

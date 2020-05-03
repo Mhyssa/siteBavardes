@@ -5,7 +5,12 @@
 
     <!-- debut banniere collaboration -->
     <div class="row">
+    <?php// if($lang == 'fr'){ ?>
       <img src="<?php echo base_url(); ?>assets\img\banniere\collab.png" alt="banniere collaboration" class="img-fluid pb-3">
+    <?php/* } else { 
+      echo 'our collaborations?';
+    }*/
+    ?>
     </div>
     <!-- fin banniere collaboration -->
 
@@ -22,10 +27,10 @@
             <img src="<?php echo base_url(); ?>assets\img\collaborateurs\ob.jpg" class="card-img-top" alt="Radios campus amiens">
             <div class="card-body">
               <h5 class="card-title">Radios campus amiens</h5>
-              <p class="card-text">Notre mensuelle Ovaires Bookées ! Qui mixe débats et échanges sur des thématiques de
-                société et des chroniques décalées, historiques, sonores et littéraires.
-                <br> Tu as loupé l'émission ? Pas d'inquiétudes, c'est possible de la réécouter en Podcast en cliquant
-                sur le bouton replay !
+              <p class="card-text">
+                <?php echo $collab_body_text1_pt1; ?>
+                <br> 
+                <?php echo $collab_body_text1_pt2; ?>
               </p>
 
               <a class="card-text link" href="http://www.radiocampusamiens.fr/emissions/ovairesbookees/"><strong
@@ -37,14 +42,11 @@
             <img src="<?php echo base_url(); ?>assets\img\collaborateurs\pride.jpg" class="card-img-top" alt="Collectif Idahot">
             <div class="card-body">
               <h5 class="card-title">Collectif Idahot</h5>
-              <p class="card-text">Le collectif inter-associatif IDAHOT (International Day Against Homophobia and
-                Transphobia) rassemble les 6 associations amiénoises de lutte contre toutes les formes de
-                discriminations et pour la défense des droits des femmes et des personnes Lesbiennes, Gays,
-                Bisexuel.les, Transidentitaires, Queer, Inteersexes et plus (LGBTQI+).
-                Le collectif IDAHOT organise chaque année depuis 2018 le festival IDAHOT, festival de lutte contre les
-                LGBTQI+ phobies et depuis 2019, la marche des fiertés à Amiens.</p>
+              <p class="card-text">
+                <?php echo $collab_body_text2; ?>
+              </p>
               <a class="card-text link" href="https://www.facebook.com/festivalidahot/"><strong
-                  class="text-muted">&#x2192; 1ère marche des fiertés d'Amiens - 22 juin 2019</strong></a>
+                  class="text-muted">&#x2192; <?php echo $collab_body_button_text2; ?></strong></a>
             </div>
           </div>
           <div class="card">
@@ -52,14 +54,11 @@
               alt="Lycée Michelis intervention enn milieu scolaire">
             <div class="card-body">
               <h5 class="card-title">Lycée Michelis</h5>
-              <p class="card-text">Les Bavardes on l'immense plaisir d'intervenir dans toutes les classes de seconde du
-                lycée Michelis,
-                pour causer du sexisme et des LGBTphobies. L'occasion d'échanger et de débattre avec un peu plus de 300
-                élèves. Des tas de discussions sur les poils, les couples homo, comment réagir si tu te fais siffler
-                dans la rue, qu'est ce que la misogynoir ou la transphobie, comment agir pour qu'il y est plus d'égalité
-                ? </p>
+              <p class="card-text">
+                <?php echo $collab_body_text3; ?>
+              </p>
               <a class="card-text link" href="https://www.facebook.com/bavardes/posts/693606484480112"><strong
-                  class="text-muted">&#x2192; Interventions en milieu scolaire</strong></a>
+                  class="text-muted">&#x2192; <?php echo $collab_body_button_text3; ?></strong></a>
             </div>
           </div>
 
@@ -76,38 +75,36 @@
             <img src="<?php echo base_url(); ?>assets\img\collaborateurs\oh_les_filles.jpg" class="card-img-top" alt="La lune des pirates">
             <div class="card-body">
               <h5 class="card-title">La lune des pirates</h5>
-              <p class="card-text">Où sont les femmes dans les lieux de pouvoir ? Dans le milieu artistique ? Quelles
-                places leur donne-t-on ?
-                Quelles représentations de la femme persistent encore et toujours dans nos sociétés ?</p>
+              <p class="card-text">
+                <?php echo $collab_body_text4; ?>
+              </p>
               <a class="card-text link"
                 href="http://www.lalune.net/concert-amiens/programme/expoconcert-bavardes/"><strong
-                  class="text-muted">&#x2192; Expo-concert: Oh les filles! Oh les filles!</strong></a>
+                  class="text-muted">&#x2192; <?php echo $collab_body_button_text4; ?></strong></a>
             </div>
           </div>
           <div class="card">
             <img src="<?php echo base_url(); ?>assets\img\collaborateurs\alimentation.jpg" class="card-img-top" alt="L'alimentation Générale">
             <div class="card-body">
               <h5 class="card-title">L'alimentation Générale</h5>
-              <p class="card-text">NDA spéciale Meufs aux platines :<br>
+              <p class="card-text"><?php echo $collab_body_p_text5; ?> :<br>
                 <cite>
-                  " Alors que l'équipe de jour des Bavardes a fini les interventions en milieu scolaire,
-                  c'est l'équipe de nuit qui a prit le relai en tenant un stand de prévention et information à
-                  l' Alimentation Generale de 22h a 4h du matin. Bravo aux bénévoles ! Et a notre djette Catherine
-                  Pinkmoloko qui a mit le feu ! "</cite> </p>
+                  <?php echo $collab_body_text5; ?>
+                </cite>
+              </p>
               <a class="card-text link" href="https://www.facebook.com/events/383010169068048/"><strong
-                  class="text-muted">&#x2192; Edition 100% meufs aux platines</strong></a>
+                  class="text-muted">&#x2192; <?php echo $collab_body_button_text5; ?></strong></a>
             </div>
           </div>
           <div class="card">
             <img src="<?php echo base_url(); ?>assets\img\collaborateurs\ww.jpg" class="card-img-top" alt="Cité Carter">
             <div class="card-body">
               <h5 class="card-title">Cité Carter</h5>
-              <p class="card-text">Festival Witches Week : Née de la collaboration entre Cité Carter, le GAS solidarité
-                et Les Bavardes,
-                la Witches Week a mis à l'honneur toutes les femmes dans leurs diversités.</p>
+              <p class="card-text">
+                <?php echo $collab_body_text6; ?>
+              </p>
               <a class="card-text link" href="https://www.facebook.com/events/2441237112758468/">
-                <strong class="text-muted">&#x2192; [ Femmes bizarres, émancipées, originales, oubliées, montrées du
-                  doigt ]</strong>
+                <strong class="text-muted">&#x2192; <?php echo $collab_body_button_text6; ?></strong>
               </a>
             </div>
           </div>
@@ -125,7 +122,7 @@
     <div class="row shadow">
       <div class="col-md-12">
         <br><br>
-        <h4 id="titre"> Merci de votre confiance et de votre chaleureux accueil :</h4>
+        <h4 id="titre"><?php echo $collab_thank; ?>:</h4>
         <br>
 
         <div class="row">
@@ -144,9 +141,8 @@
 
               </div>
               
-              <?php }}else{ ?>
-                Aucune(s) donnée(s) trouvée(s)...
-            <?php } ?>
+              <?php }}
+              ?>
 
 
             </ul>

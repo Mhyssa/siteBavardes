@@ -5,6 +5,5 @@
         <p><b>Nom: </b><?php echo $user['us_fname'].' '.$user['us_lname']; ?></p>
         <p><b>Adresse E-mail: </b><?php echo $user['us_email']; ?></p>
         <p><b>Numéro de Téléphone: </b><?php echo $user['us_phone']; ?></p>
-        <p><b>Genre: </b><?php echo $user['us_gender']; ?></p>
     </div>
 </div>
