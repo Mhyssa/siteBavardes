@@ -37,16 +37,14 @@
       <title>Qui sommes nous? | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'equipe') {    ?>
       <title>L'Equipe | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'action') {    ?>
-      <title>Nos Actions | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'event') {    ?>
+      <title>Nos événements | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'collaboration') {    ?>
       <title>Nos Collaborations | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'artistes') {    ?>
       <title>Artistes et Intervenantes | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'presse') {    ?>
-      <title>La Presse | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'podcasts') {    ?>
-      <title>Nos Podcasts | Les Bavardes Amiens</title>
+      <title>Nous Ecouter | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'mentions') {    ?>
       <title>Mentions Légales | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'politique') {    ?>
@@ -63,6 +61,7 @@
 
   <div class="container-fluid">
     <header>
+    
       <!-- ------------------------------------------------------------------------------------------------------------------------ -->
       <!-- Navbar -->
       <!-- ------------------------------------------------------------------------------------------------------------------------ -->
@@ -88,7 +87,7 @@
 
 
                   <!-- Actif index ou non -->
-                  <?php if($ma_pages == 'index'){ ?>
+                  <!-- <?php if($ma_pages == 'index'){ ?>
 
                   <li class="nav-item active pr-4 pl-4 ">
                     <a class="nav-link text-center" href="index.php">Accueil <span class="sr-only">(current)</span></a>
@@ -98,7 +97,7 @@
                   <li class="nav-item pr-4  pl-4">
                     <a class="nav-link text-center" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                   </li>
-                  <?php  }  ?>
+                  <?php  }  ?> -->
 
 
 
@@ -112,7 +111,7 @@
                     <a class="nav-link text-center" href="About.php">Qui Sommes Nous ?</a>
                   </li>
                   <?php  }  ?>
-
+                
                   <!-- Actif equipe ou non -->
                   <?php 
                   if($ma_pages == 'equipe'){ ?>
@@ -127,14 +126,39 @@
                   <?php  }                 
                   ?>
 
-                  <!-- Actif action ou non -->
-                  <?php if($ma_pages == 'action'){ ?>
+                     <!-- Actif évenements ou non -->
+                     <?php 
+                  if($ma_pages == 'event'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="action.php">Nos actions</a>
+                    <a class="nav-link text-center" href="event.php">Nos événements</a>
+                  </li>
+                  <?php 
+                  }else{    ?>
+                  <li class="nav-ite pr-4  pl-4 ">
+                    <a class="nav-link text-center" href="event.php">Nos événements</a>
+                  </li>
+                  <?php  }                 
+                  ?>
+
+                  <!-- Actif Nos podcasts ou non -->
+                  <?php if($ma_pages == 'podcasts'){ ?>
+                  <li class="nav-item active pr-4  pl-4">
+                    <a class="nav-link text-center" href="podcasts.php">Nous écouter</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="action.php">Nos actions</a>
+                    <a class="nav-link text-center" href="podcasts.php">Nous écouter</a>
+                  </li>
+                  <?php  }  ?>
+
+                  <!-- Actif artistes ou non -->
+                  <?php if($ma_pages == 'artistes'){ ?>
+                  <li class="nav-item active pr-4  pl-4">
+                    <a class="nav-link text-center" href="artistes.php">Artistes & intervenantes</a>
+                  </li>
+                  <?php  }else{    ?>
+                  <li class="nav-item pr-4  pl-4">
+                    <a class="nav-link text-center" href="artistes.php">Artistes & intervenantes</a>
                   </li>
                   <?php  }  ?>
 
@@ -150,39 +174,6 @@
                   <?php  }  ?>
 
 
-                  <!-- Actif artistes ou non -->
-                  <?php if($ma_pages == 'artistes'){ ?>
-                  <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="artistes.php">Artistes & intervenantes</a>
-                  </li>
-                  <?php  }else{    ?>
-                  <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="artistes.php">Artistes & intervenantes</a>
-                  </li>
-                  <?php  }  ?>
-
-                  <!-- Actif presse ou non -->
-                  <?php if($ma_pages == 'presse'){ ?>
-                  <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="presse.php">La Presse</a>
-                  </li>
-                  <?php  }else{    ?>
-                  <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="presse.php">La Presse</a>
-                  </li>
-                  <?php  }  ?>
-
-                  <!-- Actif Nos podcasts ou non -->
-                  <?php if($ma_pages == 'podcasts'){ ?>
-                  <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="podcasts.php">Nos podcasts</a>
-                  </li>
-                  <?php  }else{    ?>
-                  <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="podcasts.php">Nos podcasts</a>
-                  </li>
-                  <?php  }  ?>
-                  
                 </ul>
               </div>
             </div>

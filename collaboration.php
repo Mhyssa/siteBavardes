@@ -288,6 +288,24 @@ require("header.php");
             <!-- <p class="label-part">La cave du houblon</p> -->
           </a>
         </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/Divergenre-105224454220663/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_divergenre2.jpg" class="img-fluid" alt="Divergenre">
+            <!-- <p class="label-part">Divergenre</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://www.facebook.com/festivalidahot/" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_pride.jpg" class="img-fluid" alt="La premiere marche des fiertés Amiens">
+            <!-- <p class="label-part">IDAHOT</p> -->
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 text-center float-left">
+          <a href="https://fr.wikipedia.org/wiki/SOS_homophobie" target="_BLANK">
+            <img src="assets/img/collaborateurs/logo_225_sos.jpg" class="img-fluid" alt="Sos Homophobie">
+            <!-- <p class="label-part">Sos Homophobie</p> -->
+          </a>
+        </div>
       </div>
       <div class="col-md-12">
         <br><br>

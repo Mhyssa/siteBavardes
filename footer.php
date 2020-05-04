@@ -54,7 +54,7 @@
       </div>
 
         
-        <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
+        <div class="col-lg-5 col-md-12 m-auto lignefooter  "></div>
 </div>      
 
 <div class="row m-0 pt-4">
@@ -79,11 +79,11 @@
     <div class=" pt-4 pb-3 m-auto   d-flex justify-content-around">
       <p class=""> <a href="mentions.php" class="footlink"> Mentions légales </a></p>
       <p class="footlink disap">I</p>
-      <p class=" "> <a href="politique.php" class="footlink"> Politique de confidentialité</a></p>
+      <p class=""> <a href="politique.php" class="footlink"> Politique de confidentialité</a></p>
       <p class="footlink disap">I</p>
       <p class=""><a href="politique.php" class="footlink"> Cookies </a></p>
       <p class="footlink disap">I</p>
-      <p class=" footlink police1">Copyright ©2019</p>
+      <p class=""><a href="" class="footlink">Se connecter</a></p>
     </div>
     </div>
 
