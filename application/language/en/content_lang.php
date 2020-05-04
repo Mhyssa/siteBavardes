@@ -163,6 +163,15 @@
 
 
 
+        //users/account
+        $lang['account_wlc'] = 'Welcome';
+        $lang['account_logout'] = 'Log out';
+        $lang['account_name'] = 'Name';
+        $lang['account_mail'] = 'Email Address';
+        $lang['account_phone'] = 'Phone Number';
+
+
+
     //mentions/index
     $lang['mention_h2_n1'] = 'Publication Manager';
         $lang['mention_body_text1_pt1'] = 'To join the publication manager, please send an email to staffbavardes@gmail.com';

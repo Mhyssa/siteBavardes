@@ -27,9 +27,6 @@
         <h3 class="bg-light p-2 rounded text-center text-dark"><?php echo $collab['collab_name']; ?></h3>
         <div class>
 
-
-
-        
        
            <?php if(!empty($collab['file_name'])){ ?>
 

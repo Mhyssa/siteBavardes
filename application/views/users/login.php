@@ -35,3 +35,4 @@
         <p><?php echo $login_act; ?> <a href="<?php echo base_url().'Users/registration/'.$lang; ?>"><?php echo $login_clk; ?></a></p>
     </div>
 </div>
+

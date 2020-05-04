@@ -140,7 +140,7 @@
         $lang['create_title'] = 'Inscription';
         $lang['create_fname'] = 'Prénom';
         $lang['create_lname'] = 'Nom';
-        $lang['create_mail'] = 'Address E-mail';
+        $lang['create_mail'] = 'Addresse E-mail';
         $lang['create_phone'] = 'Numéro de Téléphone';
         $lang['create_psw'] = 'Mot de Passe';
         $lang['create_psw_cf'] = 'Mot de Passe (à confirmer)';
@@ -158,13 +158,22 @@
 
 
         $lang['login_title'] = 'Connexion';
-        $lang['login_mail'] = 'Address E-mail';
+        $lang['login_mail'] = 'Addresse E-mail';
         $lang['login_psw'] = 'Mot de Passe';
         $lang['login_reset'] = 'Annuler';
         $lang['login_submit'] = 'Se Connecter';
 
         $lang['login_act'] = 'Tu ne possèdes pas encore de compte?';
         $lang['login_clk'] = 'Clique Ici';
+
+
+
+        //users/account
+        $lang['account_wlc'] = 'Bienvenue';
+        $lang['account_logout'] = 'Déconnexion';
+        $lang['account_name'] = 'Nom';
+        $lang['account_mail'] = 'Adresse E-mail';
+        $lang['account_phone'] = 'Numéro de Téléphone';
   
 
 

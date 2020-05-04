@@ -48,7 +48,7 @@
                     <?php if(!empty($collab)){ 
                             
                         foreach($collab as $row){ 
-                            $image = !empty($row['file_name'])?'<img src="'.base_url().'uploads/collab_img/'.$row['file_name'].'" width="150" class="thumbnail" id="img" />':''; 
+                            $image = !empty($row['file_name'])?'<img src="'.base_url().'uploads/admin_img/'.$row['file_name'].'" width="150" class="thumbnail" id="img" />':''; 
 
                     ?>
                     <tr>

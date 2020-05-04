@@ -104,17 +104,16 @@
     <title>Modification Collaboration | Les Bavardes Amiens</title>
 
 
-<!--PAGES USERS
-    <?php // }elseif($ma_pages == 'ad_index_users') {    ?>
-    <title>Utilisateur ADMIN | Les Bavardes Amiens</title>
-  <?php//  }elseif($ma_pages == 'ad_view_users') {    ?>
-    <title>Detail Utilisateur | Les Bavardes Amiens</title>
-  <?php//  }elseif($ma_pages == 'add_users') {    ?>
-    <title>Ajout Utilisateur | Les Bavardes Amiens</title>
-  <?php//  }elseif($ma_pages == 'edit_users') {    ?>
-    <title>Modification Utilisateur | Les Bavardes Amiens</title>
-  -->
-  
+        <!--PAGES ADMIN-->
+  <?php  }elseif($ma_pages == 'ad_index_admin') {    ?>
+    <title>Utilisateurs Admin ADMIN | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'ad_view_admin') {    ?>
+    <title>Detail Admin | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'add_admin') {    ?>
+    <title>Ajout Admin | Les Bavardes Amiens</title>
+  <?php  }elseif($ma_pages == 'edit_admin') {    ?>
+    <title>Modification Admin | Les Bavardes Amiens</title>
+
 
   <?php  } else {?>
       <title>Les Bavardes Amiens</title>
@@ -231,17 +230,17 @@
                   <?php  }  ?>
 
 
-                  <!--<?php// if($ma_pages == 'ad_index_users'){ ?>
+                  <?php if($ma_pages == 'ad_index_admin'){ ?>
 
                   <li class="nav-item active pr-4 pl-4 ">
                     <a class="nav-link text-center" href="<?php echo base_url().'users/ad_index'?>">Utilisateurs</a>
                   </li>
-                  <?php//  }else{    ?>
+                  <?php  }else{    ?>
 
                   <li class="nav-item pr-4  pl-4">
                     <a class="nav-link text-center" href="<?php echo base_url().'users/ad_index'?>">Utilisateurs</a>
                   </li>
-                  <?php//  }  ?>-->
+                  <?php  }  ?>
                   
                   <li class="nav-item pr-4  pl-4">
                     <a class="nav-link text-center" href="<?php echo base_url('users/logout'); ?>">Déconnexion</a>

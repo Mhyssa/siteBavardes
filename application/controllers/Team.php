@@ -340,12 +340,6 @@ function index($lang = ''){
 
 
 
-
-
-
-
-
-
  public function ad_view_team($id){ 
 
     if($this->isUserLoggedIn){ 
@@ -377,14 +371,6 @@ function index($lang = ''){
 
     
 } 
-
-
-
-
-
-
-
-
 
 
 

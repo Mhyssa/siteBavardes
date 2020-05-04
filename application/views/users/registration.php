@@ -4,7 +4,10 @@
     <!-- Status message -->
     <?php  
         if(!empty($success_msg)){ 
-            echo '<p class="status-msg success">'.$success_msg.'</p>'; 
+            echo '<p class="status-msg success">'.$success_msg; 
+            ?> - <a href="<?php echo base_url().'Users/login/'.$lang; ?>"><?php echo $create_clk; ?></a>
+            </p>
+            <?php
         }elseif(!empty($error_msg)){ 
             echo '<p class="status-msg error">'.$error_msg.'</p>'; 
         } 
@@ -52,6 +55,7 @@
                     </div>
                 </div>
             </div>
+            
 
             <div class="form-group">
                 <input type="reset" class="btn btn-secondary" value="<?php echo $create_reset; ?>">

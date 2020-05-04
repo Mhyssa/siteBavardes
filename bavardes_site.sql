@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  sam. 02 mai 2020 à 14:44
+-- Généré le :  lun. 04 mai 2020 à 16:34
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -43,49 +43,49 @@ CREATE TABLE IF NOT EXISTS `collab` (
 --
 
 INSERT INTO `collab` (`collab_id`, `collab_name`, `collab_link`, `file_name`, `collab_cat`) VALUES
-(1, 'Le Network', 'https://www.facebook.com/nw.amiens', NULL, ''),
-(2, 'Le Barrio', 'https://www.barrio-amiens.fr/', NULL, ''),
-(3, 'La Gargouille', 'https://www.facebook.com/LaGargouilleAmiens/', NULL, ''),
-(4, 'Le Charleston', 'https://www.facebook.com/lecharlestoncafe/', NULL, ''),
-(5, 'Le Café', 'https://www.facebook.com/lecafeamiens/', NULL, ''),
-(6, 'Le Capuccino', 'https://www.facebook.com/LeCapuccino', NULL, ''),
-(7, 'La Boîte Sans Projets', 'http://www.boite-sans-projet.org/', NULL, ''),
-(8, 'Le Centre Léo LaGrange', 'http://ccll-amiens.fr/', NULL, ''),
-(9, 'Le Mic Mac', 'https://www.facebook.com/MicMacAndCot/', NULL, ''),
-(10, 'Les Enfants Terribles', 'https://www.facebook.com/Les-Enfants-Terribles-176177469406995/', NULL, ''),
-(11, 'L\'Officine déphasée', 'https://www.facebook.com/officinedephasee/', NULL, ''),
-(12, 'Le Red & White', 'https://www.facebook.com/pages/category/Pub/Red-and-White-Bar-Amiens-203412793125652/', NULL, ''),
-(13, 'La Péniche Lapin Vert', 'https://www.facebook.com/lelapinvert/?__tn__=K-R&eid=ARAZCFENvegkjgmwZnyzeInEPcmUrcLfhbMr6xsScXRBZ2h6ZFU-p8RySF3Qj3Y2dirr2PV-VfRMVPvG&fref=mentions&__xts__[0]=68.ARCTl2i66tL39HSXNnsHzL_4mt8vjEeiwmNCt0', NULL, ''),
-(14, 'L\'Île aux Fruits', 'https://www.facebook.com/ileauxfruits80/', NULL, ''),
-(15, 'Le Füt et à Mesure', 'http://aufutetamesure.fr/bar/aufut-amiens/', NULL, ''),
-(16, 'La Taverne Elektrik', 'https://www.facebook.com/pages/category/Pub/La-Taverne-Elektrik-646909932108464/', NULL, ''),
-(17, 'Sports Bar', 'https://www.facebook.com/sportsbaramiens/', NULL, ''),
-(18, 'CSC d\'Étouvie', 'https://cscetouvie.fr/', NULL, ''),
-(19, 'La Lune des Pirates', 'http://www.lalune.net/', NULL, ''),
-(20, 'Lycée Michelis', 'http://michelis.lyc.ac-amiens.fr/', NULL, ''),
-(21, 'Lycée de la Hotoie', 'http://lahotoie.lyc.ac-amiens.fr/', NULL, ''),
-(22, 'AESP Amiens', 'https://www.facebook.com/aesp.amiens', NULL, ''),
-(23, 'Le Groupe d\'Appui et de Solidarité', 'https://www.gas-asso.org/', NULL, ''),
-(24, 'Radio Campus', 'http://www.radiocampusamiens.fr/', NULL, ''),
-(25, 'Carmen', 'https://canalnord.org/', NULL, ''),
-(26, 'Translucide', 'https://www.facebook.com/Translucide80/', NULL, ''),
-(27, 'Flash Our True Colors', 'https://flash-our-true-colors.fr/', NULL, ''),
-(28, 'Jeanne Magazine', 'https://www.jeanne-magazine.com/', NULL, ''),
-(29, 'OSAM', 'http://www.osam.fr/', NULL, ''),
-(30, 'UPJV Amiens', 'https://www.u-picardie.fr/', NULL, ''),
-(31, 'Cité Carter', 'http://www.citecarter.com/', NULL, ''),
-(32, 'AIDES', 'https://www.aides.org/', NULL, ''),
-(33, 'La Courte Échelle', 'https://www.facebook.com/pages/category/Artist/Le-Collectif-la-Courte-echelle-329157984302928/', NULL, ''),
-(34, 'Collectif IDAHOT', 'https://www.facebook.com/festivalidahot', NULL, ''),
-(35, 'L\'Alimentation Générale', '', NULL, ''),
-(36, 'DRJSCS', 'http://hauts-de-france.drjscs.gouv.fr/', NULL, ''),
-(37, 'DDCS', 'http://www.somme.gouv.fr/Services-de-l-Etat/Sante-et-cohesion-sociale/Direction-departementale-de-la-cohesion-sociale-DDCS', NULL, ''),
-(38, 'Amiens Métropole', 'https://www.amiens.fr/', NULL, ''),
-(39, 'Amiens Métropole Natation', 'https://amiensnatation.com/', NULL, ''),
-(40, 'Fonds de Dotation Lesbiennes d\'Intérêt Général', 'https://www.fondslesbien.org/', NULL, ''),
-(41, 'La Cave du Houblon', 'https://www.lacaveduhoublon.fr/', NULL, ''),
-(42, 'AfroBenin', 'https://afrobenin.org/', NULL, ''),
-(43, 'Pas à Passo Théâtre de l\'Opprimé', 'https://www.facebook.com/PasaPassoTO/', NULL, '');
+(1, 'Le Network', 'https://www.facebook.com/nw.amiens', 'logo_225_network.jpg', 'Lieux'),
+(2, 'Le Barrio', 'https://www.barrio-amiens.fr/', 'logo_225_barrio.jpg', 'Lieux'),
+(3, 'La Gargouille', 'https://www.facebook.com/LaGargouilleAmiens/', 'logo_225_gargouille.jpg', 'Lieux'),
+(4, 'Le Charleston', 'https://www.facebook.com/lecharlestoncafe/', 'logo_225_charleston.jpg', 'Lieux'),
+(5, 'Le Café', 'https://www.facebook.com/lecafeamiens/', 'logo_225_cafe.jpg', 'Lieux'),
+(6, 'Le Capuccino', 'https://www.facebook.com/LeCapuccino', 'logo_225_capuccino.jpg', 'Lieux'),
+(7, 'La Boîte Sans Projets', 'http://www.boite-sans-projet.org/', 'logo_225_bsp.jpg', 'Lieux'),
+(8, 'Le Centre Léo LaGrange', 'http://ccll-amiens.fr/', 'logo_225_centreLeoLagrange.jpg', 'Lieux'),
+(9, 'Le Mic Mac', 'https://www.facebook.com/MicMacAndCot/', 'logo_225_micMac.jpg', 'Lieux'),
+(10, 'Les Enfants Terribles', 'https://www.facebook.com/Les-Enfants-Terribles-176177469406995/', 'logo_225_enfants.jpg', 'Lieux'),
+(11, 'L\'Officine déphasée', 'https://www.facebook.com/officinedephasee/', 'logo_225_officine.jpg', 'Lieux'),
+(12, 'Le Red & White', 'https://www.facebook.com/pages/category/Pub/Red-and-White-Bar-Amiens-203412793125652/', 'logo_225_red.jpg', 'Lieux'),
+(13, 'La Péniche Lapin Vert', 'https://www.facebook.com/lelapinvert/?__tn__=K-R&eid=ARAZCFENvegkjgmwZnyzeInEPcmUrcLfhbMr6xsScXRBZ2h6ZFU-p8RySF3Qj3Y2dirr2PV-VfRMVPvG&fref=mentions&__xts__[0]=68.ARCTl2i66tL39HSXNnsHzL_4mt8vjEeiwmNCt0', 'logo_225_lapin.jpg', 'Lieux'),
+(14, 'L\'Île aux Fruits', 'https://www.facebook.com/ileauxfruits80/', 'logo_225_ile.jpg', 'Lieux'),
+(15, 'Le Füt et à Mesure', 'http://aufutetamesure.fr/bar/aufut-amiens/', 'logo_225_fut.jpg', 'Lieux'),
+(16, 'La Taverne Elektrik', 'https://www.facebook.com/pages/category/Pub/La-Taverne-Elektrik-646909932108464/', 'logo_225_taverne.jpg', 'Lieux'),
+(17, 'Sports Bar', 'https://www.facebook.com/sportsbaramiens/', 'logo_225_sports.jpg', 'Lieux'),
+(18, 'CSC d\'Étouvie', 'https://cscetouvie.fr/', 'logo_225_csc.jpg', 'Lieux'),
+(19, 'La Lune des Pirates', 'http://www.lalune.net/', 'logo_225_lune.jpg', 'Lieux'),
+(20, 'Lycée Michelis', 'http://michelis.lyc.ac-amiens.fr/', 'logo_225_michelis.jpg', 'Collaborations'),
+(21, 'Lycée de la Hotoie', 'http://lahotoie.lyc.ac-amiens.fr/', 'logo_225_laHotoie.jpg', 'Collaborations'),
+(22, 'AESP Amiens', 'https://www.facebook.com/aesp.amiens', 'logo_225_aesp.jpg', 'Collaborations'),
+(23, 'Le Groupe d\'Appui et de Solidarité', 'https://www.gas-asso.org/', 'logo_225_gas.jpg', 'Collaborations'),
+(24, 'Radio Campus', 'http://www.radiocampusamiens.fr/', 'logo_225_radio.jpg', 'Collaborations'),
+(25, 'Carmen', 'https://canalnord.org/', 'logo_225_carmen.jpg', 'Collaborations'),
+(26, 'Translucide', 'https://www.facebook.com/Translucide80/', 'logo_225_translucide.jpg', 'Collaborations'),
+(27, 'Flash Our True Colors', 'https://flash-our-true-colors.fr/', 'logo_225_flash.jpg', 'Collaborations'),
+(28, 'Jeanne Magazine', 'https://www.jeanne-magazine.com/', 'logo_225_jeanne.jpg', 'Collaborations'),
+(29, 'OSAM', 'http://www.osam.fr/', 'logo_225_osam.jpg', 'Collaborations'),
+(30, 'UPJV Amiens', 'https://www.u-picardie.fr/', 'logo_225_upjv.jpg', 'Collaborations'),
+(31, 'Cité Carter', 'http://www.citecarter.com/', 'logo_225_citeCarter.jpg', 'Collaborations'),
+(32, 'AIDES', 'https://www.aides.org/', 'logo_225_aides.jpg', 'Collaborations'),
+(33, 'La Courte Échelle', 'https://www.facebook.com/pages/category/Artist/Le-Collectif-la-Courte-echelle-329157984302928/', 'logo_225_courteEchelle.jpg', 'Collaborations'),
+(34, 'Collectif IDAHOT', 'https://www.facebook.com/festivalidahot', NULL, 'Collaborations'),
+(35, 'L\'Alimentation Générale', '', 'logo_225_alg.jpg', 'Lieux'),
+(36, 'DRJSCS', 'http://hauts-de-france.drjscs.gouv.fr/', 'logo_225_drjscs.jpg', 'Financiers'),
+(37, 'DDCS', 'http://www.somme.gouv.fr/Services-de-l-Etat/Sante-et-cohesion-sociale/Direction-departementale-de-la-cohesion-sociale-DDCS', 'logo_225_ddcs.jpg', 'Financiers'),
+(38, 'Amiens Métropole', 'https://www.amiens.fr/', 'logo_225_amiensMetro.jpg', 'Financiers'),
+(39, 'Amiens Métropole Natation', 'https://amiensnatation.com/', 'logo_225_amiensMetroNatation.jpg', 'Financiers'),
+(40, 'Fonds de Dotation Lesbiennes d\'Intérêt Général', 'https://www.fondslesbien.org/', 'logo_225_lig.jpg', 'Financiers'),
+(41, 'La Cave du Houblon', 'https://www.lacaveduhoublon.fr/', 'logo_225_cave.jpg', 'Collaborations'),
+(42, 'AfroBenin', 'https://afrobenin.org/', 'logo_225_afroBenin.jpg', 'Collaborations'),
+(43, 'Pas à Passo Théâtre de l\'Opprimé', 'https://www.facebook.com/PasaPassoTO/', 'logo_225_pap.jpg', 'Collaborations');
 
 -- --------------------------------------------------------
 
@@ -398,15 +398,16 @@ CREATE TABLE IF NOT EXISTS `users` (
   `us_password` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `us_phone` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
   `us_status` tinyint(1) NOT NULL DEFAULT 0 COMMENT '1=Admin | 0=User',
+  `file_name` varchar(25) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`us_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Déchargement des données de la table `users`
 --
 
-INSERT INTO `users` (`us_id`, `us_fname`, `us_lname`, `us_email`, `us_password`, `us_phone`, `us_status`) VALUES
-(1, 'Jade', 'Guehoun', 'wwejgulip@gmail.com', 'db496a2e9e18cb15227ac7abb08c9ba38f339821', '0698129757', 1);
+INSERT INTO `users` (`us_id`, `us_fname`, `us_lname`, `us_email`, `us_password`, `us_phone`, `us_status`, `file_name`) VALUES
+(1, 'Jade', 'Guehoun', 'wwejgulip@gmail.com', 'db496a2e9e18cb15227ac7abb08c9ba38f339821', '0698129757', 1, 'jade500.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

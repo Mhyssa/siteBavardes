@@ -119,33 +119,104 @@
     <!-- -le mois des violences faites aux femmes 2017 page facebook Amiens non aux violences faite aux femmes  -->
 
     <!-- debut Merci de votre confiance et de votre chaleureux acceuil -->
+    <div class="row mt-4">
+    <?php// if($lang == 'fr'){ ?>
+      <img src="<?php echo base_url(); ?>assets\img\banniere\partenaires.png" alt="banniere collaboration" class="img-fluid pb-3">
+    <?php/* } else { 
+      echo 'partnership?';
+    }*/
+    ?>
+    </div>
+
     <div class="row shadow">
       <div class="col-md-12">
         <br><br>
-        <h4 id="titre"><?php echo $collab_thank; ?>:</h4>
+        <h4 id="titre"><?php echo $collab_thank; ?></h4>
         <br>
+        </div>
 
-        <div class="row">
+              <div class="col-md-12">
+              <br><br>
+              <h5 class="titre-collab">Partenaires financiers</h5>
+              <br>
+            </div>
 
-        <div class="col-lg-12 pt-5 pb-5">            
-            <ul>
-
-            <?php if(!empty($collab)){ 
-                   
-                   foreach($collab as $row){ 
-                           ?>
-
-              <div class="col-lg-3 float-left">
-
-              <li><a class="text-dark" href="<?php echo $row['collab_link'] ?>"><?php echo $row['collab_name']; ?></a></li>
-
-              </div>
+            <div class="col-lg-12">
               
-              <?php }}
+                  <?php if(!empty($collab)){ 
+                        
+                        foreach($collab as $row){ 
+                          if($row['collab_cat'] == 'Financiers'){
+                                ?>
+                      <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
+                          <a class="text-dark" class="img-fluid" href="<?php echo $row['collab_link'] ?>">
+                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="" srcset="">
+                          </a>
+                      </div>        
+                  
+                  <?php }}}
+                  ?>
+              
+            </div>
+                
+
+            <div class="col-md-12">
+              <br><br>
+              <h5 class="titre-collab">" On travaille ensemble ! "</h5>
+              <br>
+            </div>
+
+            <div class="col-lg-12">
+              
+                  <?php if(!empty($collab)){ 
+                        
+                        foreach($collab as $row){ 
+                          if($row['collab_cat'] == 'Collaborations'){
+                                ?>
+                      <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
+                        <div class="col-lg-3 float-left">
+                          <a class="text-dark" href="<?php echo $row['collab_link'] ?>">
+                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="" srcset="">
+                          </a>
+                        </div>
+                      </div>        
+                  
+                  <?php }}}
+                  ?>
+              
+            </div>
+                
+                
+            <div class="col-md-12">
+              <br><br>
+              <h5 class="titre-collab">" Ils nous ont accueilli !</h5>
+              <br>
+            </div>
+
+            <div class="col-lg-12">
+              
+              <?php if(!empty($collab)){ 
+                    
+                    foreach($collab as $row){ 
+                      if($row['collab_cat'] == 'Lieux'){
+                            ?>
+                      <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
+                    <div class="col-lg-3 float-left">
+                      <a class="text-dark" href="<?php echo $row['collab_link'] ?>">
+                          <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="" srcset="">
+                      </a>
+                    </div>
+                  </div>        
+              
+              <?php }}}
               ?>
+          
+            </div>
+         
 
 
-            </ul>
+
+
           </div>
          
         </div>
