@@ -1,3 +1,4 @@
+<div class="col-lg-12 ombre pt-5">
 <div class="container">
     <h2><?php echo $create_title; ?></h2>
 	
@@ -55,7 +56,23 @@
                     </div>
                 </div>
             </div>
-            
+            <fieldset>
+            <legend><?php echo $create_captcha_legend; ?></legend>
+                <div class="row">
+                    <div class="col-5">
+                        <div class="form-group">
+                            <input type="text" name="user_captcha" placeholder="<?php echo $create_captcha_text; ?>" class="form-control" value="<?php if(!empty($user_captcha)){echo $user_captcha;} ?>">
+                            <?php echo form_error('user_captcha','<p style= "color: #F83A18">','</p>'); ?>
+                        </div>  
+                    </div>
+                    <div class="col-5">
+                        <div class="form-group">
+                            <span><?php echo $captcha['image']; ?></span>
+                        </div>
+                    </div>
+                </div>      
+            </fieldset>
+   
 
             <div class="form-group">
                 <input type="reset" class="btn btn-secondary" value="<?php echo $create_reset; ?>">
@@ -64,4 +81,5 @@
         <?php echo form_close(); ?>
         <p><?php echo $create_act; ?> <a href="<?php echo base_url().'Users/login/'.$lang; ?>"><?php echo $create_clk; ?></a></p>
     </div>
+</div>
 </div>

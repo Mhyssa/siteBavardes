@@ -1,4 +1,6 @@
+<div class="col-lg-12 ombre pt-5">
 <div class="container">
+
     <h2><?php echo $login_title; ?></h2>
 	
     <!-- Status message -->
@@ -35,4 +37,4 @@
         <p><?php echo $login_act; ?> <a href="<?php echo base_url().'Users/registration/'.$lang; ?>"><?php echo $login_clk; ?></a></p>
     </div>
 </div>
-
+</div>

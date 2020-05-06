@@ -9,19 +9,13 @@
 
     // header
         // titre + titre nav
-        $lang['header_acc'] = 'Accueil';
         $lang['header_about'] = 'Qui sommes nous?';
         $lang['header_team'] = 'L\'Equipe';
-        $lang['header_act'] = 'Nos Actions';
         $lang['header_event'] = 'Nos Évènements';
+        $lang['header_pod'] = 'Nous Écouter';
         $lang['header_col'] = 'Nos Collaborations';
         $lang['header_ppl'] = 'Artistes & Intervenant.es';
-        $lang['header_presse'] = 'La Presse';
-        $lang['header_pod'] = 'Nos Podcasts';
-        $lang['header_esmem'] = 'Espace Membre';
-            $lang['header_user_acc'] = 'Compte Utilisateur';
-            $lang['header_login'] = 'Se Connecter';
-            $lang['header_reg'] = 'S\'Inscrire';
+
         // id titre
         $lang['header_titre'] = 'Les Bavardes collectif féministe & lesbien à Amiens depuis 2017';
 
@@ -136,6 +130,14 @@
         $lang['create_err_msg2'] = 'Veuillez remplir tous les champs ci-dessous.';
         $lang['create_mail_check'] = 'Un compte est déjà affilié avec cette adresse e-mail.';
 
+        $lang['create_fval_fname'] = 'prénom';
+        $lang['create_fval_lname'] = 'nom';
+        $lang['create_fval_email'] = 'adresse e-mail';
+        $lang['create_fval_phone'] = 'numéro de téléphone';
+        $lang['create_fval_psw'] = 'mot de passe';
+        $lang['create_fval_conf_psw'] = 'mot de passe à confirmer';
+        $lang['create_fval_captcha'] = 'captcha';
+
 
         $lang['create_title'] = 'Inscription';
         $lang['create_fname'] = 'Prénom';
@@ -147,6 +149,10 @@
         $lang['create_reset'] = 'Annuler';
         $lang['create_submit'] = 'S\'inscrire';
 
+        $lang['create_captcha_legend'] = 'Je ne suis pas un robot';
+        $lang['create_captcha_text'] = 'Ecris ici le code captcha';
+        $lang['create_captcha'] = 'Veuillez entrer le motif correct !';
+
         $lang['create_act'] = 'Tu possèdes déjà un compte?';
         $lang['create_clk'] = 'Clique Ici';
 
@@ -156,6 +162,8 @@
         $lang['login_err_msg1'] = 'Adresse e-mail et/ou Mot de passe erroné(s), veuillez rééssayer.';
         $lang['login_err_msg2'] = $lang['create_err_msg2'];
 
+        $lang['login_fval_email'] = $lang['create_fval_email'];
+        $lang['login_fval_psw'] = $lang['create_fval_psw'];
 
         $lang['login_title'] = 'Connexion';
         $lang['login_mail'] = 'Addresse E-mail';
@@ -330,5 +338,10 @@
 
     $lang['footer_mentions'] = 'Mentions Légales';
     $lang['footer_rgpd'] = 'Politique de Confidentialité';
+    $lang['footer_esmem'] = 'Espace Membre';
+        $lang['footer_user_acc'] = 'Compte Utilisateur';
+        $lang['footer_login'] = 'Se Connecter';
+        $lang['footer_reg'] = 'S\'Inscrire';
+
 
 ?>

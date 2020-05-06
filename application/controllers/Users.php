@@ -7,7 +7,8 @@ class Users extends CI_Controller {
          
         // Load form validation ibrary & user model 
         $this->load->helper('form'); 
-        $this->load->library('form_validation'); 
+        $this->load->helper('captcha');
+        $this->load->library('form_validation');
 
         $this->load->model('User_Model'); 
 
@@ -32,77 +33,6 @@ class Users extends CI_Controller {
         } 
     }
 
-
-
- 
-
-    public function account($lang = ''){ 
-        $data = array(); 
-
-        $this->lang->load('content', $lang == ''?'fr':$lang);
-        $data['controller'] = 'users';
-        $data['function'] = 'account';
-
-        if($this->isUserLoggedIn){ 
-            $con = array( 
-                'us_id' => $this->session->userdata('userId') 
-            ); 
-            $data['ma_pages'] = 'account';
-            $data['user'] = $this->User_Model->getRowsUser($con); 
-             
-
-             //définition de la langue
-             $data['lang'] = $this->lang->line('lang');
-
-            
-             //header
-            $data['header_acc'] = $this->lang->line('header_acc');
-            $data['header_about'] = $this->lang->line('header_about');
-            $data['header_team'] = $this->lang->line('header_team');
-            $data['header_act'] = $this->lang->line('header_act');
-            $data['header_event'] = $this->lang->line('header_event');
-            $data['header_col'] = $this->lang->line('header_col');
-            $data['header_ppl'] = $this->lang->line('header_ppl');
-            $data['header_presse'] = $this->lang->line('header_presse');
-            $data['header_pod'] = $this->lang->line('header_pod');
-            $data['header_esmem'] = $this->lang->line('header_esmem');
-                $data['header_user_acc'] = $this->lang->line('header_user_acc');
-                $data['header_login'] = $this->lang->line('header_login');
-                $data['header_reg'] = $this->lang->line('header_reg');
-
-            $data['header_titre'] = $this->lang->line('header_titre');
-            
-            
-
-            //users/account
-            $data['account_wlc'] = $this->lang->line('account_wlc');
-            $data['account_logout'] = $this->lang->line('account_logout');
-            $data['account_name'] = $this->lang->line('account_name');
-            $data['account_mail'] = $this->lang->line('account_mail');
-            $data['account_phone'] = $this->lang->line('account_phone');
-
-
-            
-            //footer
-             $data['footer_line1'] = $this->lang->line('footer_line1');
-             $data['footer_line2'] = $this->lang->line('footer_line2');
-             $data['footer_body_text'] = $this->lang->line('footer_body_text');
-                 $data['footer_button_support'] = $this->lang->line('footer_button_support');
-             $data['footer_line3'] = $this->lang->line('footer_line3');
-         
-             $data['footer_mentions'] = $this->lang->line('footer_mentions');
-             $data['footer_rgpd'] = $this->lang->line('footer_rgpd');
-
-
-
-            // Pass the user data and load view 
-            $this->load->view('templates/header', $data); 
-            $this->load->view('users/account', $data); 
-            $this->load->view('templates/footer', $data); 
-        }else{ 
-            redirect('users/login'); 
-        } 
-    } 
 
 
 
@@ -393,6 +323,13 @@ class Users extends CI_Controller {
 
 
         $this->lang->load('content', $lang == ''?'fr':$lang);
+
+        if($lang == 'fr'){
+            $this->config->set_item('language', 'french');
+        } else {
+            $this->config->set_item('language', 'english');
+        }
+        
         $data['controller'] = 'users';
         $data['function'] = 'registration';
 
@@ -410,11 +347,7 @@ class Users extends CI_Controller {
                         $data['header_ppl'] = $this->lang->line('header_ppl');
                         $data['header_presse'] = $this->lang->line('header_presse');
                         $data['header_pod'] = $this->lang->line('header_pod');
-                        $data['header_esmem'] = $this->lang->line('header_esmem');
-                            $data['header_user_acc'] = $this->lang->line('header_user_acc');
-                            $data['header_login'] = $this->lang->line('header_login');
-                            $data['header_reg'] = $this->lang->line('header_reg');
-                
+                                            
                         $data['header_titre'] = $this->lang->line('header_titre');
         
         
@@ -429,6 +362,8 @@ class Users extends CI_Controller {
                         $data['create_psw_cf'] = $this->lang->line('create_psw_cf');
                         $data['create_reset'] = $this->lang->line('create_reset');
                         $data['create_submit'] = $this->lang->line('create_submit');
+                        $data['create_captcha_legend'] = $this->lang->line('create_captcha_legend');
+                        $data['create_captcha_text'] = $this->lang->line('create_captcha_text');
                         $data['create_act'] = $this->lang->line('create_act');
                         $data['create_clk'] = $this->lang->line('create_clk');
 
@@ -443,17 +378,25 @@ class Users extends CI_Controller {
                     
                         $data['footer_mentions'] = $this->lang->line('footer_mentions');
                         $data['footer_rgpd'] = $this->lang->line('footer_rgpd');
-         
+                        $data['footer_esmem'] = $this->lang->line('footer_esmem');
+                            $data['footer_user_acc'] = $this->lang->line('footer_user_acc');
+                            $data['footer_login'] = $this->lang->line('footer_login');
+                            $data['footer_reg'] = $this->lang->line('footer_reg');
+
 
 
         // If registration request is submitted 
         if($this->input->post('signupSubmit')){ 
-            $this->form_validation->set_rules('us_fname', 'Prénom', 'required|alpha'); 
-            $this->form_validation->set_rules('us_lname', 'Nom', 'required|alpha'); 
-            $this->form_validation->set_rules('us_email', 'Adresse e-mail', 'required|valid_email|callback_email_check'); 
-            $this->form_validation->set_rules('us_password', 'Mot de Passe', 'required'); 
-            $this->form_validation->set_rules('us_phone', 'Numéro de téléphone', 'integer'); 
-            $this->form_validation->set_rules('us_conf_password', 'Mot de Passe à confirmer', 'required|matches[us_password]'); 
+            $this->form_validation->set_rules('us_fname', $data['create_fval_fname'] = $this->lang->line('create_fval_fname'), 'required|alpha'); 
+            $this->form_validation->set_rules('us_lname', $data['create_fval_lname'] = $this->lang->line('create_fval_lname'), 'required|alpha'); 
+            $this->form_validation->set_rules('us_email', $data['create_fval_email'] = $this->lang->line('create_fval_email'), 'required|valid_email|callback_email_check'); 
+            $this->form_validation->set_rules('us_phone', $data['create_fval_phone'] = $this->lang->line('create_fval_phone'), 'integer'); 
+            $this->form_validation->set_rules('us_password', $data['create_fval_psw'] = $this->lang->line('create_fval_psw'), 'required'); 
+            $this->form_validation->set_rules('us_conf_password', $data['create_fval_conf_psw'] = $this->lang->line('create_fval_conf_psw'), 'required|matches[us_password]'); 
+            $this->form_validation->set_rules('user_captcha', $data['create_fval_captcha'] = $this->lang->line('create_fval_captcha'),'required|callback_check_captcha');
+            $user_captcha = $this->input->post('user_captcha');
+
+
  
             $userData = array( 
                 'us_fname' => strip_tags($this->input->post('us_fname',true)), 
@@ -466,7 +409,8 @@ class Users extends CI_Controller {
             if($this->form_validation->run() == true){ 
                 $insert = $this->User_Model->insert($userData); 
                 if($insert){ 
-                    $data['success_msg'] = $this->lang->line('create_suc_msg'); 
+                    $this->session->set_userdata('success_msg', $this->lang->line('create_suc_msg')); 
+                    redirect('users/login/'.$lang);
                 }else{ 
                     
                     $data['error_msg'] = $this->lang->line('create_err_msg1'); 
@@ -475,6 +419,22 @@ class Users extends CI_Controller {
                 $data['error_msg'] = $this->lang->line('create_err_msg2'); 
             } 
         } 
+
+        if($this->form_validation->run() == false){
+            $random_number = substr(number_format(time()*rand(),0,'',''),0,6);
+
+            $vals = array(
+                'word' => $random_number,
+                'img_path' => './captcha_images/',
+                'img_url' => base_url().'captcha_images/',
+                'img_width' => 140,
+                'img_height' => 32,
+                'expiration' => 7200
+            );
+
+            $data['captcha'] = create_captcha($vals);
+            $this->session->set_userdata('captchaWord', $data['captcha']['word']);
+        }
          
         // Posted data 
         $data['ma_pages'] = 'registration';
@@ -493,6 +453,13 @@ class Users extends CI_Controller {
 
 
         $this->lang->load('content', $lang == ''?'fr':$lang);
+
+        if($lang == 'fr'){
+            $this->config->set_item('language', 'french');
+        } else {
+            $this->config->set_item('language', 'english');
+        }
+
         $data['controller'] = 'users';
         $data['function'] = 'login';
 
@@ -510,11 +477,7 @@ class Users extends CI_Controller {
                         $data['header_ppl'] = $this->lang->line('header_ppl');
                         $data['header_presse'] = $this->lang->line('header_presse');
                         $data['header_pod'] = $this->lang->line('header_pod');
-                        $data['header_esmem'] = $this->lang->line('header_esmem');
-                            $data['header_user_acc'] = $this->lang->line('header_user_acc');
-                            $data['header_login'] = $this->lang->line('header_login');
-                            $data['header_reg'] = $this->lang->line('header_reg');
-                
+                                            
                         $data['header_titre'] = $this->lang->line('header_titre');
         
         
@@ -539,6 +502,10 @@ class Users extends CI_Controller {
                     
                         $data['footer_mentions'] = $this->lang->line('footer_mentions');
                         $data['footer_rgpd'] = $this->lang->line('footer_rgpd');
+                        $data['footer_esmem'] = $this->lang->line('footer_esmem');
+                            $data['footer_user_acc'] = $this->lang->line('footer_user_acc');
+                            $data['footer_login'] = $this->lang->line('footer_login');
+                            $data['footer_reg'] = $this->lang->line('footer_reg');
 
 
          
@@ -554,8 +521,8 @@ class Users extends CI_Controller {
          
         // If login request submitted 
         if($this->input->post('loginSubmit')){ 
-            $this->form_validation->set_rules('us_email', 'Adresse e-mail', 'required|valid_email'); 
-            $this->form_validation->set_rules('us_password', 'Mot de Passe', 'required'); 
+            $this->form_validation->set_rules('us_email', $data['login_fval_psw'] = $this->lang->line('login_fval_psw'), 'required|valid_email'); 
+            $this->form_validation->set_rules('us_password', $data['login_fval_email'] = $this->lang->line('login_fval_email'), 'required'); 
              
             if($this->form_validation->run() == true){ 
                 $con = array( 
@@ -614,6 +581,80 @@ class Users extends CI_Controller {
     } 
 
 
+    
+
+
+ 
+
+    public function account($lang = ''){ 
+        $data = array(); 
+
+        $this->lang->load('content', $lang == ''?'fr':$lang);
+        $data['controller'] = 'users';
+        $data['function'] = 'account';
+
+        if($this->isUserLoggedIn){ 
+            $con = array( 
+                'us_id' => $this->session->userdata('userId') 
+            ); 
+            $data['ma_pages'] = 'account';
+            $data['user'] = $this->User_Model->getRowsUser($con); 
+             
+
+             //définition de la langue
+             $data['lang'] = $this->lang->line('lang');
+
+            
+             //header
+            $data['header_acc'] = $this->lang->line('header_acc');
+            $data['header_about'] = $this->lang->line('header_about');
+            $data['header_team'] = $this->lang->line('header_team');
+            $data['header_act'] = $this->lang->line('header_act');
+            $data['header_event'] = $this->lang->line('header_event');
+            $data['header_col'] = $this->lang->line('header_col');
+            $data['header_ppl'] = $this->lang->line('header_ppl');
+            $data['header_presse'] = $this->lang->line('header_presse');
+            $data['header_pod'] = $this->lang->line('header_pod');
+                
+            $data['header_titre'] = $this->lang->line('header_titre');
+            
+            
+
+            //users/account
+            $data['account_wlc'] = $this->lang->line('account_wlc');
+            $data['account_logout'] = $this->lang->line('account_logout');
+            $data['account_name'] = $this->lang->line('account_name');
+            $data['account_mail'] = $this->lang->line('account_mail');
+            $data['account_phone'] = $this->lang->line('account_phone');
+
+
+            
+            //footer
+             $data['footer_line1'] = $this->lang->line('footer_line1');
+             $data['footer_line2'] = $this->lang->line('footer_line2');
+             $data['footer_body_text'] = $this->lang->line('footer_body_text');
+                 $data['footer_button_support'] = $this->lang->line('footer_button_support');
+             $data['footer_line3'] = $this->lang->line('footer_line3');
+         
+             $data['footer_mentions'] = $this->lang->line('footer_mentions');
+             $data['footer_rgpd'] = $this->lang->line('footer_rgpd');
+             $data['footer_esmem'] = $this->lang->line('footer_esmem');
+                $data['footer_user_acc'] = $this->lang->line('footer_user_acc');
+                $data['footer_login'] = $this->lang->line('footer_login');
+                $data['footer_reg'] = $this->lang->line('footer_reg');
+
+
+
+            // Pass the user data and load view 
+            $this->load->view('templates/header', $data); 
+            $this->load->view('users/account', $data); 
+            $this->load->view('templates/footer', $data); 
+        }else{ 
+            redirect('users/login'); 
+        } 
+    } 
+
+
 
 
     public function logout(){ 
@@ -639,6 +680,17 @@ class Users extends CI_Controller {
         }else{ 
             return TRUE; 
         } 
+    }
+
+
+    public function check_captcha($str){
+        $word = $this->session->userdata('captchaWord');
+            if(strcmp(strtoupper($str), strtoupper($word)) == 0){
+                return true;
+            } else {
+                $this->form_validation->set_message('check_captcha',$data['create_captcha'] = $this->lang->line('create_captcha'));
+                return false;
+            }
     }
 
 

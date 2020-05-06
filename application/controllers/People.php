@@ -56,10 +56,6 @@
                         $data['header_ppl'] = $this->lang->line('header_ppl');
                         $data['header_presse'] = $this->lang->line('header_presse');
                         $data['header_pod'] = $this->lang->line('header_pod');
-                        $data['header_esmem'] = $this->lang->line('header_esmem');
-                            $data['header_user_acc'] = $this->lang->line('header_user_acc');
-                            $data['header_login'] = $this->lang->line('header_login');
-                            $data['header_reg'] = $this->lang->line('header_reg');
                 
                         $data['header_titre'] = $this->lang->line('header_titre');
         
@@ -80,8 +76,13 @@
                     
                         $data['footer_mentions'] = $this->lang->line('footer_mentions');
                         $data['footer_rgpd'] = $this->lang->line('footer_rgpd');
+                        $data['footer_esmem'] = $this->lang->line('footer_esmem');
+                            $data['footer_user_acc'] = $this->lang->line('footer_user_acc');
+                            $data['footer_login'] = $this->lang->line('footer_login');
+                            $data['footer_reg'] = $this->lang->line('footer_reg');
 
 
+                            
                         // Load the index page view 
                     $this->load->view('templates/header', $data); 
                     $this->load->view('people/index', $data); 

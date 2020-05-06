@@ -196,11 +196,11 @@
                   <!-- Actif action ou non -->
                   <?php if($ma_pages == 'ad_index_presse'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'presse/ad_index'?>">Presse</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'about/ad_index'?>">Presse</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'presse/ad_index'?>">Presse</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'about/ad_index'?>">Presse</a>
                   </li>
                   <?php  }  ?>
 

@@ -15,7 +15,7 @@
         
         
         </div>
-        <a href="<?php echo base_url().'presse/ad_index'; ?>" >Retour</a>
+        <a href="<?php echo base_url().'about/ad_index'; ?>" >Retour</a>
     </div>
 </div>
 

@@ -58,7 +58,7 @@
     <div>
 
       <p class="sur-noir"><?php echo $acc_titre2_p1; ?> <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
-      <p><a class="sur-noir" href="<?php echo base_url().'presse';?>">&#10150; <?php echo $acc_titre2_button_p2; ?></a></p>
+      <p><a class="sur-noir" href="<?php echo base_url().'about';?>">&#10150; <?php echo $acc_titre2_button_p2; ?></a></p>
     </div>
   </div>
 

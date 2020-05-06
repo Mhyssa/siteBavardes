@@ -189,7 +189,7 @@
                 
             <div class="col-md-12">
               <br><br>
-              <h5 class="titre-collab">" Ils nous ont accueilli !</h5>
+              <h5 class="titre-collab">" Ils nous ont accueilli ! "</h5>
               <br>
             </div>
 

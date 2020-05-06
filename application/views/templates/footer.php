@@ -80,7 +80,7 @@
       <p class="footlink disap">I</p>
       <p class=""><a href="<?php echo base_url().'Politique/index/'.$lang;?>" class="footlink"> Cookies </a></p>
       <p class="footlink disap">I</p>
-      <p class=" footlink police1">Copyright ©2019</p>
+      <p class=""><a href="<?php echo base_url().'Users/login/'.$lang; ?>" class="footlink"><?php echo $footer_esmem; ?></a></p>
     </div>
     </div>
 

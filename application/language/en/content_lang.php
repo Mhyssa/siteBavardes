@@ -9,19 +9,13 @@
 
     // header
         // titre + nav titre
-        $lang['header_acc'] = 'Home';
         $lang['header_about'] = 'Who are we?';
         $lang['header_team'] = 'Team';
-        $lang['header_act'] = 'Actions';
-        $lang['header_event'] = 'Events';
+        $lang['header_pod'] = 'Listen to our Stuff';
+        $lang['header_event'] = 'Events';        
         $lang['header_col'] = 'Collaborations';
         $lang['header_ppl'] = 'Artists & Speakers';
-        $lang['header_presse'] = 'Press';
-        $lang['header_pod'] = 'Podcasts';
-        $lang['header_esmem'] = 'Member Area';
-            $lang['header_user_acc'] = 'User Account';
-            $lang['header_login'] = 'Login';
-            $lang['header_reg'] = 'Register';
+
         // id titre
         $lang['header_titre'] = 'Les Bavardes, Feminist and lesbian collective in amiens since 2017';
 
@@ -131,6 +125,14 @@
         $lang['create_err_msg2'] = 'Please fill all the mandatory fields.';
         $lang['create_mail_check'] = 'The given email already exists.';
 
+        $lang['create_fval_fname'] = 'first name';
+        $lang['create_fval_lname'] = 'last name';
+        $lang['create_fval_email'] = 'email address';
+        $lang['create_fval_phone'] = 'cellphone number';
+        $lang['create_fval_psw'] = 'password';
+        $lang['create_fval_conf_psw'] = 'password to confir';
+        $lang['create_fval_captcha'] = 'captcha';
+
 
         $lang['create_title'] = 'Create a New Account';
         $lang['create_fname'] = 'First Name';
@@ -142,6 +144,10 @@
         $lang['create_reset'] = 'Reset';
         $lang['create_submit'] = 'Register';
 
+        $lang['create_captcha_legend'] = 'I\'m not a robot';
+        $lang['create_captcha_text'] = 'Write here captcha code';
+        $lang['create_captcha'] = 'Please enter correct numbers/letters!';
+
         $lang['create_act'] = 'You already have an account?';
         $lang['create_clk'] = 'Click Here';
 
@@ -151,6 +157,8 @@
         $lang['login_err_msg1'] = 'Wrong email or password, please try again.';
         $lang['login_err_msg2'] = $lang['create_err_msg2'];
 
+        $lang['login_fval_email'] = $lang['create_fval_email'];
+        $lang['login_fval_psw'] = $lang['create_fval_psw'];
 
         $lang['login_title'] = 'Login to your Account';
         $lang['login_mail'] = 'Email Address';
@@ -270,5 +278,10 @@
 
     $lang['footer_mentions'] = 'Legal Notices';
     $lang['footer_rgpd'] = 'Privacy Policy';
+    $lang['footer_esmem'] = 'Member Area';
+        $lang['footer_user_acc'] = 'User Account';
+        $lang['footer_login'] = 'Login';
+        $lang['footer_reg'] = 'Register';
+
 
 ?>
