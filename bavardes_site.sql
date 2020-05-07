@@ -288,17 +288,17 @@ INSERT INTO `podcast` (`podcast_id`, `podcast_link`, `podcast_name`, `file_name`
 (8, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/553560159&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #8', NULL),
 (9, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/557935875&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #9', NULL),
 (10, 'https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/774191071&color=#ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Bavardes Emission du 8 Mars 2020', NULL),
-(11, 'https://soundcloud.com/lesbavardes/ovaires-bookees-14', 'Ovaires Bookées #10', NULL),
-(12, 'https://soundcloud.com/lesbavardes/ovaires-bookees-15', 'Ovaires Bookées #11', NULL),
-(13, 'https://soundcloud.com/lesbavardes/ovaires-bookees-16', 'Ovaires Bookées #13', NULL),
-(14, 'https://soundcloud.com/lesbavardes/ovaires-bookees-17', 'Ovaires Bookées #15', NULL),
-(15, 'https://soundcloud.com/lesbavardes/ovaires-bookees-18', 'Ovaires Bookées #16', NULL),
-(16, 'https://soundcloud.com/lesbavardes/ovaires-bookees-19', 'Ovaires Bookées #17', NULL),
-(17, 'https://soundcloud.com/lesbavardes/ovaires-bookees-20', 'Ovaires Bookées #18', NULL),
-(18, 'https://soundcloud.com/lesbavardes/ovaires-bookees-21', 'Ovaires Bookées #19', NULL),
-(19, 'https://soundcloud.com/lesbavardes/ovaires-bookees-22', 'Ovaires Bookées #20', NULL),
-(20, 'https://soundcloud.com/lesbavardes/ovaires-bookees-23', 'Ovaires Bookées #21', NULL),
-(21, 'https://soundcloud.com/lesbavardes/ovaires-bookees-24', 'Ovaires Bookées #22', NULL);
+(11, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797594341&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #10', NULL),
+(12, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797614000&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #11', NULL),
+(13, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797645779&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #13', NULL),
+(14, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797666635&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #15', NULL),
+(15, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797696104&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #16', NULL),
+(16, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/803693758&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #17', NULL),
+(17, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/803694172&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #18', NULL),
+(18, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/803694613&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #19', NULL),
+(19, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/803694901&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true', 'Ovaires Bookées #20', NULL),
+(20, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/803699836&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\r\n', 'Ovaires Bookées #21', NULL),
+(21, 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/803704240&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\r\n\r\n', 'Ovaires Bookées #22', NULL);
 
 -- --------------------------------------------------------
 

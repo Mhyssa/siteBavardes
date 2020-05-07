@@ -65,10 +65,10 @@
           </div>
           <div class="col-sm-12">
 
-            <?php if(!empty($podcast)){ 
-                   
-                   foreach($podcast as $row){ ?>
-                       
+            <?php if(!empty($podcast)){ ?>
+                     
+                   <?php   foreach($podcast as $row){ ?>
+                                            
                 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="<?php echo $row['podcast_link'] ?>"></iframe>
 
             <?php }
