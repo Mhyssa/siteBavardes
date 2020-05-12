@@ -70,9 +70,9 @@ class Mentions extends CI_Controller{
                 $data['footer_reg'] = $this->lang->line('footer_reg');
 
             
-        $this->load->view('templates/header', $data);
+        $this->load->view('layouts/header', $data);
         $this->load->view('mentions/index', $data);
-        $this->load->view('templates/footer', $data);
+        $this->load->view('layouts/footer', $data);
 
 
     }

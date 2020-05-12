@@ -100,7 +100,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <a href="<?php echo base_url().'event/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                    <a href="<?php echo base_url().'event/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                     <input type="submit" name="event_add" class="btn btn-sm btn-success" value="Ajouter">
                 </div>
 

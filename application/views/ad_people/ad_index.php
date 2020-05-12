@@ -23,7 +23,7 @@
             <h3>Liste des Artistes</h3>
             <!-- Add link -->
             <div class="float-right">
-                <a href="<?php echo base_url(); ?>people/add_people" class="btn btn-sm btn-success">Ajouter</a>
+                <a href="<?php echo base_url(); ?>people/add_people" class="btn btn-sm btn-success"><i class="fas fa-user-plus"></i></a>
             </div>
         </div>
 
@@ -63,9 +63,9 @@
                     <td><?php echo ucfirst($row['people_title']); ?></td>
 
                     <td>
-                        <a href="<?php echo base_url().'people/ad_view_people/'.$row['people_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
-                        <a href="<?php echo base_url().'people/edit_people/'.$row['people_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
-                        <a href="<?php echo base_url().'people/delete_people/'.$row['people_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                        <a href="<?php echo base_url().'people/ad_view_people/'.$row['people_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                        <a href="<?php echo base_url().'people/edit_people/'.$row['people_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-user-edit"></i></a>
+                        <a href="<?php echo base_url().'people/delete_people/'.$row['people_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-user-minus"></i></a>
                     </td>
                 </tr>
                 <?php }}}else{ ?>
@@ -125,9 +125,9 @@
                
 
                <td>
-                   <a href="<?php echo base_url().'people/ad_view_people/'.$row['people_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
-                   <a href="<?php echo base_url().'people/edit_people/'.$row['people_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
-                   <a href="<?php echo base_url().'people/delete_people/'.$row['people_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                   <a href="<?php echo base_url().'people/ad_view_people/'.$row['people_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                   <a href="<?php echo base_url().'people/edit_people/'.$row['people_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-user-edit"></i></a>
+                   <a href="<?php echo base_url().'people/delete_people/'.$row['people_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-user-minus"></i></a>
                </td>
            </tr>
            <?php }}}else{ ?>

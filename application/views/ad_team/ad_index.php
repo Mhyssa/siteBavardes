@@ -23,7 +23,7 @@
             <h3>L'Equipe</h3>
             <!-- Add link -->
             <div class="float-right">
-                <a href="<?php echo base_url(); ?>team/add_team" class="btn btn-sm btn-success">Ajouter</a>
+                <a href="<?php echo base_url(); ?>team/add_team" class="btn btn-sm btn-success"><i class="fas fa-user-plus"></i></a>
             </div>
         </div>
 
@@ -59,9 +59,9 @@
                     <td><?php echo ucfirst($row['team_title']); ?></td>
 
                     <td>
-                        <a href="<?php echo base_url().'team/ad_view_team/'.$row['team_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
-                        <a href="<?php echo base_url().'team/edit_team/'.$row['team_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
-                        <a href="<?php echo base_url().'team/delete_team/'.$row['team_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                        <a href="<?php echo base_url().'team/ad_view_team/'.$row['team_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                        <a href="<?php echo base_url().'team/edit_team/'.$row['team_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-user-edit"></i></a>
+                        <a href="<?php echo base_url().'team/delete_team/'.$row['team_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-user-minus"></i></a>
                     </td>
                 </tr>
                 <?php }}else{ ?>

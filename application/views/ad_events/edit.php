@@ -19,10 +19,10 @@
                         <div class="col-4">
                             <div class="form-group">
                                 <label for="event_cat">Catégorie: </label> <br>
-                                <input type="radio" name="event_cat" id="event_cat" value="Festivals" <?php if($event['event_cat'] == "Festivals"){echo "checked";}?>> Festivals <br>  
-                                <input type="radio" name="event_cat" id="event_cat" value="Scènes ouvertes" <?php if($event['event_cat'] == "Scènes ouvertes"){echo "checked";}?>> Scènes ouvertes <br>
-                                <input type="radio" name="event_cat" id="event_cat" value="Bla bla" <?php if($event['event_cat'] == "Scènes ouvertes"){echo "checked";}?>> Bla bla <br>
-                                <input type="radio" name="event_cat" id="event_cat" value="Divers" <?php if($event['event_cat'] == "Bla bla"){echo "checked";}?>> Divers 
+                                <input type="radio" name="event_cat" id="event_cat" value="Festivals" <?php if($events['event_cat'] == "Festivals"){echo "checked";}?>> Festivals <br>  
+                                <input type="radio" name="event_cat" id="event_cat" value="Scènes ouvertes" <?php if($events['event_cat'] == "Scènes ouvertes"){echo "checked";}?>> Scènes ouvertes <br>
+                                <input type="radio" name="event_cat" id="event_cat" value="Bla bla" <?php if($events['event_cat'] == "Bla bla"){echo "checked";}?>> Bla bla <br>
+                                <input type="radio" name="event_cat" id="event_cat" value="Divers" <?php if($events['event_cat'] == "Divers"){echo "checked";}?>> Divers 
                                 <?php echo form_error('event_cat','<p class="help-block text-danger">','</p>'); ?>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="form-group">
-                        <a href="<?php echo base_url().'/event/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                        <a href="<?php echo base_url().'/event/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                         <input type="hidden" name="event_id" value="<?php echo !empty($events['event_id'])?$events['event_id']:''; ?>">
 
                         <input type="submit" name="event_edit" class="btn btn-sm btn-warning" value="Modifier">

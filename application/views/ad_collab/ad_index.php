@@ -24,7 +24,7 @@
             <h3>Liste des Collaborations</h3>
             <!-- Add link -->
             <div class="float-right">
-                <a href="<?php echo base_url(); ?>collab/add_collab" class="btn btn-sm btn-success">Ajouter</a>
+                <a href="<?php echo base_url(); ?>collab/add_collab" class="btn btn-sm btn-success"><i class="fas fa-user-plus"></i></a>
             </div>
         </div>
 
@@ -48,7 +48,7 @@
                     <?php if(!empty($collab)){ 
                             
                         foreach($collab as $row){ 
-                            $image = !empty($row['file_name'])?'<img src="'.base_url().'uploads/admin_img/'.$row['file_name'].'" width="150" class="thumbnail" id="img" />':''; 
+                            $image = !empty($row['file_name'])?'<img src="'.base_url().'uploads/collab_img/'.$row['file_name'].'" width="150" class="thumbnail" id="img" />':''; 
 
                     ?>
                     <tr>
@@ -59,9 +59,9 @@
                         <td><a href="<?php echo $row['collab_link']; ?>" class="btn btn-sm btn-info">Ici</a></td>             
 
                         <td>
-                            <a href="<?php echo base_url().'collab/ad_view_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
-                            <a href="<?php echo base_url().'collab/edit_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
-                            <a href="<?php echo base_url().'collab/delete_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                            <a href="<?php echo base_url().'collab/ad_view_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                            <a href="<?php echo base_url().'collab/edit_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-user-edit"></i></a>
+                            <a href="<?php echo base_url().'collab/delete_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-user-minus"></i></a>
                         </td>
                     </tr>
                     <?php }}else{ ?>

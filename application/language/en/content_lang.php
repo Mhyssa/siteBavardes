@@ -9,6 +9,7 @@
 
     // header
         // titre + nav titre
+        $lang['header_acc'] = 'Home';
         $lang['header_about'] = 'Who are we?';
         $lang['header_team'] = 'Team';
         $lang['header_pod'] = 'Listen to our Stuff';
@@ -64,6 +65,12 @@
 
 
     //event/index
+    $lang['event_badge_all'] = 'All';
+    $lang['event_badge_fest'] = 'Festivals';
+    $lang['event_badge_SO'] = 'Open Mic';
+    $lang['event_badge_bb'] = 'Bla bla';
+    $lang['event_badge_div'] = 'Diverse';
+
     $lang['event_button_det'] = 'details';
 
 
@@ -99,6 +106,10 @@
     $lang['collab_body_button_text6'] = '[Bizarre, emancipated, original, forgotten, singled out women]';
 
     $lang['collab_thank'] = ' Thank you for your trust and your heartwarming welcome ';
+
+    $lang['collab_footer_logo1'] = 'Financial Partners';
+    $lang['collab_footer_logo2'] = '" We work together !"';
+    $lang['collab_footer_logo3'] = '" They welcomed us !"';
 
 
 

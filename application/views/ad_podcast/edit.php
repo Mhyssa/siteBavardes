@@ -45,7 +45,7 @@
 
                 
                 <div class="form-group">
-                    <a href="<?php echo base_url().'podcast/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                    <a href="<?php echo base_url().'podcast/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                     <input type="hidden" name="podcast_id" value="<?php echo !empty($podcast['podcast_id'])?$podcast['podcast_id']:''; ?>">
                     <input type="submit" name="podcast_edit" class="btn btn-warning btn-sm" value="Modification">
                 </div>

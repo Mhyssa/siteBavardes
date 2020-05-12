@@ -9,6 +9,7 @@
 
     // header
         // titre + titre nav
+        $lang['header_acc'] = 'Accueil';
         $lang['header_about'] = 'Qui sommes nous?';
         $lang['header_team'] = 'L\'Equipe';
         $lang['header_event'] = 'Nos Évènements';
@@ -60,6 +61,12 @@
 
 
     //event/index
+    $lang['event_badge_all'] = 'Tous';
+    $lang['event_badge_fest'] = 'Festivals';
+    $lang['event_badge_SO'] = 'Scènes ouvertes';
+    $lang['event_badge_bb'] = 'Bla bla';
+    $lang['event_badge_div'] = 'Divers';
+    
     $lang['event_button_det'] = 'en savoir plus';
 
 
@@ -105,6 +112,10 @@
     doigt ]';
 
     $lang['collab_thank'] = ' Merci de votre confiance et de votre chaleureux accueil ';
+
+    $lang['collab_footer_logo1'] = 'Partenaires financiers';
+    $lang['collab_footer_logo2'] = '" On travaille ensemble !"';
+    $lang['collab_footer_logo3'] = '" Ils nous ont accueilli !"';
     
     
     

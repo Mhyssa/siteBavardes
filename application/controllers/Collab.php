@@ -81,6 +81,9 @@ function index($lang = ''){
 
              $data['collab_thank'] = $this->lang->line('collab_thank');
 
+             $data['collab_footer_logo1'] = $this->lang->line('collab_footer_logo1');
+             $data['collab_footer_logo2'] = $this->lang->line('collab_footer_logo2');
+             $data['collab_footer_logo3'] = $this->lang->line('collab_footer_logo3');
 
 
 
@@ -101,9 +104,9 @@ function index($lang = ''){
 
 
               // Load the index page view 
-        $this->load->view('templates/header', $data); 
+        $this->load->view('layouts/header', $data); 
         $this->load->view('collab/index', $data); 
-        $this->load->view('templates/footer', $data); 
+        $this->load->view('layouts/footer', $data); 
 
 
 
@@ -154,9 +157,9 @@ function index($lang = ''){
 
 
                 // Load the list page view 
-          $this->load->view('templates/adheader', $data); 
+          $this->load->view('layouts/adheader', $data); 
           $this->load->view('ad_collab/ad_index', $data); 
-          $this->load->view('templates/adfooter'); 
+          $this->load->view('layouts/adfooter'); 
 
         } else {
             redirect('users/login');
@@ -240,9 +243,9 @@ function index($lang = ''){
 
         
         // Load the add page view 
-        $this->load->view('templates/adheader', $data); 
+        $this->load->view('layouts/adheader', $data); 
         $this->load->view('ad_collab/add', $data); 
-        $this->load->view('templates/adfooter'); 
+        $this->load->view('layouts/adfooter'); 
 
             } else {
                 redirect('users/login');
@@ -350,9 +353,9 @@ function index($lang = ''){
 
             
            // Load the edit page view 
-           $this->load->view('templates/adheader', $data); 
+           $this->load->view('layouts/adheader', $data); 
            $this->load->view('ad_collab/edit', $data); 
-           $this->load->view('templates/adfooter');  
+           $this->load->view('layouts/adfooter');  
 
     } else {
         redirect('users/login');
@@ -392,9 +395,9 @@ function index($lang = ''){
     } 
 
        // Load the add page view 
-              $this->load->view('templates/adheader', $data); 
+              $this->load->view('layouts/adheader', $data); 
               $this->load->view('ad_collab/ad_view', $data); 
-              $this->load->view('templates/adfooter'); 
+              $this->load->view('layouts/adfooter'); 
 
 
         } else {

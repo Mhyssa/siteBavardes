@@ -1,0 +1,13 @@
+demo/
+tests/
+coverage/
+.babelrc
+.eslintignore
+.eslintrc.yml
+.travis.yml
+webpack.config.js
+README.md
+LICENSE
+CHANGELOG.md
+filterizr_logo.png
+yarn-error.log

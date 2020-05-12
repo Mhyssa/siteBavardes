@@ -54,7 +54,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <a href="<?php echo base_url().'people/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                    <a href="<?php echo base_url().'people/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                     <input type="submit" name="people_add" class="btn btn-success btn-sm" value="Ajouter">
                 </div>
 

@@ -53,7 +53,7 @@
                 
 
                 <div class="form-group">
-                        <a href="<?php echo base_url().'collab/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                        <a href="<?php echo base_url().'collab/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                         <input type="hidden" name="collab_id" value="<?php echo !empty($collab['collab_id'])?$collab['collab_id']:''; ?>">
 
                         <input type="submit" name="collab_edit" class="btn btn-sm btn-warning" value="Modifier">

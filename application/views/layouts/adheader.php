@@ -20,6 +20,7 @@
   <!-- styles CSS -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/styles.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/equipe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
 
   <!-- icone de l'onglet -->
   <link rel="icon" href="<?php echo base_url(); ?>assets/img/logo_bavardes.ico" />
@@ -147,7 +148,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'event/ad_index';?>">
+                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'users/ad_index';?>">
                   <img src="<?php echo base_url(); ?>assets/img/logo.png" width="" height="80" class="d-inline-block align-top" alt="icon">
                 </a>
                 <ul class="navbar-nav">
@@ -157,12 +158,12 @@
                   <?php if($ma_pages == 'ad_index_event'){ ?>
 
                   <li class="nav-item active pr-4 pl-4 ">
-                    <a class="nav-link text-center" href="<?php echo base_url().'event/ad_index'?>">Evenements <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'event/ad_index'?>">Evenements<span class="sr-only">(current)</span></a>
                   </li>
                   <?php  }else{    ?>
 
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'event/ad_index'?>">Evenements <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'event/ad_index'?>">Evenements<span class="sr-only">(current)</span></a>
                   </li>
                   <?php  }  ?>
 

@@ -20,7 +20,7 @@
          <h3>Liste des Admins</h3>
          <!-- Add link -->
          <div class="float-right">
-             <a href="<?php echo base_url(); ?>users/add_admin" class="btn btn-sm btn-success">Ajouter</a>
+             <a href="<?php echo base_url(); ?>users/add_admin" class="btn btn-sm btn-success mb-2"><i class="fas fa-user-plus"></i></a>
          </div>
      </div>     
 
@@ -53,8 +53,8 @@
                                 <td><?php echo $row['us_email']; ?></td>
                                 <td><?php echo $row['us_phone']; ?></td>
                                 <td>
-                                    <a href="<?php echo base_url().'index.php/users/edit_admin/'.$row['us_id'];?>" class="btn btn-sm btn-warning">modifier</a>
-                                    <a href="<?php echo base_url().'index.php/users/delete_admin/'.$row['us_id'];?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                                    <a href="<?php echo base_url().'index.php/users/edit_admin/'.$row['us_id'];?>" class="btn btn-sm btn-warning"><i class="fas fa-user-edit"></i></a>
+                                    <a href="<?php echo base_url().'index.php/users/delete_admin/'.$row['us_id'];?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-user-minus"></i></a>
                                 </td>
                             </tr>
 

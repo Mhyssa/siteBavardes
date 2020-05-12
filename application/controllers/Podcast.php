@@ -83,9 +83,9 @@ function index($lang = ''){
 
                     
               // Load the index page view 
-        $this->load->view('templates/header', $data); 
+        $this->load->view('layouts/header', $data); 
         $this->load->view('podcast/index', $data); 
-        $this->load->view('templates/footer'); 
+        $this->load->view('layouts/footer'); 
 
 
 
@@ -136,9 +136,9 @@ function index($lang = ''){
 
 
                 // Load the list page view 
-          $this->load->view('templates/adheader', $data); 
+          $this->load->view('layouts/adheader', $data); 
           $this->load->view('ad_podcast/ad_index', $data); 
-          $this->load->view('templates/adfooter'); 
+          $this->load->view('layouts/adfooter'); 
 
         } else {
             redirect('users/login');
@@ -220,9 +220,9 @@ function index($lang = ''){
 
         
         // Load the add page view 
-        $this->load->view('templates/adheader', $data); 
+        $this->load->view('layouts/adheader', $data); 
         $this->load->view('ad_podcast/add', $data); 
-        $this->load->view('templates/adfooter'); 
+        $this->load->view('layouts/adfooter'); 
 
             } else {
                 redirect('users/login');
@@ -328,9 +328,9 @@ function index($lang = ''){
 
             
            // Load the edit page view 
-           $this->load->view('templates/adheader', $data); 
+           $this->load->view('layouts/adheader', $data); 
            $this->load->view('ad_podcast/edit', $data); 
-           $this->load->view('templates/adfooter');  
+           $this->load->view('layouts/adfooter');  
 
     } else {
         redirect('users/login');
@@ -370,9 +370,9 @@ function index($lang = ''){
     } 
 
        // Load the add page view 
-              $this->load->view('templates/adheader', $data); 
+              $this->load->view('layouts/adheader', $data); 
               $this->load->view('ad_podcast/ad_view', $data); 
-              $this->load->view('templates/adfooter'); 
+              $this->load->view('layouts/adfooter'); 
 
 
         } else {

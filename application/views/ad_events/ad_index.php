@@ -22,7 +22,7 @@
             <h3>Liste des évènements </h3>
             <!-- Add link -->
             <div class="float-right">
-                <a href="<?php echo base_url(); ?>event/add_event" class="btn btn-success btn-sm">Ajouter</a>
+                <a href="<?php echo base_url(); ?>event/add_event" class="btn btn-success btn-sm"><i class="far fa-calendar-plus"></i></a>
             </div>
         </div>
 
@@ -91,9 +91,9 @@
                     <td><?php echo ucfirst($row['event_non_mix']); ?></td>
                     <td><?php echo ucfirst($row['event_description']); ?></td>             
                     <td>
-                        <a href="<?php echo base_url().'event/ad_view_event/'.$row['event_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
-                        <a href="<?php echo base_url().'event/edit_event/'.$row['event_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
-                        <a href="<?php echo base_url().'event/delete_event/'.$row['event_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                        <a href="<?php echo base_url().'event/ad_view_event/'.$row['event_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                        <a href="<?php echo base_url().'event/edit_event/'.$row['event_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                        <a href="<?php echo base_url().'event/delete_event/'.$row['event_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="far fa-calendar-minus"></i></a>
                     </td>
                 </tr>
                 <?php } }else{ ?>

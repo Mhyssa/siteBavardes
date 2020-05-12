@@ -62,7 +62,7 @@
                 
 
                 <div class="form-group">
-                        <a href="<?php echo base_url().'people/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                        <a href="<?php echo base_url().'people/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                         <input type="hidden" name="people_id" value="<?php echo !empty($people['people_id'])?$people['people_id']:''; ?>">
 
                         <input type="submit" name="people_edit" class="btn btn-sm btn-warning" value="Modifier">

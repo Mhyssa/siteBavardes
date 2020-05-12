@@ -137,7 +137,7 @@
 
               <div class="col-md-12">
               <br><br>
-              <h5 class="titre-collab">Partenaires financiers</h5>
+              <h5 class="titre-collab"><?php echo $collab_footer_logo1; ?></h5>
               <br>
             </div>
 
@@ -162,7 +162,7 @@
 
             <div class="col-md-12">
               <br><br>
-              <h5 class="titre-collab">" On travaille ensemble ! "</h5>
+              <h5 class="titre-collab"><?php echo $collab_footer_logo2; ?></h5>
               <br>
             </div>
 
@@ -189,7 +189,7 @@
                 
             <div class="col-md-12">
               <br><br>
-              <h5 class="titre-collab">" Ils nous ont accueilli ! "</h5>
+              <h5 class="titre-collab"><?php echo $collab_footer_logo3; ?></h5>
               <br>
             </div>
 

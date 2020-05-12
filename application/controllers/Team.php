@@ -75,9 +75,9 @@ function index($lang = ''){
 
 
               // Load the index page view 
-        $this->load->view('templates/header', $data); 
+        $this->load->view('layouts/header', $data); 
         $this->load->view('team/index', $data); 
-        $this->load->view('templates/footer', $data); 
+        $this->load->view('layouts/footer', $data); 
 
 
 
@@ -128,9 +128,9 @@ function index($lang = ''){
 
 
                 // Load the list page view 
-          $this->load->view('templates/adheader', $data); 
+          $this->load->view('layouts/adheader', $data); 
           $this->load->view('ad_team/ad_index', $data); 
-          $this->load->view('templates/adfooter'); 
+          $this->load->view('layouts/adfooter'); 
 
         } else {
             redirect('users/login');
@@ -216,9 +216,9 @@ function index($lang = ''){
 
         
         // Load the add page view 
-        $this->load->view('templates/adheader', $data); 
+        $this->load->view('layouts/adheader', $data); 
         $this->load->view('ad_team/add', $data); 
-        $this->load->view('templates/adfooter'); 
+        $this->load->view('layouts/adfooter'); 
 
             } else {
                 redirect('users/login');
@@ -325,9 +325,9 @@ function index($lang = ''){
 
             
            // Load the edit page view 
-           $this->load->view('templates/adheader', $data); 
+           $this->load->view('layouts/adheader', $data); 
            $this->load->view('ad_team/edit', $data); 
-           $this->load->view('templates/adfooter');  
+           $this->load->view('layouts/adfooter');  
 
     } else {
         redirect('users/login');
@@ -361,9 +361,9 @@ function index($lang = ''){
     } 
 
        // Load the add page view 
-              $this->load->view('templates/adheader', $data); 
+              $this->load->view('layouts/adheader', $data); 
               $this->load->view('ad_team/ad_view', $data); 
-              $this->load->view('templates/adfooter'); 
+              $this->load->view('layouts/adfooter'); 
 
 
         } else {

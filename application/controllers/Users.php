@@ -58,9 +58,9 @@ class Users extends CI_Controller {
 
 
                 // Load the list page view 
-          $this->load->view('templates/adheader', $data); 
+          $this->load->view('layouts/adheader', $data); 
           $this->load->view('ad_admin/ad_index', $data); 
-          $this->load->view('templates/adfooter', $data); 
+          $this->load->view('layouts/adfooter', $data); 
 
         } else {
             redirect('users/login');
@@ -150,9 +150,9 @@ class Users extends CI_Controller {
 
             
             // Load the add page view 
-            $this->load->view('templates/adheader', $data); 
+            $this->load->view('layouts/adheader', $data); 
             $this->load->view('ad_admin/add', $data); 
-            $this->load->view('templates/adfooter'); 
+            $this->load->view('layouts/adfooter'); 
 
     } else {
         redirect('users/login');
@@ -248,9 +248,9 @@ class Users extends CI_Controller {
 
             
            // Load the edit page view 
-           $this->load->view('templates/adheader', $data); 
+           $this->load->view('layouts/adheader', $data); 
            $this->load->view('ad_admin/edit', $data); 
-           $this->load->view('templates/adfooter');  
+           $this->load->view('layouts/adfooter');  
 
     } else {
         redirect('users/login');
@@ -441,9 +441,9 @@ class Users extends CI_Controller {
         $data['user'] = $userData; 
          
         // Load view 
-        $this->load->view('templates/header', $data); 
+        $this->load->view('layouts/header', $data); 
         $this->load->view('users/registration', $data); 
-        $this->load->view('templates/footer', $data); 
+        $this->load->view('layouts/footer', $data); 
     } 
      
 
@@ -575,9 +575,9 @@ class Users extends CI_Controller {
         $data['ma_pages'] = 'login';
          
         // Load view 
-        $this->load->view('templates/header', $data); 
+        $this->load->view('layouts/header', $data); 
         $this->load->view('users/login', $data); 
-        $this->load->view('templates/footer', $data); 
+        $this->load->view('layouts/footer', $data); 
     } 
 
 
@@ -646,9 +646,9 @@ class Users extends CI_Controller {
 
 
             // Pass the user data and load view 
-            $this->load->view('templates/header', $data); 
+            $this->load->view('layouts/header', $data); 
             $this->load->view('users/account', $data); 
-            $this->load->view('templates/footer', $data); 
+            $this->load->view('layouts/footer', $data); 
         }else{ 
             redirect('users/login'); 
         } 

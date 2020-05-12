@@ -86,9 +86,9 @@ class Politique extends CI_Controller{
 
 
 
-        $this->load->view('templates/header', $data);
+        $this->load->view('layouts/header', $data);
         $this->load->view('politique/index', $data);
-        $this->load->view('templates/footer', $data);
+        $this->load->view('layouts/footer', $data);
     }
 
 

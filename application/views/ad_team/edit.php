@@ -49,7 +49,7 @@
                 
 
                 <div class="form-group">
-                        <a href="<?php echo base_url().'team/ad_index'; ?>" class="btn btn-sm btn-secondary">Retour</a>
+                        <a href="<?php echo base_url().'team/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                         <input type="hidden" name="team_id" value="<?php echo !empty($team['team_id'])?$team['team_id']:''; ?>">
 
                         <input type="submit" name="team_edit" class="btn btn-sm btn-warning" value="Modifier">

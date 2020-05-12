@@ -58,9 +58,9 @@
                <td><a href="<?php echo $row['podcast_link']; ?>" class="btn btn-sm btn-info">Ici</a></td>             
 
                <td>
-                   <a href="<?php echo base_url().'podcast/ad_view_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-primary">en savoir plus</a>
-                   <a href="<?php echo base_url().'podcast/edit_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-warning">modifier</a>
-                   <a href="<?php echo base_url().'podcast/delete_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')">supprimer</a>
+                   <a href="<?php echo base_url().'podcast/ad_view_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                   <a href="<?php echo base_url().'podcast/edit_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                   <a href="<?php echo base_url().'podcast/delete_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-folder-minus"></i></a>
                </td>
            </tr>
            <?php }}else{ ?>

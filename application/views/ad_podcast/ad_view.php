@@ -15,7 +15,7 @@
         
         
         </div>
-        <a href="<?php echo base_url().'podcast/ad_index'; ?>" >Retour</a>
+        <a href="<?php echo base_url().'podcast/ad_index'; ?>" ><i class="fas fa-backspace"></i></a>
     </div>
 </div>
 

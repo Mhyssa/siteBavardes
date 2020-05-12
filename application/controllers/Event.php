@@ -62,6 +62,12 @@ function index($lang = ''){
 
 
                 //event/index
+                $data['event_badge_all'] = $this->lang->line('event_badge_all');
+                $data['event_badge_fest'] = $this->lang->line('event_badge_fest');
+                $data['event_badge_SO'] = $this->lang->line('event_badge_SO');
+                $data['event_badge_bb'] = $this->lang->line('event_badge_bb');
+                $data['event_badge_div'] = $this->lang->line('event_badge_div');
+
                 $data['event_button_det'] = $this->lang->line('event_button_det');
 
 
@@ -83,9 +89,9 @@ function index($lang = ''){
 
                     
               // Load the index page view 
-        $this->load->view('templates/header', $data); 
+        $this->load->view('layouts/header', $data); 
         $this->load->view('events/index', $data); 
-        $this->load->view('templates/footer', $data); 
+        $this->load->view('layouts/footer', $data); 
 
 
 
@@ -136,9 +142,9 @@ function index($lang = ''){
 
 
                 // Load the list page view 
-          $this->load->view('templates/adheader', $data); 
+          $this->load->view('layouts/adheader', $data); 
           $this->load->view('ad_events/ad_index', $data); 
-          $this->load->view('templates/adfooter'); 
+          $this->load->view('layouts/adfooter'); 
 
         } else {
             redirect('users/login');
@@ -165,7 +171,6 @@ function index($lang = ''){
                 if($this->input->post('event_add')){ 
                 // Form field validation rules 
                 $this->form_validation->set_rules('event_name', 'nom', 'required');
-                $this->form_validation->set_rules('event_date', 'date', 'required');  
                 $this->form_validation->set_rules('event_nombre_pers', 'nombre personne', 'integer');
                 $this->form_validation->set_rules('event_cat', 'catégorie', 'required');
 
@@ -233,9 +238,9 @@ function index($lang = ''){
 
         
         // Load the add page view 
-        $this->load->view('templates/adheader', $data); 
+        $this->load->view('layouts/adheader', $data); 
         $this->load->view('ad_events/add', $data); 
-        $this->load->view('templates/adfooter'); 
+        $this->load->view('layouts/adfooter'); 
 
             } else {
                 redirect('users/login');
@@ -279,7 +284,6 @@ function index($lang = ''){
      if($this->input->post('event_edit')){ 
          // Form field validation rules 
          $this->form_validation->set_rules('event_name', 'nom', 'required');
-         $this->form_validation->set_rules('event_date', 'date', 'required');  
          $this->form_validation->set_rules('event_nombre_pers', 'nombre personne', 'integer');
          $this->form_validation->set_rules('event_cat', 'catégorie', 'required');  
 
@@ -353,9 +357,9 @@ function index($lang = ''){
 
             
            // Load the edit page view 
-           $this->load->view('templates/adheader', $data); 
+           $this->load->view('layouts/adheader', $data); 
            $this->load->view('ad_events/edit', $data); 
-           $this->load->view('templates/adfooter');  
+           $this->load->view('layouts/adfooter');  
 
     } else {
         redirect('users/login');
@@ -395,9 +399,9 @@ function index($lang = ''){
     } 
 
        // Load the add page view 
-              $this->load->view('templates/adheader', $data); 
+              $this->load->view('layouts/adheader', $data); 
               $this->load->view('ad_events/ad_view', $data); 
-              $this->load->view('templates/adfooter'); 
+              $this->load->view('layouts/adfooter'); 
 
 
         } else {
