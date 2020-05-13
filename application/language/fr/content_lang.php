@@ -14,7 +14,7 @@
         // titre + titre nav
         $lang['header_acc'] = 'Accueil';
         $lang['header_about'] = 'Qui sommes nous?';
-        $lang['header_team'] = 'L\'Equipe';
+        $lang['header_team'] = 'L\'Équipe';
         $lang['header_event'] = 'Nos Évènements';
         $lang['header_pod'] = 'Nous Écouter';
         $lang['header_col'] = 'Nos Collaborations';
