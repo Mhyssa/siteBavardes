@@ -8,6 +8,9 @@
 
 
     // header
+
+        $lang['error404'] = 'Page Erreur 404';
+        
         // titre + titre nav
         $lang['header_acc'] = 'Accueil';
         $lang['header_about'] = 'Qui sommes nous?';
@@ -64,7 +67,7 @@
     $lang['event_badge_all'] = 'Tous';
     $lang['event_badge_fest'] = 'Festivals';
     $lang['event_badge_SO'] = 'Scènes ouvertes';
-    $lang['event_badge_bb'] = 'Bla bla';
+    $lang['event_badge_bb'] = 'Bla-bla';
     $lang['event_badge_div'] = 'Divers';
     
     $lang['event_button_det'] = 'en savoir plus';

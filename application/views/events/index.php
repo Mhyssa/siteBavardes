@@ -31,6 +31,7 @@
 
             <div class="container"> <!-- div ouvrante container ligne 32 -->
                 <div class="filtr-container"> <!-- div ouvrante filtr-container ligne 33 -->
+                    
                     <?php if(!empty($event)){ ?>
                         
                     
@@ -38,7 +39,7 @@
                             foreach($event as $row){ 
                         ?>
                         
-                            <div class="card shadow mt-2 col-12 filtr-item" data-category="<?php if($row['event_cat'] == 'Festivals'){echo '1';} elseif($row['event_cat'] == 'Scènes ouvertes'){echo '2';} elseif($row['event_cat'] == 'Bla bla'){echo '3';} elseif($row['event_cat'] == 'Divers'){echo '4';}?>"> <!-- div ouvrante card shadow mt-4 col-12 ligne 54 -->
+                            <div class="card shadow mt-2 col-12 filtr-item" data-category="<?php if($row['event_cat'] == 'Festivals'){echo '1';} elseif($row['event_cat'] == 'Scènes ouvertes'){echo '2';} elseif($row['event_cat'] == 'Bla-bla'){echo '3';} elseif($row['event_cat'] == 'Divers'){echo '4';}?>"> <!-- div ouvrante card shadow mt-4 col-12 ligne 54 -->
                             
                                 <div class="inner"> <!-- div ouvrante inner ligne 55 -->
 

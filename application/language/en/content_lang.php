@@ -8,6 +8,9 @@
 
 
     // header
+
+        $lang['error404'] = 'Error 404 Page';
+
         // titre + nav titre
         $lang['header_acc'] = 'Home';
         $lang['header_about'] = 'Who are we?';

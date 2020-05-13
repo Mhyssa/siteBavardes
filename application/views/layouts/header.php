@@ -4,8 +4,7 @@
 <head>
 
   <!-- Required meta tags -->
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
   <meta name="author" content="Marion JOLY, Noémie CLAUDE, Jade GUEHOUN" />
@@ -60,7 +59,8 @@
       <title><?php echo $footer_login; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'registration') {    ?>
       <title><?php echo $footer_reg; ?> | Les Bavardes Amiens</title>
-
+  <?php  }elseif($ma_pages == 'index_error404') {    ?>
+      <title><?php echo $error404; ?> | Les Bavardes Amiens</title>
   <?php  } else {?>
       <title>Les Bavardes Amiens</title>
   <?php  } ?>
