@@ -127,7 +127,7 @@
                   ?>
 
                      <!-- Actif évenements ou non -->
-                     <?php 
+                     <!-- <?php 
                   if($ma_pages == 'event'){ ?>
                   <li class="nav-item active pr-4  pl-4">
                     <a class="nav-link text-center" href="event.php">Nos événements</a>
@@ -138,7 +138,7 @@
                     <a class="nav-link text-center" href="event.php">Nos événements</a>
                   </li>
                   <?php  }                 
-                  ?>
+                  ?> -->
 
                   <!-- Actif Nos podcasts ou non -->
                   <?php if($ma_pages == 'podcasts'){ ?>
