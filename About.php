@@ -205,7 +205,11 @@ require("header.php");
               href="https://france3-regions.francetvinfo.fr/hauts-de-france/somme/amiens/pres-2000-personnes-rassemblees-1e-marche-fiertes-amiens-1689316.html">Près
               de 2000 personnes rassemblées pour la 1e marche des fiertés d'Amiens</a>
           </li>
-
+          <li>
+            <a class="nav-link link" target="_blank"
+              href="https://france3-regions.francetvinfo.fr/hauts-de-france/picardie-associations-lutte-contre-lgbtphobies-difficile-faire-savoir-qu-on-existe-1830222.html">En Picardie, pour les associations de lutte contre les LGBTphobies, “difficile de faire savoir qu'on existe”</a>
+          </li>
+          
         </ul>
 
 
