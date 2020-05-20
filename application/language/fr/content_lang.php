@@ -70,6 +70,9 @@
     $lang['event_badge_bb'] = 'Bla-bla';
     $lang['event_badge_div'] = 'Divers';
     
+    $lang['event_line_name'] = 'Venez nombreux.ses à cet évènement : ';
+    $lang['event_line_endroit'] = 'En ce lieu : ';
+    $lang['event_line_inscription'] = 'Sur Inscription';
     $lang['event_button_det'] = 'en savoir plus';
 
 

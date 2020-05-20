@@ -22,7 +22,7 @@
                             <label for="event_cat">Catégorie: </label> <br>
                             <input type="radio" name="event_cat" id="event_cat" value="Festivals"> Festivals <br>  
                             <input type="radio" name="event_cat" id="event_cat" value="Scènes ouvertes"> Scènes ouvertes <br>
-                            <input type="radio" name="event_cat" id="event_cat" value="Bla bla"> Bla bla <br>
+                            <input type="radio" name="event_cat" id="event_cat" value="Bla-bla"> Bla-bla <br>
                             <input type="radio" name="event_cat" id="event_cat" value="Divers"> Divers 
                             <?php echo form_error('event_cat','<p class="help-block text-danger">','</p>'); ?>
                         </div>

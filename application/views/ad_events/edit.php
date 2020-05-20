@@ -21,7 +21,7 @@
                                 <label for="event_cat">Catégorie: </label> <br>
                                 <input type="radio" name="event_cat" id="event_cat" value="Festivals" <?php if($events['event_cat'] == "Festivals"){echo "checked";}?>> Festivals <br>  
                                 <input type="radio" name="event_cat" id="event_cat" value="Scènes ouvertes" <?php if($events['event_cat'] == "Scènes ouvertes"){echo "checked";}?>> Scènes ouvertes <br>
-                                <input type="radio" name="event_cat" id="event_cat" value="Bla bla" <?php if($events['event_cat'] == "Bla bla"){echo "checked";}?>> Bla bla <br>
+                                <input type="radio" name="event_cat" id="event_cat" value="Bla-bla" <?php if($events['event_cat'] == "Bla-bla"){echo "checked";}?>> Bla-bla <br>
                                 <input type="radio" name="event_cat" id="event_cat" value="Divers" <?php if($events['event_cat'] == "Divers"){echo "checked";}?>> Divers 
                                 <?php echo form_error('event_cat','<p class="help-block text-danger">','</p>'); ?>
                             </div>

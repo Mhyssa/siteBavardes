@@ -68,6 +68,9 @@ function index($lang = ''){
                 $data['event_badge_bb'] = $this->lang->line('event_badge_bb');
                 $data['event_badge_div'] = $this->lang->line('event_badge_div');
 
+                $data['event_line_name'] = $this->lang->line('event_line_name');
+                $data['event_line_inscription'] = $this->lang->line('event_line_inscription');
+                $data['event_line_endroit'] = $this->lang->line('event_line_endroit');
                 $data['event_button_det'] = $this->lang->line('event_button_det');
 
 
