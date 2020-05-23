@@ -257,6 +257,10 @@ require("header.php");
             <a class="nav-link link" target="_blank"
               href="https://www.komitid.fr/2020/04/24/3-questions-a-elisabeth-lebovici-cofondatrice-de-lesbiennes-dinteret-general/">3 questions à Elisabeth Lebovici, cofondatrice de Lesbiennes d'intérêt Général</a>
           </li>
+          <li>
+            <a class="nav-link link" target="_blank"
+              href="https://blogs.mediapart.fr/les-invites-de-mediapart/blog/220520/face-la-crise-sanitaire-economique-et-sociale-un-plan-durgence-feministe?fbclid=IwAR23OSlXEcubWGk3NqaUM_GPRZZZDSYHxzoYj0z28cjF88cUEThyfJM94hc">Face à la crise sanitaire, économique et sociale, un plan d'urgence féministe!</a>
+          </li>
         </ul>
       </div>
     </div>
