@@ -16,6 +16,8 @@
           $this->load->helper('form'); 
           $this->load->library('form_validation'); 
 
+          $this->load->library('pagination');
+          $this->perPage = 1000;
   
                 // File upload path 
         $this->uploadPath = 'uploads/events_img/'; 
@@ -33,8 +35,43 @@ function index($lang = ''){
         $data = array(); 
          
 
-             $data['event'] = $this->Event_Model->getRowsEvent(); 
-             $data['ma_pages'] = 'index_event'; 
+        //If search request submitted
+        if($this->input->post('submitSearch')){
+            $inputKeywords = $this->input->post('searchKeyword');
+            $searchKeyword = strip_tags($inputKeywords);
+            if(!empty($searchKeyword)){
+                $this->session->set_userdata('searchKeyword', $searchKeyword);
+            } else {
+                $this->session->unset_userdata('searchKeyword');
+            }
+        }
+        $data['searchKeyword'] = $this->session->userdata('searchKeyword');
+
+        //Get rows count
+        $conditions['searchKeyword'] = $data['searchKeyword'];
+        $conditions['returnType'] = 'count';
+        $rowsCount = $this->Event_Model->getRowsEvent($conditions);
+
+        //Pagination config
+        $config['base_url'] = base_url().'index.php/event/index/'.$lang.'/';
+        $config['uri_segment'] = 3;
+        $config['total_rows'] = $rowsCount;
+        $config['per_page'] = $this->perPage;
+
+        //Initialize pagination library
+        $this->pagination->initialize($config);
+
+        //Define offset
+        $page = $this->uri->segment(3);
+        $offset = !$page?0:$page;
+
+        //Get rows
+        $conditions['returnType'] = '';
+        $conditions['start'] = $offset;
+        $conditions['limit'] = $this->perPage;
+        $data['event'] = $this->Event_Model->getRowsEvent($conditions); 
+
+        $data['ma_pages'] = 'index_event'; 
 
 
                 $this->lang->load('content', $lang == ''?'fr':$lang);
@@ -68,9 +105,9 @@ function index($lang = ''){
                 $data['event_badge_bb'] = $this->lang->line('event_badge_bb');
                 $data['event_badge_div'] = $this->lang->line('event_badge_div');
 
-                $data['event_line_name'] = $this->lang->line('event_line_name');
-                $data['event_line_inscription'] = $this->lang->line('event_line_inscription');
-                $data['event_line_endroit'] = $this->lang->line('event_line_endroit');
+                $data['event_button_cat'] = $this->lang->line('event_button_cat');
+                
+                $data['event_button_inscription'] = $this->lang->line('event_button_inscription');
                 $data['event_button_det'] = $this->lang->line('event_button_det');
 
 

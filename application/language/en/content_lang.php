@@ -74,9 +74,9 @@
     $lang['event_badge_bb'] = 'Bla bla';
     $lang['event_badge_div'] = 'Diverse';
 
-    $lang['event_line_name'] = 'Come and bring all your friends to this event : ';
-    $lang['event_line_endroit'] = 'At this place : ';
-    $lang['event_line_inscription'] = 'By Registration';
+    $lang['event_button_cat'] = 'Search a Category';
+    
+    $lang['event_button_inscription'] = 'By Registration';
     $lang['event_button_det'] = 'details';
 
 
@@ -99,7 +99,7 @@
 
     $lang['collab_body_text4'] = 'Where are women in places of power? In the artistic world? What places are we giving them? What representations of women persist 
     over and over again in our societies?';
-    $lang['collab_body_button_text4'] = '→ EXPO-CONCERT: OH LES FILLES! OH LES FILLES!';
+    $lang['collab_body_button_text4'] = ' EXPO-CONCERT: OH LES FILLES! OH LES FILLES!';
 
     $lang['collab_body_p_text5'] = 'NDA spéciale Meufs aux platines';
     $lang['collab_body_text5'] = '"While the day team of Les Bavardes has finished their interventions in the school environment, it is the night team who 

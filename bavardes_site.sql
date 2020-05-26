@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mer. 06 mai 2020 à 12:34
+-- Généré le :  mer. 20 mai 2020 à 23:26
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `collab` (
   `file_name` varchar(200) DEFAULT NULL,
   `collab_cat` varchar(50) NOT NULL,
   PRIMARY KEY (`collab_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=48 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=50 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `collab`
@@ -76,7 +76,7 @@ INSERT INTO `collab` (`collab_id`, `collab_name`, `collab_link`, `file_name`, `c
 (31, 'Cité Carter', 'http://www.citecarter.com/', 'logo_225_citeCarter.jpg', 'Collaborations'),
 (32, 'AIDES', 'https://www.aides.org/', 'logo_225_aides.jpg', 'Collaborations'),
 (33, 'La Courte Échelle', 'https://www.facebook.com/pages/category/Artist/Le-Collectif-la-Courte-echelle-329157984302928/', 'logo_225_courteEchelle.jpg', 'Collaborations'),
-(34, 'Collectif IDAHOT', 'https://www.facebook.com/festivalidahot', NULL, 'Collaborations'),
+(34, 'Collectif IDAHOT', 'https://www.facebook.com/festivalidahot', 'idahot.jpg', 'Collaborations'),
 (35, 'L\'Alimentation Générale', '', 'logo_225_alg.jpg', 'Lieux'),
 (36, 'DRJSCS', 'http://hauts-de-france.drjscs.gouv.fr/', 'logo_225_drjscs.jpg', 'Financiers'),
 (37, 'DDCS', 'http://www.somme.gouv.fr/Services-de-l-Etat/Sante-et-cohesion-sociale/Direction-departementale-de-la-cohesion-sociale-DDCS', 'logo_225_ddcs.jpg', 'Financiers'),
@@ -85,7 +85,9 @@ INSERT INTO `collab` (`collab_id`, `collab_name`, `collab_link`, `file_name`, `c
 (40, 'Fonds de Dotation Lesbiennes d\'Intérêt Général', 'https://www.fondslesbien.org/', 'logo_225_lig.jpg', 'Financiers'),
 (41, 'La Cave du Houblon', 'https://www.lacaveduhoublon.fr/', 'logo_225_cave.jpg', 'Collaborations'),
 (42, 'AfroBenin', 'https://afrobenin.org/', 'logo_225_afroBenin.jpg', 'Collaborations'),
-(43, 'Pas à Passo Théâtre de l\'Opprimé', 'https://www.facebook.com/PasaPassoTO/', 'logo_225_pap.jpg', 'Collaborations');
+(43, 'Pas à Passo Théâtre de l\'Opprimé', 'https://www.facebook.com/PasaPassoTO/', 'logo_225_pap.jpg', 'Collaborations'),
+(48, 'Divergenre', 'https://www.facebook.com/Divergenre-105224454220663/', 'divergenre.jpg', 'Collaborations'),
+(49, 'SOS Homophobie', 'https://fr.wikipedia.org/wiki/SOS_homophobie', 'sos_homophobie.jpg', 'Collaborations');
 
 -- --------------------------------------------------------
 

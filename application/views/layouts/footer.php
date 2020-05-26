@@ -106,9 +106,6 @@
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 
 
-    <script src="<?php echo base_url(); ?>assets/js/jquery-3.5.1.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/filterizr-master/dist/jquery.filterizr.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151775781-1"></script>
 <script>
