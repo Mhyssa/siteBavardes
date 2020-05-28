@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mer. 20 mai 2020 à 23:26
+-- Généré le :  jeu. 28 mai 2020 à 13:34
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -317,7 +317,7 @@ CREATE TABLE IF NOT EXISTS `presse` (
   `presse_description` varchar(500) DEFAULT NULL,
   `file_name` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`presse_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `presse`
@@ -353,7 +353,10 @@ INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`, `
 (27, 'Manifestation à #Amiens, place Gambetta', 'https://twitter.com/fbleupicardie/status/1198270977383247874?ref_src=twsrc^tfw|twcamp^tweetembed|twterm^1198270977383247874&ref_url=https://www.francebleu.fr/infos/societe/pas-une-de-plus-une-centaine', 'Divers', '', ''),
 (28, '«J’en (c)rêve!», un festival pour les droits des femmes à Amiens', 'https://premium.courrier-picard.fr/id73569/article/2020-03-06/jen-creve-un-festival-pour-les-droits-des-femmes-amiens', 'Divers', '', ''),
 (29, 'Une fausse campagne avec de vraies revendications féministes à Amiens', 'https://premium.courrier-picard.fr/id74372/article/2020-03-10/une-fausse-campagne-avec-de-vraies-revendications-feministes-amiens', 'Divers', '', ''),
-(30, 'Dans les Hauts-de-France, les femmes gagnent toujours 25? moins que les hommes', 'https://france3-regions.francetvinfo.fr/hauts-de-france/hauts-france-femmes-gagnent-toujours-25-moins-que-hommes-1795893.html?fbclid=IwAR1-3wXiN9B9J3qrERoU8knglo7FWXpwK8GxqRD9LbkXHsfExuPu8Ehf7Es', 'Divers', '', '');
+(30, 'Dans les Hauts-de-France, les femmes gagnent toujours 25? moins que les hommes', 'https://france3-regions.francetvinfo.fr/hauts-de-france/hauts-france-femmes-gagnent-toujours-25-moins-que-hommes-1795893.html?fbclid=IwAR1-3wXiN9B9J3qrERoU8knglo7FWXpwK8GxqRD9LbkXHsfExuPu8Ehf7Es', 'Divers', '', ''),
+(33, '3 questions à Elisabeth Lebovici, cofondatrice de Lesbiennes d\'intérêt Général', 'https://www.komitid.fr/2020/04/24/3-questions-a-elisabeth-lebovici-cofondatrice-de-lesbiennes-dinteret-general/', 'Divers', '', NULL),
+(34, 'Face à la crise sanitaire, économique et sociale, un plan d\'urgence féministe!', 'https://blogs.mediapart.fr/les-invites-de-mediapart/blog/220520/face-la-crise-sanitaire-economique-et-sociale-un-plan-durgence-feministe?fbclid=IwAR23OSlXEcubWGk3NqaUM_GPRZZZDSYHxzoYj0z28cjF88cUEThyfJ', 'Divers', '', NULL),
+(35, 'LES BAVARDES À LA RENCONTRE DU COLLECTIF LESBIEN LES IMMÉDIANES', 'https://www.jeanne-magazine.com/le-magazine/2020/04/04/les-bavardes-a-la-rencontre-du-collectif-lesbien-les-immedianes_19268/', 'Jeanne Magazine', '', NULL);
 
 -- --------------------------------------------------------
 
@@ -405,15 +408,15 @@ INSERT INTO `team` (`team_id`, `team_name`, `team_title`, `team_description`, `f
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `us_id` int(11) NOT NULL AUTO_INCREMENT,
-  `us_fname` varchar(25) COLLATE utf8_unicode_ci NOT NULL,
-  `us_lname` varchar(25) COLLATE utf8_unicode_ci NOT NULL,
-  `us_email` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `us_password` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
-  `us_phone` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `us_fname` varchar(25) NOT NULL,
+  `us_lname` varchar(25) NOT NULL,
+  `us_email` varchar(50) NOT NULL,
+  `us_password` varchar(200) NOT NULL,
+  `us_phone` varchar(10) DEFAULT NULL,
   `us_status` tinyint(1) NOT NULL DEFAULT 0 COMMENT '1=Admin | 0=User',
-  `file_name` varchar(25) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `file_name` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`us_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `users`

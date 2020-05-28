@@ -12,6 +12,8 @@ class Users extends CI_Controller {
 
         $this->load->model('User_Model'); 
 
+        $this->load->library('pagination');
+        $this->perPage = 10;
          
         // File upload path 
         $this->uploadPath = 'uploads/admin_img/';
@@ -19,19 +21,23 @@ class Users extends CI_Controller {
         // User login status 
         
         $this->isUserLoggedIn = $this->session->userdata('isUserLoggedIn'); 
-    }
+    } // __construct ends here
 
 
 
 
 
     public function admin(){
+
+        $data['controller'] = 'users';
+        $data['function'] = 'admin';
+
         if($this->isUserLoggedIn){ 
             redirect('users/ad_index');                
         }else{ 
             redirect('users/login'); 
         } 
-    }
+    } // admin ends here
 
 
 
@@ -51,11 +57,49 @@ class Users extends CI_Controller {
               $data['error_msg'] = $this->session->userdata('error_msg'); 
               $this->session->unset_userdata('error_msg'); 
           } 
-   
 
-               $data['admin'] = $this->User_Model->getRowsAdmin(); 
-               $data['ma_pages'] = 'ad_index_admin'; 
+          //If search request is submitted
+          if($this->input->post('submitSearch')){
+              $inputKeywords = $this->input->post('searchKeywordAdmin');
+              $searchKeywordAdmin = strip_tags($inputKeywords);
+              if(!empty($searchKeywordAdmin)){
+                  $this->session->set_userdata('searchKeywordAdmin', $searchKeywordAdmin);
+              } else {
+                  $this->session->unset_userdata('searchKeywordAdmin');
+              }
+          } elseif($this->input->post('submitSearchReset')){
+              $this->session->unset_userdata('searchKeywordAdmin');
+          }
+          $data['searchKeywordAdmin'] = $this->session->userdata('searchKeywordAdmin');
 
+          //Get Rows count
+          $conditions['searchKeywordAdmin'] = $data['searchKeywordAdmin'];
+          $conditions['returnType'] = 'count';
+          $rowsCount = $this->User_Model->getRowsAdmin($conditions);
+
+          //Pagination config
+          $config['base_url'] = base_url().'index.php/users/ad_index/';
+          $config['uri_segment'] = 3;
+          $config['total_rows'] = $rowsCount;
+          $config['per_page'] = $this->perPage;
+
+          //Initialize pagination library
+          $this->pagination->initialize($config);
+
+          //Define offset
+          $page = $this->uri->segment(3);
+          $offset = !$page?0:$page;
+
+          //Get rows
+          $conditions['returnType'] = '';
+          $conditions['start'] = $offset;
+          $conditions['limit'] = $this->perPage;
+          $data['admin'] = $this->User_Model->getRowsAdmin($conditions); 
+          
+          $data['ma_pages'] = 'ad_index_admin'; 
+
+          $data['controller'] = 'users';
+          $data['function'] = 'ad_index';
 
                 // Load the list page view 
           $this->load->view('layouts/adheader', $data); 
@@ -145,9 +189,10 @@ class Users extends CI_Controller {
                 }
         
         
-            $data['ma_pages'] = 'add_admin'; 
             $data['admin'] = $formArray; 
 
+            $data['controller'] = 'users';
+            $data['ma_pages'] = $data['function'] = 'add_admin';
             
             // Load the add page view 
             $this->load->view('layouts/adheader', $data); 
@@ -242,9 +287,10 @@ class Users extends CI_Controller {
 
 
 
-       
-           $data['ma_pages'] = 'edit_admin'; 
            $data['admin'] = $formArray; 
+
+           $data['controller'] = 'users';
+           $data['ma_pages'] = $data['function'] = 'edit_admin';           
 
             
            // Load the edit page view 
@@ -292,7 +338,7 @@ class Users extends CI_Controller {
         
 
      
- } // delete_admin ends
+ } // delete_admin ends here
 
 
 
@@ -437,14 +483,17 @@ class Users extends CI_Controller {
         }
          
         // Posted data 
-        $data['ma_pages'] = 'registration';
         $data['user'] = $userData; 
+
+        $data['controller'] = 'users';
+        $data['ma_pages'] = $data['function'] = 'registration'; 
          
         // Load view 
         $this->load->view('layouts/header', $data); 
         $this->load->view('users/registration', $data); 
         $this->load->view('layouts/footer', $data); 
-    } 
+
+    } // registration ends here
      
 
 
@@ -572,13 +621,15 @@ class Users extends CI_Controller {
             } 
         } 
 
-        $data['ma_pages'] = 'login';
+        $data['controller'] = 'users';
+        $data['ma_pages'] = $data['function'] = 'login';
          
         // Load view 
         $this->load->view('layouts/header', $data); 
         $this->load->view('users/login', $data); 
         $this->load->view('layouts/footer', $data); 
-    } 
+
+    } // login ends here 
 
 
     
@@ -644,6 +695,8 @@ class Users extends CI_Controller {
                 $data['footer_reg'] = $this->lang->line('footer_reg');
 
 
+                $data['controller'] = 'users';
+                $data['ma_pages'] = $data['function'] = 'account'; 
 
             // Pass the user data and load view 
             $this->load->view('layouts/header', $data); 
@@ -652,7 +705,7 @@ class Users extends CI_Controller {
         }else{ 
             redirect('users/login'); 
         } 
-    } 
+    } // account ends here
 
 
 
@@ -662,7 +715,7 @@ class Users extends CI_Controller {
         $this->session->unset_userdata('userId'); 
         $this->session->sess_destroy(); 
         redirect('users/login'); 
-    } 
+    } //logout ends here
      
      
     // Existing email check during validation 
@@ -680,7 +733,7 @@ class Users extends CI_Controller {
         }else{ 
             return TRUE; 
         } 
-    }
+    } // email_check ends here
 
 
     public function check_captcha($str){
@@ -691,7 +744,7 @@ class Users extends CI_Controller {
                 $this->form_validation->set_message('check_captcha',$data['create_captcha'] = $this->lang->line('create_captcha'));
                 return false;
             }
-    }
+    } // check_captcha ends here
 
 
 

@@ -16,6 +16,8 @@
           $this->load->helper('form'); 
           $this->load->library('form_validation'); 
 
+          $this->load->library('pagination');
+          $this->perPage = 10;
   
                 // File upload path 
         $this->uploadPath = 'uploads/presse_img/'; 
@@ -135,10 +137,49 @@ function index($lang = ''){
               $data['error_msg'] = $this->session->userdata('error_msg'); 
               $this->session->unset_userdata('error_msg'); 
           } 
-   
 
-               $data['presse'] = $this->Presse_Model->getRowsPresse(); 
-               $data['ma_pages'] = 'ad_index_presse'; 
+          //If search request is submitted
+          if($this->input->post('submitSearch')){
+              $inputKeywords = $this->input->post('searchKeywordAdmin');
+              $searchKeywordAdmin = strip_tags($inputKeywords);
+              if(!empty($searchKeywordAdmin)){
+                  $this->session->set_userdata('searchKeywordAdmin', $searchKeywordAdmin);
+              } else {
+                  $this->session->unset_userdata('searchKeywordAdmin');
+              }
+          } elseif($this->input->post('submitSearchReset')){
+              $this->session->unset_userdata('searchKeywordAdmin');
+          }
+          $data['searchKeywordAdmin'] = $this->session->userdata('searchKeywordAdmin');
+
+          //Get Rows count
+          $conditions['searchKeywordAdmin'] = $data['searchKeywordAdmin'];
+          $conditions['returnType'] = 'count';
+          $rowsCount = $this->Presse_Model->getRowsPresse($conditions);
+
+          //Pagination config
+          $config['base_url'] = base_url().'index.php/about/ad_index';
+          $config['uri_segment'] = 3;
+          $config['total_rows'] = $rowsCount;
+          $config['per_page'] = $this->perPage;
+
+          //Initialize pagination library
+          $this->pagination->initialize($config);
+
+          //Define offset
+          $page = $this->uri->segment(3);
+          $offset = !$page?0:$page;
+
+          //Get rows
+          $conditions['returnType'] = '';
+          $conditions['start'] = $offset;
+          $conditions['limit'] = $this->perPage;
+          $data['presse'] = $this->Presse_Model->getRowsPresse($conditions); 
+          
+          $data['ma_pages'] = 'ad_index_presse';
+          
+          $data['controller'] = 'about';
+          $data['function'] = 'ad_index';
 
 
                 // Load the list page view 
@@ -225,8 +266,10 @@ function index($lang = ''){
                 }
         
         
-        $data['ma_pages'] = 'add_presse'; 
         $data['presse'] = $formArray; 
+
+        $data['controller'] = 'about';
+        $data['ma_pages'] = $data['function'] = 'add_presse';
 
         
         // Load the add page view 
@@ -333,11 +376,11 @@ function index($lang = ''){
          } 
      } 
 
-
-
        
-           $data['ma_pages'] = 'edit_presse'; 
            $data['presse'] = $formArray; 
+           
+           $data['controller'] = 'about';
+           $data['ma_pages'] = $data['function'] = 'edit_presse';
 
             
            // Load the edit page view 
@@ -373,9 +416,9 @@ function index($lang = ''){
     if(!empty($id)){ 
         $con = array('presse_id' => $id); 
         $data['presse'] = $this->Presse_Model->getRowsPresse($con); 
-        $data['ma_pages'] = 'ad_view_presse'; 
 
-        
+        $data['controller'] = 'about';    
+        $data['ma_pages'] = $data['function'] = 'ad_view_presse';
          
 
     }else{ 

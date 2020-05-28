@@ -2,15 +2,15 @@
 
 
 <div class="container">
-       <!-- Display status message -->
-       <?php if(!empty($success_msg)){ ?>
-    <div class="col-xs-12">
-        <div class="alert alert-success"><?php echo $success_msg; ?></div>
-    </div>
-    <?php }elseif(!empty($error_msg)){ ?>
-    <div class="col-xs-12">
-        <div class="alert alert-danger"><?php echo $error_msg; ?></div>
-    </div>
+    <!-- Display status message -->
+    <?php if(!empty($success_msg)){ ?>
+        <div class="col-xs-12"> 
+            <div class="alert alert-success"><?php echo $success_msg; ?></div>
+        </div>
+        <?php }elseif(!empty($error_msg)){ ?>
+        <div class="col-xs-12">
+            <div class="alert alert-danger"><?php echo $error_msg; ?></div>
+        </div>
     <?php } ?>
    
    
@@ -21,7 +21,17 @@
 
         <div class="row">
         <div class="col-md-12 head">
-<h3>Liste des Podcasts</h3>
+        <h3>Liste des Podcasts</h3>
+        
+            <form method="post">
+                <div class="input-group mb-3">
+                    <input type="text" name="searchKeywordAdmin" class="form-control" placeholder="Nom d'un podcast" value="<?php echo $searchKeywordAdmin; ?>">
+                    <div class="input-group-append">
+                        <input type="submit" name="submitSearch" class="btn btn-sm btn-outline-secondary" value="Rechercher">
+                        <input type="submit" name="submitSearchReset" class="btn btn-sm btn-outline-secondary" value="Retour">
+                    </div>
+                </div>
+            </form>
             <!-- Add link -->
             <div class="float-right">
                 <a href="<?php echo base_url(); ?>podcast/add_podcast" class="btn btn-sm btn-success">Ajouter</a>
@@ -68,6 +78,10 @@
            <?php } ?>
        </tbody>
    </table>
+
+   <div>
+        <?php echo $this->pagination->create_links(); ?>
+   </div>
 
 
  

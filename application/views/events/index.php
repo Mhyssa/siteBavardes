@@ -29,6 +29,7 @@
                 </div>
             </form>
 
+
                 <?php if(!empty($event)){ ?>
                     <?php foreach($event as $row){ ?>
                         <?php $image = '<img src="'.base_url().'uploads/events_img/'.$row['file_name'].'" />'; ?>
@@ -39,7 +40,7 @@
                             </div>
                             <div class="top-text">
                                 <div class="name"><?php echo $row['event_name']; ?></div>
-                                <p>
+                                <div class="name_date">
                                 <?php
                                     if(!empty($row['event_date'])){
                                         if($lang == 'fr'){
@@ -66,16 +67,17 @@
                                         }
                                     }
                                 ?>
-                               </p>
-                                <div class="bottom-text">
-                                    <div class="btn">
-                                        <a href="<?php echo $row['event_link']; ?>"><?php echo $event_button_det; ?></a>
-                                        <?php if($row['event_inscription'] == 'Sur Inscription'){ ?>
-                                            <a href="mailto:contact@lesbavardes.org"><?php echo $event_button_inscription; ?></a>
-                                        <?php } ?>
-                                    </div>
                                 </div>
                             </div>
+                            <div class="bottom-text">
+                                <div class="btn">
+                                    <a href="<?php echo $row['event_link']; ?>"><?php echo $event_button_det; ?></a>
+                                    <?php if($row['event_inscription'] == 'Sur Inscription'){ ?>
+                                        <a href="mailto:contact@lesbavardes.org"><?php echo $event_button_inscription; ?></a>
+                                    <?php } ?>
+                                </div>
+                            </div>
+
                         </div>
 
                     <?php } ?>

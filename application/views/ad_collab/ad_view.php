@@ -1,66 +1,23 @@
+<div class="container"> <!-- div ouvrante container n°1 -->
+    
+    <div class="row"> <!-- div ouvrante row n°1 -->
+        <div class="col-md-12"> <!-- div ouvrante col-md-12 -->
+            <a href="<?php echo base_url().'collab/ad_index'; ?>" ><i class="fas fa-backspace"></i></a>
+        </div> <!-- div fermante col-md-12 -->
+    </div> <!-- div fermante row n°1 -->
 
+    <div class="container"> <!-- div ouvrante container n°2 -->
+        <div class="row"> <!-- div ouvrante row n°2 -->
+            <div class="col-sm-12 mt-5 mb-5"> <!-- div ouvrante col-sm-12 mt-5 mb-5 -->
+                <?php if(!empty($collab['collab_link'])){ ?>
+                    <div class="col-lg-3 col-md-4 col-sm-6 text-center"> <!-- div ouvrante col-lg-3 col-md-4 col-sm-6 text-center -->
+                        <a class="text-dark" class="img-fluid" href="<?php echo $collab['collab_link']; ?>">
+                            <img src="<?php echo base_url().'uploads/collab_img/'.$collab['file_name']; ?>" alt="img collab">
+                        </a>
+                    </div> <!-- div fermante col-lg-3 col-md-4 col-sm-6 text-center -->
+                <?php } ?>                     
+            </div> <!-- div fermante col-sm-12 mt-5 mb-5 -->
+        </div> <!-- div fermante row n°2 -->
+    </div> <!-- div fermante container n°2 -->
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-
-
-
-
-        
-            
-        
-        
-        
-        
-        </div>
-        <a href="<?php echo base_url().'collab/ad_index'; ?>" ><i class="fas fa-backspace"></i></a>
-    </div>
-</div>
-
-
-
-<div class="container">
-<div class="row justify-content-center">
-    <div class="col-md-8 mt-3 bg-danger p-2 rounded">
-        <h3 class="bg-light p-2 rounded text-center text-dark"><?php echo $collab['collab_name']; ?></h3>
-        <div class>
-
-       
-           <?php if(!empty($collab['file_name'])){ ?>
-
-            <div class="text-center">
-            <img src="<?php echo base_url('uploads/collab_img/'.$collab['file_name']); ?>" width="300" class="img-thumbnail">
-            </div>
-
-           <?php } ?>
-
-
-           <?php if(!empty($collab['collab_name'])){ ?>
-                <p class="text-light">Nom : <?php echo $collab['collab_name']; ?></p>
-            <?php } ?>
-
-            <?php if(!empty($collab['collab_cat'])){ ?>
-                <p class="text-light">Catégorie : <?php echo $collab['collab_cat']; ?></p>
-            <?php } ?>
-
-            <?php if(!empty($collab['collab_link'])){ ?>
-                <p class="text-light">Vous pouvez la retrouver par <a href="<?php echo $collab['collab_link']; ?>">ce lien</a></p>
-            <?php } ?>
-
-
-          
-
-
-        
-        </div>
-
-
-
-
-
-
-    </div>
-</div>
-</div>
+</div> <!-- div fermante container n°1 -->

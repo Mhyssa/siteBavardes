@@ -263,18 +263,17 @@ ul {
 /* 
 -------%media sociaux--------------------- */
 .black {
-
     height: 40px;
     background-color: black;
     padding-top: 0.2%;
 }
 
 .yellow {
-
     height: 40px;
     background-color: #ffad3f;
     padding-top: 0.2%;
 }
+
 
 .bgyellow {
     background-color: #db8d0069;
@@ -367,6 +366,20 @@ header {
     visibility: visible;
 }
 
+
+/* Buttons */
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #343a40;
+    border-color: #343a40;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary{
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+}
 
 
 

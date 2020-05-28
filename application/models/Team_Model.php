@@ -18,25 +18,42 @@
        */ 
       public function getRowsTeam($params = array()){ 
           $this->db->select('*'); 
-          $this->db->from($this->table); 
+          $this->db->from($this->table);
+          
+          if(array_key_exists("conditions", $params)){
+              foreach($params['conditions'] as $key => $val){
+                  $this->db->where($key, $val);
+              }
+          }
+
+          if(!empty($params['searchKeywordAdmin'])){
+              $search = $params['searchKeywordAdmin'];
+              $likeArr = array('team_name' => $search);
+              $this->db->or_like($likeArr);
+          }
+
+          if(array_key_exists('returnType', $params) && $params['returnType'] == 'count'){
+              $result = $this->db->count_all_results();
+          } else {
+            if(array_key_exists("team_id", $params)){ 
+                $this->db->where('team_id', $params['team_id']); 
+                $query = $this->db->get(); 
+                $result = $query->row_array(); 
+            }else{ 
+                if(array_key_exists("start",$params) && array_key_exists("limit",$params)){ 
+                    $this->db->limit($params['limit'],$params['start']); 
+                }elseif(!array_key_exists("start",$params) && array_key_exists("limit",$params)){ 
+                    $this->db->limit($params['limit']); 
+                } 
+                  
+                $query = $this->db->get(); 
+                $result = ($query->num_rows() > 0)?$query->result_array():FALSE;               
+                                        
+            } 
+          }
            
 
-                    if(array_key_exists("team_id", $params)){ 
-                        $this->db->where('team_id', $params['team_id']); 
-                        $query = $this->db->get(); 
-                        $result = $query->row_array(); 
-                    }else{ 
-                        if(array_key_exists("start",$params) && array_key_exists("limit",$params)){ 
-                            $this->db->limit($params['limit'],$params['start']); 
-                        }elseif(!array_key_exists("start",$params) && array_key_exists("limit",$params)){ 
-                            $this->db->limit($params['limit']); 
-                        } else {
-                            $query = $this->db->get(); 
-                            $result = ($query->num_rows() > 0)?$query->result_array():FALSE;
-                        }
-                                                
-                    } 
-                  
+
           // Return fetched data 
           return $result; 
       }//getRowsTeam ends here

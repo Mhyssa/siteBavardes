@@ -16,6 +16,8 @@
           $this->load->helper('form'); 
           $this->load->library('form_validation'); 
 
+          $this->load->library('pagination');
+          $this->perPage = 10;
   
                 // File upload path 
         $this->uploadPath = 'uploads/podcast_img/'; 
@@ -129,10 +131,49 @@ function index($lang = ''){
               $data['error_msg'] = $this->session->userdata('error_msg'); 
               $this->session->unset_userdata('error_msg'); 
           } 
-   
 
-               $data['podcast'] = $this->Podcast_Model->getRowsPodcast(); 
-               $data['ma_pages'] = 'ad_index_podcast'; 
+          //If search request is submitted
+          if($this->input->post('submitSearch')){
+              $inputKeywords = $this->input->post('searchKeywordAdmin');
+              $searchKeywordAdmin = strip_tags($inputKeywords);
+              if(!empty($searchKeywordAdmin)){
+                  $this->session->set_userdata('searchKeywordAdmin', $searchKeywordAdmin);
+              } else {
+                  $this->session->unset_userdata('searchKeywordAdmin');
+              }
+          } elseif($this->input->post('submitSearchReset')){
+              $this->session->unset_userdata('searchKeywordAdmin'); 
+          }
+          $data['searchKeywordAdmin'] = $this->session->userdata('searchKeywordAdmin');
+
+          //Get Rows count
+          $conditions['searchKeywordAdmin'] = $data['searchKeywordAdmin'];
+          $conditions['returnType'] = 'count';
+          $rowsCount = $this->Podcast_Model->getRowsPodcastAdmin($conditions);
+          
+          //Pagination config
+          $config['base_url'] = base_url().'index.php/podcast/ad_index/';
+          $config['uri_segment'] = 3;
+          $config['total_rows'] = $rowsCount;
+          $config['per_page'] = $this->perPage;
+
+          //Initialize pagination library
+          $this->pagination->initialize($config);
+
+          //Define offset
+          $page = $this->uri->segment(3);
+          $offset = !$page?0:$page;
+
+          //Get rows
+          $conditions['returnType'] = '';
+          $conditions['start'] = $offset;
+          $conditions['limit'] = $this->perPage;
+          $data['podcast'] = $this->Podcast_Model->getRowsPodcastAdmin($conditions); 
+          
+          $data['ma_pages'] = 'ad_index_podcast'; 
+
+          $data['controller'] = 'podcast';
+          $data['function'] = 'ad_index';
 
 
                 // Load the list page view 
@@ -215,8 +256,10 @@ function index($lang = ''){
                 }
         
         
-        $data['ma_pages'] = 'add_podcast'; 
         $data['podcast'] = $formArray; 
+
+        $data['controller'] = 'podcast';
+        $data['ma_pages'] = $data['function'] = 'add_podcast';
 
         
         // Load the add page view 
@@ -258,7 +301,7 @@ function index($lang = ''){
       
      // Get image data 
      $con = array('podcast_id' => $id); 
-     $formArray = $this->Podcast_Model->getRowsPodcast($con); 
+     $formArray = $this->Podcast_Model->getRowsPodcastAdmin($con); 
      $prevFArray = $formArray['file_name']; 
       
 
@@ -322,9 +365,10 @@ function index($lang = ''){
 
 
 
-       
-           $data['ma_pages'] = 'edit_podcast'; 
            $data['podcast'] = $formArray; 
+
+           $data['controller'] = 'podcast';
+           $data['ma_pages'] = $data['function'] = 'edit_podcast';
 
             
            // Load the edit page view 
@@ -359,10 +403,10 @@ function index($lang = ''){
     // Check whether id is not empty 
     if(!empty($id)){ 
         $con = array('podcast_id' => $id); 
-        $data['podcast'] = $this->Podcast_Model->getRowsPodcast($con); 
-        $data['ma_pages'] = 'ad_view_podcast'; 
+        $data['podcast'] = $this->Podcast_Model->getRowsPodcastAdmin($con); 
 
-        
+        $data['controller'] = 'podcast';        
+        $data['ma_pages'] = $data['function'] = 'ad_view_podcast';
          
 
     }else{ 
@@ -400,7 +444,7 @@ function index($lang = ''){
      // Check whether id is not empty 
      if($id){ 
          $con = array('podcast_id' => $id); 
-         $formArray = $this->Podcast_Model->getRowsPodcast($con); 
+         $formArray = $this->Podcast_Model->getRowsPodcastAdmin($con); 
           
          // Delete podcast data 
          $delete = $this->Podcast_Model->delete($id); 

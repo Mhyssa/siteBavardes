@@ -18,6 +18,15 @@
      <div class="row">
      <div class="col-md-12 head">
          <h3>Liste des Admins</h3>
+         <form method="post">
+            <div class="input-group mb-3">
+                <input type="text" name="searchKeywordAdmin" class="form-control" placeholder="Nom d'un admin" value="<?php echo $searchKeywordAdmin; ?>">
+                <div class="input-group-append">
+                    <input type="submit" name="submitSearch" class="btn btn-sm btn-outline-secondary" value="Rechercher">
+                    <input type="submit" name="submitSearchReset" class="btn btn-sm btn-outline-secondary" value="Retour">
+                </div>
+            </div>
+         </form>
          <!-- Add link -->
          <div class="float-right">
              <a href="<?php echo base_url(); ?>users/add_admin" class="btn btn-sm btn-success mb-2"><i class="fas fa-user-plus"></i></a>
@@ -68,6 +77,10 @@
 
                     </tbody>
                 </table>
+
+                <div>
+                    <?php echo $this->pagination->create_links(); ?>
+                </div>
             </div>
         </div>
         
