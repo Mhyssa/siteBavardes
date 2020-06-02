@@ -38,7 +38,7 @@
 
 
             <div class="form-group">
-                <label for="us_phone"><?php echo $create_phone; ?> :</label>
+                <label for="us_phone"><?php echo $create_phone; ?>* :</label>
                 <input type="text" name="us_phone" id="us_phone" class="form-control" value="<?php echo !empty($user['us_phone'])?$user['us_phone']:''; ?>" required>
                 <span class="missPhone" id="missPhone"></span>
                 <?php echo form_error('us_phone','<p class="help-block text-danger">','</p>'); ?>

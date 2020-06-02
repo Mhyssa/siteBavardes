@@ -436,7 +436,7 @@ class Users extends CI_Controller {
             $this->form_validation->set_rules('us_fname', $data['create_fval_fname'] = $this->lang->line('create_fval_fname'), 'required|alpha'); 
             $this->form_validation->set_rules('us_lname', $data['create_fval_lname'] = $this->lang->line('create_fval_lname'), 'required|alpha'); 
             $this->form_validation->set_rules('us_email', $data['create_fval_email'] = $this->lang->line('create_fval_email'), 'required|valid_email|callback_email_check'); 
-            $this->form_validation->set_rules('us_phone', $data['create_fval_phone'] = $this->lang->line('create_fval_phone'), 'integer'); 
+            $this->form_validation->set_rules('us_phone', $data['create_fval_phone'] = $this->lang->line('create_fval_phone'), 'required|integer'); 
             $this->form_validation->set_rules('us_password', $data['create_fval_psw'] = $this->lang->line('create_fval_psw'), 'required'); 
             $this->form_validation->set_rules('us_conf_password', $data['create_fval_conf_psw'] = $this->lang->line('create_fval_conf_psw'), 'required|matches[us_password]'); 
             $this->form_validation->set_rules('user_captcha', $data['create_fval_captcha'] = $this->lang->line('create_fval_captcha'),'required|callback_check_captcha');
