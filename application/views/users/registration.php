@@ -19,24 +19,28 @@
         <?php echo form_open(); ?>
             <div class="form-group">
                 <label for="us_fname"><?php echo $create_fname; ?>* :</label>
-                <input type="text" name="us_fname" id="us_fname" class="form-control" value="<?php echo !empty($user['us_fname'])?$user['us_fname']:''; ?>">
+                <input type="text" name="us_fname" id="us_fname" class="form-control" value="<?php echo !empty($user['us_fname'])?$user['us_fname']:''; ?>" required>
+                <span class="missFname" id="missFname"></span>
                 <?php echo form_error('us_fname','<p class="help-block text-danger">','</p>'); ?>
             </div>
             <div class="form-group">
                 <label for="us_lname"><?php echo $create_lname ?>* :</label>
-                <input type="text" name="us_lname" id="us_lname" class="form-control" value="<?php echo !empty($user['us_lname'])?$user['us_lname']:''; ?>">
+                <input type="text" name="us_lname" id="us_lname" class="form-control" value="<?php echo !empty($user['us_lname'])?$user['us_lname']:''; ?>" required>
+                <span class="missLname" id="missLname"></span>
                 <?php echo form_error('us_lname','<p class="help-block text-danger">','</p>'); ?>
             </div>
             <div class="form-group">
                 <label for="us_email"><?php echo $create_mail ?>* :</label>
-                <input type="email" name="us_email" id="us_email" class="form-control" value="<?php echo !empty($user['us_email'])?$user['us_email']:''; ?>">
+                <input type="email" name="us_email" id="us_email" class="form-control" value="<?php echo !empty($user['us_email'])?$user['us_email']:''; ?>" required>
+                <span class="missMail" id="missMail"></span>
                 <?php echo form_error('us_email','<p class="help-block text-danger">','</p>'); ?>
             </div>
 
 
             <div class="form-group">
                 <label for="us_phone"><?php echo $create_phone; ?> :</label>
-                <input type="text" name="us_phone" class="form-control" value="<?php echo !empty($user['us_phone'])?$user['us_phone']:''; ?>">
+                <input type="text" name="us_phone" id="us_phone" class="form-control" value="<?php echo !empty($user['us_phone'])?$user['us_phone']:''; ?>" required>
+                <span class="missMail" id="missMail"></span>
                 <?php echo form_error('us_phone','<p class="help-block text-danger">','</p>'); ?>
             </div>
 
@@ -44,14 +48,16 @@
                 <div class="col-6">
                     <div class="form-group">
                         <label for="us_password"><?php echo $create_psw; ?>* :</label>
-                        <input type="password" name="us_password" id="us_password" class="form-control" >
+                        <input type="password" name="us_password" id="us_password" class="form-control" required>
+                        <span class="missPsw" id="missPsw"></span>
                         <?php echo form_error('us_password','<p class="help-block text-danger">','</p>'); ?>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-group">
                         <label for="us_conf_password"><?php echo $create_psw_cf; ?>* :</label>
-                        <input type="password" class="form-control" id="us_conf_password" name="us_conf_password" >
+                        <input type="password" class="form-control" id="us_conf_password" name="us_conf_password" required>
+                        <span class="missConfPsw" id="missConfPsw"></span>
                         <?php echo form_error('us_conf_password','<p class="help-block text-danger">','</p>'); ?>
                     </div>
                 </div>
@@ -61,7 +67,8 @@
                 <div class="row">
                     <div class="col-5">
                         <div class="form-group">
-                            <input type="text" name="user_captcha" placeholder="<?php echo $create_captcha_text; ?>" class="form-control" value="<?php if(!empty($user_captcha)){echo $user_captcha;} ?>">
+                            <input type="text" name="user_captcha" id="user_captcha" placeholder="<?php echo $create_captcha_text; ?>*" class="form-control" value="<?php if(!empty($user_captcha)){echo $user_captcha;} ?>" required>
+                            <span class="missCaptcha" id="missCaptcha"></span>
                             <?php echo form_error('user_captcha','<p class="help-block text-danger">','</p>'); ?>
                         </div>  
                     </div>
