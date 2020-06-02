@@ -3,14 +3,14 @@
 
   <div class="container">
 
+
     <!-- debut banniere collaboration -->
     <div class="row">
-    <?php// if($lang == 'fr'){ ?>
+    <?php if($lang == 'fr'){ ?>
       <img src="<?php echo base_url(); ?>assets\img\banniere\collab.png" alt="banniere collaboration" class="img-fluid pb-3">
-    <?php/* } else { 
-      echo 'our collaborations?';
-    }*/
-    ?>
+    <?php } else { ?>
+      <img src="<?php echo base_url(); ?>assets\img\banniere\collab_en.jpg" alt="banniere collaboration" class="img-fluid pb-3">
+    <?php } ?>
     </div>
     <!-- fin banniere collaboration -->
 

@@ -55,13 +55,11 @@
 
       <div class="row">
           <div class="py-3 col-lg-12 pt-4">
-            <?php// if($lang == 'fr'){ ?>
-                    <img src="<?php echo base_url(); ?>assets\img\banniere\podcasts.png" alt="banniere artistes et intervenants"
-                          class="img-fluid pb-3">
-              <?php/* } else { 
-                echo 'Podcast';
-              }*/
-              ?>
+            <?php if($lang == 'fr'){ ?>
+                <img src="<?php echo base_url(); ?>assets\img\banniere\podcasts.png" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+              <?php } else { ?> 
+                <img src="<?php echo base_url(); ?>assets\img\banniere\podcasts_en.jpg" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+              <?php } ?>
           </div>
           <div class="col-sm-12">
 

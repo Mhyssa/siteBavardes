@@ -2,13 +2,12 @@
 
     <div class="container">
 
-        <div class="row">
-            <?php// if($lang='fr){ ?>
-            <img src="<?php echo base_url(); ?>assets\img\banniere\event.png" alt="banniere evenement" class="img-fluid pb-3">
-            <?php/* } else {
-                echo 'our collaborations';
-            }*/
-            ?>
+    <div class="row">
+            <?php if($lang == 'fr'){ ?>
+                <img src="<?php echo base_url(); ?>assets\img\banniere\event.png" alt="banniere evenement" class="img-fluid pb-3">
+            <?php } else { ?>
+                <img src="<?php echo base_url(); ?>assets\img\banniere\event_en.jpg" alt="banniere evenement" class="img-fluid pb-3">
+            <?php } ?>
         </div> <!-- Fin de la div row -->
 
         <section>

@@ -3,15 +3,12 @@
 <div class="col-lg-12 ombre pt-5 ">
       <div class="container">
 
-
-            <div class="row">
-            <?php// if($lang == 'fr'){ ?>
-                  <img src="<?php echo base_url(); ?>assets\img\banniere\artistes.png" alt="banniere artistes et intervenants"
-                        class="img-fluid pb-3">
-            <?php/* } else { 
-            echo 'Artists & Speakers';
-            }*/
-            ?>
+      <div class="row">
+            <?php if($lang == 'fr'){ ?>
+                  <img src="<?php echo base_url(); ?>assets\img\banniere\artistes.png" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+            <?php } else { ?> 
+                  <img src="<?php echo base_url(); ?>assets\img\banniere\artistes_en.jpg" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+            <?php } ?>
             </div>
 
             <div class="row shadow pt-5 pb-4">

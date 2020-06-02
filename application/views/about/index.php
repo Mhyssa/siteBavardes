@@ -1,15 +1,16 @@
 
 <div class="col-lg-12 ombre pt-5 pb-5 ">
-  <div class="container">
+<div class="container">
     <div class="row">
-      <?php// if($lang == 'fr'){ ?>
+      <?php if($lang == 'fr'){ ?>
       <img src="<?php echo base_url(); ?>assets\img\banniere\about.png"
         alt="banniere qui sommes nous pour décrire les bavardes, leurs origines et leurs actions"
         class="img-fluid pb-3">
-      <?php/* } else { 
-        echo 'who are we?';
-      }*/
-      ?>
+      <?php } else { ?> 
+      <img src="<?php echo base_url(); ?>assets\img\banniere\about_en.jpg" 
+        alt="banniere qui somme nous (version anglaise pour décrire les bavardes, leurs origines et leurs actions"
+        class="img-fluid pb-3">      
+      <?php } ?>
     </div>
 
             <div class="row">

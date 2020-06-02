@@ -8,22 +8,20 @@ var confpsw = document.getElementById('us_conf_password');
 var captcha = document.getElementById('user_captcha');
 
 // définition du ciblage pour l'affichage du message d'erreur
-var missPrenom = document.getElementById('missFname');
-var missNom = document.getElementById('missLname');
+var missPrenom = document.getElementById('missPrenom');
+var missNom = document.getElementById('missNom');
 var missMail = document.getElementById('missMail');
 var missPhone = document.getElementById('missPhone');
 var missPsw = document.getElementById('missPsw');
 var missConfPsw = document.getElementById('missConfPsw');
 var missCaptcha = document.getElementById('missCaptcha');
 
-// définition des conditons de validation des champs de saisie
+// définition des conditions de validation des champs de saisie
 var mailValid = /[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}/;
 var nameValid = /^[a-zA-ZéèîïÉÈÎÏ]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a_zéèêàçéèîï]+)?$/;
 var phoneValid = /^0[1-9]([-. ]?[0-9]{2}){4}$/;
 
-// check de l'évènement sur le bouton 'valider'
-// submit.addEventListener('click', checkForm);
-// quand il y perte de focus sur un champ
+// quand il y a perte de focus sur un champ
 prenom.onblur = prenomCheck;
 nom.onblur = nomCheck;
 mail.onblur = mailCheck;
@@ -32,13 +30,12 @@ psw.onblur = pswCheck;
 confpsw.onblur = confpswCheck;
 captcha.onblur = captchaCheck;
 
-
 // déclaration des fonctions vérifiant les champs de saisie du formulaire
     // vérification du champ prenom
     function prenomCheck() {
         if (prenom.validity.valueMissing) {
             event.preventDefault()
-            missPrenom.textContent = 'Champ non renseigné';
+            missPrenom.textContent = 'Renseigner ce champ';
             missPrenom.style.color = 'red';
         } else if (nameValid.test(prenom.value) == false) {
             event.preventDefault();
@@ -53,7 +50,7 @@ captcha.onblur = captchaCheck;
     function nomCheck(){
         if (nom.validity.valueMissing) {
             event.preventDefault()
-            missNom.textContent = 'Champ non renseigné';
+            missNom.textContent = 'Renseigner ce champ';
             missNom.style.color = 'red';
         } else if (nameValid.test(nom.value) == false) {
             event.preventDefault();
@@ -63,31 +60,31 @@ captcha.onblur = captchaCheck;
             missNom.textContent = 'Ok !';
             missNom.style.color = 'green';
         }
-    }
+    };
     // vérification du champ email
     function mailCheck(){
         if(mail.validity.valueMissing) {
             event.preventDefault()
-            missMail.textContent = 'Champ non renseigné';
+            missMail.textContent = 'Renseigner ce champ';
             missMail.style.color = 'red';
         } else if(mailValid.test(mail.value) == false) {
             event.preventDefault();
-            missMail.textContent = 'Format incorrect';
+            missMail.textContent = 'Format incorrect, format correct ex: mail@example.fr';
             missMail.style.color = 'orange';
         } else {
             missMail.textContent = 'Ok !';
             missMail.style.color = 'green';
         }
-    }
+    };
     // vérification du champ téléphone
     function phoneCheck(){
         if(phone.validity.valueMissing){
             event.preventDefault()
-            missPhone.textContent = 'Champ non renseigné';
+            missPhone.textContent = 'Renseigner ce champ';
             missPhone.style.color = 'red';
         } else if(phoneValid.test(phone.value) == false) {
             event.preventDefault();
-            missPhone.textContent = 'Format incorrect';
+            missPhone.textContent = 'Format incorrect, format correct ex: 0102030405';
             missPhone.style.color = 'orange';
         } else {
             missPhone.textContent = 'Ok !';
@@ -98,7 +95,7 @@ captcha.onblur = captchaCheck;
     function pswCheck(){
         if(psw.validity.valueMissing){
             event.preventDefault()
-            missPsw.textContent = 'Champ non renseigné';
+            missPsw.textContent = 'Renseigner ce champ';
             missPsw.style.color = 'red';
         } else {
             missPsw.textContent = 'Ok !'
@@ -109,7 +106,7 @@ captcha.onblur = captchaCheck;
     function confpswCheck(){
         if(confpsw.validity.valueMissing){
             event.preventDefault()
-            missConfPsw.textContent = 'Champ non renseigné';
+            missConfPsw.textContent = 'Renseigner ce champ';
             missConfPsw.style.color = 'red';
         } else {
             missConfPsw.textContent = 'Ok !'
@@ -120,7 +117,7 @@ captcha.onblur = captchaCheck;
     function captchaCheck(){
         if(captcha.validity.valueMissing){
             event.preventDefault()
-            missCaptcha.textContent = 'Champ non renseigné';
+            missCaptcha.textContent = 'Renseigner ce champ';
             missCaptcha.style.color = 'red';
         } else {
             missCaptcha.textContent = 'Ok !'

@@ -8,14 +8,15 @@
         <div class="row m-0">
           <div class="col-md-12 pb-2">
             <div class="row">
-            <?php// if($lang == 'fr'){ ?>
+            <?php if($lang == 'fr'){ ?>
               <img src="<?php echo base_url(); ?>assets\img\banniere\staff.png"
                 alt="banniere l'équipe pour décrire les bénévoles bavardes, leurs origines et leurs actions "
                 class="img-fluid pb-3">
-            <?php/* } else { 
-            echo 'team';
-            }*/
-            ?>
+            <?php } else { ?> 
+              <img src="<?php echo base_url(); ?>assets\img\banniere\staff_en.jpg"
+                alt="banniere l'équipe pour décrire les bénévoles bavardes, leurs origines et leurs actions "
+                class="img-fluid pb-3">
+            <?php } ?>
             </div>
           </div>
         </div>

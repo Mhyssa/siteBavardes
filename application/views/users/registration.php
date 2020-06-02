@@ -20,13 +20,13 @@
             <div class="form-group">
                 <label for="us_fname"><?php echo $create_fname; ?>* :</label>
                 <input type="text" name="us_fname" id="us_fname" class="form-control" value="<?php echo !empty($user['us_fname'])?$user['us_fname']:''; ?>" required>
-                <span class="missFname" id="missFname"></span>
+                <span class="missPrenom" id="missPrenom"></span>
                 <?php echo form_error('us_fname','<p class="help-block text-danger">','</p>'); ?>
             </div>
             <div class="form-group">
                 <label for="us_lname"><?php echo $create_lname ?>* :</label>
                 <input type="text" name="us_lname" id="us_lname" class="form-control" value="<?php echo !empty($user['us_lname'])?$user['us_lname']:''; ?>" required>
-                <span class="missLname" id="missLname"></span>
+                <span class="missNom" id="missNom"></span>
                 <?php echo form_error('us_lname','<p class="help-block text-danger">','</p>'); ?>
             </div>
             <div class="form-group">
@@ -40,7 +40,7 @@
             <div class="form-group">
                 <label for="us_phone"><?php echo $create_phone; ?> :</label>
                 <input type="text" name="us_phone" id="us_phone" class="form-control" value="<?php echo !empty($user['us_phone'])?$user['us_phone']:''; ?>" required>
-                <span class="missMail" id="missMail"></span>
+                <span class="missPhone" id="missPhone"></span>
                 <?php echo form_error('us_phone','<p class="help-block text-danger">','</p>'); ?>
             </div>
 
