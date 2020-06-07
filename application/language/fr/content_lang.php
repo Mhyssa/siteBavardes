@@ -107,7 +107,7 @@
     $lang['collab_body_p_text5'] = 'NDA spéciale Meufs aux platines';
     $lang['collab_body_text5'] = '" Alors que l\'équipe de jour des Bavardes a fini les interventions en milieu scolaire,
     c\'est l\'équipe de nuit qui a prit le relai en tenant un stand de prévention et information à
-    l\' Alimentation Generale de 22h a 4h du matin. Bravo aux bénévoles ! Et a notre djette Catherine
+    l\' Alimentation Generale de 22h à 4h du matin. Bravo aux bénévoles ! Et à notre djette Catherine
     Pinkmoloko qui a mit le feu ! "';
     $lang['collab_body_button_text5'] = 'Edition 100% meufs aux platines';
 
