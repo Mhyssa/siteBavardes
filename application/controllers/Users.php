@@ -715,14 +715,14 @@ class Users extends CI_Controller {
     } // account ends here
 
 
-
-
-    public function logout(){ 
-        $this->session->unset_userdata('isUserLoggedIn'); 
-        $this->session->unset_userdata('userId'); 
-        $this->session->sess_destroy(); 
-        redirect('users/login'); 
-    } //logout ends here
+    public function logout($lang = ''){
+        $this->lang->load('content', $lang == ''?'fr':$lang); 
+            $this->session->unset_userdata('isUserLoggedIn'); 
+            $this->session->unset_userdata('userId'); 
+            $this->session->sess_destroy(); 
+            redirect('users/login/'.$lang); 
+        } //logout ends here
+    
      
      
     // Existing email check during validation 
