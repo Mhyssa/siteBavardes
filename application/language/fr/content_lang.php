@@ -195,6 +195,12 @@
 
         //users/account
         $lang['account_wlc'] = 'Bienvenue';
+        $lang['account_wlc_p2'] = 'sur l\'espace membre du site des bavardes';
+        $lang['account_btn_event'] = 'Tiens toi informé sur nos prochains événements';
+        $lang['account_btn_event_ici'] = 'ici';
+        $lang['account_asso'] = 'Si tu souhaites nous soutenir en adhérant à l\'asso';
+        $lang['account_asso_ici'] = 'C\'est par ici';
+        $lang['account_info'] = 'Tes Informations personnelles';
         $lang['account_logout'] = 'Déconnexion';
         $lang['account_name'] = 'Nom';
         $lang['account_mail'] = 'Adresse E-mail';
