@@ -111,11 +111,6 @@ section{
         margin: 8px 0;
         text-align: left;
     }
-
-    #plus{
-        visibility: visible;
-    }
-
 }
 @media screen and (max-width: 769px){
     #plus{
