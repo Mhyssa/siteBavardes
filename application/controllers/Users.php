@@ -673,10 +673,17 @@ class Users extends CI_Controller {
 
             //users/account
             $data['account_wlc'] = $this->lang->line('account_wlc');
+            $data['account_wlc_p2'] = $this->lang->line('account_wlc_p2');
+            $data['account_btn_event'] = $this->lang->line('account_btn_event');
+            $data['account_btn_event_ici'] = $this->lang->line('account_btn_event_ici');
+            $data['account_asso'] = $this->lang->line('account_asso');
+            $data['account_asso_ici'] = $this->lang->line('account_asso_ici');
+            $data['account_info'] = $this->lang->line('account_info');
             $data['account_logout'] = $this->lang->line('account_logout');
             $data['account_name'] = $this->lang->line('account_name');
             $data['account_mail'] = $this->lang->line('account_mail');
             $data['account_phone'] = $this->lang->line('account_phone');
+
 
 
             
