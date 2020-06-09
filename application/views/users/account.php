@@ -1,5 +1,5 @@
 <div class="container">    
-    <a class="mb-4" href="<?php echo base_url('users/logout'); ?>" class="float-right"><?php echo $account_logout; ?></a>
+    <a class="mb-4" href="<?php echo base_url().'users/logout/'.$lang; ?>" class="float-right"><?php echo $account_logout; ?></a>
     <h3 class=" m-4">
         <p class="text-center">
             <?php echo $account_wlc; ?> <?php echo $user['us_fname']; ?> <?php echo $account_wlc_p2; ?>.
