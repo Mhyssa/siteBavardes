@@ -43,26 +43,25 @@
                                 <?php
                                     if(!empty($row['event_date'])){
                                         if($lang == 'fr'){
-                                            setlocale(LC_TIME, ['fr', 'fra', 'fr_FR']);
                                             $date = $row['event_date'];
-                                            $date = strtotime($date);
-                                            $date_fr = strftime('%A %d %B %Y', $date);
-                                            echo 'Le '.ucfirst($date_fr);
+                                            $date_fr = strtotime($date);
+						                    $date_fr = date('d/m/Y', $date_fr);
+                                            echo ($date_fr);
                                         } else {
                                             $date = $row['event_date'];
-                                            $date = strtotime($date);
-                                            $date_en = date('l jS F Y', $date);
-                                            echo 'On '.ucfirst($date_en);
+                                            $date_en = strtotime($date);
+						                    $date_en = date('m/d/Y', $date_en);
+                                            echo ($date_en);
                                         }
                                     }
                                     if(!empty($row['event_heure'])){
                                         if($lang == 'fr'){
-                                            echo " à ".$row['event_heure'];
+                                            echo " - ".$row['event_heure'];
                                         } else {
                                             $heure = $row['event_heure'];
                                             $heure = strtotime($heure);
                                             $heure_en = date('g:iA', $heure);
-                                            echo " at ".$heure_en;
+                                            echo " - ".$heure_en;
                                         }
                                     }
                                 ?>
