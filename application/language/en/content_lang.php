@@ -190,6 +190,12 @@
 
         //users/account
         $lang['account_wlc'] = 'Welcome';
+        $lang['account_wlc_p2'] = 'on this website\'s member area';
+        $lang['account_btn_event'] = 'Keep informed of upcoming events';
+        $lang['account_btn_event_ici'] = 'here';
+        $lang['account_asso'] = 'If you want to support us by joining les Bavardes ';
+        $lang['account_asso_ici'] = 'It\'s over here';
+        $lang['account_info'] = 'Your personal information';
         $lang['account_logout'] = 'Log out';
         $lang['account_name'] = 'Name';
         $lang['account_mail'] = 'Email Address';
