@@ -7,9 +7,9 @@
     <!-- debut banniere collaboration -->
     <div class="row">
     <?php if($lang == 'fr'){ ?>
-      <img src="<?php echo base_url(); ?>assets\img\banniere\collab.png" alt="banniere collaboration" class="img-fluid pb-3">
+      <img src="<?php echo base_url(); ?>assets\img\banniere\fr\collaborations.png" alt="banniere collaboration en français" class="img-fluid pb-3">
     <?php } else { ?>
-      <img src="<?php echo base_url(); ?>assets\img\banniere\collab_en.jpg" alt="banniere collaboration" class="img-fluid pb-3">
+      <img src="<?php echo base_url(); ?>assets\img\banniere\eng\collaborations.png" alt="banniere collaboration en anglais" class="img-fluid pb-3">
     <?php } ?>
     </div>
     <!-- fin banniere collaboration -->
@@ -120,12 +120,11 @@
 
     <!-- debut Merci de votre confiance et de votre chaleureux acceuil -->
     <div class="row mt-4">
-    <?php// if($lang == 'fr'){ ?>
-      <img src="<?php echo base_url(); ?>assets\img\banniere\partenaires.png" alt="banniere collaboration" class="img-fluid pb-3">
-    <?php/* } else { 
-      echo 'partnership?';
-    }*/
-    ?>
+    <?php if($lang == 'fr'){ ?>
+      <img src="<?php echo base_url(); ?>assets\img\banniere\fr\partenaires.png" alt="banniere partenaires en français" class="img-fluid pb-3">
+    <?php } else { ?>
+      <img src="<?php echo base_url(); ?>assets\img\banniere\eng\partners.png" alt="banniere partenaires en anglais" class="img-fluid pb-3">
+    <?php } ?>
     </div>
 
     <div class="row shadow">

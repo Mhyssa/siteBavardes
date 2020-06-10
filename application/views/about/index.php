@@ -2,12 +2,12 @@
 <div class="col-lg-12 ombre pt-5 pb-5 ">
 <div class="container">
     <div class="row">
-      <?php if($lang == 'fr'){ ?>
-      <img src="<?php echo base_url(); ?>assets\img\banniere\about.png"
+    <?php if($lang == 'fr'){ ?>
+      <img src="<?php echo base_url(); ?>assets\img\banniere\fr\qui_somme_nous.png"
         alt="banniere qui sommes nous pour décrire les bavardes, leurs origines et leurs actions"
         class="img-fluid pb-3">
       <?php } else { ?> 
-      <img src="<?php echo base_url(); ?>assets\img\banniere\about_en.jpg" 
+      <img src="<?php echo base_url(); ?>assets\img\banniere\eng\who_are_we.png" 
         alt="banniere qui somme nous (version anglaise pour décrire les bavardes, leurs origines et leurs actions"
         class="img-fluid pb-3">      
       <?php } ?>
@@ -64,14 +64,15 @@
                   <div class="col-lg-12 ombre pt-5 ">  
                     <div class="container">
                       <div class="row">
-                      <?php// if($lang == 'fr'){ ?>
-                        <img src="<?php echo base_url(); ?>assets\img\banniere\presse.png"
+                      <?php if($lang == 'fr'){ ?>
+                        <img src="<?php echo base_url(); ?>assets\img\banniere\fr\presse.png"
                           alt="liste des articles de presses ou les bavardes sont Jeanne Magazine Courrier picard france bleu"
                           class="img-fluid pb-3">
-                      <?php/* } else { 
-                      echo 'The Press';
-                      }*/
-                      ?>
+                      <?php } else { ?>
+                        <img src="<?php echo base_url(); ?>assets\img\banniere\eng\press.png"
+                          alt="en anglais liste des articles de presses ou les bavardes sont Jeanne Magazine Courrier picard france bleu"
+                          class="img-fluid pb-3">
+                        <?php } ?>
                 </div>
 
 

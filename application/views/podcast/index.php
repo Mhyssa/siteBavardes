@@ -1,6 +1,14 @@
 <div class="col-lg-12 ombre pt-5 ">
     <div class="container">
 
+    <div class="row">
+            <?php if($lang == 'fr'){ ?>
+                <img src="<?php echo base_url(); ?>assets\img\banniere\fr\videos.png" alt="banniere videos en français" class="img-fluid pb-3">
+            <?php } else { ?>
+                <img src="<?php echo base_url(); ?>assets\img\banniere\eng\videos.png" alt="banniere videos en anglais" class="img-fluid pb-3">
+            <?php } ?>
+        </div> <!-- Fin de la div row -->
+
       <div class="row">
 
         <div class="embed-responsive embed-responsive-16by9 float-left col-lg-3 col-sm-4 col-6">
@@ -56,9 +64,9 @@
       <div class="row">
           <div class="py-3 col-lg-12 pt-4">
             <?php if($lang == 'fr'){ ?>
-                <img src="<?php echo base_url(); ?>assets\img\banniere\podcasts.png" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+                <img src="<?php echo base_url(); ?>assets\img\banniere\fr\podcasts.png" alt="banniere podcasts en français" class="img-fluid pb-3">
               <?php } else { ?> 
-                <img src="<?php echo base_url(); ?>assets\img\banniere\podcasts_en.jpg" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+                <img src="<?php echo base_url(); ?>assets\img\banniere\eng\podcasts.png" alt="banniere podcasts en anglais" class="img-fluid pb-3">
               <?php } ?>
           </div>
           <div class="col-sm-12">

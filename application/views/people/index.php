@@ -5,9 +5,9 @@
 
       <div class="row">
             <?php if($lang == 'fr'){ ?>
-                  <img src="<?php echo base_url(); ?>assets\img\banniere\artistes.png" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+                  <img src="<?php echo base_url(); ?>assets\img\banniere\fr\artistes_intervenants.png" alt="banniere artistes et intervenants en français" class="img-fluid pb-3">
             <?php } else { ?> 
-                  <img src="<?php echo base_url(); ?>assets\img\banniere\artistes_en.jpg" alt="banniere artistes et intervenants" class="img-fluid pb-3">
+                  <img src="<?php echo base_url(); ?>assets\img\banniere\eng\artists_speakers.png" alt="banniere artistes et intervenants en anglais" class="img-fluid pb-3">
             <?php } ?>
             </div>
 

@@ -93,6 +93,10 @@ section{
     transform: scale(0.9);
 }
 
+#plus{
+    visibility: hidden;
+}
+
 @media screen and (max-width: 500px){
     .card{
         height: 350px;
@@ -106,6 +110,11 @@ section{
     .card .bottom-text .btn{
         margin: 8px 0;
         text-align: left;
+    }
+}
+@media screen and (max-width: 769px){
+    #plus{
+        visibility: visible;
     }
 
 }

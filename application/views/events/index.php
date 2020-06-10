@@ -4,9 +4,9 @@
 
     <div class="row">
             <?php if($lang == 'fr'){ ?>
-                <img src="<?php echo base_url(); ?>assets\img\banniere\event.png" alt="banniere evenement" class="img-fluid pb-3">
+                <img src="<?php echo base_url(); ?>assets\img\banniere\fr\evenements.png" alt="banniere evenement en français" class="img-fluid pb-3">
             <?php } else { ?>
-                <img src="<?php echo base_url(); ?>assets\img\banniere\event_en.jpg" alt="banniere evenement" class="img-fluid pb-3">
+                <img src="<?php echo base_url(); ?>assets\img\banniere\eng\events.png" alt="banniere evenement en anglais" class="img-fluid pb-3">
             <?php } ?>
         </div> <!-- Fin de la div row -->
 
@@ -43,26 +43,25 @@
                                 <?php
                                     if(!empty($row['event_date'])){
                                         if($lang == 'fr'){
-                                            setlocale(LC_TIME, ['fr', 'fra', 'fr_FR']);
                                             $date = $row['event_date'];
-                                            $date = strtotime($date);
-                                            $date_fr = strftime('%A %d %B %Y', $date);
-                                            echo 'Le '.ucfirst($date_fr);
+                                            $date_fr = strtotime($date);
+						                    $date_fr = date('d/m/Y', $date_fr);
+                                            echo ($date_fr);
                                         } else {
                                             $date = $row['event_date'];
-                                            $date = strtotime($date);
-                                            $date_en = date('l jS F Y', $date);
-                                            echo 'On '.ucfirst($date_en);
+                                            $date_en = strtotime($date);
+						                    $date_en = date('m/d/Y', $date_en);
+                                            echo ($date_en);
                                         }
                                     }
                                     if(!empty($row['event_heure'])){
                                         if($lang == 'fr'){
-                                            echo " à ".$row['event_heure'];
+                                            echo " - ".$row['event_heure'];
                                         } else {
                                             $heure = $row['event_heure'];
                                             $heure = strtotime($heure);
                                             $heure_en = date('g:iA', $heure);
-                                            echo " at ".$heure_en;
+                                            echo " - ".$heure_en;
                                         }
                                     }
                                 ?>

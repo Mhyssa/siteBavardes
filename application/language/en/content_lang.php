@@ -151,7 +151,6 @@
         $lang['create_fval_captcha'] = 'captcha';
 
 
-        $lang['create_title'] = 'Create a New Account';
         $lang['create_fname'] = 'First Name';
         $lang['create_lname'] = 'Last Name';
         $lang['create_mail'] = 'Email Address';
@@ -177,7 +176,6 @@
         $lang['login_fval_email'] = $lang['create_fval_email'];
         $lang['login_fval_psw'] = $lang['create_fval_psw'];
 
-        $lang['login_title'] = 'Login to your Account';
         $lang['login_mail'] = 'Email Address';
         $lang['login_psw'] = 'Password';
         $lang['login_reset'] = 'Reset';
@@ -190,6 +188,12 @@
 
         //users/account
         $lang['account_wlc'] = 'Welcome';
+        $lang['account_wlc_p2'] = 'on this website\'s member area';
+        $lang['account_btn_event'] = 'Keep informed of upcoming events';
+        $lang['account_btn_event_ici'] = 'here';
+        $lang['account_asso'] = 'If you want to support us by joining les Bavardes ';
+        $lang['account_asso_ici'] = 'It\'s over here';
+        $lang['account_info'] = 'Your personal information';
         $lang['account_logout'] = 'Log out';
         $lang['account_name'] = 'Name';
         $lang['account_mail'] = 'Email Address';

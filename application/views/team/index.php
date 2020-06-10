@@ -9,12 +9,12 @@
           <div class="col-md-12 pb-2">
             <div class="row">
             <?php if($lang == 'fr'){ ?>
-              <img src="<?php echo base_url(); ?>assets\img\banniere\staff.png"
+              <img src="<?php echo base_url(); ?>assets\img\banniere\fr\equipe.png"
                 alt="banniere l'équipe pour décrire les bénévoles bavardes, leurs origines et leurs actions "
                 class="img-fluid pb-3">
             <?php } else { ?> 
-              <img src="<?php echo base_url(); ?>assets\img\banniere\staff_en.jpg"
-                alt="banniere l'équipe pour décrire les bénévoles bavardes, leurs origines et leurs actions "
+              <img src="<?php echo base_url(); ?>assets\img\banniere\eng\team.png"
+                alt="en anglais banniere l'équipe pour décrire les bénévoles bavardes, leurs origines et leurs actions "
                 class="img-fluid pb-3">
             <?php } ?>
             </div>

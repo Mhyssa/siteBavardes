@@ -399,7 +399,6 @@ class Users extends CI_Controller {
         
         
                         //users/registration
-                        $data['create_title'] = $this->lang->line('create_title');
                         $data['create_fname'] = $this->lang->line('create_fname');
                         $data['create_lname'] = $this->lang->line('create_lname');
                         $data['create_mail'] = $this->lang->line('create_mail');
@@ -532,7 +531,6 @@ class Users extends CI_Controller {
         
         
                         //users/login
-                        $data['login_title'] = $this->lang->line('login_title');
                         $data['login_mail'] = $this->lang->line('login_mail');
                         $data['login_psw'] = $this->lang->line('login_psw');
                         $data['login_reset'] = $this->lang->line('login_reset');
@@ -673,6 +671,12 @@ class Users extends CI_Controller {
 
             //users/account
             $data['account_wlc'] = $this->lang->line('account_wlc');
+            $data['account_wlc_p2'] = $this->lang->line('account_wlc_p2');
+            $data['account_btn_event'] = $this->lang->line('account_btn_event');
+            $data['account_btn_event_ici'] = $this->lang->line('account_btn_event_ici');
+            $data['account_asso'] = $this->lang->line('account_asso');
+            $data['account_asso_ici'] = $this->lang->line('account_asso_ici');
+            $data['account_info'] = $this->lang->line('account_info');
             $data['account_logout'] = $this->lang->line('account_logout');
             $data['account_name'] = $this->lang->line('account_name');
             $data['account_mail'] = $this->lang->line('account_mail');
@@ -710,12 +714,14 @@ class Users extends CI_Controller {
 
 
 
-    public function logout(){ 
-        $this->session->unset_userdata('isUserLoggedIn'); 
-        $this->session->unset_userdata('userId'); 
-        $this->session->sess_destroy(); 
-        redirect('users/login'); 
-    } //logout ends here
+    public function logout($lang = ''){
+        $this->lang->load('content', $lang == ''?'fr':$lang); 
+            $this->session->unset_userdata('isUserLoggedIn'); 
+            $this->session->unset_userdata('userId'); 
+            $this->session->sess_destroy(); 
+            redirect('users/login/'.$lang); 
+        } //logout ends here
+    
      
      
     // Existing email check during validation 

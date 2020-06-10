@@ -1,8 +1,13 @@
 <div class="col-lg-12 ombre pt-5">
 <div class="container">
 
-    <h2><?php echo $login_title; ?></h2>
-	
+        <div class="row">
+            <?php if($lang == 'fr'){ ?>
+                <img src="<?php echo base_url(); ?>assets\img\banniere\fr\connexion.png" alt="banniere connexion en français" class="img-fluid pb-3">
+            <?php } else { ?>
+                <img src="<?php echo base_url(); ?>assets\img\banniere\eng\login.png" alt="banniere connexion en anglais" class="img-fluid pb-3">
+            <?php } ?>
+        </div> <!-- Fin de la div row -->		
     <!-- Status message -->
     <?php  
         if(!empty($success_msg)){ 
