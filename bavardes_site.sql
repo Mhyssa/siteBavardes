@@ -204,7 +204,10 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (84, 'Flashday Caritatif Mina BanditaX', '2020-03-08', '10:00', 'Officine Déphasée', '3 Rue des Archers, 80000 Amiens', 'https://www.facebook.com/events/618225562302238/', 0, NULL, NULL, '', 'Festivals', 'fest_jc-flashday.jpg'),
 (85, 'Festival J\'en(c)rêve - Dimanche en Famille', '2020-03-08', '14:00', 'CSC étouvie', '', 'https://www.facebook.com/events/192635432016184/', 0, NULL, NULL, '', 'Festivals', 'fest_jc-dimanche_famille.jpg'),
 (86, 'Scène Ouverte 100% meuf Virtuelle', '2020-03-28', '20:00', 'Canapé', '', 'https://www.facebook.com/events/221756992241134/', 100, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_virtuelle1.jpg'),
-(87, 'Scène Ouverte 100% meuf Virtuelle #2', '2020-04-11', '20:00', 'Canapé', '', 'https://www.facebook.com/events/521914232090071/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_virtuelle.jpg');
+(87, 'Scène Ouverte 100% meuf Virtuelle #2', '2020-04-11', '20:00', 'Canapé', '', 'https://www.facebook.com/events/521914232090071/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_virtuelle.jpg'),
+(88, 'Les Bavardes - Scène Ouverte 100% meuf Virtuelle #3', '2020-05-09', '22:00', 'Canapé', '', 'facebook.com/events/2792960314156932/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_virtuelle_3.jpg'),
+(89, 'Les Bavardes -LBTQ confinées : Live Ovaires Bookées', '2020-05-16', '21:30', 'Canapé', '', 'https://www.facebook.com/events/543567806334535/', 0, NULL, NULL, '', 'Divers', 'les_bavardes_on_air.jpg'),
+(90, 'Mobilisation féministe', '2020-06-08', '18:30', 'Parc de la Hotoie', 'facebook.com/events/355846492061826/', '', 0, NULL, NULL, '', 'Divers', 'mobilisation_fem_nat.jpg');
 
 -- --------------------------------------------------------
 
