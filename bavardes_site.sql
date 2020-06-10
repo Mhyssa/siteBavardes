@@ -357,7 +357,11 @@ INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`, `
 (33, '3 questions à Elisabeth Lebovici, cofondatrice de Lesbiennes d\'intérêt Général', 'https://www.komitid.fr/2020/04/24/3-questions-a-elisabeth-lebovici-cofondatrice-de-lesbiennes-dinteret-general/', 'Divers', '', NULL),
 (34, 'Face à la crise sanitaire, économique et sociale, un plan d\'urgence féministe!', 'https://blogs.mediapart.fr/les-invites-de-mediapart/blog/220520/face-la-crise-sanitaire-economique-et-sociale-un-plan-durgence-feministe?fbclid=IwAR23OSlXEcubWGk3NqaUM_GPRZZZDSYHxzoYj0z28cjF88cUEThyfJ', 'Divers', '', NULL),
 (35, 'LES BAVARDES À LA RENCONTRE DU COLLECTIF LESBIEN LES IMMÉDIANES', 'https://www.jeanne-magazine.com/le-magazine/2020/04/04/les-bavardes-a-la-rencontre-du-collectif-lesbien-les-immedianes_19268/', 'Jeanne Magazine', '', NULL);
+<<<<<<< HEAD
 (36, 'En Picardie, pour les associations de lutte contre les lgbtphobies, "difficile de savoir qu\'on existe"', 'https://france3-regions.francetvinfo.fr/hauts-de-france/picardie-associations-lutte-contre-lgbtphobies-difficile-faire-savoir-qu-on-existe-1830222.html', 'Luttes LGBTQI+', '', NULL),
+=======
+(36, 'En Picardie, pour les associations de lutte contre les lgbtphobies, "difficile de savoir qu\'on existe"', 'https://france3-regions.francetvinfo.fr/hauts-de-france/picardie-associations-lutte-contre-lgbtphobies-difficile-faire-savoir-qu-on-existe-1830222.html', 'Luttes LGBTQI+', '', NULL)
+>>>>>>> 7c48d265686638960d74f87b9423d4ba91a8baa9
 
 -- --------------------------------------------------------
 

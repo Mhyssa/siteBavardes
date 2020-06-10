@@ -26,7 +26,12 @@
   <?php } else { ?>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
   <?php } ?>
+<<<<<<< HEAD
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
+=======
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
+
+>>>>>>> 7c48d265686638960d74f87b9423d4ba91a8baa9
 
 
   <!-- icone de l'onglet -->

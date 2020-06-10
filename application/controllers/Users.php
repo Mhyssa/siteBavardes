@@ -683,6 +683,7 @@ class Users extends CI_Controller {
             $data['account_phone'] = $this->lang->line('account_phone');
 
 
+
             
             //footer
              $data['footer_line1'] = $this->lang->line('footer_line1');
@@ -712,8 +713,11 @@ class Users extends CI_Controller {
     } // account ends here
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7c48d265686638960d74f87b9423d4ba91a8baa9
     public function logout($lang = ''){
         $this->lang->load('content', $lang == ''?'fr':$lang); 
             $this->session->unset_userdata('isUserLoggedIn'); 
