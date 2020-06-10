@@ -72,16 +72,12 @@
                     <td>
                         <?php
                             if(!empty($row['event_date'])){
-
-                            //Pour mettre en français
-                            setlocale(LC_TIME, ['fr', 'fra', 'fr_FR']);
-                            $date = $row['event_date'];
-                            $date = strtotime($date);           
-                            $date_fr = strftime('%A %d %B %Y', $date);
-
-
-                            echo ucfirst($date_fr);
+		                  $date = $row['event_date'];
+                                  $date_fr = strtotime($date);
+		                  $date_fr = date('d/m/Y', $date_fr);
+                                  echo ($date_fr);
                         }?>
+
                     </td>
 
 
