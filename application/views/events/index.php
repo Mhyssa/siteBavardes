@@ -18,7 +18,7 @@
                     <select name="searchKeyword" class="form-control">
                         <option value=""><?php echo $event_badge_all; ?></option>
                         <option value="<?php $searchKeyword = 'Festivals'; echo $searchKeyword; ?>" <?php if($this->session->userdata('searchKeyword') == 'Festivals') echo 'selected="selected"'; ?>><?php echo $event_badge_fest; ?></option>
-                        <option value="<?php $searchKeyword = 'Scènes ouvertes'; echo $searchKeyword; ?>" <?php if($this->session->userdata('searchKeyword') == 'Scènes ouvertes') echo 'selected="selected"'; ?>><?php echo $event_badge_SO; ?></option>
+                        <option value="<?php $searchKeyword = 'Scenes ouvertes'; echo $searchKeyword; ?>" <?php if($this->session->userdata('searchKeyword') == 'Scènes ouvertes') echo 'selected="selected"'; ?>><?php echo $event_badge_SO; ?></option>
                         <option value="<?php $searchKeyword = 'Bla-bla'; echo $searchKeyword; ?>" <?php if($this->session->userdata('searchKeyword') == 'Bla-bla') echo 'selected="selected"'; ?>><?php echo $event_badge_bb; ?></option>
                         <option value="<?php $searchKeyword = 'Divers'; echo $searchKeyword; ?>" <?php if($this->session->userdata('searchKeyword') == 'Divers') echo 'selected="selected"'; ?>><?php echo $event_badge_div; ?></option>
                     </select>
