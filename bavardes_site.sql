@@ -124,7 +124,7 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (4, 'Soirée des Bavardes pour la PMA pour toutes', '2017-12-09', '20:00', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/517075128685532/', 0, NULL, NULL, '', 'Divers', 'soiree_pma.jpg'),
 (5, 'Concours photo des Bavardes', '2017-12-27', '', 'Partout !', '', 'https://www.facebook.com/events/797734620428712/', 0, NULL, NULL, '', 'Divers', 'concours_photos.jpg'),
 (6, 'La terrible rentrée des Bavardes ! #1', '2018-01-20', '19:30', 'Les Enfants Terribles', '', 'https://www.facebook.com/events/135994347097909/', 0, NULL, NULL, '', 'Divers', 'la_terrible_rentree.jpg'),
-(7, 'Scène ouverte 100% MEUF !', '2018-02-15', '20:00', 'Le Capuccino', '', 'https://www.facebook.com/events/214131912481494/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte1.jpg'),
+(7, 'Scène ouverte 100% MEUF !', '2018-02-15', '20:00', 'Le Capuccino', '', 'https://www.facebook.com/events/214131912481494/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte1.jpg'),
 (8, 'Bla-Bla Chatte #1', '2018-03-05', '19:00', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/200955003986427/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_1.jpg'),
 (9, 'Le 8 mars à l\'île aux fruits', '2018-03-08', '17:00', 'L\'île Aux Fruits', '', 'https://www.facebook.com/events/523808851346247/', 15, NULL, NULL, '', 'Divers', 'ile_fruits.jpg'),
 (10, 'Bla-Bla Chatte #2', '2018-04-05', '19:00', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/1381930735252344/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_2.jpg'),
@@ -132,14 +132,14 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (12, 'On prend les mêmes et on recommence !', '2018-04-20', '20:30', 'Les Enfants Terribles', '', 'https://www.facebook.com/events/1725279247533678/', 0, NULL, NULL, '', 'Divers', 'on_prend_les_memes.jpg'),
 (13, 'Bla-Bla Chatte #3', '2018-05-05', '18:30', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/167437783974276/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_3.jpg'),
 (14, 'Bla-Bla Chatte #4', '2018-06-05', '18:30', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/2040946289479155/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_4.jpg'),
-(15, 'Scène ouverte 100% MEUF !', '2018-06-19', '19:00', 'Le Capuccino', 'Le Capuccino', 'https://www.facebook.com/events/187023205455242/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte.jpg'),
+(15, 'Scène ouverte 100% MEUF !', '2018-06-19', '19:00', 'Le Capuccino', 'Le Capuccino', 'https://www.facebook.com/events/187023205455242/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte.jpg'),
 (16, 'Embarquement Immédiat !', '2018-07-20', '19:30', 'La Péniche Lapin Vert', 'Joinville-le-Pont', 'https://www.facebook.com/events/1874867592572892/', 0, NULL, NULL, '', 'Divers', 'embarquement_immediat.jpg'),
 (17, 'Bla-Bla Chatte #5', '2018-09-05', '18:30', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/667186696990782/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_5.jpg'),
 (18, 'Bla-Bla Chatte #6', '2018-10-03', '18:30', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/341554519755076/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_6.jpg'),
 (19, 'Bavardes Birthday !', '2018-10-20', '19:30', 'Le Café', '', 'https://www.facebook.com/events/490365368132118/', 0, NULL, NULL, '', 'Divers', 'bavardes_anniv_1an.jpg'),
 (20, 'Bla-Bla Chatte #7', '2018-11-05', '18:30', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/414145855783926/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_7.jpg'),
 (21, 'Mobilisation contre les LGBTPhobies à Amiens', '2018-11-20', '17:30', 'Place Gambetta', '', 'https://www.facebook.com/events/2180545762267150/', 0, NULL, NULL, '', 'Divers', 'mobilisation_vs_lgbtqi+phobe.jpg'),
-(22, 'Scène ouverte 100% MEUF', '2018-11-21', '19:00', 'Le Charleston', '', 'https://www.facebook.com/events/1089534221214401/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_3.jpg'),
+(22, 'Scène ouverte 100% MEUF', '2018-11-21', '19:00', 'Le Charleston', '', 'https://www.facebook.com/events/1089534221214401/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_3.jpg'),
 (23, 'Concours Photos #2 du 3 déc. 2018 - 17 déc. 2018', '2018-12-03', '', '', '', 'https://www.facebook.com/events/342625193181758/', 0, NULL, NULL, '', 'Divers', 'concours_photos_2.jpg'),
 (24, 'Bla-Bla Chatte #8', '2018-12-05', '18:30', 'Le Barrio', '', 'https://www.facebook.com/events/2347157455325413/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_8.jpg'),
 (25, 'Et si on parlait d\'écoféminisme ?', '2018-12-11', '18:30', 'La Boîte sans projet', 'Rue Ledieu 80000 Amiens France', 'https://www.facebook.com/events/2405879366120694/', 0, NULL, NULL, '', 'Divers', 'ecofeminisme.jpg'),
@@ -148,7 +148,7 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (28, 'Les Bavardes à Lille !', '2019-02-03', '14:00', 'Salon LGBTI+ de Lille', '7 place Sébastopol', 'https://www.facebook.com/events/2250355981850550/', 0, NULL, NULL, '', 'Divers', 'les_bavardes_à_lille.jpg'),
 (29, 'Assemblée Générale #1', '2019-02-04', '18:30', 'Restaurant Leu Duo', '60 rue Vanmarcke Amiens', 'https://www.facebook.com/events/2302732523336041', 0, NULL, NULL, '', 'Divers', 'AG_1.jpg'),
 (30, 'Le Bla-Bla des Bavardes #10', '2019-02-05', '18:30', 'Le Barrio', '', 'https://www.facebook.com/events/337186023787627', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_10.jpg'),
-(31, 'Scène ouverte 100% MEUF', '2019-02-15', '20:00', 'Le Charleston', '', 'https://www.facebook.com/events/374298849792128/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_4.jpg'),
+(31, 'Scène ouverte 100% MEUF', '2019-02-15', '20:00', 'Le Charleston', '', 'https://www.facebook.com/events/374298849792128/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_4.jpg'),
 (32, 'Le Bla-Bla des Bavardes #11', '2019-03-05', '18:30', 'Barrio, Resto Bar Tapas', '', 'https://www.facebook.com/events/557458111405078/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_11.jpg'),
 (33, 'Fest GenRage 8-9-10 mars - 8 mars 2019 - 10 mars 2019', '2019-03-08', '', 'La Boîte sans projet', '', 'https://www.facebook.com/events/2221463397907792/', 0, NULL, NULL, '', 'Festivals', 'fest_gr.jpg'),
 (34, 'Le Bla-Bla des Bavardes #12', '2019-04-05', '18:30', 'AAC Tennis', '', 'https://www.facebook.com/events/804706006554106/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_12.jpg'),
@@ -166,7 +166,7 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (46, 'Conférence Gesticulée - Femmes de Sport', '2019-05-24', '18:30', 'AAC Tennis', '10 Allée des Tennis, 80000 Amiens, France', 'https://www.facebook.com/events/867541140265492/', 0, NULL, NULL, '', 'Divers', 'conf_gest-FDS.jpg'),
 (47, 'Femmes de Sport !', '2019-05-25', '10:00', 'Nautilus', 'Rue Léo Lagrange, 80080 Amiens, France', 'https://www.facebook.com/events/624559811303285/', 0, NULL, NULL, '', 'Divers', 'femme_de_sport.jpg'),
 (48, 'Réunion publique Marche des Fiertés Amiens', '2019-06-11', '18:30', 'La Boîte sans projet', '2 rue Ledieu (entrée D) 80000 Amiens', 'https://www.facebook.com/events/484643238945931/', 0, NULL, NULL, '', 'Divers', 'réunion_pub_prideAmiens.jpg'),
-(49, 'Scène ouverte 100% MEUF', '2019-06-19', '20:00', 'La Gargouille', '', 'https://www.facebook.com/events/636173716848796/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_5.jpg'),
+(49, 'Scène ouverte 100% MEUF', '2019-06-19', '20:00', 'La Gargouille', '', 'https://www.facebook.com/events/636173716848796/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_5.jpg'),
 (50, '1ère Marche des fiertés 2019 - Amiens', '2019-06-22', '14:00', 'Gare d\'Amiens', '', 'https://www.facebook.com/events/396220987643121/', 2500, NULL, NULL, '', 'Festivals', 'prideAmiens.jpg'),
 (51, 'Pique Nique pour tou.tes !', '2019-07-02', '17:00', 'Parc Saint-Pierre', '', 'https://www.facebook.com/events/343019443055837/', 0, NULL, NULL, '', 'Divers', 'pique-nique.jpg'),
 (52, 'Le Bla-Bla des Bavardes #14', '2019-09-05', '18:30', 'Le Barrio', '', 'https://www.facebook.com/events/726767477745564/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_14.jpg'),
@@ -174,7 +174,7 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (54, 'Les Bavardes fêtent leurs 2 ans !', '2019-10-25', '18:00', '', 'Un peu partout - Suivez l\'programme !', 'https://www.facebook.com/events/465387507521342/', 0, NULL, NULL, '', 'Divers', 'bavardes_anniv_2ans.jpg'),
 (55, 'Le Bla-Bla d\'anniversaire ! #15', '2019-10-25', '18:30', 'Au Fût et à mesure', '', 'https://www.facebook.com/events/2494029374022486/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_anniv.jpg'),
 (56, 'Atelier danse contact', '2019-10-26', '15:30', 'L\'école Entrez dans la Danse ', 'rue Amiral Lejeune', 'https://www.facebook.com/events/557536868350118/', 0, NULL, NULL, '', 'Divers', 'atl_danse_contact.jpg'),
-(57, 'Scène ouverte Anniversaire 100% MEUF', '2019-10-26', '20:00', 'La Gargouille', '', 'https://www.facebook.com/events/496311231222081/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_anniv.jpg'),
+(57, 'Scène ouverte Anniversaire 100% MEUF', '2019-10-26', '20:00', 'La Gargouille', '', 'https://www.facebook.com/events/496311231222081/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_anniv.jpg'),
 (58, 'Université Pop. Féministe #5 Les Masculinités', '2019-10-27', '15:00', 'La Boîte sans projet', '2 rue ledieu entrée D', 'https://www.facebook.com/events/526815631485150/', 20, NULL, NULL, '', 'Divers', 'upf_5.jpg'),
 (59, 'Les Bavardes font leur loto d\'anniversaire', '2019-10-27', '19:00', 'La Taverne Elektrik', '', 'https://www.facebook.com/events/444459563159119/', 50, NULL, NULL, '', 'Divers', 'loto_anniv_bavardes.jpg'),
 (60, 'Festival Witches Week', '2019-11-05', '21:00', 'Cité Carter', '', 'https://www.facebook.com/events/2441237112758468/', 0, NULL, NULL, '', 'Festivals', 'fest_WW.jpg'),
@@ -188,7 +188,7 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (68, 'Les Doigts d\'Or à Amiens avec la Boîte Sans Projet & Fakir', '2020-01-23', '20:00', 'Espace Dewailly', '', 'https://www.facebook.com/events/1291197391089935/', 0, NULL, NULL, '', 'Divers', 'cérémonie_doigts_dhonneur.PNG'),
 (69, 'Femmes De Sport #2 Projection Débat', '2020-01-24', '20:00', 'Auberge de jeunesse d\'Amiens - FUAJ', '', 'https://www.facebook.com/events/3287880404615810/', 0, NULL, NULL, '', 'Divers', 'femme_de_sport_2.jpg'),
 (70, 'Assemblée Générale // Réunion Publique', '2020-01-25', '12:00', 'La Boîte sans projet', '', 'https://www.facebook.com/events/588438731940914/', 0, NULL, NULL, '', 'Divers', 'AG_réunion_publique.jpg'),
-(71, 'Scène ouverte 100% meuf #7', '2020-01-25', '19:00', 'Network', '', 'https://www.facebook.com/events/592625311502321/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_7.jpg'),
+(71, 'Scène ouverte 100% meuf #7', '2020-01-25', '19:00', 'Network', '', 'https://www.facebook.com/events/592625311502321/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_7.jpg'),
 (72, 'Loto Féministe#3 - Figures inspirantes', '2020-01-26', '19:00', 'La Taverne Elektrik', '', 'https://www.facebook.com/events/515815082364951/', 0, NULL, NULL, '', 'Divers', 'loto_feministe_3.jpg'),
 (73, 'Le Bla-Bla des Bavardes #17 Sexisme et Handicap', '2020-02-05', '18:30', 'La Boîte sans projet', '', 'https://www.facebook.com/events/569762520269893/', 15, NULL, NULL, '', 'Bla-bla', 'bla_bla_17.jpg'),
 (74, 'Batailles Féministes #2', '2020-02-21', '18:30', 'Les Enfants Terribles', '', 'https://www.facebook.com/events/226744791683533/', 0, NULL, NULL, '', 'Divers', 'bataille_feministe_2.jpg'),
@@ -203,9 +203,9 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (83, 'On arrêtes toutes - Grève des femmes', '2020-03-08', '09:30', 'Amiens', '', 'https://www.facebook.com/events/1486539478187647/', 0, NULL, NULL, '', 'Divers', 'on_arrete_toutes-greve_femmes.jpg'),
 (84, 'Flashday Caritatif Mina BanditaX', '2020-03-08', '10:00', 'Officine Déphasée', '3 Rue des Archers, 80000 Amiens', 'https://www.facebook.com/events/618225562302238/', 0, NULL, NULL, '', 'Festivals', 'fest_jc-flashday.jpg'),
 (85, 'Festival J\'en(c)rêve - Dimanche en Famille', '2020-03-08', '14:00', 'CSC étouvie', '', 'https://www.facebook.com/events/192635432016184/', 0, NULL, NULL, '', 'Festivals', 'fest_jc-dimanche_famille.jpg'),
-(86, 'Scène Ouverte 100% meuf Virtuelle', '2020-03-28', '20:00', 'Canapé', '', 'https://www.facebook.com/events/221756992241134/', 100, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_virtuelle1.jpg'),
-(87, 'Scène Ouverte 100% meuf Virtuelle #2', '2020-04-11', '20:00', 'Canapé', '', 'https://www.facebook.com/events/521914232090071/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_virtuelle.jpg'),
-(88, 'Les Bavardes - Scène Ouverte 100% meuf Virtuelle #3', '2020-05-09', '22:00', 'Canapé', '', 'facebook.com/events/2792960314156932/', 0, NULL, NULL, '', 'Scènes ouvertes', 'scene_ouverte_virtuelle_3.jpg'),
+(86, 'Scène Ouverte 100% meuf Virtuelle', '2020-03-28', '20:00', 'Canapé', '', 'https://www.facebook.com/events/221756992241134/', 100, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_virtuelle1.jpg'),
+(87, 'Scène Ouverte 100% meuf Virtuelle #2', '2020-04-11', '20:00', 'Canapé', '', 'https://www.facebook.com/events/521914232090071/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_virtuelle.jpg'),
+(88, 'Les Bavardes - Scène Ouverte 100% meuf Virtuelle #3', '2020-05-09', '22:00', 'Canapé', '', 'facebook.com/events/2792960314156932/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_virtuelle_3.jpg'),
 (89, 'Les Bavardes -LBTQ confinées : Live Ovaires Bookées', '2020-05-16', '21:30', 'Canapé', '', 'https://www.facebook.com/events/543567806334535/', 0, NULL, NULL, '', 'Divers', 'les_bavardes_on_air.jpg'),
 (90, 'Mobilisation féministe', '2020-06-08', '18:30', 'Parc de la Hotoie', 'facebook.com/events/355846492061826/', '', 0, NULL, NULL, '', 'Divers', 'mobilisation_fem_nat.jpg');
 
@@ -360,11 +360,7 @@ INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`, `
 (33, '3 questions à Elisabeth Lebovici, cofondatrice de Lesbiennes d\'intérêt Général', 'https://www.komitid.fr/2020/04/24/3-questions-a-elisabeth-lebovici-cofondatrice-de-lesbiennes-dinteret-general/', 'Divers', '', NULL),
 (34, 'Face à la crise sanitaire, économique et sociale, un plan d\'urgence féministe!', 'https://blogs.mediapart.fr/les-invites-de-mediapart/blog/220520/face-la-crise-sanitaire-economique-et-sociale-un-plan-durgence-feministe?fbclid=IwAR23OSlXEcubWGk3NqaUM_GPRZZZDSYHxzoYj0z28cjF88cUEThyfJ', 'Divers', '', NULL),
 (35, 'LES BAVARDES À LA RENCONTRE DU COLLECTIF LESBIEN LES IMMÉDIANES', 'https://www.jeanne-magazine.com/le-magazine/2020/04/04/les-bavardes-a-la-rencontre-du-collectif-lesbien-les-immedianes_19268/', 'Jeanne Magazine', '', NULL);
-<<<<<<< HEAD
 (36, 'En Picardie, pour les associations de lutte contre les lgbtphobies, "difficile de savoir qu\'on existe"', 'https://france3-regions.francetvinfo.fr/hauts-de-france/picardie-associations-lutte-contre-lgbtphobies-difficile-faire-savoir-qu-on-existe-1830222.html', 'Luttes LGBTQI+', '', NULL),
-=======
-(36, 'En Picardie, pour les associations de lutte contre les lgbtphobies, "difficile de savoir qu\'on existe"', 'https://france3-regions.francetvinfo.fr/hauts-de-france/picardie-associations-lutte-contre-lgbtphobies-difficile-faire-savoir-qu-on-existe-1830222.html', 'Luttes LGBTQI+', '', NULL)
->>>>>>> 7c48d265686638960d74f87b9423d4ba91a8baa9
 
 -- --------------------------------------------------------
 
