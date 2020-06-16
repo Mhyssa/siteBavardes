@@ -4,18 +4,21 @@
 <head>
 
   <!-- Required meta tags -->
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
   <meta name="author" content="Marion JOLY, Noémie CLAUDE, Jade GUEHOUN" />
   <meta name="copyright" content="Les Bavardes Amiens" />
   <meta name="description"
-    content="Les Bavardes Amiens collectif lesbien et féministe engagées pour la visibilité de toutes les femmes et dans les luttes lgbtqi+" />
+        content="Les Bavardes Amiens, collectif lesbien et féministe engagées pour la visibilité de toutes les femmes et dans les luttes lbtqi+ /
+                Association lesbienne et féministe à Amiens depuis 2017 ( loi 1901 )" />
 
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <!-- styles CSS -->
   <?php if($controller == 'event'){ ?>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/event.css">
@@ -26,12 +29,10 @@
   <?php } else { ?>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
   <?php } ?>
-<<<<<<< HEAD
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
-=======
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
 
->>>>>>> 7c48d265686638960d74f87b9423d4ba91a8baa9
+  <!-- Librairie Font awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
 
 
   <!-- icone de l'onglet -->
@@ -182,11 +183,8 @@
                     <a class="nav-link text-center" href="<?php echo base_url().'Collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
                   </li>
                   <?php  }  ?>
-                               
                   
                   
-        
-
                 </ul>
               </div>
             </div>

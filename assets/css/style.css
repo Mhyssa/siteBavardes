@@ -255,11 +255,18 @@ blockquote:first-letter {
 }
 
 ul {
-    list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/External_link_font_awesome.svg");
-    padding-left: 10px;
+    /* list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/External_link_font_awesome.svg"); */
+    /* padding-left: 20px; */
+    list-style: none;
     
 }
-
+.mentions::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FFAD3F; /* Change the color */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    padding-right: 20px;
+  }
 /* 
 -------%media sociaux--------------------- */
 .black {

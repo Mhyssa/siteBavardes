@@ -87,7 +87,7 @@
             <img src="<?php echo base_url(); ?>assets\img\collaborateurs\alimentation.jpg" class="card-img-top" alt="L'alimentation Générale">
             <div class="card-body">
               <h5 class="card-title">L'alimentation Générale</h5>
-              <p class="card-text"><?php echo $collab_body_p_text5; ?> :<br>
+              <p class="card-text"><?php echo $collab_body_p_text5; ?><br>
                 <cite>
                   <?php echo $collab_body_text5; ?>
                 </cite>
@@ -149,7 +149,7 @@
                                 ?>
                       <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
                           <a class="text-dark" class="img-fluid" href="<?php echo $row['collab_link'] ?>">
-                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="" srcset="">
+                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des partenaires financiers" srcset="">
                           </a>
                       </div>        
                   
@@ -175,7 +175,7 @@
                       <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
                         <div class="col-lg-3 float-left">
                           <a class="text-dark" href="<?php echo $row['collab_link'] ?>">
-                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="" srcset="">
+                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des collaborateurs" srcset="">
                           </a>
                         </div>
                       </div>        
@@ -202,7 +202,7 @@
                       <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
                     <div class="col-lg-3 float-left">
                       <a class="text-dark" href="<?php echo $row['collab_link'] ?>">
-                          <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="" srcset="">
+                          <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des lieux d'acceuil" srcset="">
                       </a>
                     </div>
                   </div>        
@@ -211,16 +211,9 @@
               ?>
           
             </div>
-         
-
-
-
-
           </div>
-         
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- fin Merci de votre confiance et de votre chaleureux acceuil -->
