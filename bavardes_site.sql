@@ -326,6 +326,21 @@ CREATE TABLE IF NOT EXISTS `presse` (
 -- Déchargement des données de la table `presse`
 --
 
+DROP TABLE IF EXISTS `presse`;
+CREATE TABLE IF NOT EXISTS `presse` (
+  `presse_id` int(11) NOT NULL AUTO_INCREMENT,
+  `presse_name` varchar(500) NOT NULL,
+  `presse_link` varchar(200) NOT NULL,
+  `presse_cat` varchar(100) NOT NULL,
+  `presse_description` varchar(500) DEFAULT NULL,
+  `file_name` varchar(25) DEFAULT NULL,
+  PRIMARY KEY (`presse_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `presse`
+--
+
 INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`, `presse_description`, `file_name`) VALUES
 (1, 'Résultats de recherche pour : les bavardes', 'https://www.jeanne-magazine.com/?s=les+bavardes', 'Jeanne Magazine', '', ''),
 (2, 'à la rencontre des militantes Béninoises', 'https://www.jeanne-magazine.com/le-magazine/2019/10/02/les-bavardes-a-la-rencontre-des-militantes-beninoises_18029/', 'Jeanne Magazine', '', ''),
@@ -342,12 +357,11 @@ INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`, `
 (13, 'le festival IDAHOT lutte contre les discriminations', 'https://www.courrier-picard.fr/art/183348/article/2019-05-14/amiens-le-festival-idahot-lutte-contre-les-discriminations', 'Courrier Picard', '', ''),
 (14, 'La Marche des fiertés dans les starting-blocks à Amiens', 'https://premium.courrier-picard.fr/id12663/article/2019-05-24/la-marche-des-fiertes-dans-les-starting-blocks-amiens?bot=1', 'Courrier Picard', '', ''),
 (15, 'Amiens accueille les premiers pas de la Marche des fiertés', 'https://premium.courrier-picard.fr/id20127/article/2019-06-21/amiens-accueille-les-premiers-pas-de-la-marche-des-fiertes?bot=1', 'Courrier Picard', '', ''),
-(16, 'KOMITID', 'https://www.komitid.fr/2019/06/21/nous-vivons-un-moment-historique-on-a-assiste-a-la-preparation-de-la-toute-premiere-marche-des-fiertes-a-amiens/', 'Luttes LGBTQI+', '', ''),
-(17, 'france bleu', 'https://www.francebleu.fr/infos/societe/premiere-marche-des-fiertes-a-amiens-une-sensibilisation-necessaire-1557077042', 'Luttes LGBTQI+', '', ''),
-(18, 'france 3 hdf', 'https://france3-regions.francetvinfo.fr/hauts-de-france/somme/embargo-au-14-mai-7h-picardie-lutte-contre-homophobie-avance-1668769.html', 'Luttes LGBTQI+', '', ''),
-(19, 'Gaypers', 'https://gaypers.com/fr/sortie/Mobilisation-contre-les-LGBTPhobies-a-Amiens-371151', 'Luttes LGBTQI+', '', ''),
-(20, 'Orange weo', 'https://actu.orange.fr/societe/videos/amiens-80-premiere-marche-des-fiertes-le-22-juin-CNT000001fzkM0.html', 'Luttes LGBTQI+', '', ''),
-(21, 'Courrier Picard', 'https://premium.courrier-picard.fr/id20379/article/2019-06-22/amiens-ils-se-donnent-la-main-sans-craindre-les-quolibets?bot=1', 'Luttes LGBTQI+', '', ''),
+(16, 'KOMITID - \"Nous vivons un moment historique\"', 'https://www.komitid.fr/2019/06/21/nous-vivons-un-moment-historique-on-a-assiste-a-la-preparation-de-la-toute-premiere-marche-des-fiertes-a-amiens/', 'Luttes LGBTQI+', '', ''),
+(17, 'france bleu - Première marche des fiertés à Amiens : Une \"sensibilisation nécessaire\"', 'https://www.francebleu.fr/infos/societe/premiere-marche-des-fiertes-a-amiens-une-sensibilisation-necessaire-1557077042', 'Luttes LGBTQI+', '', ''),
+(18, 'france 3 hdf - En Picardie, la lutte contre l\'homophobie avance', 'https://france3-regions.francetvinfo.fr/hauts-de-france/somme/embargo-au-14-mai-7h-picardie-lutte-contre-homophobie-avance-1668769.html', 'Luttes LGBTQI+', '', ''),
+(20, 'Orange weo - Première marche des fiertés le 22 juin', 'https://actu.orange.fr/societe/videos/amiens-80-premiere-marche-des-fiertes-le-22-juin-CNT000001fzkM0.html', 'Luttes LGBTQI+', '', ''),
+(21, 'Courrier Picard - à Amiens, ils se donnent la main sans craindre les quolibets', 'https://premium.courrier-picard.fr/id20379/article/2019-06-22/amiens-ils-se-donnent-la-main-sans-craindre-les-quolibets?bot=1', 'Luttes LGBTQI+', '', ''),
 (22, 'Belle affluence pour la première marche des fiertés d\'Amiens', 'https://www.francebleu.fr/infos/societe/en-images-belle-affluence-pour-la-premiere-marche-des-fiertes-d-amiens-1561218833', 'Luttes LGBTQI+', '', ''),
 (23, 'Franc succès pour la marche des fiertés d’Amiens', 'https://www.courrier-picard.fr/id20345/article/2019-06-22/franc-succes-pour-la-marche-des-fiertes-damiens', 'Luttes LGBTQI+', '', ''),
 (24, 'Près de 2000 personnes rassemblées pour la 1e marche des fiertés d\'Amiens', 'https://france3-regions.francetvinfo.fr/hauts-de-france/somme/amiens/pres-2000-personnes-rassemblees-1e-marche-fiertes-amiens-1689316.html', 'Luttes LGBTQI+', '', ''),
@@ -359,9 +373,8 @@ INSERT INTO `presse` (`presse_id`, `presse_name`, `presse_link`, `presse_cat`, `
 (30, 'Dans les Hauts-de-France, les femmes gagnent toujours 25? moins que les hommes', 'https://france3-regions.francetvinfo.fr/hauts-de-france/hauts-france-femmes-gagnent-toujours-25-moins-que-hommes-1795893.html?fbclid=IwAR1-3wXiN9B9J3qrERoU8knglo7FWXpwK8GxqRD9LbkXHsfExuPu8Ehf7Es', 'Divers', '', ''),
 (33, '3 questions à Elisabeth Lebovici, cofondatrice de Lesbiennes d\'intérêt Général', 'https://www.komitid.fr/2020/04/24/3-questions-a-elisabeth-lebovici-cofondatrice-de-lesbiennes-dinteret-general/', 'Divers', '', NULL),
 (34, 'Face à la crise sanitaire, économique et sociale, un plan d\'urgence féministe!', 'https://blogs.mediapart.fr/les-invites-de-mediapart/blog/220520/face-la-crise-sanitaire-economique-et-sociale-un-plan-durgence-feministe?fbclid=IwAR23OSlXEcubWGk3NqaUM_GPRZZZDSYHxzoYj0z28cjF88cUEThyfJ', 'Divers', '', NULL),
-(35, 'LES BAVARDES À LA RENCONTRE DU COLLECTIF LESBIEN LES IMMÉDIANES', 'https://www.jeanne-magazine.com/le-magazine/2020/04/04/les-bavardes-a-la-rencontre-du-collectif-lesbien-les-immedianes_19268/', 'Jeanne Magazine', '', NULL);
-(36, 'En Picardie, pour les associations de lutte contre les lgbtphobies, "difficile de savoir qu\'on existe"', 'https://france3-regions.francetvinfo.fr/hauts-de-france/picardie-associations-lutte-contre-lgbtphobies-difficile-faire-savoir-qu-on-existe-1830222.html', 'Luttes LGBTQI+', '', NULL),
-
+(35, 'LES BAVARDES À LA RENCONTRE DU COLLECTIF LESBIEN LES IMMÉDIANES', 'https://www.jeanne-magazine.com/le-magazine/2020/04/04/les-bavardes-a-la-rencontre-du-collectif-lesbien-les-immedianes_19268/', 'Jeanne Magazine', '', NULL),
+(36, 'En Picardie, pour les associations de lutte contre les lgbtphobies, \"difficile de faire savoir qu\'on existe\"', 'https://france3-regions.francetvinfo.fr/hauts-de-france/picardie-associations-lutte-contre-lgbtphobies-difficile-faire-savoir-qu-on-existe-1830222.html', 'Luttes LGBTQI+', '', NULL);
 -- --------------------------------------------------------
 
 --
