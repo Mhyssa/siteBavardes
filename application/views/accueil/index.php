@@ -32,10 +32,10 @@
     <!-- <h2 class="display-3">Here is a heading 1</h2> -->
     
     <div class="col-lg-12 col-sm-12">
-      <a class="button btn-block col-lg-12 col-sm-12" href="<?php echo base_url().'about'; ?>" role="button"><div class="text-center"><?php echo $acc_button_about; ?></div></a>
+      <a class="button btn-block col-lg-12 col-sm-12" href="<?php echo base_url().'index.php/about'; ?>" role="button"><div class="text-center"><?php echo $acc_button_about; ?></div></a>
       <blockquote class="d-flex align-items-center lead sur-noir text-center m-5 p-5">"<?php echo $acc_body_text1; ?>" 
         <br> [...]</blockquote>
-      <a class="button btn-block col-lg-12 col-sm-12" href="<?php echo base_url().'team';?>" role="button"><div class="text-center">&#10150;<?php echo $acc_button_team; ?></div></a>
+      <a class="button btn-block col-lg-12 col-sm-12" href="<?php echo base_url().'index.php/team';?>" role="button"><div class="text-center">&#10150;<?php echo $acc_button_team; ?></div></a>
 </div>
       
       
@@ -48,7 +48,7 @@
     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/774191071&color=%23ffad3f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     <p class="lead">
-      <a class="mt-5 button" href="<?php echo base_url().'podcast'?>" role="button"><?php echo $acc_button_pod; ?></a>
+      <a class="mt-5 button" href="<?php echo base_url().'index.php/podcast'?>" role="button"><?php echo $acc_button_pod; ?></a>
     </p>
   </div>
 
@@ -58,14 +58,14 @@
     <div>
 
       <p class="sur-noir"><?php echo $acc_titre2_p1; ?> <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
-      <p><a class="sur-noir" href="<?php echo base_url().'about';?>">&#10150; <?php echo $acc_titre2_button_p2; ?></a></p>
+      <p><a class="sur-noir" href="<?php echo base_url().'index.php/about';?>">&#10150; <?php echo $acc_titre2_button_p2; ?></a></p>
     </div>
   </div>
 
   <!-- Fourth Parallax Section -->
   <div class="jumbotron paral paralsec3">
     <h2 class="sur-orange m-5 p-5"><?php echo $acc_titre3; ?></h2>
-    <p><a class="button2" href="<?php echo base_url().'people';?>" role="button"> &#10150; <?php echo $acc_titre3_button_p1; ?></a></p>
+    <p><a class="button2" href="<?php echo base_url().'index.php/people';?>" role="button"> &#10150; <?php echo $acc_titre3_button_p1; ?></a></p>
   </div>
   <!-- Add More Parallax Sections Here -->
 </div>

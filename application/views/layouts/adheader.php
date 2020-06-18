@@ -155,7 +155,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'users/ad_index';?>">
+                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'index.php/users/ad_index';?>">
                   <img src="<?php echo base_url(); ?>assets/img/logo.png" width="" height="80" class="d-inline-block align-top" alt="icon">
                 </a>
                 <ul class="navbar-nav">
@@ -165,12 +165,12 @@
                   <?php if($ma_pages == 'ad_index_event'){ ?>
 
                   <li class="nav-item active pr-4 pl-4 ">
-                    <a class="nav-link text-center" href="<?php echo base_url().'event/ad_index'?>">Evenements<span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/event/ad_index'?>">Evenements<span class="sr-only">(current)</span></a>
                   </li>
                   <?php  }else{    ?>
 
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'event/ad_index'?>">Evenements<span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/event/ad_index'?>">Evenements<span class="sr-only">(current)</span></a>
                   </li>
                   <?php  }  ?>
 
@@ -179,11 +179,11 @@
                   <!-- Actif about ou non -->
                   <?php if($ma_pages == 'ad_index_people'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'people/ad_index'?>">Artistes/Intervenant.es</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/people/ad_index'?>">Artistes/Intervenant.es</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'people/ad_index'?>">Artistes/Intervenant.es</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/people/ad_index'?>">Artistes/Intervenant.es</a>
                   </li>
                   <?php  }  ?>
 
@@ -191,12 +191,12 @@
                   <?php 
                   if($ma_pages == 'ad_index_team'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'team/ad_index'?>">Equipe</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/team/ad_index'?>">Equipe</a>
                   </li>
                   <?php 
                   }else{    ?>
                   <li class="nav-ite pr-4  pl-4 ">
-                    <a class="nav-link text-center" href="<?php echo base_url().'team/ad_index'?>">Equipe</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/team/ad_index'?>">Equipe</a>
                   </li>
                   <?php  }                 
                   ?>
@@ -204,11 +204,11 @@
                   <!-- Actif action ou non -->
                   <?php if($ma_pages == 'ad_index_presse'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'about/ad_index'?>">Presse</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/about/ad_index'?>">Presse</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'about/ad_index'?>">Presse</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/about/ad_index'?>">Presse</a>
                   </li>
                   <?php  }  ?>
 
@@ -216,11 +216,11 @@
                   <!-- Actif collaboration ou non -->
                   <?php if($ma_pages == 'ad_index_collab'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'collab/ad_index'?>">Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/collab/ad_index'?>">Collaborations</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'collab/ad_index'?>">Collaborations</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/collab/ad_index'?>">Collaborations</a>
                   </li>
                   <?php  }  ?>
 
@@ -229,11 +229,11 @@
                   <!-- Actif Nos podcasts ou non -->
                   <?php if($ma_pages == 'ad_index_podcast'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'podcast/ad_index'?>">podcasts</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/podcast/ad_index'?>">podcasts</a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'podcast/ad_index'?>">podcasts</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/podcast/ad_index'?>">podcasts</a>
                   </li>
                   <?php  }  ?>
 
@@ -241,17 +241,17 @@
                   <?php if($ma_pages == 'ad_index_admin'){ ?>
 
                   <li class="nav-item active pr-4 pl-4 ">
-                    <a class="nav-link text-center" href="<?php echo base_url().'users/ad_index'?>">Utilisateurs</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/users/ad_index'?>">Utilisateurs</a>
                   </li>
                   <?php  }else{    ?>
 
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'users/ad_index'?>">Utilisateurs</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/users/ad_index'?>">Utilisateurs</a>
                   </li>
                   <?php  }  ?>
                   
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url('users/logout'); ?>">Déconnexion</a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/users/logout'; ?>">Déconnexion</a>
                   </li>
 
                 </ul>

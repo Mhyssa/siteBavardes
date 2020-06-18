@@ -77,11 +77,11 @@
     <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
 
     <div class=" pt-4 pb-3 m-auto   d-flex justify-content-around">
-      <p class=""> <a href="<?php echo base_url().'Mentions';?>" class="footlink"> Mentions légales </a></p>
+      <p class=""> <a href="<?php echo base_url().'index.php/mentions';?>" class="footlink"> Mentions légales </a></p>
       <p class="footlink disap">I</p>
-      <p class=" "> <a href="<?php echo base_url().'Politique';?>" class="footlink"> Politique de confidentialité</a></p>
+      <p class=" "> <a href="<?php echo base_url().'index.php/politique';?>" class="footlink"> Politique de confidentialité</a></p>
       <p class="footlink disap">I</p>
-      <p class=""><a href="<?php echo base_url().'Politique';?>" class="footlink"> Cookies </a></p>
+      <p class=""><a href="<?php echo base_url().'index.php/politique';?>" class="footlink"> Cookies </a></p>
       <p class="footlink disap">I</p>
       <p class=" footlink police1">Copyright ©2019</p>
     </div>
@@ -141,7 +141,7 @@
       "message": "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
       "dismiss": "J'accepte",
       "link": "En savoir plus",
-      "href": "<?php echo base_url().'Politique';?>"
+      "href": "<?php echo base_url().'index.php/politique';?>"
     }
   });
 </script>

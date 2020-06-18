@@ -29,7 +29,7 @@
          </form>
          <!-- Add link -->
          <div class="float-right">
-             <a href="<?php echo base_url(); ?>users/add_admin" class="btn btn-sm btn-success mb-2"><i class="fas fa-user-plus"></i></a>
+             <a href="<?php echo base_url(); ?>index.php/users/add_admin" class="btn btn-sm btn-success mb-2"><i class="fas fa-user-plus"></i></a>
          </div>
      </div>     
 

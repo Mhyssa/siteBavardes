@@ -1,11 +1,11 @@
 <div class="container">    
-    <a class="mb-4" href="<?php echo base_url().'users/logout/'.$lang; ?>" class="float-right"><?php echo $account_logout; ?></a>
+    <a class="mb-4" href="<?php echo base_url().'index.php/users/logout/'.$lang; ?>" class="float-right"><?php echo $account_logout; ?></a>
     <h3 class=" m-4">
         <p class="text-center">
             <?php echo $account_wlc; ?> <?php echo $user['us_fname']; ?> <?php echo $account_wlc_p2; ?>.
         </p>
         <p class="text-center">
-            <?php echo $account_btn_event; ?> <a href="<?php echo base_url().'event/index'; ?>" class="btn btn-dark"><?php echo $account_btn_event_ici; ?> <i class="fa fa-calendar" aria-hidden="true"></i></a>
+            <?php echo $account_btn_event; ?> <a href="<?php echo base_url().'index.php/event/index'; ?>" class="btn btn-dark"><?php echo $account_btn_event_ici; ?> <i class="fa fa-calendar" aria-hidden="true"></i></a>
         </p>
         <p class="text-center">
             <?php echo $account_asso; ?> <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"><button class="button2 btn-block mt-3"><?php echo $account_asso_ici; ?></button></a>

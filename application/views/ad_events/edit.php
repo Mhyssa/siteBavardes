@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="form-group">
-                        <a href="<?php echo base_url().'/event/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
+                        <a href="<?php echo .'index.php/event/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                         <input type="hidden" name="event_id" value="<?php echo !empty($events['event_id'])?$events['event_id']:''; ?>">
 
                         <input type="submit" name="event_edit" class="btn btn-sm btn-warning" value="Modifier">

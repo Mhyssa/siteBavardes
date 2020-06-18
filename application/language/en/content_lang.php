@@ -151,6 +151,7 @@
         $lang['create_fval_captcha'] = 'captcha';
 
 
+        $lang['create_name'] = 'Register';
         $lang['create_fname'] = 'First Name';
         $lang['create_lname'] = 'Last Name';
         $lang['create_mail'] = 'Email Address';
@@ -176,6 +177,7 @@
         $lang['login_fval_email'] = $lang['create_fval_email'];
         $lang['login_fval_psw'] = $lang['create_fval_psw'];
 
+        $lang['login_name'] = 'Login';
         $lang['login_mail'] = 'Email Address';
         $lang['login_psw'] = 'Password';
         $lang['login_reset'] = 'Reset';
