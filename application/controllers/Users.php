@@ -399,6 +399,7 @@ class Users extends CI_Controller {
         
         
                         //users/registration
+                        $data['create_name'] = $this->lang->line('create_name');
                         $data['create_fname'] = $this->lang->line('create_fname');
                         $data['create_lname'] = $this->lang->line('create_lname');
                         $data['create_mail'] = $this->lang->line('create_mail');
@@ -472,7 +473,7 @@ class Users extends CI_Controller {
                 'word' => $random_number,
                 'img_path' => './captcha_images/',
                 'img_url' => base_url().'captcha_images/',
-                'img_width' => 140,
+                'img_width' => 100,
                 'img_height' => 32,
                 'expiration' => 7200
             );
@@ -531,6 +532,7 @@ class Users extends CI_Controller {
         
         
                         //users/login
+                        $data['login_name'] = $this->lang->line('login_name');
                         $data['login_mail'] = $this->lang->line('login_mail');
                         $data['login_psw'] = $this->lang->line('login_psw');
                         $data['login_reset'] = $this->lang->line('login_reset');
@@ -713,11 +715,7 @@ class Users extends CI_Controller {
     } // account ends here
 
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 7c48d265686638960d74f87b9423d4ba91a8baa9
     public function logout($lang = ''){
         $this->lang->load('content', $lang == ''?'fr':$lang); 
             $this->session->unset_userdata('isUserLoggedIn'); 

@@ -75,7 +75,7 @@
                 
 
                 <div class="form-group">
-                        <a href="<?php echo base_url().'users/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
+                        <a href="<?php echo base_url().'index.php/users/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                         <input type="hidden" name="us_id" value="<?php echo !empty($admin['us_id'])?$admin['us_id']:''; ?>">
 
                         <input type="submit" name="admin_edit" class="btn btn-sm btn-warning" value="Modifier">

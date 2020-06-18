@@ -30,7 +30,7 @@
             </form>
             <!-- Add link -->
             <div class="float-right">
-                <a href="<?php echo base_url(); ?>collab/add_collab" class="btn btn-sm btn-success"><i class="fas fa-user-plus"></i></a>
+                <a href="<?php echo base_url(); ?>index.php/collab/add_collab" class="btn btn-sm btn-success"><i class="fas fa-user-plus"></i></a>
             </div>
         </div>
 
@@ -65,9 +65,9 @@
                         <td><a href="<?php echo $row['collab_link']; ?>" class="btn btn-sm btn-info">Ici</a></td>             
 
                         <td>
-                            <a href="<?php echo base_url().'collab/ad_view_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
-                            <a href="<?php echo base_url().'collab/edit_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-user-edit"></i></a>
-                            <a href="<?php echo base_url().'collab/delete_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-user-minus"></i></a>
+                            <a href="<?php echo base_url().'index.php/collab/ad_view_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                            <a href="<?php echo base_url().'index.php/collab/edit_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-user-edit"></i></a>
+                            <a href="<?php echo base_url().'index.php/collab/delete_collab/'.$row['collab_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-user-minus"></i></a>
                         </td>
                     </tr>
                     <?php }}else{ ?>

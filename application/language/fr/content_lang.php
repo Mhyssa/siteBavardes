@@ -160,12 +160,13 @@
         $lang['create_fval_captcha'] = 'captcha';
 
 
+        $lang['create_name'] = 'Inscription';
         $lang['create_fname'] = 'Prénom';
         $lang['create_lname'] = 'Nom';
         $lang['create_mail'] = 'Adresse E-mail';
         $lang['create_phone'] = 'Numéro de Téléphone';
         $lang['create_psw'] = 'Mot de Passe';
-        $lang['create_psw_cf'] = 'Mot de Passe (à  confirmer)';
+        $lang['create_psw_cf'] = 'Mot de Passe (à confirmer)';
         $lang['create_reset'] = 'Annuler';
         $lang['create_submit'] = 'S\'inscrire';
 
@@ -185,6 +186,7 @@
         $lang['login_fval_email'] = $lang['create_fval_email'];
         $lang['login_fval_psw'] = $lang['create_fval_psw'];
 
+        $lang['login_name'] = 'Connexion';
         $lang['login_mail'] = 'Adresse E-mail';
         $lang['login_psw'] = 'Mot de Passe';
         $lang['login_reset'] = 'Annuler';

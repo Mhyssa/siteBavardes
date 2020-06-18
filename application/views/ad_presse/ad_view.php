@@ -2,7 +2,7 @@
     
     <div class="row"> <!-- div ouvrante row -->
         <div class="col-md-12"> <!-- div ouvrante col-md-12 -->
-            <a href="<?php echo base_url().'about/ad_index'; ?>" ><i class="fas fa-backspace"></i></a>
+            <a href="<?php echo base_url().'index.php/about/ad_index'; ?>" ><i class="fas fa-backspace"></i></a>
         </div> <!-- div fermante col-md-12 -->
     </div> <!-- div fermante row -->
     

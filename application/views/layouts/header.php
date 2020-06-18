@@ -18,20 +18,21 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- styles CSS -->
   <?php if($controller == 'event'){ ?>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">    
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/event.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
   <?php } elseif($controller == 'team'){ ?>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/equipe.css">
+  <?php } elseif($controller == 'users'){ ?>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/espacemembre.css">
   <?php } else { ?>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
   <?php } ?>
-<<<<<<< HEAD
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
-=======
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
 
->>>>>>> 7c48d265686638960d74f87b9423d4ba91a8baa9
+
 
 
   <!-- icone de l'onglet -->
@@ -104,7 +105,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'Accueil/index/'.$lang; ?>">
+                <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'index.php/accueil/index/'.$lang; ?>">
                   <img src="<?php echo base_url(); ?>assets/img/logo.png" width="" height="80" class="d-inline-block align-top" alt="icon">
                 </a>
                 <ul class="navbar-nav">
@@ -114,11 +115,11 @@
                   <!-- Actif about ou non -->
                   <?php if($ma_pages == 'index_about_presse'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'About/index/'.$lang; ?>"><?php echo $header_about; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/about/index/'.$lang; ?>"><?php echo $header_about; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'About/index/'.$lang; ?>"><?php echo $header_about; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/about/index/'.$lang; ?>"><?php echo $header_about; ?></a>
                   </li>
                   <?php  }  ?>
 
@@ -126,12 +127,12 @@
                   <?php 
                   if($ma_pages == 'index_team'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
                   </li>
                   <?php 
                   }else{    ?>
                   <li class="nav-ite pr-4  pl-4 ">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
                   </li>
                   <?php  }                 
                   ?>
@@ -140,11 +141,11 @@
                   <!-- Actif évènements ou non -->
                   <?php if($ma_pages == 'index_event'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Event/index/'.$lang; ?>"><?php echo $header_event; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/event/index/'.$lang; ?>"><?php echo $header_event; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Event/index/'.$lang; ?>"><?php echo $header_event; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/event/index/'.$lang; ?>"><?php echo $header_event; ?></a>
                   </li>
                   <?php  }  ?>
 
@@ -153,33 +154,33 @@
                   <!-- Actif Nos podcasts ou non -->
                   <?php if($ma_pages == 'index_podcast'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Podcast/index/'.$lang; ?>"><?php echo $header_pod; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/podcast/index/'.$lang; ?>"><?php echo $header_pod; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Podcast/index/'.$lang; ?>"><?php echo $header_pod; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/podcast/index/'.$lang; ?>"><?php echo $header_pod; ?></a>
                   </li>
                   <?php  }  ?>
 
                   <!-- Actif artistes ou non -->
                   <?php if($ma_pages == 'index_people'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'People/index/'.$lang; ?>"><?php echo $header_ppl; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/people/index/'.$lang; ?>"><?php echo $header_ppl; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'People/index/'.$lang; ?>"><?php echo $header_ppl; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/people/index/'.$lang; ?>"><?php echo $header_ppl; ?></a>
                   </li>
                   <?php  }  ?>
 
                   <!-- Actif collaboration ou non -->
                   <?php if($ma_pages == 'index_collab'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'Collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
                   </li>
                   <?php  }  ?>
                                

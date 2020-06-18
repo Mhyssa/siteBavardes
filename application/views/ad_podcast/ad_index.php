@@ -34,7 +34,7 @@
             </form>
             <!-- Add link -->
             <div class="float-right">
-                <a href="<?php echo base_url(); ?>podcast/add_podcast" class="btn btn-sm btn-success">Ajouter</a>
+                <a href="<?php echo base_url(); ?>index.php/podcast/add_podcast" class="btn btn-sm btn-success">Ajouter</a>
             </div>
         </div>
 
@@ -68,9 +68,9 @@
                <td><a href="<?php echo $row['podcast_link']; ?>" class="btn btn-sm btn-info">Ici</a></td>             
 
                <td>
-                   <a href="<?php echo base_url().'podcast/ad_view_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
-                   <a href="<?php echo base_url().'podcast/edit_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
-                   <a href="<?php echo base_url().'podcast/delete_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-folder-minus"></i></a>
+                   <a href="<?php echo base_url().'index.php/podcast/ad_view_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                   <a href="<?php echo base_url().'index.php/podcast/edit_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                   <a href="<?php echo base_url().'index.php/podcast/delete_podcast/'.$row['podcast_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-folder-minus"></i></a>
                </td>
            </tr>
            <?php }}else{ ?>

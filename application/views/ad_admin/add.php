@@ -73,7 +73,7 @@
 
                 
                 <div class="form-group">
-                    <a href="<?php echo base_url().'users/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
+                    <a href="<?php echo base_url().'index.php/users/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                     <input type="submit" name="admin_add" class="btn btn-success btn-sm" value="Ajouter">
                 </div>
 

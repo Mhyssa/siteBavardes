@@ -31,7 +31,7 @@
                 </form>
                 <!-- Add  -->
                 <div class="float-right">
-                    <a href="<?php echo base_url(); ?>About/add_presse" class="btn btn-sm btn-success"><i class="fas fa-folder-plus"></i></a>
+                    <a href="<?php echo base_url(); ?>index.php/about/add_presse" class="btn btn-sm btn-success"><i class="fas fa-folder-plus"></i></a>
                 </div>
         </div>
 
@@ -69,9 +69,9 @@
                
 
                <td>
-                   <a href="<?php echo base_url().'About/ad_view_presse/'.$row['presse_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
-                   <a href="<?php echo base_url().'About/edit_presse/'.$row['presse_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
-                   <a href="<?php echo base_url().'About/delete_presse/'.$row['presse_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-folder-minus"></i></a>
+                   <a href="<?php echo base_url().'index.php/about/ad_view_presse/'.$row['presse_id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-asterisk"></i></a>
+                   <a href="<?php echo base_url().'index.php/about/edit_presse/'.$row['presse_id']; ?>" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                   <a href="<?php echo base_url().'index.php/about/delete_presse/'.$row['presse_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez vous vraiment supprimer cette donnée?')"><i class="fas fa-folder-minus"></i></a>
                </td>
            </tr>
            <?php }}else{ ?>

@@ -61,7 +61,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <a href="<?php echo base_url().'about/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
+                    <a href="<?php echo base_url().'index.php/about/ad_index'; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-backspace"></i></a>
                     <input type="hidden" name="presse_id" value="<?php echo !empty($presse['presse_id'])?$presse['presse_id']:''; ?>">
                     <input type="submit" name="presse_edit" class="btn btn-warning btn-sm" value="Modifier">
                 </div>

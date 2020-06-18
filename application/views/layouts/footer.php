@@ -74,13 +74,13 @@
     <div class="col-lg-5  col-md-12 m-auto lignefooter  "></div>
 
     <div class=" pt-4 pb-3 m-auto   d-flex justify-content-around">
-      <p class=""> <a href="<?php echo base_url().'Mentions/index/'.$lang;?>" class="footlink"> <?php echo $footer_mentions; ?> </a></p>
+      <p class=""> <a href="<?php echo base_url().'index.php/mentions/index/'.$lang;?>" class="footlink"> <?php echo $footer_mentions; ?> </a></p>
       <p class="footlink disap">I</p>
-      <p class=" "> <a href="<?php echo base_url().'Politique/index/'.$lang;?>" class="footlink"> <?php echo $footer_rgpd; ?></a></p>
+      <p class=" "> <a href="<?php echo base_url().'index.php/politique/index/'.$lang;?>" class="footlink"> <?php echo $footer_rgpd; ?></a></p>
       <p class="footlink disap">I</p>
-      <p class=""><a href="<?php echo base_url().'Politique/index/'.$lang;?>" class="footlink"> Cookies </a></p>
+      <p class=""><a href="<?php echo base_url().'index.php/politique/index/'.$lang;?>" class="footlink"> Cookies </a></p>
       <p class="footlink disap">I</p>
-      <p class=""><a href="<?php echo base_url().'Users/login/'.$lang; ?>" class="footlink"><?php echo $footer_esmem; ?></a></p>
+      <p class=""><a href="<?php echo base_url().'index.php/users/registration/'.$lang; ?>" class="footlink"><?php echo $footer_esmem; ?></a></p>
     </div>
     </div>
 
@@ -137,7 +137,7 @@
       "message": "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
       "dismiss": "J'accepte",
       "link": "En savoir plus",
-      "href": "<?php echo base_url().'Politique';?>"
+      "href": "<?php echo base_url().'index.php/politique';?>"
     }
   });
 </script>
