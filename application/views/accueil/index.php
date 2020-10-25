@@ -25,7 +25,66 @@
 </div>
 
 
-<div class="container-fluid">
+<!-- ------------------------------------------------------------------------
+------------------   A LA UNE ------------------------------------------
+------------------------------------------------------------------------ -->
+
+
+<div class="row yellow mt-1">
+  <div class="col-12 col-sm-12">
+    <h2 class="text-center text-white">A LA UNE</h2>
+  </div>
+</div>
+
+<div class="row">
+<!-- ------------------------------------------------------------------------
+------------------   ARTICLE 1 ------------------------------------------
+------------------------------------------------------------------------ -->
+  <div class="col-12 col-sm-12 col-md-4 bgpastel">
+    <a href="https://www.facebook.com/events/670622177162695" target="_blank">
+      <img src="assets/img/index/alaune/ww2.jpg" alt="La Witches Week revient, pour sa deuxième édition, à Amiens à Cité Carter ! " class="img-fluid">
+    </a>
+  </div>
+<!-- ------------------------------------------------------------------------
+------------------   ARTICLE 2 ------------------------------------------
+------------------------------------------------------------------------ -->
+
+  <div class="col-12 col-sm-12 col-md-4 bgpastel">
+    <div class="row">
+      <div class="col-12 col-sm-12 text-center">
+      <h4>Sortie du DVD pédagogique</h4>
+          <img src="assets/img/index/alaune/livret_titre.JPG" alt="livret pedagogique. Filles ou garçons on a la meme passion. stop au sexisme dans le sport !" class="img-fluid ">
+        <a href="assets/img/index/alaune/Bon-de-commandev2.pdf" target="_blank" class="livretlink">
+          <img src="assets/img/index/alaune/femme.JPG" alt="Ce travail est le fruit de la collaboration entre l’association de l’audiovisuel participatif CARMEN, le club Amiens Métropole Natation et l'association pour les droits des femmes Les Bavardes." class="img-fluid ">
+        </a>
+      </div>
+    </div>
+    <div class="row livretlink">
+      <div class="col-12 col-sm-12 text-center">
+      <div class="text-center my-3">
+        <a href="assets/img/index/alaune/Bon-de-commandev2.pdf" target="_blank" class="livretlink"> > téléchargement du bon de commande</a>
+        </div>
+        </div>
+      </div>
+  </div>
+<!-- ------------------------------------------------------------------------
+------------------   ARTICLE 3 ------------------------------------------
+------------------------------------------------------------------------ -->
+
+  <div class="col-12 col-sm-12 col-md-4 bgpastel">
+    <a href="https://www.facebook.com/events/379834343145664" target="_blank">
+      <img src="assets/img/index/alaune/so8.jpg" alt="" srcset="" class="img-fluid">
+    </a>
+    <a href="https://www.facebook.com/events/344637266606830" target="_blank">
+      <img src="assets/img/index/alaune/bf3.jpg" alt="" srcset="" class="img-fluid">
+    </a>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------------------------
+------------------  FIN DE A LA UNE ------------------------------------------
+------------------------------------------------------------------------ -->
+
 
   <!-- First Parallax Section -->
   <div class="jumbotron paral paralsec">

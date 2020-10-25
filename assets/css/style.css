@@ -1,3 +1,5 @@
+
+
 /* parallax page index.php */
 
 /* Header Parallax Element Style*/
@@ -43,6 +45,10 @@
     background-image: url("../img/index/scene_mathilde.jpg");
 }
 
+.paralsec4 {
+    background-image: url("../img/index/a_la_une.png");
+}
+
 /* Add more images for more sections */
 
 
@@ -61,6 +67,7 @@
 
 /* styles general */
 
+
 h2 {
     font-family: 'Quicksand', cursive;
     color: black;
@@ -71,7 +78,12 @@ h3 {
     text-transform: uppercase;
     color: black;
 }
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    color: #226E9F;
 
+}
 .brl {
     border-right: #ffad3f 2px solid;
     padding-right: 5px;
@@ -286,6 +298,10 @@ ul {
     background-color: #db8d0069;
 }
 
+.bgpastel {
+    background-color: #E3DFC6;
+}
+
 /* .bgblack{
    background-color: black;
 } */
@@ -343,6 +359,17 @@ header {
 .link:hover {
     text-decoration: none;
     color: #ffad3f !important;
+}
+
+.livretlink {
+    color: #226E9F !important;
+    font-weight: 900;
+}
+
+.livretlink:hover {
+    
+    color: #ffad3f !important;
+    background-color:  #226E9F;
 }
 
 .footlink {
