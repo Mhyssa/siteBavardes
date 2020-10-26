@@ -30,13 +30,13 @@
 ------------------------------------------------------------------------ -->
 
 
-<div class="row yellow mt-1">
+<div class="row yellow mt-1 mx-0">
   <div class="col-12 col-sm-12">
     <h2 class="text-center text-white">A LA UNE</h2>
   </div>
 </div>
 
-<div class="row">
+<div class="row m-0">
 <!-- ------------------------------------------------------------------------
 ------------------   ARTICLE 1 ------------------------------------------
 ------------------------------------------------------------------------ -->
@@ -52,9 +52,9 @@
   <div class="col-12 col-sm-12 col-md-4 bgpastel">
     <div class="row">
       <div class="col-12 col-sm-12 text-center">
-      <h4>Sortie du DVD pédagogique</h4>
+      <h4 class="my-3">Sortie du DVD pédagogique !</h4>
           <img src="assets/img/index/alaune/livret_titre.JPG" alt="livret pedagogique. Filles ou garçons on a la meme passion. stop au sexisme dans le sport !" class="img-fluid ">
-        <a href="assets/img/index/alaune/Bon-de-commandev2.pdf" target="_blank" class="livretlink">
+        <a href="assets/img/index/alaune/Bon-de-commandev3.pdf" target="_blank" class="livretlink">
           <img src="assets/img/index/alaune/femme.JPG" alt="Ce travail est le fruit de la collaboration entre l’association de l’audiovisuel participatif CARMEN, le club Amiens Métropole Natation et l'association pour les droits des femmes Les Bavardes." class="img-fluid ">
         </a>
       </div>
@@ -62,7 +62,7 @@
     <div class="row livretlink">
       <div class="col-12 col-sm-12 text-center">
       <div class="text-center my-3">
-        <a href="assets/img/index/alaune/Bon-de-commandev2.pdf" target="_blank" class="livretlink"> > téléchargement du bon de commande</a>
+        <a href="assets/img/index/alaune/Bon-de-commandev3.pdf" target="_blank" class="livretlink"> > téléchargement du bon de commande</a>
         </div>
         </div>
       </div>
@@ -113,7 +113,7 @@
 
   <!-- Third Parallax Section -->
   <div class="jumbotron paral paralsec2">
-    <h2 class="sur-noir m-5 p-5"><?php echo $acc_titre2; ?></h2>
+    <h3 class="sur-noir m-5 p-5"><?php echo $acc_titre2; ?></h3>
     <div>
 
       <p class="sur-noir"><?php echo $acc_titre2_p1; ?> <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
@@ -123,8 +123,8 @@
 
   <!-- Fourth Parallax Section -->
   <div class="jumbotron paral paralsec3">
-    <h2 class="sur-orange m-5 p-5"><?php echo $acc_titre3; ?></h2>
-    <p><a class="button2" href="<?php echo base_url().'index.php/people';?>" role="button"> &#10150; <?php echo $acc_titre3_button_p1; ?></a></p>
+    <h3 class="sur-orange m-5 p-5"><?php echo $acc_titre3; ?></h3>
+    <p><a class="livretlink" href="<?php echo base_url().'index.php/people';?>" role="button"> &#10150; <?php echo $acc_titre3_button_p1; ?></a></p>
   </div>
   <!-- Add More Parallax Sections Here -->
 </div>
