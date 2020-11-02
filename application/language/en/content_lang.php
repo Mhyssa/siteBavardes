@@ -12,7 +12,7 @@
         $lang['error404'] = 'Error 404 Page';
 
         // titre + nav titre
-        $lang['header_acc'] = 'Home';
+        $lang['header_acc'] = 'News';
         $lang['header_about'] = 'Who are we?';
         $lang['header_team'] = 'Team';
         $lang['header_pod'] = 'Listen to our Stuff';
@@ -166,7 +166,7 @@
         $lang['create_captcha'] = 'Please enter correct numbers/letters!';
 
         $lang['create_act'] = 'You already have an account?';
-        $lang['create_clk'] = 'Click Here';
+        $lang['create_clk'] = 'Log In';
 
 
 
@@ -184,7 +184,7 @@
         $lang['login_submit'] = 'Log in';
 
         $lang['login_act'] = 'You don\'t have any account yet?';
-        $lang['login_clk'] = 'Click Here';
+        $lang['login_clk'] = 'Sign Up';
 
 
 
@@ -205,7 +205,7 @@
 
     //mentions/index
     $lang['mention_h2_n1'] = 'Publication Manager';
-        $lang['mention_body_text1_pt1'] = 'To join the publication manager, please send an email to staffbavardes@gmail.com';
+        $lang['mention_body_text1_pt1'] = 'To join the publication manager, please send an email to contact@lesbavardes.org';
         $lang['mention_body_text1_pt2'] = 'This website www.lesbavardes.org (the "Website") is published by Les Bavardes';
         $lang['mention_body_text1_pt3'] = 'A non-profit organization (1901 law association, foundations, endowment funds)';
 
@@ -261,7 +261,7 @@
             $lang['politique_h4_n4'] = 'Droit d’accès, rectification, suppression';
                 $lang['politique_body_text4_n4'] = 'Right of access, rectification, deletion
                 You can request access to your information, rectification or deletion thereof. For any additional information or request for modification/deletion 
-                of your private data, you can contact the coordination team by e-mail <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a>. The 
+                of your private data, you can contact the coordination team by e-mail <a href="mailto:lesbavardesamiens@gmail.com">contact@lesbavardes.org</a>. The 
                 team has a response time of 1 month following the date your request was sent. To find out more about your rights, we invite you to consult the CNIL 
                 website.';
             $lang['politique_h3_n1'] = 'Cookies';
@@ -280,16 +280,16 @@
                 and is not transmitted to any third party. They are kept for the time necessary to process the request. In accordance with articles 15 to 22 of 
                 Regulation 2016/679 of the European Parliament and of the Council of April 27, 2016, you have a right of access, rectification, erasure, limitation
                 , opposition, and data portability about you. To exercise these rights, we invite you to contact 
-                <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a>. If you feel, after contacting us, that your rights are not being respected, 
+                <a href="mailto:lesbavardesamiens@gmail.com">contact@lesbavardes.org</a>. If you feel, after contacting us, that your rights are not being respected, 
                 you can send a complaint online or by post to the CNIL.';
             $lang['politique_h3_n3'] = 'Newsletter Subscription';
                 $lang['politique_body_text8'] = 'Les Bavardes website collects personal data (name, surname, email address) in order to process requests via 
                 contact forms. This processing is based on the consent of the data subjects. The data thus collected is only intended for Les Bavardes staff team 
                 and is not transmitted to any third party. They are kept for the time necessary to process the request. In accordance with articles 15 to 22 of 
                 Regulation 2016/679 of the European Parliament and of the Council of April 27, 2016, you have a right of access, rectification, erasure, 
-                limitation, opposition, and data portability about you. To exercise these rights, we invite you to contact staffbavardes@gmail.com. If you feel, 
+                limitation, opposition, and data portability about you. To exercise these rights, we invite you to contact contact@lesbavardes.org. If you feel, 
                 after contacting us, that your rights are not being respected, you can send a complaint online or by post to the CNIL. You can unsubscribe from the 
-                newsletter at any time by contacting us at <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a> or by clicking on "unsubscribe" at the 
+                newsletter at any time by contacting us at <a href="mailto:lesbavardesamiens@gmail.com">contact@lesbavardes.org</a> or by clicking on "unsubscribe" at the 
                 bottom of the page.';
 
     // footer 

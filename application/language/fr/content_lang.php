@@ -12,13 +12,13 @@
         $lang['error404'] = 'Page Erreur 404';
         
         // titre + titre nav
-        $lang['header_acc'] = 'Accueil';
+        $lang['header_acc'] = 'À la Une';
         $lang['header_about'] = 'Qui sommes nous?';
         $lang['header_team'] = 'L\'Équipe';
-        $lang['header_event'] = 'Nos Évènements';
+        $lang['header_event'] = 'Nos Événements';
         $lang['header_pod'] = 'Nous Écouter';
         $lang['header_col'] = 'Nos Collaborations';
-        $lang['header_ppl'] = 'Artistes & Intervenant.es';
+        $lang['header_ppl'] = 'Artistes & Intervenant·es';
 
         // id titre
         $lang['header_titre'] = 'Les Bavardes collectif féministe & lesbien à Amiens depuis 2017';
@@ -27,10 +27,14 @@
 
     // accueil/index
     $lang['acc_button_about'] = $lang['header_about'];
-    $lang['acc_body_text1'] = ' Les bavardes, c\'est un collectif lesbien, bi, trans, queer et hétéro féministe engagé pour la visibilité de toutes les femmes, au travers d\'espaces et d\'actions culturelles et artistiques, ouvert à toutes et tous, visant à agir, se rencontrer, s\'interroger et faire la fête. Radio, atelier, débat, cinéma, soiées... Retrouvons-nous, interrogeons-nous et émancipons-nous ! ';
+    $lang['acc_body_text1'] = ' Les bavardes, c\'est un collectif lesbien, bi, trans, queer et hétéro féministe 
+    engagé pour la visibilité de toutes les femmes, au travers d\'espaces et d\'actions culturelles et artistiques, 
+    ouvert à toutes et tous, visant à agir, se rencontrer, s\'interroger et faire la fête. Radio, atelier, débat, cinéma, soirées... 
+    Retrouvons-nous, interrogeons-nous et émancipons-nous ! ';
     $lang['acc_button_team'] = 'Qui sont-elles?';
 
-    $lang['acc_body_text2'] = 'Retrouvez notre émission spéciale 10 ans de Radio Campus Amiens diffusée le 8 mars dernier, <br> à  l\'occasion de la journée internationale des droits des femmes et dans le cadre du Festival J\'en(c)rêve.';
+    $lang['acc_body_text2'] = 'Retrouvez notre émission spéciale 10 ans de Radio Campus Amiens diffusée le 8 mars dernier, 
+    <br> à  l\'occasion de la journée internationale des droits des femmes et dans le cadre du Festival J\'en(c)rêve.';
     $lang['acc_button_pod'] = 'et l\'ensemble de nos podcasts ici !';
 
     $lang['acc_titre2'] = 'LES BAVARDES DANS LA PRESSE';
@@ -38,19 +42,26 @@
     $lang['acc_titre2_button_p2'] = 'Consulte les 30 articles parlant de nous au fil de notre histoire !';
 
     $lang['acc_titre3'] = 'RENCONTRES D\'ARTISTES';
-    $lang['acc_titre3_button_p1'] = 'Lumière sur ces femmes incroyables qui ont croisées nos routes au cours de nos évènements';
+    $lang['acc_titre3_button_p1'] = 'Lumière sur ces femmes incroyables qui ont croisé nos routes au cours de nos évènements';
 
 
 
     // about/index
-    $lang['about_body_text1'] = '" Créé en juin 2017, les Bavardes est une association qui cherche à visibiliser les femmes et à lutter contre les préjugés, les violences et les discriminations faîtes à toutes les femmes.
+    $lang['about_body_text1'] = '" Créée en juin 2017, les Bavardes est une association qui cherche à visibiliser les femmes et à lutter 
+    contre les préjugés, les violences et les discriminations faites à toutes les femmes.
 
-    Aujourd\'hui nous comptabilisons près de 30 bénévoles très actives, qui mènent à bien de nombreux projets : festivals, actions de sensibilisation en milieu scolaire, co-organisation d\'événements qui contribuent au travail de plaidoyer local et national pour réduire les inégalités, lutter contre le sexisme, la lesbophobie, la transphobie et le racisme.
-    Nous employons des méthodes d\'éducation populaire, participatives, inclusives et bienveillantes afin que toutes les femmes que nous rencontrons se sentent accompagnées et valorisées.';
+    Aujourd\'hui nous comptabilisons près de 30 bénévoles très actives, qui mènent à bien de nombreux projets : 
+    festivals, actions de sensibilisation en milieu scolaire, co-organisation d\'événements qui contribuent au travail de plaidoyer local et national
+     pour réduire les inégalités, lutter contre le sexisme, la lesbophobie, la transphobie et le racisme.
+    Nous employons des méthodes d\'éducation populaire, participatives, inclusives et bienveillantes afin que toutes les femmes que nous 
+    rencontrons se sentent accompagnées et valorisées.';
 
-    $lang['about_body_text2'] = 'Avec plus de 50 projets est près de 4000 personnes touchées, nous sommes fières de pouvoir affirmer que non seulement nos actions ont du sens, mais aussi de l\'impact. Nous sommes heureuses d\'être reconnues et légitimes et ce, même au delà du territoire amiénois.
+    $lang['about_body_text2'] = 'Avec plus de 90 projets et près de 4000 personnes touchées, nous sommes fières de pouvoir affirmer que non seulement 
+    nos actions ont du sens, mais aussi de l\'impact. Nous sommes heureuses d\'être reconnues et légitimes et ce, même au delà du territoire amiénois.
 
-    Nous tentons de répondre aux nombreuses sollicitations, mais il nous semble désormais important d\'à la fois solidifier nos actions, notre réseau bénévole et d\'avoir l\'ambition d\'essaimer nos pratiques militantes féministes, tant dans le répertoire d\'action, que sur les modalités d\'organisation que le projet de société que nous défendons. "';
+    Nous tentons de répondre aux nombreuses sollicitations, mais il nous semble désormais important d\'à la fois solidifier nos actions, 
+    notre réseau bénévole et d\'avoir l\'ambition d\'essaimer nos pratiques militantes féministes, tant dans le répertoire d\'actions, que sur 
+    les modalités d\'organisation et le projet de société que nous défendons. "';
     
 
 
@@ -84,18 +95,18 @@
     sur le bouton replay !';
 
     $lang['collab_body_text2'] = 'Le collectif inter-associatif IDAHOT (International Day Against Homophobia and
-    Transphobia) rassemble les 6 associations amiénoises de lutte contre toutes les formes de
+    Transphobia) rassemble les 7 associations amiénoises de lutte contre toutes les formes de
     discriminations et pour la défense des droits des femmes et des personnes Lesbiennes, Gays,
     Bisexuel.les, Transidentitaires, Queer, Intersexes et plus (LGBTQI+).
     Le collectif IDAHOT organise chaque année depuis 2018 le festival IDAHOT, festival de lutte contre les
     LGBTQI+ phobies et depuis 2019, la marche des fiertés à  Amiens.';
     $lang['collab_body_button_text2'] = '1ère marche des fiertés d\'Amiens - 22 juin 2019';
 
-    $lang['collab_body_text3'] = 'Les Bavardes on l\'immense plaisir d\'intervenir dans toutes les classes de seconde du
-    Lycée Michelis,
+    $lang['collab_body_text3'] = 'Les Bavardes ont l\'immense plaisir d\'intervenir dans toutes les classes de seconde du
+    Lycée Michelis et la Hotoie,
     pour causer du sexisme et des LGBTphobies. L\'occasion d\'échanger et de débattre avec un peu plus de 300
     élèves. Des tas de discussions sur les poils, les couples homo, comment réagir si tu te fais siffler
-    dans la rue, qu\'est ce que la misogynoir ou la transphobie, comment agir pour qu\'il y est plus d\'égalité
+    dans la rue, qu\'est ce que la misogynoir ou la transphobie, comment agir pour qu\'il y ait plus d\'égalité
     ? ';
     $lang['collab_body_button_text3'] = 'Interventions en milieu scolaire';
 
@@ -106,12 +117,12 @@
 
     $lang['collab_body_p_text5'] = 'NDA spéciale Meufs aux platines';
     $lang['collab_body_text5'] = '" Alors que l\'équipe de jour des Bavardes a fini les interventions en milieu scolaire,
-    c\'est l\'équipe de nuit qui a prit le relai en tenant un stand de prévention et information à 
-    l\' Alimentation Generale de 22h à 4h du matin. Bravo aux bénévoles ! Et à notre djette Catherine
-    Pinkmoloko qui a mit le feu ! "';
+    c\'est l\'équipe de nuit qui a pris le relai en tenant un stand de prévention et d\'information à 
+    l\' Alimentation Générale de 22h à 4h du matin. Bravo aux bénévoles ! Et à notre djette Catherine
+    Pinkmoloko qui a mis le feu ! "';
     $lang['collab_body_button_text5'] = 'Edition 100% meufs aux platines';
 
-    $lang['collab_body_text6'] = 'Festival Witches Week : Née de la collaboration entre Cité Carter, le GAS solidarité
+    $lang['collab_body_text6'] = 'Festival Witches Week : Né de la collaboration entre Cité Carter, le GAS solidarité
     et Les Bavardes,
     la Witches Week a mis à l\'honneur toutes les femmes dans leurs diversités.';
     $lang['collab_body_button_text6'] = '[ Femmes bizarres, émancipées, originales, oubliées, montrées du
@@ -127,7 +138,7 @@
     
     //people/index
     $lang['people_h2_1'] = 'Artistes';
-    $lang['people_h2_2'] = 'Intervenant.es';
+    $lang['people_h2_2'] = 'Intervenant·es';
 
 
 
@@ -142,7 +153,7 @@
 
     //users
         //users/registration
-        $lang['create_suc_msg'] = 'Votre compte a été crée avec succès, vous pouvez vous y connecter dès à présent.';
+        $lang['create_suc_msg'] = 'Votre compte a été créé avec succès, vous pouvez vous y connecter dès à présent.';
         $lang['create_err_msg1'] = 'Quelques problèmes sont apparus veuillez rééssayer.';
         $lang['create_err_msg2'] = 'Veuillez remplir tous les champs ci-dessous.';
         $lang['create_mail_check'] = 'Un compte est déjà  affilié avec cette adresse e-mail.';
@@ -171,7 +182,7 @@
         $lang['create_captcha'] = 'Veuillez entrer le motif correct !';
 
         $lang['create_act'] = 'Tu possèdes déjà un compte?';
-        $lang['create_clk'] = 'Clique Ici';
+        $lang['create_clk'] = 'Connecte-toi !';
 
 
 
@@ -189,14 +200,14 @@
         $lang['login_submit'] = 'Se Connecter';
 
         $lang['login_act'] = 'Tu ne possèdes pas encore de compte?';
-        $lang['login_clk'] = 'Clique Ici';
+        $lang['login_clk'] = 'Inscris-toi !';
 
 
 
         //users/account
         $lang['account_wlc'] = 'Bienvenue';
-        $lang['account_wlc_p2'] = 'sur l\'espace membre du site des bavardes';
-        $lang['account_btn_event'] = 'Tiens toi informé sur nos prochains événements';
+        $lang['account_wlc_p2'] = 'sur l\'espace membre du site des Bavardes';
+        $lang['account_btn_event'] = 'Tiens-toi informé·e sur nos prochains événements';
         $lang['account_btn_event_ici'] = 'ici';
         $lang['account_asso'] = 'Si tu souhaites nous soutenir en adhérant à l\'asso';
         $lang['account_asso_ici'] = 'C\'est par ici';
@@ -210,7 +221,7 @@
 
     //mentions/index
     $lang['mention_h2_n1'] = 'Responsables de publication';
-        $lang['mention_body_text1_pt1'] = 'Pour joindre la responsable de publication, merci d\'envoyer un email à staffbavardes@gmail.com';
+        $lang['mention_body_text1_pt1'] = 'Pour joindre la responsable de publication, merci d\'envoyer un e-mail à contact@lesbavardes.org';
         $lang['mention_body_text1_pt2'] = 'Le présent site internet www.lesbavardes.org (le « Site Internet ») est édité par : Les Bavardes Amiens.';
         $lang['mention_body_text1_pt3'] = 'Organisme à but non lucratif (association loi 1901, fondations, fonds de dotation)';
 
@@ -227,13 +238,14 @@
         propriété Intellectuelle.';
         $lang['mention_body_text3_pt2'] = 'Tous les droits de reproduction du site Les Bavardes sont donc strictement privés et réservés.';
         $lang['mention_body_text3_pt3'] = 'Toute reproduction ou copie de documents, images, textes, illustrations, logos de marque et documents
-        Iconographiques sont donc strictement interdites et puni par la Loi.';
-        $lang['mention_body_text3_pt4'] = 'Il en est de même pour la base de données du site. Toute exploitation sans exception des contenues du présent site se suivra donc
+        Iconographiques sont donc strictement interdites et punies par la Loi.';
+        $lang['mention_body_text3_pt4'] = 'Il en est de même pour la base de données du site. 
+        Toute exploitation sans exception des contenus du présent site sera donc suivie
         d\'une procédure en justice. Le tribunal de Lille sera seul compétent pour régler les litiges.';
 
     $lang['mention_h2_n4'] = 'Conception du site internet';
         $lang['mention_body_text4_pt1'] = 'Marie De Souza pour la conception et la rédaction.';
-        $lang['mention_body_text4_pt2'] = 'Noémie Claude, Marion Joly et Jade Guehoun pour la conception, le developpement et le design.';
+        $lang['mention_body_text4_pt2'] = 'Noémie Claude, Marion Joly et Jade Guehoun pour la conception, le développement et le design.';
         $lang['mention_body_text4_pt3'] = 'Catherine pour le logo et ses bons conseils.';
         $lang['mention_body_text4_pt4'] = 'Lucille, Audrey, Marion B, Jeanne et bien d\'autres pour leur collaboration.';
 
@@ -256,7 +268,7 @@
             personnelles au strict nécessaire et indique';
                 $lang['politique_body_text2_li1'] = 'l\'objectif et la finalité du recueil de ces données,';
                 $lang['politique_body_text2_li2'] = 'la durée de conservation de celles-ci,';
-                $lang['politique_body_text2_li3'] = 'la personne à  qui ces données sont destinées.';
+                $lang['politique_body_text2_li3'] = 'la personne à qui ces données sont destinées.';
         $lang['politique_h4_n1'] = 'Les données collectées sur notre site internet';
             $lang['politique_body_text4_n1'] = 'Les Bavardes collecte et traite des informations de type : nom, prénom, adresse e-mail, adresse IP,
             données de
@@ -273,17 +285,17 @@
         $lang['politique_h4_n2'] = 'La durée de conservation de vos données';
             $lang['politique_body_text4_n2'] = ' Les données personnelles recueillies sur le site lesbavardes.org sont transmises et conservées selon
             des
-            protocoles sécurisées et ne sont pas conservées au-delà  de la durée nécessaire au traitement de
+            protocoles sécurisés et ne sont pas conservées au-delà  de la durée nécessaire au traitement de
             votre demande.';
         $lang['politique_h4_n3'] = 'Les destinataires de vos données';
             $lang['politique_body_text4_n3'] = 'Les données vous concernant sont transmises selon votre demande et votre besoin à l\'équipe de
             coordination des
             Bavardes.';
         $lang['politique_h4_n4'] = 'Droit d\'accès, rectification, suppression';
-            $lang['politique_body_text4_n4'] = 'Vous pouvez demander l\'accès à vos informations, à la rectification ou à la suppression de celle-ci.
+            $lang['politique_body_text4_n4'] = 'Vous pouvez demander l\'accès à vos informations, à la rectification ou à la suppression de celles-ci.
             Pour toutes informations supplémentaires ou demande de modification/suppression de vos données
             privées, vous
-            pouvez contacter l\'équipe de coordination par e-mail : <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a>
+            pouvez contacter l\'équipe de coordination par e-mail : <a href="mailto:lesbavardesamiens@gmail.com">contact@lesbavardes.org</a>
 
             L\'équipe dispose d\'un délai de réponse de 1 mois suivant la date d\'envoi de votre demande.
             Pour en savoir plus sur vos droits, nous vous invitons à consulter le site de la CNIL.';
@@ -301,7 +313,7 @@
             afin d\'améliorer la qualité et l\'ergonomie de notre site Internet. Les mesures sont effectuées de
             manière
             totalement anonyme. Les cookies ne sont pas conservés au-delà de 13 mois.
-            Pour désactiver l\'utilisation des cookies l\'intermédiaire de votre navigateur :
+            Pour désactiver l\'utilisation des cookies par l\'intermédiaire de votre navigateur :
             Votre navigateur peut être paramétré pour vous signaler les Cookies déposés dans votre terminal et
             demander de
             les accepter ou non (au cas par cas ou en totalité). Pour savoir comment procéder, consultez les
@@ -319,8 +331,9 @@
             vous disposez d\'un droit d\'accès, de rectification, d\'effacement, de limitation, d\'opposition et de
             portabilité
             des données vous concernant.
-            Pour exercer ces droits, nous vous invitons à contacter <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a>. Si vous estimez, après nous
-            avoir contactés, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation en ligne
+            Pour exercer ces droits, nous vous invitons à contacter <a href="mailto:lesbavardesamiens@gmail.com">contact@lesbavardes.org</a>. 
+            Si vous estimez, après nous
+            avoir contactées, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation en ligne
             ou par voie
             postale à la CNIL.';
         $lang['politique_h3_n3'] = 'Inscription newsletter';
@@ -337,20 +350,20 @@
             vous disposez d\'un droit d\'accès, de rectification, d\'effacement, de limitation, d\'opposition et de
             portabilité
             des données vous concernant.
-            Pour exercer ces droits, nous vous invitons à contacter staffbavardes@gmail.com. Si vous estimez,
+            Pour exercer ces droits, nous vous invitons à contacter contact@lesbavardes.org. Si vous estimez,
             après nous
-            avoir contactés, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation en ligne
+            avoir contactées, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation en ligne
             ou par voie
             postale à  la CNIL.
             Vous avez la possibilité à tout moment de vous désinscrire de la newsletter en nous contactant
-            <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a> ou en cliquant sur « se
+            <a href="mailto:lesbavardesamiens@gmail.com">contact@lesbavardes.org</a> ou en cliquant sur « se
             désinscrire » en bas de page.';
 
 
 
     // footer
     $lang['footer_line1'] = 'LE COLLECTIF LESBIEN ET FEMINISTE ENGAGE POUR LA VIIBILITE DE TOUTES LES FEMMES';
-    $lang['footer_line2'] = 'Une Question ? Un projet fou ? Ecris Nous !';
+    $lang['footer_line2'] = 'Une Question ? Un projet fou ? Ecris-Nous !';
     $lang['footer_body_text'] = $lang['acc_body_text1'];
     $lang['footer_button_support'] = 'Adhésion 2020';
     $lang['footer_line3'] = 'Pour nous soutenir c\'est par ici !';
