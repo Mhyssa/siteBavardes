@@ -32,7 +32,7 @@
 
 <div class="row yellow mt-1 mx-0">
   <div class="col-12 col-sm-12">
-    <h2 class="text-center text-white">A LA UNE</h2>
+    <h2 class="text-center text-white">À LA UNE</h2>
   </div>
 </div>
 
@@ -40,9 +40,9 @@
 <!-- ------------------------------------------------------------------------
 ------------------   ARTICLE 1 ------------------------------------------
 ------------------------------------------------------------------------ -->
-  <div class="col-12 col-sm-12 col-md-4 bgpastel">
-    <a href="https://www.facebook.com/events/670622177162695" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/ww2.jpg" alt="La Witches Week revient, pour sa deuxième édition, à Amiens à Cité Carter ! " class="img-fluid">
+  <div class="col-12 col-sm-12 col-md-4 my-auto">
+    <a href="https://www.facebook.com/CiteCarter" target="_blank">
+      <img src="<?php echo base_url(); ?>assets/img/index/alaune/ww_live.jpg" alt="La Witches Week revient, pour sa deuxième édition, à Amiens à Cité Carter ! " class="img-fluid">
     </a>
   </div>
 <!-- ------------------------------------------------------------------------
@@ -72,11 +72,11 @@
 ------------------------------------------------------------------------ -->
 
   <div class="col-12 col-sm-12 col-md-4 bgpastel">
-    <a href="https://www.facebook.com/events/379834343145664" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/so8.jpg" alt="" srcset="" class="img-fluid">
+    <a href="https://www.facebook.com/events/344637266606830/" target="_blank">
+      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bf_live.jpg" alt="Bienvenue à Salem, village où toutes femmes considérées comme sorcières vivent." srcset="" class="img-fluid">
     </a>
-    <a href="https://www.facebook.com/events/344637266606830" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bf3.jpg" alt="" srcset="" class="img-fluid">
+    <a href="https://www.facebook.com/events/290046738815710/" target="_blank">
+      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bb_live.jpg" alt="Un blabla un peu particulier cette fois ci, se sera un atelier d’écriture revisité." srcset="" class="img-fluid">
     </a>
   </div>
 </div>
