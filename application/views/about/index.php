@@ -47,16 +47,87 @@
                       Aujourd'hui nous sommes fières de voir qu' Amiens rassemble la Picardie autour de nos idées et que
                       l'ensemble de nos actions nous mènent à Paris, Lille, et à l'international Brighton, Le Bénin...
                       </p> -->
-                </div>
+              </div>
+            </div>
 
-                <div class="row">
+
                 <div class="col-0 col-sm-3"></div>
                   <div class="embed-responsive embed-responsive-16by9 col-sm-6">
                     <iframe src="https://www.youtube.com/embed/pcDgFROzY44" frameborder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 <div class="col-0 col-sm-3"></div>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------       DEBUT  NOS MEMOIRE AUDREY JADE        -----------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- BANNIERE -->
+
+                <div class="row ">
+                  <div class="col-lg-12 ombre pt-5 ">
+                      <?php if($lang == 'fr'){ ?>
+                        <img src="<?php echo base_url(); ?>assets\img\banniere\fr\memory.png"
+                          alt="Banniere francaise de la section mémoire du master par Audrey Gondallier et Jade"
+                          class="img-fluid pb-3">
+                      <?php } else { ?>
+                        <img src="<?php echo base_url(); ?>assets\img\banniere\eng\memory.png"
+                          alt="Banniere anglaise de la section mémoire du master par Audrey Gondallier et Jade"
+                          class="img-fluid pb-3">
+                        <?php } ?>
+                  </div>
                 </div>
+
+
+<!-- AUDREY -->
+<div class="card bg-light mb-3 mx-2" style="max-width: 540px;">
+  <div class="row">
+    <div class="col-md-4">
+    <a href="<?php echo base_url(); ?>assets\img\memory\Master2_2020_Semparer-de-la-cause-du-droit-des-femmes-et-des-lesbiennes.pdf" target="_blank" >
+      <img src="<?php echo base_url(); ?>assets\img\memory\audrey.PNG" class="card-img img-fluid" alt="Memoire S’emparer de la cause du droit des femmes et des lesbiennes Audrey Gondalier">
+    </a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <div class="card-title text-center">Master 2 <br> Sciences humaines et sociales</div>
+        <div class="col-lg-10 col-md-10 m-auto lignefooter mt-2 "></div><br>
+        <h5 class="card-text text-center">Audrey GONDALLIER</h5>
+        <p class="card-text text-center"><small class="text-muted text-center">
+        S’emparer de la cause du droit des femmes et des lesbiennes depuis l’expérience d’un collectif militant dans une ville moyenne des Hauts-de-France</small></p>
+      <a href="<?php echo base_url(); ?>assets\img\memory\Master2_2020_Semparer-de-la-cause-du-droit-des-femmes-et-des-lesbiennes.pdf" class="footlink" 
+      download="Audrey_GONDALLIER_Semparer_de_la_cause_du_droit_des_femmes_et_des_lesbiennes.pdf"><i class="fas fa-file-download fa-3x float-right mb-5"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JADE -->
+<div class="card bg-light mb-3 mx-2" style="max-width: 540px;">
+  <div class="row ">
+    <div class="col-md-4">
+      <a href="<?php echo base_url(); ?>assets\img\memory\Rapport-de-stage-complet.pdf" target="_blank" >
+        <img src="<?php echo base_url(); ?>assets\img\memory\jade.PNG" class="card-img img-fluid" alt="Titre Professionnel Développeur·se web et web mobile Jade Guehoun">
+      </a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <div class="card-title text-center">Titre Professionnel <br> Développeur·se web et web mobile</div>
+        <div class="col-lg-10 col-md-10 m-auto lignefooter mt-2 "></div><br>
+        <h5 class="card-text text-center">Jade Guehoun</h5>
+        <p class="card-text text-center"><small class="text-muted">Création de la partie back-office du site lesbavardes.org <br>Refonte du site femmes-citoyennes.fr pour le collectif Citoyennes Amiénoises Féministes</small></p>
+        <a href="<?php echo base_url(); ?>assets\img\memory\Rapport-de-stage-complet.pdf" class="footlink"
+        download="Jade_Guehoun_developpeuse_web.pdf"><i class="fas fa-file-download fa-3x float-right mb-5"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------         FIN  NOS MEMOIRE AUDREY JADE        -----------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
 
