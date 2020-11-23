@@ -147,9 +147,9 @@
                         foreach($collab as $row){ 
                           if($row['collab_cat'] == 'Financiers'){
                                 ?>
-                      <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
+                      <div class="col-lg-2 col-md-2 col-sm-3 col-6 text-center float-left">
                           <a class="text-dark" class="img-fluid" href="<?php echo $row['collab_link'] ?>">
-                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des partenaires financiers" srcset="">
+                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des partenaires financiers" srcset="" class="img-fluid">
                           </a>
                       </div>        
                   
@@ -172,12 +172,12 @@
                         foreach($collab as $row){ 
                           if($row['collab_cat'] == 'Collaborations'){
                                 ?>
-                      <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
-                        <div class="col-lg-3 float-left">
+                      <div class="col-lg-2 col-md-2 col-sm-3 col-6 text-center float-left">
+                        
                           <a class="text-dark" href="<?php echo $row['collab_link'] ?>">
-                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des collaborateurs" srcset="">
+                              <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des collaborateurs" srcset="" class="img-fluid">
                           </a>
-                        </div>
+                        
                       </div>        
                   
                   <?php }}}
@@ -199,12 +199,12 @@
                     foreach($collab as $row){ 
                       if($row['collab_cat'] == 'Lieux'){
                             ?>
-                      <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
-                    <div class="col-lg-3 float-left">
+                      <div class="col-lg-2 col-md-2 col-sm-3 col-6 text-center float-left">
+                    
                       <a class="text-dark" href="<?php echo $row['collab_link'] ?>">
-                          <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des lieux d'acceuil" srcset="">
+                          <img src="<?php echo base_url('uploads/collab_img/'.$row['file_name']); ?>" alt="Logo des lieux d'acceuil" srcset="" class="img-fluid">
                       </a>
-                    </div>
+                    
                   </div>        
               
               <?php }}}
