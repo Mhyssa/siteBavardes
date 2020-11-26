@@ -362,7 +362,7 @@
 
 
     // footer
-    $lang['footer_line1'] = 'LE COLLECTIF LESBIEN ET FEMINISTE ENGAGE POUR LA VIIBILITE DE TOUTES LES FEMMES';
+    $lang['footer_line1'] = 'LE COLLECTIF LESBIEN ET FÉMINISTE ENGAGE POUR LA VISIBILITÉ DE TOUTES LES FEMMES';
     $lang['footer_line2'] = 'Une Question ? Un projet fou ? Ecris-Nous !';
     $lang['footer_body_text'] = $lang['acc_body_text1'];
     $lang['footer_button_support'] = 'Adhésion 2020';
