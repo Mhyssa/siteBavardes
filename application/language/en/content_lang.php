@@ -292,6 +292,21 @@
                 newsletter at any time by contacting us at <a href="mailto:lesbavardesamiens@gmail.com">contact@lesbavardes.org</a> or by clicking on "unsubscribe" at the 
                 bottom of the page.';
 
+
+
+    
+    //Formulaire
+    $lang['form_name'] = 'Name';
+    $lang['form_firstname'] = 'Firstname';
+    $lang['form_mail'] = 'Mail';
+    $lang['form_city'] = 'City';
+    $lang['form_object'] = "Object";
+    $lang['form_message'] = "Message";
+    $lang['form_submit'] = "Submit";
+
+    //Page success formulaire
+    $lang['form-success'] = 'Your message sent with succes. Thanks for your interest !';
+
     // footer 
     $lang['footer_line1'] = 'THE LESBIAN AND FEMINIST COLLECTIVE COMMITED TO THE VISIBILITY OF ALL WOMEN';
     $lang['footer_line2'] = 'A Question? A crazy project? Contact Us !';

@@ -361,6 +361,19 @@
 
 
 
+    //Formulaire
+    $lang['form_name'] = 'Nom';
+    $lang['form_firstname'] = 'Prénom';
+    $lang['form_mail'] = 'Mail';
+    $lang['form_city'] = 'Ville';
+    $lang['form_object'] = "Objet";
+    $lang['form_message'] = "Message";
+    $lang['form_submit'] = "Envoyer";
+
+    //Page success formulaire
+    $lang['form-success'] = 'Votre message a bien été envoyé. Merci de votre intérêt !';
+
+
     // footer
     $lang['footer_line1'] = 'LE COLLECTIF LESBIEN ET FÉMINISTE ENGAGE POUR LA VISIBILITÉ DE TOUTES LES FEMMES';
     $lang['footer_line2'] = 'Une Question ? Un projet fou ? Ecris-Nous !';
