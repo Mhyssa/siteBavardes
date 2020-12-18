@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <meta name="author" content="Marion JOLY, Noémie CLAUDE, Jade GUEHOUN" />
+  <meta name="author" content="Marion JOLY, Noémie CLAUDE, Jade GUEHOUN, Megane DONNIO" />
   <meta name="copyright" content="Les Bavardes Amiens" />
   <meta name="description"
         content="Les Bavardes Amiens, collectif lesbien et féministe engagées pour la visibilité de toutes les femmes et dans les luttes lbtqi+ /
@@ -49,39 +49,14 @@
     href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
   <!-- pour le référencement -->
-    <?php if($ma_pages == 'index_accueil'){ ?>
-      <title><?php echo $header_acc; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_about_presse') {    ?>
-      <title><?php echo $header_about; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_team') {    ?>
-      <title><?php echo $header_team; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_action') {    ?>
-      <title><?php echo $header_act; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_event') {    ?>
-      <title><?php echo $header_event; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_collab') {    ?>
-      <title><?php echo $header_col; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_people') {    ?>
-      <title><?php echo $header_ppl; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_presse') {    ?>
-      <title><?php echo $header_presse; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_podcast') {    ?>
-      <title><?php echo $header_pod; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_mentions') {    ?>
-      <title><?php echo $footer_mentions; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_politique') {    ?>
-      <title><?php echo $footer_rgpd; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'account') {    ?>
-      <title><?php echo $footer_user_acc; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'login') {    ?>
-      <title><?php echo $footer_login; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'registration') {    ?>
-      <title><?php echo $footer_reg; ?> | Les Bavardes Amiens</title>
-  <?php  }elseif($ma_pages == 'index_error404') {    ?>
-      <title><?php echo $error404; ?> | Les Bavardes Amiens</title>
-  <?php  } else {?>
+
+    <!--header-->
+<?php if(isset($header_title)){ ?>
+  <title><?php echo $header_title; ?> | Les Bavardes Amiens</title>
+
+    <?php  } else {?>
       <title>Les Bavardes Amiens</title>
-  <?php  } ?>
+    <?php  } ?>
 
 
 </head>
@@ -184,6 +159,17 @@
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
                     <a class="nav-link text-center" href="<?php echo base_url().'index.php/collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
+                  </li>
+                  <?php  }  ?>
+
+                  <!-- Actif contact ou non -->
+                  <?php if($ma_pages == 'form'){ ?>
+                  <li class="nav-item active pr-4  pl-4">
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/Form/'.$lang; ?>"><?php echo $header_cont; ?></a>
+                  </li>
+                  <?php  }else{    ?>
+                  <li class="nav-item pr-4  pl-4">
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/Form/'.$lang; ?>"><?php echo $header_cont; ?></a>
                   </li>
                   <?php  }  ?>
                   

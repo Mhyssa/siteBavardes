@@ -26,11 +26,13 @@ class Action extends CI_Controller{
             $data['header_about'] = $this->lang->line('header_about');
             $data['header_team'] = $this->lang->line('header_team');
             $data['header_act'] = $this->lang->line('header_act');
+            $data['header_title'] = $this->lang->line('header_act');
             $data['header_event'] = $this->lang->line('header_event');
             $data['header_col'] = $this->lang->line('header_col');
             $data['header_ppl'] = $this->lang->line('header_ppl');
             $data['header_presse'] = $this->lang->line('header_presse');
             $data['header_pod'] = $this->lang->line('header_pod');
+            $data['header_cont'] = $this->lang->line('header_cont');
                 
             $data['header_titre'] = $this->lang->line('header_titre');
 

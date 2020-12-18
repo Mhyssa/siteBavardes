@@ -59,6 +59,8 @@ function index($lang = ''){
                 $data['header_ppl'] = $this->lang->line('header_ppl');
                 $data['header_presse'] = $this->lang->line('header_presse');
                 $data['header_pod'] = $this->lang->line('header_pod');
+                $data['header_title'] = $this->lang->line('header_pod');
+                $data['header_cont'] = $this->lang->line('header_cont');
                             
                 $data['header_titre'] = $this->lang->line('header_titre');
 

@@ -50,6 +50,7 @@ function index($lang = ''){
                 $data['lang'] = $this->lang->line('lang');
 
                 //header
+                $data['header_title'] = $this->lang->line('header_about');
                 $data['header_acc'] = $this->lang->line('header_acc');
                 $data['header_about'] = $this->lang->line('header_about');
                 $data['header_team'] = $this->lang->line('header_team');
@@ -59,6 +60,7 @@ function index($lang = ''){
                 $data['header_ppl'] = $this->lang->line('header_ppl');
                 $data['header_presse'] = $this->lang->line('header_presse');
                 $data['header_pod'] = $this->lang->line('header_pod');
+                $data['header_cont'] = $this->lang->line('header_cont');
                         
                 $data['header_titre'] = $this->lang->line('header_titre');
 

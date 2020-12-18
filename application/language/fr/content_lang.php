@@ -19,6 +19,7 @@
         $lang['header_pod'] = 'Nous Écouter';
         $lang['header_col'] = 'Nos Collaborations';
         $lang['header_ppl'] = 'Artistes & Intervenant·es';
+        $lang['header_cont'] = "Contact";
 
         // id titre
         $lang['header_titre'] = 'Les Bavardes collectif féministe & lesbien à Amiens depuis 2017';
@@ -43,8 +44,7 @@
 
     $lang['acc_titre3'] = 'RENCONTRES D\'ARTISTES';
     $lang['acc_titre3_button_p1'] = 'Lumière sur ces femmes incroyables qui ont croisé nos routes au cours de nos évènements';
-
-
+    
 
     // about/index
     $lang['about_body_text1'] = '" Créée en juin 2017, les Bavardes est une association qui cherche à visibiliser les femmes et à lutter 
@@ -371,7 +371,8 @@
     $lang['form_submit'] = "Envoyer";
 
     //Page success formulaire
-    $lang['form-success'] = 'Votre message a bien été envoyé. Merci de votre intérêt !';
+    $lang['form_success'] = 'Votre message a bien été envoyé. Merci de votre intérêt !';
+
 
 
     // footer

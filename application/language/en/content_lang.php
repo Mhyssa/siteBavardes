@@ -19,6 +19,7 @@
         $lang['header_event'] = 'Events';        
         $lang['header_col'] = 'Collaborations';
         $lang['header_ppl'] = 'Artists & Speakers';
+        $lang['header_cont'] = "Contact";
 
         // id titre
         $lang['header_titre'] = 'Les Bavardes, Feminist and lesbian collective in amiens since 2017';
@@ -41,8 +42,8 @@
     $lang['acc_titre2_button_p2'] = 'Check out the 30 articles about our journey !';
 
     $lang['acc_titre3'] = 'ARTISTS ENCOUNTER';
-        $lang['acc_titre3_button_p1'] = 'Light on these incredible women who crossed our path through our events';
-
+    $lang['acc_titre3_button_p1'] = 'Light on these incredible women who crossed our path through our events';
+    
 
 
     //about/index
@@ -305,7 +306,7 @@
     $lang['form_submit'] = "Submit";
 
     //Page success formulaire
-    $lang['form-success'] = 'Your message sent with succes. Thanks for your interest !';
+   $lang['form-success'] = 'Your message sent with succes. Thanks for your interest !';
 
     // footer 
     $lang['footer_line1'] = 'THE LESBIAN AND FEMINIST COLLECTIVE COMMITED TO THE VISIBILITY OF ALL WOMEN';

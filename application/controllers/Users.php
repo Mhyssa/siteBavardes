@@ -393,6 +393,8 @@ class Users extends CI_Controller {
                         $data['header_ppl'] = $this->lang->line('header_ppl');
                         $data['header_presse'] = $this->lang->line('header_presse');
                         $data['header_pod'] = $this->lang->line('header_pod');
+                        $data['header_cont'] = $this->lang->line('header_cont');
+                        $data['header_title'] = $this->lang->line('footer_user_acc');
                                             
                         $data['header_titre'] = $this->lang->line('header_titre');
         
@@ -526,6 +528,8 @@ class Users extends CI_Controller {
                         $data['header_ppl'] = $this->lang->line('header_ppl');
                         $data['header_presse'] = $this->lang->line('header_presse');
                         $data['header_pod'] = $this->lang->line('header_pod');
+                        $data['header_cont'] = $this->lang->line('header_cont');
+                        $data['header_title'] = $this->lang->line('footer_esmem');
                                             
                         $data['header_titre'] = $this->lang->line('header_titre');
         
