@@ -48,7 +48,7 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
-
+  <!-- pour le référencement -->
     <?php if($ma_pages == 'index_accueil'){ ?>
       <title><?php echo $header_acc; ?> | Les Bavardes Amiens</title>
   <?php  }elseif($ma_pages == 'index_about_presse') {    ?>
