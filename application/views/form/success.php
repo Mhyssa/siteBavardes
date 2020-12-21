@@ -15,11 +15,7 @@
     <!-- fin banniere collaboration -->
 
     <div class="text-center my-5 px-5">
-    <span class="border border-dark"> <!-- /!\ A modifier -> cadre plus grand + version mobile-->
-      <?=$form_success; ?> <!--appelle le texte dans fichier lang.php-->
+    <span class="border border-dark">
+    <?=$form_success; ?>
     </span>
     </div>
-
-    </div> <!--fin div class container-->
-
-</div> <!--fin div class global-->

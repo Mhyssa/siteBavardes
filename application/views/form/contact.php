@@ -15,7 +15,9 @@
     <!-- fin banniere collaboration -->
 
 <!--Début du formulaire de contact-->
-    <?php echo form_open(); ?>
+    <?php echo validation_errors(); ?>
+    <?php echo form_open('form'); ?>
+    
 <!--
 <div class="form-group">
    <label for="nom"><?= $form_name ?></label>
@@ -25,7 +27,7 @@
 <!--Utilisation de Bootstrap pour mise en page--> 
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_name ?></span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <input type="text" class="form-control" name='nom' id='nom' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
 </div>
 
 <!--
@@ -36,7 +38,7 @@
 
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_firstname ?></span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <input type="text" class="form-control" name='prenom' id ='prenom' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
 </div>
 
 <!--
@@ -47,7 +49,7 @@
 
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_mail ?></span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <input type="text" class="form-control" name='mail' id ='mail' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
 </div>
 
 <!--
@@ -58,7 +60,7 @@
 
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_city ?></span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <input type="text" class="form-control" name='ville' id ='ville' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
 </div>
 
 <!--
@@ -69,7 +71,7 @@
 
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_object ?></span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <input type="text" class="form-control" name='objet' id ='objet' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
 </div>
 
 <!--
@@ -80,7 +82,7 @@
 
 <div class="input-group input-group mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_message ?></span>
-  <input type="textarea" class="form-control"  rows ="3">
+  <input type="textarea" class="form-control" name='message' id ='message' rows ="3" required>
 </div>
 
 <!--Essai Bootstrap
@@ -91,6 +93,6 @@
 
 
 <!--Envoi du formulaire-->
-<button type="submit" class="btn btn-warning mb-5"><?= $form_submit?></button>    
+<button type="submit" name="contactForm" class="btn btn-warning mb-5"><?= $form_submit?></button>    
  
-</form>
+<?php echo form_close(); ?>

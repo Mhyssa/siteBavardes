@@ -5,7 +5,7 @@ class Users extends CI_Controller {
     function __construct() { 
         parent::__construct(); 
          
-        // Load form validation ibrary & user model 
+        // Load form validation library & user model 
         $this->load->helper('form'); 
         $this->load->helper('captcha');
         $this->load->library('form_validation');

@@ -45,6 +45,9 @@
                 $data['form_object'] = $this->lang->line('form_object');
                 $data['form_message'] = $this->lang->line('form_message');
                 $data['form_submit'] = $this->lang->line('form_submit');
+                
+                //page success
+                $data['form_success'] = $this->lang->line('form_success');
 
                 //footer
                 $data['footer_line1'] = $this->lang->line('footer_line1');
@@ -63,12 +66,37 @@
             
 
     // Chargement des assistants 'form' et 'url'
-    $this->load->helper('form', 'url'); 
+    $this->load->helper(array('form', 'url')); 
+
+    //Chargement de la librairie 'validation'
+    $this->load->library('form_validation');
 
     // Chargement de la vue 'contact/index.php'
     $this->load->view('layouts/header', $data);
-    $this->load->view('contact');
-    $this->load->view('layouts/footer', $data); 
-    } // -- contact()
+    
+    
 
+    //if($this->input->post('contactForm')){ 
+        $this->form_validation->set_rules( 'nom', 'nom' ,'required');
+        $this->form_validation->set_rules( 'mail', 'mail' ,'required');
+        $this->form_validation->set_rules( 'objet', 'objet' ,'required');
+        $this->form_validation->set_rules( 'message','message' ,'required');
+       
+        if ($this->form_validation->run() == FALSE){
+            
+            $this->load->view('form/contact', $data);
+        } else {
+         
+            $this->load->view('form/success', $data);
+        }
+
+    
+
+    /*} else {
+        var_dump('biscuit');
+        $this->load->view('contact', $data);
+    } */
+
+    $this->load->view('layouts/footer', $data);
+}
 }
