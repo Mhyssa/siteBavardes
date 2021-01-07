@@ -63,5 +63,7 @@
 
 <!--Envoi du formulaire-->
 <button type="submit" class="btn btn-warning"><?= $form_submit?></button>    
- 
+
+<script src="<?php echo base_url(); ?>assets/js/contact.js"></script>
+
 </form>

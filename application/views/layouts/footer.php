@@ -103,6 +103,7 @@
 <script src="<?php echo base_url(); ?>assets/js/jquery-3.3.1.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
 
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151775781-1"></script>
 <script>
