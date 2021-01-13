@@ -28,6 +28,7 @@
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_name ?></span>
   <input type="text" class="form-control" name='nom' id='nom' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+  <span id='missNom'></span><br/>
 </div>
 
 <!--
@@ -39,6 +40,7 @@
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_firstname ?></span>
   <input type="text" class="form-control" name='prenom' id ='prenom' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <span id='missPrenom'></span><br/>
 </div>
 
 <!--
@@ -49,7 +51,8 @@
 
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_mail ?></span>
-  <input type="text" class="form-control" name='mail' id ='mail' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+  <input type="email" class="form-control" name='mail' id ='mail' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+  <span id='missMail'></span><br/>
 </div>
 
 <!--
@@ -61,6 +64,7 @@
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_city ?></span>
   <input type="text" class="form-control" name='ville' id ='ville' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <span id='missVille'></span><br/>
 </div>
 
 <!--
@@ -72,6 +76,7 @@
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_object ?></span>
   <input type="text" class="form-control" name='objet' id ='objet' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+  <span id='missObjet'></span><br/>
 </div>
 
 <!--
@@ -83,6 +88,7 @@
 <div class="input-group input-group mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_message ?></span>
   <input type="textarea" class="form-control" name='message' id ='message' rows ="3" required>
+  <span id='missMessage'></span><br/>
 </div>
 
 <!--Essai Bootstrap
@@ -93,6 +99,11 @@
 
 
 <!--Envoi du formulaire-->
-<button type="submit" name="contactForm" class="btn btn-warning mb-5"><?= $form_submit?></button>    
- 
+<button type="submit" id="submit" name="contactForm" class="btn btn-warning mb-5"><?= $form_submit?></button>    
+
+<!-- Chargement du fichier JavaScript-->
+
 <?php echo form_close(); ?>
+
+<script src="<?php echo base_url(); ?>assets/js/contact.js"></script>
+

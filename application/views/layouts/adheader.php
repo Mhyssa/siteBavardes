@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <meta name="author" content="Marion JOLY, Noémie CLAUDE, Jade GUEHOUN" />
+  <meta name="author" content="Marion JOLY, Noémie CLAUDE, Jade GUEHOUN, Megane DONNIO" />
   <meta name="copyright" content="Les Bavardes Amiens" />
   <meta name="description"
     content="Les Bavardes Amiens collectif lesbien et féministe engagées pour la visibilité de toutes les femmes et dans les luttes lgbtqi+" />
