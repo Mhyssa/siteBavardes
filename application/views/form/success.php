@@ -15,7 +15,7 @@
     <!-- fin banniere collaboration -->
 
     <div class="text-center my-5 px-5">
-    <span class="border border-dark">
+    <div class="card">
     <?=$form_success; ?>
-    </span>
+    </div>
     </div>

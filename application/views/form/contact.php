@@ -105,5 +105,5 @@
 
 <?php echo form_close(); ?>
 
-<script src="<?php echo base_url(); ?>assets/js/contact.js"></script>
+
 

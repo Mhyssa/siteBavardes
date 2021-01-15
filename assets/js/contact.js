@@ -1,4 +1,4 @@
-$(document).ready(function() 
+$(function() 
 {
 // déclaration des variables pour le formulaire de contact pour la récupération de la valeur des champs de saisie
 let formValid = document.getElementById('submit');
@@ -22,7 +22,7 @@ let cpnomValid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-Zé�
 let cmailValid = /[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}/;
 let cvilleValid =/^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
 let cobjetValid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
-let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;_-]{5,250}/;
+let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;'_-]{5,250}/;
 
 // quand il y a perte de focus sur un champ
 //cnom.onblur = cnomCheck;
@@ -34,14 +34,14 @@ let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;_-]{5,250}/;
 
 // vérification des champs de saisie 
 
-//formValid.addEventListener('click', validation);
+formValid.addEventListener('click', validation);
 
     function validation(event) {
     //vérification du champ nom
 
         //si le champ est vide
         if (cnom.validity.valueMissing) {
-            event.preventDefault()
+            event.preventDefault();
             missNom.textContent = 'Renseigner ce champ /Complete this field';
             missNom.style.color = 'red';
         }
@@ -72,7 +72,7 @@ let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;_-]{5,250}/;
     // vérification du champ mail
     
         if (cmail.validity.valueMissing) {
-            event.preventDefault()
+            event.preventDefault();
             missCmail.textContent = 'Renseigner ce champ /Complete this field';
             missCmail.style.color = 'red';
             }
@@ -101,7 +101,7 @@ let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;_-]{5,250}/;
     // vérification du champ objet
     
         if (cobjet.validity.valueMissing) {
-            event.preventDefault()
+            event.preventDefault();
             missCobjet.textContent = 'Renseigner ce champ /Complete this field';
             missCobjet.style.color = 'red';
         }
@@ -119,7 +119,7 @@ let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;_-]{5,250}/;
      // vérification du champ message
      
         if (cmessage.validity.valueMissing) {
-            event.preventDefault()
+            event.preventDefault();
             missCmessage.textContent = 'Renseigner ce champ /Complete this field';
             missCmessage.style.color = 'red';
         }
@@ -141,7 +141,7 @@ let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;_-]{5,250}/;
     * le paramètre 'event' est un objet (nommé 
     * librement) représentant l'évènement
     */         
-    event.preventDefault();
+    event.preventDefault(submit);
 
     // Appel de la fonction validation()
     validation();   
