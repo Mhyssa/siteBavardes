@@ -41,8 +41,8 @@
 ------------------   ARTICLE 1 ------------------------------------------
 ------------------------------------------------------------------------ -->
   <div class="col-12 col-sm-12 col-md-4 my-auto">
-    <a href="https://www.facebook.com/CiteCarter" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/ww_live.jpg" alt="La Witches Week revient, pour sa deuxième édition, à Amiens à Cité Carter ! " class="img-fluid">
+    <a href="https://www.facebook.com/events/3586627534723731/" target="_blank">
+      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bavardes_sport.jpg" alt="Les Bavardes et l'Association Carmen s'associe de nouveau pour vous concocter un chouette événement en ligne !" class="img-fluid">
     </a>
   </div>
 <!-- ------------------------------------------------------------------------
@@ -72,11 +72,11 @@
 ------------------------------------------------------------------------ -->
 
   <div class="col-12 col-sm-12 col-md-4 bgpastel">
-    <a href="https://www.facebook.com/events/344637266606830/" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bf_live.jpg" alt="Bienvenue à Salem, village où toutes femmes considérées comme sorcières vivent." srcset="" class="img-fluid">
+    <a href="https://www.facebook.com/events/428648841663955/" target="_blank">
+      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bavardes_sportblabla.jpg" alt="Un groupe de parole pendant lequel nous échangeons, nous réfléchissons ensemble." srcset="" class="img-fluid">
     </a>
-    <a href="https://www.facebook.com/events/290046738815710/" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bb_live.jpg" alt="Un blabla un peu particulier cette fois ci, se sera un atelier d’écriture revisité." srcset="" class="img-fluid">
+    <a href="https://www.facebook.com/events/168774534586049" target="_blank">
+      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bavardes_reunion.jpg" alt="Nous allons te partager nos dernières infos, et commencer à préparer les événements autour du 8 mars." srcset="" class="img-fluid">
     </a>
   </div>
 </div>
