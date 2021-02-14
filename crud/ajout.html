@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajout</title>
+</head>
+<body>
+
+    <h1>Saisie d'un nouvel enregistrement</h1>
+
+    <a href="script_ajout.php"><button>Retour à la liste des affiches</button></a>
+
+    <br>
+    <br>
+
+    <form action ="script_ajout.php" method="post">
+    
+        <label for="nom_for_label">Nom de l'affiche' :</label><br>
+        <input type="text" value="" name="nom" id="nom_for_label">
+        <br><br>
+
+        <label for="stock_for_label">Stock :</label><br>
+        <input type="number" value=""  name="stock" id="stock_for_label">
+        <br><br>
+
+        <label for="description_for_label">Description :</label><br>
+        <input type="text" value=""  name="description" id="description_for_label">
+        <br><br>
+
+        <label for="prix_for_label">Prix :</label><br>
+        <input type="number" value=""  name="prix" id="prix_for_label">
+        <br><br>
+
+        <input type="submit" value="Ajouter">
+
+    </form>
+</body>
+</html>

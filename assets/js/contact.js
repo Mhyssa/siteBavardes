@@ -17,12 +17,12 @@ let missCobjet = document.getElementById('missObjet');
 let missCmessage = document.getElementById('missMessage');
 
 //regex
-let cnomValid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
-let cpnomValid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
-let cmailValid = /[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}/;
-let cvilleValid =/^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
-let cobjetValid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
-let cmessageValid = /[a-zA-ZéèîïÉÈÎÏéèêàçîï0-9.,;'_-]{5,250}/;
+let cnomValid = /^([A-ZÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ][a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]*|[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]+)(['\s-]([A-ZÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ][a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]*|[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]+))*$/;
+let cpnomValid = /^([A-ZÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ][a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]*|[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]+)(['\s-]([A-ZÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ][a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]*|[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]+))*$/;
+let cmailValid = /^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$/;
+let cvilleValid =/^([A-ZÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ][a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]*|[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]+)(['\s-]([A-ZÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ][a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]*|[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]+))*$/;
+let cobjetValid = /^[a-zA-ZéèàîïÊÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÊÈÎÏ][a-zéèêàçîï]+)?$/;
+let cmessageValid = /^[a-zA-ZéèîïÉÊÈÎÏêàçîï0-9.,;\s'_-]{5,250}$/;
 
 // quand il y a perte de focus sur un champ
 //cnom.onblur = cnomCheck;
@@ -82,6 +82,7 @@ formValid.addEventListener('click', validation);
             missCmail.style.color = 'orange';
             }
         else {
+            missCmail.textContent = 'Ok !';
             missCmail.style.color = 'green';
             }
      
@@ -123,7 +124,7 @@ formValid.addEventListener('click', validation);
             missCmessage.textContent = 'Renseigner ce champ /Complete this field';
             missCmessage.style.color = 'red';
         }
-        else if (cmessageValid.test(cobjet.value) == false) {
+        else if (cmessageValid.test(cmessage.value) == false) {
             event.preventDefault();
             missCmessage.textContent = 'Format incorrect / wrong formt';
             missCmessage.style.color = 'orange';
@@ -141,7 +142,7 @@ formValid.addEventListener('click', validation);
     * le paramètre 'event' est un objet (nommé 
     * librement) représentant l'évènement
     */         
-    event.preventDefault(submit);
+    //event.preventDefault(submit);
 
     // Appel de la fonction validation()
     validation();   

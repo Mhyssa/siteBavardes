@@ -16,7 +16,7 @@
 
 <!--Début du formulaire de contact-->
     <?php echo validation_errors(); ?>
-    <?php echo form_open('form'); ?>
+    <?php echo form_open('success'); ?>
     
 <!--
 <div class="form-group">
@@ -52,7 +52,7 @@
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" id="inputGroup-sizing-sm"><?= $form_mail ?></span>
   <input type="email" class="form-control" name='mail' id ='mail' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
-  <span id='missMail'></span><br/>
+  <br/><span id='missMail'></span><br/>
 </div>
 
 <!--
