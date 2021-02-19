@@ -17,7 +17,7 @@ class Crud extends CI_Controller {
 
       $this->load->library('form_validation');
       $this->load->library('session');
-      $this->load->model('ItemCRUDModel');
+      $this->load->model('crud_Model');
 
 
       $this->crud = new CrudModel;
@@ -91,17 +91,17 @@ class Crud extends CI_Controller {
 
 
    /**
-    * Edit Data from this method.
+    * Update Data from this method.
     *
     * @return Response
    */
-   public function edit($id)
+   public function update($id)
    {
        $item = $this->crud->find_item($id);
 
 
        $this->load->view('layouts/header');
-       $this->load->view('crud/edit',array('item'=>$item));
+       $this->load->view('crud/update',array('item'=>$item));
        $this->load->view('layouts/footer');
    }
 
@@ -119,7 +119,7 @@ class Crud extends CI_Controller {
 
         if ($this->form_validation->run() == FALSE){
             $this->session->set_flashdata('errors', validation_errors());
-            redirect(base_url('crud/edit/'.$id));
+            redirect(base_url('crud/update/'.$id));
         }else{ 
           $this->itemCRUD->update_item($id);
           redirect(base_url('crud'));
