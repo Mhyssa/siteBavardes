@@ -93,7 +93,7 @@
     
 
     /*} else {
-        var_dump('biscuit');
+    
         $this->load->view('contact', $data);
     } */
 

@@ -103,7 +103,7 @@
 <script src="<?php echo base_url(); ?>assets/js/jquery-3.3.1.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
 <!-- Chargement JS pour validation du formulaire de contact-->
-<script src="<?php echo base_url(); ?>assets/js/contact.js"></script>
+
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

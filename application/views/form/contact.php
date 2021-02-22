@@ -1,3 +1,6 @@
+<!-- Chargement du fichier JavaScript-->
+<script src="<?php echo base_url(); ?>assets/js/contact.js"></script>
+
 <div class="col-lg-12 ombre pt-5 ">
 
 
@@ -101,7 +104,6 @@
 <!--Envoi du formulaire-->
 <button type="submit" id="submit" name="contactForm" class="btn btn-warning mb-5"><?= $form_submit?></button>    
 
-<!-- Chargement du fichier JavaScript-->
 
 <?php echo form_close(); ?>
 

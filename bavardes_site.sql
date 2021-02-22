@@ -453,7 +453,7 @@ DROP TABLE IF EXITS affiches;
 CREATE TABLE affiches (
     aff_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     aff_nom VARCHAR(50) NOT NUll,
-    aff_stock INt NOT NULL,
+    aff_stock INT NOT NULL,
     aff_description VARCHAR(100) NOT NULL,
     aff_prix INT
 );

@@ -91,11 +91,11 @@ class Crud extends CI_Controller {
 
 
    /**
-    * Update Data from this method.
+    * Edit Data from this method.
     *
     * @return Response
    */
-   public function update($id)
+   public function edit($id)
    {
        $item = $this->crud->find_item($id);
 

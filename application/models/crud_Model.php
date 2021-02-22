@@ -28,8 +28,8 @@ class CrudModel extends CI_Model{
     {
         $data=array(
             'name' => $this->input->post('name'),
-            'description'=> $this->input->post('description')
-            'stock'=> $this->input->post('stock')
+            'description'=> $this->input->post('description'),
+            'stock'=> $this->input->post('stock'),
             'price'=> $this->input->post('price')
         );
         if($id==0){
