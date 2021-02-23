@@ -19,7 +19,7 @@
         $lang['header_event'] = 'Events';        
         $lang['header_col'] = 'Collaborations';
         $lang['header_ppl'] = 'Artists & Speakers';
-        $lang['header_cont'] = "Contact";
+        $lang['header_cont'] = 'Contact';
 
         // id titre
         $lang['header_titre'] = 'Les Bavardes, Feminist and lesbian collective in amiens since 2017';

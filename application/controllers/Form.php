@@ -92,11 +92,12 @@
 
     
 
-    /*} else {
+  // } else {
     
-        $this->load->view('contact', $data);
-    } */
+    //    $this->load->view('form/success', $data);
+   // } 
 
     $this->load->view('layouts/footer', $data);
 }
 }
+?>

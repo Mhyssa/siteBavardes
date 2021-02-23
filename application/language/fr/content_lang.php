@@ -19,7 +19,7 @@
         $lang['header_pod'] = 'Nous Écouter';
         $lang['header_col'] = 'Nos Collaborations';
         $lang['header_ppl'] = 'Artistes & Intervenant·es';
-        $lang['header_cont'] = "Contact";
+        $lang['header_cont'] = 'Contact';
 
         // id titre
         $lang['header_titre'] = 'Les Bavardes collectif féministe & lesbien à Amiens depuis 2017';

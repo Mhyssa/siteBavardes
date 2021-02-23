@@ -163,13 +163,13 @@
                   <?php  }  ?>
 
                   <!-- Actif contact ou non -->
-                  <?php if($ma_pages == 'form'){ ?>
+                  <?php if($ma_pages == 'index_form'){ ?>
                   <li class="nav-item active pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/Form/'.$lang; ?>"><?php echo $header_cont; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/form/index/'.$lang; ?>"><?php echo $header_cont; ?></a>
                   </li>
                   <?php  }else{    ?>
                   <li class="nav-item pr-4  pl-4">
-                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/Form/'.$lang; ?>"><?php echo $header_cont; ?></a>
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/form/index/'.$lang; ?>"><?php echo $header_cont; ?></a>
                   </li>
                   <?php  }  ?>
                   
