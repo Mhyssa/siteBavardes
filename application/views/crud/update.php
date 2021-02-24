@@ -10,7 +10,7 @@
 </div>
 
 
-<form method="post" action="<?php echo base_url('crud/update/'.$item->id);?>">
+<form method="post" action="<?php echo base_url('crud/update/'.$item->aff_id);?>">
     <?php
 
 
@@ -28,28 +28,28 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Titre</strong>
-                <input type="text" name="title" class="form-control" value="<?php echo $item->title; ?>">
+                <input type="text" name="title" class="form-control" value="<?php echo $item->aff_nom; ?>">
             </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Description</strong>
-                <textarea name="description" class="form-control"><?php echo $item->description; ?></textarea>
+                <textarea name="description" class="form-control"><?php echo $item->aff_description; ?></textarea>
             </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Stock</strong>
-                <input type="number" name="stock" class="form-control"><?php echo $item->stock; ?>
+                <input type="number" name="stock" class="form-control"><?php echo $item->aff_stock; ?>
             </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Prix</strong>
-                <input type="number" name="price" class="form-control"><?php echo $item->price; ?>
+                <input type="number" name="price" class="form-control"><?php echo $item->aff_prix; ?>
             </div>
         </div>
 

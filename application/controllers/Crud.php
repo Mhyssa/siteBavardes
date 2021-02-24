@@ -17,7 +17,7 @@ class Crud extends CI_Controller {
 
       $this->load->library('form_validation');
       $this->load->library('session');
-      $this->load->model('crud_Model');
+      $this->load->model('crudModel');
 
 
       $this->crud = new CrudModel;
@@ -31,12 +31,12 @@ class Crud extends CI_Controller {
    */
    public function index()
    {
-       $data['data'] = $this->itemCRUD->get_itemCRUD();
+       $data['data'] = $this->crud->get_itemCRUD();
 
 
-       $this->load->view('layouts/header');       
+      // $this->load->view('layouts/header');       
        $this->load->view('crud/list',$data);
-       $this->load->view('layouts/footer');
+       //$this->load->view('layouts/footer');
    }
 
 
@@ -50,9 +50,9 @@ class Crud extends CI_Controller {
       $item = $this->crud->find_item($id);
 
 
-      $this->load->view('layouts/header');
+     // $this->load->view('layouts/header');
       $this->load->view('crud/read',array('item'=>$item));
-      $this->load->view('layouts/footer');
+      //$this->load->view('layouts/footer');
    }
 
 
@@ -63,9 +63,9 @@ class Crud extends CI_Controller {
    */
    public function create()
    {
-      $this->load->view('layouts/header');
+      //$this->load->view('layouts/header');
       $this->load->view('crud/create');
-      $this->load->view('layouts/footer');   
+      //$this->load->view('layouts/footer');   
    }
 
 
@@ -76,7 +76,7 @@ class Crud extends CI_Controller {
    */
    public function store()
    {
-        $this->form_validation->set_rules('title', 'Title', 'required');
+        $this->form_validation->set_rules('name', 'name', 'required');
         $this->form_validation->set_rules('description', 'Description', 'required');
 
 
@@ -84,7 +84,7 @@ class Crud extends CI_Controller {
             $this->session->set_flashdata('errors', validation_errors());
             redirect(base_url('crud/create'));
         }else{
-           $this->itemCRUD->insert_item();
+           $this->crud->insert_item();
            redirect(base_url('crud'));
         }
     }
@@ -100,9 +100,9 @@ class Crud extends CI_Controller {
        $item = $this->crud->find_item($id);
 
 
-       $this->load->view('layouts/header');
+       //$this->load->view('layouts/header');
        $this->load->view('crud/update',array('item'=>$item));
-       $this->load->view('layouts/footer');
+       //$this->load->view('layouts/footer');
    }
 
 
@@ -121,7 +121,7 @@ class Crud extends CI_Controller {
             $this->session->set_flashdata('errors', validation_errors());
             redirect(base_url('crud/update/'.$id));
         }else{ 
-          $this->itemCRUD->update_item($id);
+          $this->crud->update_item($id);
           redirect(base_url('crud'));
         }
    }
@@ -134,7 +134,7 @@ class Crud extends CI_Controller {
    */
    public function delete($id)
    {
-       $item = $this->itemCRUD->delete_item($id);
+       $item = $this->crud->delete_item($id);
        redirect(base_url('crud'));
    }
 }

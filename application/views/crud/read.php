@@ -14,28 +14,29 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Nom</strong>
-            <?php echo $item->name; ?>
+            <?php echo $item->aff_nom; ?>
         </div>
     </div>
     
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
+
             <strong>Description</strong>
-            <?php echo $item->description; ?>
+            <?php echo $item->aff_description; ?>
         </div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Stock</strong>
-            <?php echo $item->stock; ?>
+            <?php echo $item->aff_stock; ?>
         </div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Prix</strong>
-            <?php echo $item->price; ?>
+            <?php echo $item->aff_prix; ?>
         </div>
     </div>
 

@@ -28,14 +28,14 @@
   <tbody>
    <?php foreach ($data as $item) { ?>      
       <tr>
-          <td><?php echo $item->name; ?></td>
-          <td><?php echo $item->description; ?></td>   
-          <td><?php echo $item->stock; ?></td> 
-          <td><?php echo $item->price; ?></td>        
+          <td><?php echo $item->aff_nom; ?></td>
+          <td><?php echo $item->aff_description; ?></td>   
+          <td><?php echo $item->aff_stock; ?></td> 
+          <td><?php echo $item->aff_prix; ?></td>        
       <td>
-        <form method="DELETE" action="<?php echo base_url('crud/delete/'.$item->id);?>">
-          <a class="btn btn-info" href="<?php echo base_url('crud/'.$item->id) ?>"> Voir</a>
-         <a class="btn btn-primary" href="<?php echo base_url('crud/edit/'.$item->id) ?>">Modifier</a>
+        <form method="DELETE" action="<?php echo base_url('crud/delete/'.$item->aff_id);?>">
+          <a class="btn btn-info" href="<?php echo base_url('crud/'.$item->aff_id) ?>"> Voir</a>
+         <a class="btn btn-primary" href="<?php echo base_url('crud/edit/'.$item->aff_id) ?>">Modifier</a>
           <button type="submit" class="btn btn-danger"> Supprimer</button>
         </form>
       </td>     

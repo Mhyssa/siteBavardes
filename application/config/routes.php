@@ -53,3 +53,9 @@ $route['default_controller'] = 'accueil';
 $route['404_override'] = 'error404';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['crud'] = "crud/index";
+$route['crud/(:num)'] = "crud/read/$1";
+$route['crudCreate']['post'] = "crud/store";
+$route['crudEdit/(:any)'] = "crud/edit/$1";
+$route['crudUpdate/(:any)']['put'] = "crud/update/$1";
+$route['crudDelete/(:any)']['delete'] = "crud/delete/$1";
