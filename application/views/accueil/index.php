@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="row m-0 mt-4">
   <div class="col-md-12 p-0">
     <a href="https://www.instagram.com/les.bavardes/" class="yellow float-left col-lg-3 col-sm-12">
@@ -22,13 +22,12 @@
       </div>
     </a>
   </div>
-</div>
+</div> -->
 
 
 <!-- ------------------------------------------------------------------------
 ------------------   A LA UNE ------------------------------------------
 ------------------------------------------------------------------------ -->
-
 
 <div class="row yellow mt-1 mx-0">
   <div class="col-12 col-sm-12">
@@ -36,50 +35,47 @@
   </div>
 </div>
 
-<div class="row m-0">
-<!-- ------------------------------------------------------------------------
-------------------   ARTICLE 1 ------------------------------------------
------------------------------------------------------------------------- -->
-  <div class="col-12 col-sm-12 col-md-4 my-auto">
-    <a href="https://www.facebook.com/CiteCarter" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/ww_live.jpg" alt="La Witches Week revient, pour sa deuxième édition, à Amiens à Cité Carter ! " class="img-fluid">
-    </a>
-  </div>
-<!-- ------------------------------------------------------------------------
-------------------   ARTICLE 2 ------------------------------------------
------------------------------------------------------------------------- -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
-  <div class="col-12 col-sm-12 col-md-4 bgpastel">
-    <div class="row">
-      <div class="col-12 col-sm-12 text-center">
-      <h4 class="my-3">Sortie du DVD pédagogique !</h4>
-          <img src="<?php echo base_url(); ?>assets/img/index/alaune/livret_titre.JPG" alt="livret pedagogique. Filles ou garçons on a la meme passion. stop au sexisme dans le sport !" class="img-fluid ">
-        <a href="<?php echo base_url(); ?>assets/img/index/alaune/Bon-de-commandev3.pdf" target="_blank" class="livretlink">
-          <img src="<?php echo base_url(); ?>assets/img/index/alaune/femme.JPG" alt="Ce travail est le fruit de la collaboration entre l’association de l’audiovisuel participatif CARMEN, le club Amiens Métropole Natation et l'association pour les droits des femmes Les Bavardes." class="img-fluid ">
-        </a>
-      </div>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <a href="<?php echo base_url(); ?>assets/img/index/alaune/Bon-de-commandev3.pdf">
+      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\livret_pedago.png" class="d-block w-100" alt="le bon de commande pour le dvd livret pédagogique à destination des colléges et des lycées">
+    </a>
     </div>
-    <div class="row livretlink">
-      <div class="col-12 col-sm-12 text-center">
-      <div class="text-center my-3">
-        <a href="<?php echo base_url(); ?>assets/img/index/alaune/Bon-de-commandev3.pdf" target="_blank" class="livretlink"> > téléchargement du bon de commande</a>
-        </div>
-        </div>
-      </div>
-  </div>
-<!-- ------------------------------------------------------------------------
-------------------   ARTICLE 3 ------------------------------------------
------------------------------------------------------------------------- -->
-
-  <div class="col-12 col-sm-12 col-md-4 bgpastel">
-    <a href="https://www.facebook.com/events/344637266606830/" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bf_live.jpg" alt="Bienvenue à Salem, village où toutes femmes considérées comme sorcières vivent." srcset="" class="img-fluid">
+    <div class="carousel-item">
+    <a href="https://www.facebook.com/events/175056140719124/">
+      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\festival_8_mars.png" class="d-block w-100" alt="Festival de lutte internationnal pour les droits des femmes en ligne">
     </a>
-    <a href="https://www.facebook.com/events/290046738815710/" target="_blank">
-      <img src="<?php echo base_url(); ?>assets/img/index/alaune/bb_live.jpg" alt="Un blabla un peu particulier cette fois ci, se sera un atelier d’écriture revisité." srcset="" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+    <a href="https://www.facebook.com/events/184031480166044/">
+      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\marche_safe.png" class="d-block w-100" alt="en partenariat avec Les Runnardes une marche safe sur Amiens">
+      </a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://www.facebook.com/events/164553051952748/">
+      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\sov5.png" class="d-block w-100" alt="La prochaine scene ouvert virtuelle des bavardes">
     </a>
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+
+
 
 <!-- ------------------------------------------------------------------------
 ------------------  FIN DE A LA UNE ------------------------------------------
