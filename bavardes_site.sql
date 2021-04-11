@@ -208,7 +208,6 @@ INSERT INTO `events` (`event_id`, `event_name`, `event_date`, `event_heure`, `ev
 (88, 'Les Bavardes - Scène Ouverte 100% meuf Virtuelle #3', '2020-05-09', '22:00', 'Canapé', '', 'facebook.com/events/2792960314156932/', 0, NULL, NULL, '', 'Scenes ouvertes', 'scene_ouverte_virtuelle_3.jpg'),
 (89, 'Les Bavardes -LBTQ confinées : Live Ovaires Bookées', '2020-05-16', '21:30', 'Canapé', '', 'https://www.facebook.com/events/543567806334535/', 0, NULL, NULL, '', 'Divers', 'les_bavardes_on_air.jpg'),
 (90, 'Mobilisation féministe', '2020-06-08', '18:30', 'Parc de la Hotoie', 'facebook.com/events/355846492061826/', '', 0, NULL, NULL, '', 'Divers', 'mobilisation_fem_nat.jpg');
-
 -- --------------------------------------------------------
 
 --

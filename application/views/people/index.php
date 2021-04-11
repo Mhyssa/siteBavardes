@@ -13,10 +13,15 @@
 
             <div class="row shadow pt-5 pb-4">
 
-                  <div class="col-lg-12 pt-3 pb-3 text-center bgyellow">
-                        <h2 class=""><?php echo $people_h2_1; ?></h2>
-                  </div>
+                 
 
+
+
+                  <div class="col-md-12">
+            
+              <h5 class="titre-collab"><?php echo $people_h2_1; ?></h5>
+              <br>
+            </div>
                   <div class="col-lg-12 pt-5 pb-5">
                   <?php if(!empty($people)){ 
                         
@@ -27,7 +32,7 @@
                                 ?>
 
                         
-                        <div class="col-lg-3 text-center float-left">
+                        <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
                               <a href="<?php echo $row['people_link']; ?>" class="col-lg-12 link"
                                     target="_blank">
                                     <img src="<?php echo base_url().'uploads/people_img/'.$row['file_name'];?> " class="Artiste" alt="img artiste">
@@ -49,11 +54,13 @@
 <!-- -----------------------------------------------------------------Les Intervenant.es----------------------------------------------------------------------------- -->
 
             <div class="row  shadow pt-5 mt-4">
-                  <div class="col-lg-12 pt-3 pb-3 text-center bgyellow">
-                        <h2 class=""><?php echo $people_h2_2; ?></h2>
-                  </div>
+                 
 
-
+                  <div class="col-md-12">
+             
+              <h5 class="titre-collab"><?php echo $people_h2_2; ?></h5>
+              <br>
+            </div>
 
                   <div class="col-lg-12  pt-4 pb-5">
 
@@ -67,7 +74,7 @@
                                 ?>
 
                         
-                        <div class="col-lg-3 text-center float-left">
+                        <div class="col-lg-3 col-md-4 col-sm-6 text-center float-left">
                               <a href="<?php echo $row['people_link']; ?>" class="col-lg-12 link"
                                     target="_blank">
                                     <img src="<?php echo base_url().'uploads/people_img/'.$row['file_name'];?> " class="Artiste" alt="img artiste">

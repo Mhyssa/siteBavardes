@@ -39,7 +39,7 @@
 
     $lang['acc_titre2'] = 'LES BAVARDES DANS LA PRESSE';
     $lang['acc_titre2_p1'] = 'Découvre notre dernier article sur';
-    $lang['acc_titre2_button_p2'] = 'Consulte les 30 articles parlant de nous au fil de notre histoire !';
+    $lang['acc_titre2_button_p2'] = 'Consulte les articles parlant de nous au fil de notre histoire !';
 
     $lang['acc_titre3'] = 'RENCONTRES D\'ARTISTES';
     $lang['acc_titre3_button_p1'] = 'Lumière sur ces femmes incroyables qui ont croisé nos routes au cours de nos évènements';
@@ -365,7 +365,7 @@
     $lang['footer_line1'] = 'LE COLLECTIF LESBIEN ET FÉMINISTE ENGAGE POUR LA VISIBILITÉ DE TOUTES LES FEMMES';
     $lang['footer_line2'] = 'Une Question ? Un projet fou ? Ecris-Nous !';
     $lang['footer_body_text'] = $lang['acc_body_text1'];
-    $lang['footer_button_support'] = 'Adhésion 2020';
+    $lang['footer_button_support'] = 'Adhésion 2021';
     $lang['footer_line3'] = 'Pour nous soutenir c\'est par ici !';
 
     $lang['footer_mentions'] = 'Mentions Légales';

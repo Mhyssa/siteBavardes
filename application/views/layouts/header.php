@@ -100,7 +100,7 @@
 
         <div class="col-sm-12 col-lg-12">
 
-          <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4" id="navBar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4 " id="navBar">
             <div class="col-lg-12 col-md-12">
 
               <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -109,11 +109,20 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <a class="navbar-brand pl-3 pr-5" href="<?php echo base_url().'index.php/accueil/index/'.$lang; ?>">
-                  <img src="<?php echo base_url(); ?>assets/img/logo.png" width="" height="80" class="d-inline-block align-top" alt="icon">
+                  <img src="<?php echo base_url(); ?>assets/img/logo.png" width="" height="80" class="d-inline-block align-top mb-2" alt="icon">
                 </a>
                 <ul class="navbar-nav">
 
-
+<!-- Actif accueil ou non -->
+<?php if($ma_pages == 'index_accueil'){ ?>
+                  <li class="nav-item active pr-4  pl-4">
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/accueil/index/'.$lang; ?>"><?php echo $header_acc; ?></a>
+                  </li>
+                  <?php  }else{    ?>
+                  <li class="nav-item pr-4  pl-4">
+                    <a class="nav-link text-center" href="<?php echo base_url().'index.php/accueil/index/'.$lang; ?>"><?php echo $header_acc; ?></a>
+                  </li>
+                  <?php  }  ?>
 
                   <!-- Actif about ou non -->
                   <?php if($ma_pages == 'index_about_presse'){ ?>
@@ -189,21 +198,30 @@
                   
                   
                 </ul>
+                
               </div>
             </div>
           </nav>
         </div>
       </div>
 
-      <div class="row marge">
-        <div class="col-md-12 col-lg-12 mb-2 mt-2">
+
+      <div class="row marge mb-2">
+      <div class="col-2 col-md-2 col-lg-2 pl-5 my-auto">
+        <a href="<?php echo base_url().'index.php/'.$controller.'/'.$function.'/fr'; ?>"><img src="<?php echo base_url(); ?>assets/img/lang/fr.png" width="30"></a>
+        <a href="<?php echo base_url().'index.php/'.$controller.'/'.$function.'/en'; ?>"><img src="<?php echo base_url(); ?>assets/img/lang/en.png" width="30"></a>
+      </div>
+        <div class="col-8 col-md-8 col-lg-8 mb-2 mt-2">
           <h1 id="titre"><?php echo $header_titre; ?></h1>
         </div>
+        <div class="col-2 col-md-2 col-lg-2 my-auto">
+        <a href="https://www.facebook.com/bavardes/"><img src="<?php echo base_url(); ?>assets/img/navbar/facebook.jpg" width="35"></a>
+        <a href="https://www.instagram.com/les.bavardes/"><img src="<?php echo base_url(); ?>assets/img/navbar/instagram.jpg" width="35"></a>
+        <a href="https://twitter.com/lesbavardes_"><img src="<?php echo base_url(); ?>assets/img/navbar/twitter.jpg" width="35"></a>
+        <a href="https://www.youtube.com/c/LESBAVARDES"><img src="<?php echo base_url(); ?>assets/img/navbar/youtube.jpg" width="35"></a>
+      </div>
       </div>
 
-      <div class="float-right">
-        <a href="<?php echo base_url().'index.php/'.$controller.'/'.$function.'/fr'; ?>"><img src="<?php echo base_url(); ?>assets/img/lang/fr.png" width="25"></a>
-        <a href="<?php echo base_url().'index.php/'.$controller.'/'.$function.'/en'; ?>"><img src="<?php echo base_url(); ?>assets/img/lang/en.png" width="25"></a>
-      </div>
+     
     </header>
   

@@ -31,49 +31,27 @@
 
 <div class="row yellow mt-1 mx-0">
   <div class="col-12 col-sm-12">
-    <h2 class="text-center text-white">À LA UNE</h2>
+    <h2 class="text-center text-white text-uppercase"><?php echo $header_acc;?></h2>
   </div>
 </div>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+
+  <div class="col-12 col-sm-12 p-0">
+    <a href="https://www.helloasso.com/associations/les-bavardes/paiements/affiche-hoshi?fbclid=IwAR214FT7xJbiZ_o-NYkN58cU3YAAXohKj10lmnjucwvAReO4uIs_rgeygqs">
+  <img src="<?php echo base_url(); ?>assets\img\index\hoshi_aff.jpg" class="d-block w-100" alt="affiche Hoshi">
+</a>
+  </div>
+
+
+
+  <div class="col-12 col-sm-12 p-0">
     <a href="<?php echo base_url(); ?>assets/img/index/alaune/Bon-de-commandev3.pdf">
-      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\livret_pedago.png" class="d-block w-100" alt="le bon de commande pour le dvd livret pédagogique à destination des colléges et des lycées">
-    </a>
-    </div>
-    <div class="carousel-item">
-    <a href="https://www.facebook.com/events/175056140719124/">
-      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\festival_8_mars.png" class="d-block w-100" alt="Festival de lutte internationnal pour les droits des femmes en ligne">
-    </a>
-    </div>
-    <div class="carousel-item">
-    <a href="https://www.facebook.com/events/184031480166044/">
-      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\marche_safe.png" class="d-block w-100" alt="en partenariat avec Les Runnardes une marche safe sur Amiens">
-      </a>
-    </div>
-    <div class="carousel-item">
-    <a href="https://www.facebook.com/events/164553051952748/">
-      <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\sov5.png" class="d-block w-100" alt="La prochaine scene ouvert virtuelle des bavardes">
-    </a>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\livret_pedago.png" class="d-block w-100" alt="le bon de commande pour le dvd livret pédagogique à destination des colléges et des lycées">
+</a>
+  
 </div>
+
 
 
 
@@ -109,7 +87,7 @@
 
   <!-- Third Parallax Section -->
   <div class="jumbotron paral paralsec2">
-    <h3 class="sur-noir m-5 p-5"><?php echo $acc_titre2; ?></h3>
+    <h3 class="sur-noir m-3 p-3 text-center"><?php echo $acc_titre2; ?></h3>
     <div>
 
       <p class="sur-noir"><?php echo $acc_titre2_p1; ?> <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
@@ -121,7 +99,7 @@
   <div class="jumbotron paral paralsec3">
     <h3 class="sur-orange m-5 p-5"><?php echo $acc_titre3; ?></h3>
     <p><a class="livretlink" href="<?php echo base_url().'index.php/people';?>" role="button"> &#10150; <?php echo $acc_titre3_button_p1; ?></a></p>
-  </div>
+  </div> 
   <!-- Add More Parallax Sections Here -->
 </div>
 

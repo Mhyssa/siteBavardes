@@ -52,17 +52,16 @@
         </div>
 
         <div class="embed-responsive embed-responsive-16by9 float-left col-lg-3 col-sm-4 col-6">
-            <iframe src="https://www.youtube.com/embed/u1vCM8nzeas" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vZffbZZD4wQ" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
       </div>
 
       
 
-      <div class="row">
-          <div class="py-3 col-lg-12 pt-4">
+      <div class="row mt-3">
+          
             <?php if($lang == 'fr'){ ?>
                 <img src="<?php echo base_url(); ?>assets\img\banniere\fr\podcasts.png" alt="banniere podcasts en français" class="img-fluid pb-3">
               <?php } else { ?> 

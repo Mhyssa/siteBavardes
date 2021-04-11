@@ -59,7 +59,7 @@
                 <div class="col-0 col-sm-3"></div>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------       DEBUT  NOS MEMOIRE AUDREY JADE        -----------------------------------------------
+------------------------------------------------       DEBUT NOS MEMOIRE AUDREY JADE MEGANE        -----------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <!-- BANNIERE -->
@@ -122,11 +122,31 @@
   </div>
 </div>
 
-
+<!-- JADE -->
+<div class="card bg-light mb-3 mx-2" style="max-width: 540px;">
+  <div class="row ">
+    <div class="col-md-4">
+      <a href="<?php echo base_url(); ?>assets\img\memory\Rapport_stage_megane.pdf" target="_blank" >
+        <img src="<?php echo base_url(); ?>assets\img\memory\megane.PNG" class="card-img img-fluid" alt="Titre Professionnel Développeur·se web et web mobile Megane Donnio">
+      </a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <div class="card-title text-center">Titre Professionnel <br> Développeur·se web et web mobile</div>
+        <div class="col-lg-10 col-md-10 m-auto lignefooter mt-2 "></div><br>
+        <h5 class="card-text text-center">Mégane Donnio</h5>
+        <p class="card-text text-center"><small class="text-muted">Création d’un formulaire de contact du site lesbavardes.org 
+          <br>Mettre à jour la base de données et mise en conformité du RGPD</small></p>
+        <a href="<?php echo base_url(); ?>assets\img\memory\Rapport_stage_megane.pdf" class="footlink"
+        download="Megane_Donnio_developpeuse_web.pdf"><i class="fas fa-file-download fa-3x float-right mb-5"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------         FIN  NOS MEMOIRE AUDREY JADE        -----------------------------------------------
+------------------------------------------------         FIN NOS MEMOIRE AUDREY JADE MEGANE      -----------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 

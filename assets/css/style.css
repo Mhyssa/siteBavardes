@@ -33,12 +33,13 @@
 }
 
 .paralsec1 {
-    background-image: url("../img/index/ob.jpg");
+    background-image: url("../img/index/orange.jpg");
     
 }
 
 .paralsec2 {
-    background-image: url("../img/index/pride.jpg");
+    background-image: url("../img/index/rouge.jpg");
+
 }
 
 .paralsec3 {
@@ -46,7 +47,7 @@
 }
 
 .paralsec4 {
-    background-image: url("../img/index/a_la_une.png");
+    background-image: url("../img/index/scene_mathilde.jpg");
 }
 
 /* Add more images for more sections */
@@ -169,7 +170,8 @@ p {
 .sur-noir {
     font-weight:bold;
     color: rgb(255, 255, 255);
-    background-color: #000000a8;
+    /* background-color:#71B1B0; */
+    background-color: #E2353F;
   
     -webkit-border-radius: 8px;
     border-radius: 8px;
@@ -177,7 +179,7 @@ p {
 
 /* mes bouttons personnalisés */
 .button {
-   background:#ffa632ad;
+   background:#ffa632;
    padding: 15.5px 31px;
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;
@@ -295,7 +297,11 @@ ul {
 
 
 .bgyellow {
-    background-color: #db8d0069;
+    background-color: #ffbd41;
+}
+
+.bgpurple {
+    background-color: rgb(187, 3, 187);
 }
 
 .bgpastel {

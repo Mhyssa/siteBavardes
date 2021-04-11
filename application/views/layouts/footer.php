@@ -62,7 +62,7 @@
                 <p class="colorpolice2 col-lg-12 text-center"><?php echo $footer_body_text; ?></p>
               </div>
     <div class="col-lg-3 col-sm-12">    
-      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"> <button class="button2 btn-block"><?php echo $footer_button_support;?></button> </a>          
+      <a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2021" class="link" target="_blank"> <button class="button2 btn-block"><?php echo $footer_button_support;?></button> </a>          
         <p class="colorpolice2 text-center pt-2"><?php echo $footer_line3; ?></p>
   </div>
   
