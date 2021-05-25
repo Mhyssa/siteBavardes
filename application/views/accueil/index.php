@@ -35,16 +35,6 @@
   </div>
 </div>
 
-
-
-  <div class="col-12 col-sm-12 p-0">
-    <a href="https://www.helloasso.com/associations/les-bavardes/paiements/affiche-hoshi?fbclid=IwAR214FT7xJbiZ_o-NYkN58cU3YAAXohKj10lmnjucwvAReO4uIs_rgeygqs">
-  <img src="<?php echo base_url(); ?>assets\img\index\hoshi_aff.jpg" class="d-block w-100" alt="affiche Hoshi">
-</a>
-  </div>
-
-
-
   <div class="col-12 col-sm-12 p-0">
     <a href="<?php echo base_url(); ?>assets/img/index/alaune/Bon-de-commandev3.pdf">
   <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\livret_pedago.png" class="d-block w-100" alt="le bon de commande pour le dvd livret pédagogique à destination des colléges et des lycées">
