@@ -2,7 +2,7 @@
 
     defined('BASEPATH') or exit('No direct script access allowed');
 
-    //definition de la langue 
+    //definition de la langue
     $lang['lang'] = 'en';
 
 
@@ -16,7 +16,7 @@
         $lang['header_about'] = 'Who are we?';
         $lang['header_team'] = 'Team';
         $lang['header_pod'] = 'Listen to our Stuff';
-        $lang['header_event'] = 'Events';        
+        $lang['header_event'] = 'Events';
         $lang['header_col'] = 'Collaborations';
         $lang['header_ppl'] = 'Artists & Speakers';
 
@@ -31,7 +31,7 @@
     cultural and artistic spaces and actions, open to all, aiming to act, meet, wonder and party. Radio, workshop, debate, cinema, parties… Let’s meet, question 
     and emancipate ourselves! ';
     $lang['acc_button_team'] = 'Who Are these Women?';
-    
+
     $lang['acc_body_text2'] = 'Check out our special show broadcasted on March 8th for the 10th Anniversary of Radio Campus Amiens, on the occasion of 
     International Women\'s Rights Day and as part of the Festival J\'en(c)rêve.';
     $lang['acc_button_pod'] = 'all of our podcasts are here !';
@@ -50,13 +50,13 @@
     and discriminations inflicted to all women. Today we count approximately 30 very active volunteers, who carry out many projects: festivals, awareness actions 
     in schools, co-organization of events that contribute to local and national advocacy work to reduce inequalities, fight against sexism, lesbophobia, 
     transphobia and racism. We use popular, participatory, inclusive and caring education methods so that all the women we meet feel supported and valued.';
-    
+
     $lang['about_body_text2'] = 'With more than 50 projects and nearly 4000 people affected, we are proud to be able to affirm that not only do our actions make 
     sense, but also have an impact. We are happy to be recognized and legitimate, even beyond the territory of Amiens. We are trying to respond to the many 
     requests, but it now seems important to us to both solidify our actions and volunteer network, to have the ambition to spread our activist feminist practices, 
     both in the action repertory and on the organizational methods that the society project that we defend. "';
-    
-    
+
+
 
     //team/index
 
@@ -75,7 +75,7 @@
     $lang['event_badge_div'] = 'Diverse';
 
     $lang['event_button_cat'] = 'Search a Category';
-    
+
     $lang['event_button_inscription'] = 'By Registration';
     $lang['event_button_det'] = 'details';
 
@@ -201,6 +201,15 @@
         $lang['account_mail'] = 'Email Address';
         $lang['account_phone'] = 'Phone Number';
 
+        //navbar/account
+        $lang['account_navlink1']='POSTERS';
+        $lang['account_navlink2']='LIBRAIRY';
+        $lang['account_navlink3']='MEMBERSHIP';
+        $lang['account_navlink4']='ACCOUNT';
+        $lang['account_poster_ad']='Here some posters you can book ';
+        $lang['account_poster_book']='book';
+
+
 
 
     //mentions/index
@@ -292,7 +301,7 @@
                 newsletter at any time by contacting us at <a href="mailto:staffbavardes@gmail.com">staffbavardes@gmail.com</a> or by clicking on "unsubscribe" at the 
                 bottom of the page.';
 
-    // footer 
+    // footer
     $lang['footer_line1'] = 'THE LESBIAN AND FEMINIST COLLECTIVE COMMITED TO THE VISIBILITY OF ALL WOMEN';
     $lang['footer_line2'] = 'A Question? A crazy project? Contact Us !';
     $lang['footer_body_text'] = $lang['acc_body_text1'];

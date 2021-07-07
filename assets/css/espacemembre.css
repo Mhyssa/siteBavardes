@@ -44,7 +44,7 @@
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.5px;
-    
+
 }
 .form-horizontal .form-group{
     background-color: rgba(255,255,255,0.15);
@@ -133,4 +133,12 @@
         width: 100%;
         margin: 0;
     }
+}
+.bg-rose {
+    background-color: #4D155B;
+    color: white;
+}
+#white_on_blue{
+    background-color: #003399;
+    color: #eeeeee;
 }

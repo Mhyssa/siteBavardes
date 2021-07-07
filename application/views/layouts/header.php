@@ -18,7 +18,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- styles CSS -->
   <?php if($controller == 'event'){ ?>
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">    
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/event.css">
   <?php } elseif($controller == 'team'){ ?>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
@@ -83,7 +83,7 @@
 
 </head>
 
-<body>
+<body class="bg-rose">
 
   <div class="container-fluid">
     <header>
@@ -124,20 +124,20 @@
                   <?php  }  ?>
 
                   <!-- Actif equipe ou non -->
-                  <?php 
+                  <?php
                   if($ma_pages == 'index_team'){ ?>
                   <li class="nav-item active pr-4  pl-4">
                     <a class="nav-link text-center" href="<?php echo base_url().'index.php/team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
                   </li>
-                  <?php 
+                  <?php
                   }else{    ?>
                   <li class="nav-ite pr-4  pl-4 ">
                     <a class="nav-link text-center" href="<?php echo base_url().'index.php/team/index/'.$lang; ?>"><?php echo $header_team; ?></a>
                   </li>
-                  <?php  }                 
+                  <?php  }
                   ?>
 
-                                    
+
                   <!-- Actif évènements ou non -->
                   <?php if($ma_pages == 'index_event'){ ?>
                   <li class="nav-item active pr-4  pl-4">
@@ -150,7 +150,7 @@
                   <?php  }  ?>
 
                   <!-- NOUS ECOUTER -->
-                  
+
                   <!-- Actif Nos podcasts ou non -->
                   <?php if($ma_pages == 'index_podcast'){ ?>
                   <li class="nav-item active pr-4  pl-4">
@@ -183,10 +183,10 @@
                     <a class="nav-link text-center" href="<?php echo base_url().'index.php/collab/index/'.$lang; ?>"><?php echo $header_col; ?></a>
                   </li>
                   <?php  }  ?>
-                               
-                  
-                  
-        
+
+
+
+
 
                 </ul>
               </div>
@@ -206,4 +206,4 @@
         <a href="<?php echo base_url().'index.php/'.$controller.'/'.$function.'/en'; ?>"><img src="<?php echo base_url(); ?>assets/img/lang/en.png" width="25"></a>
       </div>
     </header>
-  
+
