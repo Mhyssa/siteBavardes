@@ -199,12 +199,37 @@ $lang['account_mail'] = 'Adresse E-mail';
 $lang['account_phone'] = 'Numéro de Téléphone';
 
 //navbar/account
-$lang['account_navlink1']='AFFICHES';
-$lang['account_navlink2']='BIBLIOTHEQUE';
-$lang['account_navlink3']='ADHESION';
-$lang['account_navlink4']='COMPTE';
+$lang['account_navlink_posters']='AFFICHES';
+$lang['account_navlink_librairy']='BIBLIOTHEQUE';
+$lang['librairy_book']='Livres';
+$lang['librairy_magasines']='Magasines';
+$lang['librairy_games']='Jeux';
+$lang['librairy_dvd']='DVD';
+$lang['librairy_comic']='BD';
+$lang['account_navlink_member']='ADHESION';
+$lang['account_navlink_acount']='COMPTE';
+$lang['account_reservation']='Tes reservations';
+$lang['account_borrowing']='Tes emprunts';
+// posters
 $lang['account_poster_ad']='Voici les affiches que tu peux réserver';
-$lang['account_poster_book']='réserver';
+$lang['account_poster_booking']='réserver';
+$lang['validate_booking']='Valider la réservation';
+$lang['cancel_booking']='Annuler';
+$lang['booking_notice']='L\'affiche est à 10€. Avec une adhésion à Les bavardes (5€), l\'affiche est à 5€. Tu peux adhérer en suivant ce lien' ;
+$lang['msg_to_get_the_poster']='Vérifie, s\'il te plaît, s\'il y aurait un événement où tu pourrais récupérer l\'affiche';
+// reservation
+$lang['us_id']='identifiant utilisateur';
+$lang['poster_id']='numéro de l\'affiche';
+$lang['event_id']='numéro de l\'évenement';
+$lang['poster_booked']='Merci, l\'affiche a été réservée avec succès';
+// library books
+$lang['book_title']='Title';
+$lang['book_author']='Auteur';
+$lang['borrow']='Emprunter';
+//magasines
+$lang['magasine_name']='Nom';
+$lang['magasine_numero']='Numéro';
+
 
 
 

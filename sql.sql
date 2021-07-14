@@ -669,3 +669,10 @@ INSERT INTO `users` (`us_id`, `us_fname`, `us_lname`, `us_email`, `us_password`,
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+
+
+-- données pour test (événements à venir )
+INSERT INTO `events` ( `event_name`, `event_date`, `event_heure`, `event_lieu`, `event_adresse`, `event_link`, `event_nombre_pers`, `event_inscription`, `event_non_mix`, `event_description`, `event_cat`, `file_name`) VALUES
+('Test1', '2021-10-20', '19:00', 'le cafe', '', 'https://www.facebook.com/events/687997151397099/', 0, NULL, NULL, '', 'Divers', 'les_bavardes_debarquent.jpg'),
+('Test2', '2022-10-20', '19:00', 'le cafe', '', 'https://www.facebook.com/events/687997151397099/', 0, NULL, NULL, '', 'Divers', 'les_bavardes_debarquent.jpg'),
+('Test3', '2023-10-20', '19:00', 'le cafe', '', 'https://www.facebook.com/events/687997151397099/', 0, NULL, NULL, '', 'Divers', 'les_bavardes_debarquent.jpg')

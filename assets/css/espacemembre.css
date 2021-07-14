@@ -142,3 +142,8 @@
     background-color: #003399;
     color: #eeeeee;
 }
+
+.dropdown-item:hover {
+    background-color: #4D155B;
+}
+

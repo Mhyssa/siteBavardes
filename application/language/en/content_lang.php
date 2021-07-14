@@ -202,12 +202,40 @@
         $lang['account_phone'] = 'Phone Number';
 
         //navbar/account
-        $lang['account_navlink1']='POSTERS';
-        $lang['account_navlink2']='LIBRAIRY';
-        $lang['account_navlink3']='MEMBERSHIP';
-        $lang['account_navlink4']='ACCOUNT';
+        $lang['account_navlink_posters']='POSTERS';
+        $lang['account_navlink_librairy']='LIBRAIRY';
+        $lang['librairy_book']='Books';
+        $lang['librairy_magasines']='Magasines';
+        $lang['librairy_games']='Games';
+        $lang['librairy_dvd']='DVD';
+        $lang['librairy_comic']='Comics';
+        $lang['account_navlink_member']='MEMBERSHIP';
+        $lang['account_navlink_acount']='ACCOUNT';
+        $lang['account_reservation']='Your reservations';
+        $lang['account_borrowing']='Your borrowing';
+        //posters
         $lang['account_poster_ad']='Here some posters you can book ';
-        $lang['account_poster_book']='book';
+        $lang['account_poster_booking']='book';
+        $lang['booking_notice']='Poster cost 10€. If you\'re member of Lesbavardes(membership costs 5€) it\'s 5€. You can be a member by following this link ';
+        $lang['validate_booking']='Validate the booking';
+        $lang['cancel_booking']='cancel';
+        $lang['msg_to_get_the_poster']='Please check if there is  an event when you would like to pick the poster';
+        // reservation
+        $lang['us_id']='User ID';
+        $lang['poster_id']='Poster ID';
+        $lang['event_id']='Event ID';
+        $lang['poster_booked']='Thank you, the poster was successfully booked';
+        // library books
+        $lang['book_title']='Title';
+        $lang['book_author']='Author';
+        $lang['borrow']='Borrow';
+        //magasines
+        $lang['magasine_name']='Name';
+        $lang['magasine_numero']='Number';
+
+
+
+
 
 
 
