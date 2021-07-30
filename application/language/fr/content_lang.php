@@ -222,13 +222,25 @@ $lang['us_id']='identifiant utilisateur';
 $lang['poster_id']='numéro de l\'affiche';
 $lang['event_id']='numéro de l\'évenement';
 $lang['poster_booked']='Merci, l\'affiche a été réservée avec succès';
+$lang['poster_not_booked']='Desolé, la réservation n\'a pas pu aboutir . Essayer encore une fois';
 // library books
 $lang['book_title']='Title';
 $lang['book_author']='Auteur';
+$lang['book_publication']='Année de publication';
 $lang['borrow']='Emprunter';
 //magasines
 $lang['magasine_name']='Nom';
 $lang['magasine_numero']='Numéro';
+
+//games
+$lang['game_name']='Nom';
+// borrowing
+$lang['validate_borrowing'] = 'Confirmer';
+$lang['msg_to_get_the_article'] = 'Vérifie, s\'il te plaît, s\'il y aurait un événement où tu pourrais récupérer ton emprunt';
+$lang['borrowing_notice']='Tu voudrais emprunter ?' ;
+$lang['borrowing_success']='Ton emprunt a été enregistré avec succès!' ;
+$lang['borrowing_fail']='Une erreur s\'est produit, pense à ressayer ?' ;
+
 
 
 

@@ -595,7 +595,7 @@ class Users extends CI_Controller
 
     } // login ends here
 
-    /*
+    /**
      * data for different methods dealing with account
      */
     public function accountData($con, $fonction)
@@ -668,7 +668,7 @@ class Users extends CI_Controller
     }
 
 
-    /*
+    /**
      * show posters
      */
 
@@ -681,6 +681,8 @@ class Users extends CI_Controller
         $data['controller'] = 'users';
         $data['function'] = 'posters';
 
+
+
         if ($this->isUserLoggedIn) {
             $con = array(
                 'us_id' => $this->session->userdata('userId')
@@ -691,6 +693,7 @@ class Users extends CI_Controller
             $data['posters'] = $this->Poster_Model->getAll();
             $data['account_poster_ad'] = $this->lang->line('account_poster_ad');
             $data['account_poster_booking'] = $this->lang->line('account_poster_booking');
+            $data['account_navbar'] = 'posters';
             // Pass the user data and load view
             $this->load->view('layouts/header', $data);
             $this->load->view('users/navbar', $data);
@@ -701,7 +704,7 @@ class Users extends CI_Controller
         }
     } // posters ends here
 
-    /*
+    /**
      * book poster
      */
     public function book()
@@ -710,19 +713,20 @@ class Users extends CI_Controller
         $this->lang->load('content', $lang == '' ? 'fr' : $lang);
         $data['controller'] = 'users';
         $data['function'] = 'book';
+
         $user = array(
             'us_id' => $this->session->userdata('userId')
         );
         // getting data needed for the view
         $data = $this->accountData($user, $data['function']);
-
+        $data['account_navbar'] = 'posters';
         $data['poster_id'] = $this->uri->segment(3);
         $data['account_poster_booking'] = $this->lang->line('account_poster_booking');
         $data['booking_notice'] = $this->lang->line('booking_notice');
         $data['validate_booking'] = $this->lang->line('validate_booking');
         $data['cancel_booking'] = $this->lang->line('cancel_booking');
         $data['msg_to_get_the_poster'] = $this->lang->line('msg_to_get_the_poster');
-        $data['event_to_get_the_poster']=$this->Event_Model->eventsToCome();
+        $data['event_to_get_the_poster'] = $this->Event_Model->eventsToCome();
 
         $this->load->view('layouts/header', $data);
         $this->load->view('users/navbar', $data);
@@ -738,10 +742,11 @@ class Users extends CI_Controller
     public function reservation()
     {
 
-        $lang=$this->input->post('lang');
+        $lang = $this->input->post('lang');
         $this->lang->load('content', $lang == '' ? 'fr' : $lang);
         $data['controller'] = 'users';
         $data['function'] = 'reservation';
+
 
         if ($this->input->post()) {
             $this->form_validation->set_rules('us_id', $data['us_id'] = $this->lang->line('us_id'), 'required');
@@ -762,30 +767,34 @@ class Users extends CI_Controller
                 if ($this->Reservation_Model->new($reservation)) {
                     $this->session->set_flashdata('poster_booked', $this->lang->line('poster_booked'));
                     redirect('users/posters');
-                }else{
-                    // TO DO
+                } else {
+                    $this->session->set_flashdata('poster_not_booked', $this->lang->line('poster_not_booked'));
+                    redirect('users/posters');
                 }
-            }else{
-                // TO DO
+            } else {
+                $this->session->set_flashdata('poster_not_booked', $this->lang->line('poster_not_booked'));
+                redirect('users/posters');
             }
 
-        }else{
-            // TO DO
+        } else {
+            $this->session->set_flashdata('poster_not_booked', $this->lang->line('poster_not_booked'));
+            redirect('users/posters');
         }
 
     }
 
     /**
-     * Show all books
+     * Show some kind of articles
      */
-    public function libraryBooks()
+    public function article($type)
     {
-        $lang = $this->uri->segment(3);
+        $lang = $this->uri->segment(4);
         $data = array();
 
         $this->lang->load('content', $lang == '' ? 'fr' : $lang);
         $data['controller'] = 'users';
-        $data['function'] = 'libraryBooks';
+        $data['function'] = 'article/'.$type;
+
 
         if ($this->isUserLoggedIn) {
             $con = array(
@@ -793,16 +802,36 @@ class Users extends CI_Controller
             );
             $data = $this->accountData($con, $data['function']);
 
-            // get books
+            // get articles
             $this->load->model('Articles_Model');
-            $data['books'] = $this->Articles_Model->getArticles('1');
-            $data['book_title'] = $this->lang->line('book_title');
-            $data['book_author'] = $this->lang->line('book_author');
+            $data['articles'] = $this->Articles_Model->getArticles($type);
+            // difining some specific data depending on type of articles
+            switch ($type) {
+                //books
+                case '1':
+                    $data['book_title'] = $this->lang->line('book_title');
+                    $data['book_author'] = $this->lang->line('book_author');
+                    $viewName = "books";
+                    break;
+                //magazines
+                case '4':
+                    $data['magasine_name'] = $this->lang->line('magasine_name');
+                    $data['magasine_numero'] = $this->lang->line('magasine_numero');
+                    $viewName = "magasines";
+                    break;
+                //DVD, games and bd
+                case '2':
+                case '3':
+                case '5':
+                    $viewName = "games_dvd_bd";
+                    break;
+            }
+            $data['account_navbar'] = 'library';
             $data['borrow'] = $this->lang->line('borrow');
             // Pass the user data and load view
             $this->load->view('layouts/header', $data);
             $this->load->view('users/navbar', $data);
-            $this->load->view('users/books', $data);
+            $this->load->view('users/' . $viewName, $data);
             $this->load->view('layouts/footer', $data);
         } else {
             redirect('users/login');
@@ -810,16 +839,99 @@ class Users extends CI_Controller
     }
 
     /**
-     * show magasines
+     * Borrow article
+     * @param $id
      */
-    public function libraryMagasines()
+    public function borrow($id)
     {
+        $lang = $this->uri->segment(4);
+        $this->lang->load('content', $lang == '' ? 'fr' : $lang);
+        $data['controller'] = 'users';
+        $data['function'] = 'borrow/'.$id;
+
+        $user = array(
+            'us_id' => $this->session->userdata('userId')
+        );
+        // getting data needed for the view
+        $data = $this->accountData($user, $data['function']);
+
+        $data['article_id'] = $this->uri->segment(3);
+        $this->load->model('Articles_Model');
+        $data['article'] = $this->Articles_Model->getArticle($data['article_id']);
+        $data['account_navbar'] = 'library';
+        $data['validate_borrowing'] = $this->lang->line('validate_borrowing');
+        $data['borrowing_notice'] = $this->lang->line('borrowing_notice');
+        $data['book_title'] = $this->lang->line('book_title');
+        $data['book_author'] = $this->lang->line('book_author');
+        $data['book_publication'] = $this->lang->line('book_publication');
+        $data['magasine_name'] = $this->lang->line('magasine_name');
+        $data['magasine_numero'] = $this->lang->line('magasine_numero');
+        $data['msg_to_get_the_article'] = $this->lang->line('msg_to_get_the_article');
+        $data['event_to_get_the_article'] = $this->Event_Model->eventsToCome();
+
+        $this->load->view('layouts/header', $data);
+        $this->load->view('users/navbar', $data);
+        $this->load->view('users/borrow', $data);
+        $this->load->view('layouts/footer', $data);
+    }
+
+    /**
+     * save in db the borrowing
+     */
+    public function borrowing()
+    {
+        $lang = $this->input->post('lang');
+        $this->lang->load('content', $lang == '' ? 'fr' : $lang);
+        $data['controller'] = 'users';
+        $data['function'] = 'borrowing';
+        $type = $this->input->post('type');
+        if ($this->input->post()) {
+            $this->form_validation->set_rules('us_id', '', 'required');
+            $this->form_validation->set_rules('article_id', '', 'required');
+            $this->form_validation->set_rules('event', '', 'required');
+            $this->form_validation->set_rules('type', '', 'required');
+
+            if ($this->form_validation->run() == true) {
+                $date = new DateTime;
+                $format = $date->format('Y-m-d');
+
+                $borrowing = array(
+                    'borrowing_date' => $format,
+                    'us_id' => $this->input->post('us_id'),
+                    'event_id' => $this->input->post('event'),
+                    'article_id' => $this->input->post('article_id')
+                );
+                $this->load->model('Borrowing_Model');
+                if ($this->Borrowing_Model->new($borrowing)) {
+                    $this->session->set_flashdata('borrowing_success', $this->lang->line('borrowing_success'));
+                    redirect('users/article/' . $type . '/' . $lang);
+                } else {
+                    $this->session->set_flashdata('borrowing_fail', $this->lang->line('borrowing_fail'));
+                    redirect('users/article/' . $type . '/' . $lang);
+                }
+            } else {
+                $this->session->set_flashdata('borrowing_fail', $this->lang->line('borrowing_fail'));
+                redirect('users/article/' . $type . '/' . $lang);
+            }
+        } else {
+            $this->session->set_flashdata('borrowing_fail', $this->lang->line('borrowing_fail'));
+            redirect('users/article/' . $type . '/' . $lang);
+        }
+    }
+
+    /**
+     * user's data, reservations and borrowing
+     */
+    public function account(){
         $lang = $this->uri->segment(3);
+
         $data = array();
 
         $this->lang->load('content', $lang == '' ? 'fr' : $lang);
         $data['controller'] = 'users';
-        $data['function'] = 'libraryMagasines';
+        $data['function'] = 'account';
+
+
 
         if ($this->isUserLoggedIn) {
             $con = array(
@@ -827,16 +939,12 @@ class Users extends CI_Controller
             );
             $data = $this->accountData($con, $data['function']);
 
-            // get books
-            $this->load->model('Articles_Model');
-            $data['magasines'] = $this->Articles_Model->getArticles('4');
-            $data['magasine_name'] = $this->lang->line('magasine_name');
-            $data['magasine_numero'] = $this->lang->line('magasine_numero');
-            $data['borrow'] = $this->lang->line('borrow');
+
+            $data['account_navbar'] = 'account';
             // Pass the user data and load view
             $this->load->view('layouts/header', $data);
             $this->load->view('users/navbar', $data);
-            $this->load->view('users/magasines', $data);
+            $this->load->view('users/account', $data);
             $this->load->view('layouts/footer', $data);
         } else {
             redirect('users/login');

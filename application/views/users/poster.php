@@ -16,6 +16,10 @@
             <div class="p-3 mb-2 bg-success text-white"><?php echo $this->session->flashdata('poster_booked')?></div>
         <?php }
         ?>
+        <?php if ($this->session->flashdata('poster_not_booked')){ ?>
+            <div class="p-3 mb-2 bg-success text-white"><?php echo $this->session->flashdata('poster_not_booked')?></div>
+        <?php }
+        ?>
     </h3>
 
     <div class="row d-flex justify-content-center ">
@@ -25,7 +29,7 @@
                 <img src="<?php echo base_url(); ?>assets\img\affiches\<?php echo $poster->poster_id ?>.png"  class="img-fluid" alt="<?php echo $poster->poster_name ?>" >
             </div>
             <div class="row d-flex justify-content-center">
-                <a class="btn btn-primary bg-primary" href="<?php echo base_url().'index.php/users/book/'.$poster->poster_id.'/'.$lang; ?>" role="button"><?php echo $account_poster_booking ?></a>
+                <a class="btn btn-primary bg-info" href="<?php echo base_url().'index.php/users/book/'.$poster->poster_id.'/'.$lang; ?>" role="button"><?php echo $account_poster_booking ?></a>
             </div>
 
         </div>

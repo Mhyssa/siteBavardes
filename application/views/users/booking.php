@@ -1,6 +1,6 @@
 
     <p class="text-center text-white">
-        <?php echo $booking_notice; ?><a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2020" class="link" target="_blank"><i class="fas fa-donate"></i></a>
+        <?php echo $booking_notice; ?><a href="https://www.helloasso.com/associations/les-bavardes/adhesions/adhesion-2021" class="link" target="_blank"><i class="fas fa-donate"></i></a>
     </p>
 
 
@@ -28,7 +28,7 @@
 
 
 <div class="row d-flex justify-content-center my-3">
-    <button type="submit" name="reservation" class="btn bg-primary text-white mx-2"><?php echo  $validate_booking ?></button>
+    <button type="submit" name="reservation" class="btn bg-info text-white mx-2"><?php echo  $validate_booking ?></button>
     <?php echo form_close();?>
 
 </div>
