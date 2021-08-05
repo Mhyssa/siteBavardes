@@ -21,23 +21,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <label>Type : </label>
-                <?php switch ($article['type_id']){
-                    case '1':
-                        echo 'Livre';
-                        break;
-                    case '2':
-                        echo 'DVD';
-                        break;
-                    case '3':
-                        echo 'Jeu';
-                        break;
-                    case '4':
-                        echo 'Magasine';
-                        break;
-                    case '5':
-                        echo 'BD';
-                        break;
-                } ?>
+                <?php echo !empty($article['type_name']) ? $article['type_name'] : ''; ?>
             </div>
             <div class="col-sm-4">
                 <label>Tome : </label>

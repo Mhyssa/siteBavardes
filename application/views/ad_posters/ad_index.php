@@ -30,9 +30,15 @@
                     </div>
                 </form>
                 <!-- Add link -->
-                <div class="float-right">
-                    <a href="<?php echo base_url(); ?>index.php/posters/add_poster" class="btn btn-sm btn-success"><i class="fas fa-user-plus"></i></a>
+                <div class="row d-flex justify-content-between">
+                    <div class="float-left">
+                        <a href="<?php echo base_url(); ?>index.php/reservation/ad_index" class="btn btn-sm btn btn-warning">Reservations</i></a>
+                    </div>
+                    <div class="float-right">
+                        <a href="<?php echo base_url(); ?>index.php/posters/add_poster" class="btn btn-sm btn-success"><i class="fas fa-user-plus"></i></a>
+                    </div>
                 </div>
+
             </div>
 
 

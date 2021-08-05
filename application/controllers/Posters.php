@@ -192,7 +192,7 @@ class Posters extends CI_Controller
         }
 
 
-    } // add_people ends here
+    } // add_poster ends here
 
     public function file_check()
     {

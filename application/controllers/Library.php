@@ -387,8 +387,9 @@ class Library extends CI_Controller
             redirect('users/login');
         }
 
-
     } // delete_article ends here
+
+
 
 
 }

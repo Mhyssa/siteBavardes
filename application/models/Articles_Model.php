@@ -30,6 +30,7 @@ class Articles_Model extends CI_Model
     public function getRowsArticle($params = array()){
         $this->db->select('*');
         $this->db->from($this->table);
+        $this->db->join('type', 'type.type_id =articles.type_id');
 
         if(array_key_exists("conditions", $params)){
             foreach($params['conditions'] as $key => $val){
