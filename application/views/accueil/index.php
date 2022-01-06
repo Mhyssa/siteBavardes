@@ -76,14 +76,14 @@
   </div>
 
   <!-- Third Parallax Section -->
-  <div class="jumbotron paral paralsec2">
+  <!-- <div class="jumbotron paral paralsec2">
     <h3 class="sur-noir m-3 p-3 text-center"><?php echo $acc_titre2; ?></h3>
     <div>
 
       <p class="sur-noir"><?php echo $acc_titre2_p1; ?> <a id="titre" href="https://www.jeanne-magazine.com/?s=les+bavardes" target="_blank">Jeanne-magazine.com</a></p>
       <p><a class="sur-noir" href="<?php echo base_url().'index.php/about';?>">&#10150; <?php echo $acc_titre2_button_p2; ?></a></p>
     </div>
-  </div>
+  </div> -->
 
   <!-- Fourth Parallax Section -->
   <div class="jumbotron paral paralsec3">

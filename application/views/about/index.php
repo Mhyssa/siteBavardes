@@ -122,7 +122,7 @@
   </div>
 </div>
 
-<!-- JADE -->
+<!-- MEGANE -->
 <div class="card bg-light mb-3 mx-2" style="max-width: 540px;">
   <div class="row ">
     <div class="col-md-4">
@@ -144,6 +144,27 @@
   </div>
 </div>
 
+<!-- INNOCENT -->
+<div class="card bg-light mb-3 mx-2" style="max-width: 540px;">
+  <div class="row ">
+    <div class="col-md-4">
+      <a href="<?php echo base_url(); ?>assets\img\memory\rapport.pdf" target="_blank" >
+        <img src="<?php echo base_url(); ?>assets\img\memory\innocent.PNG" class="card-img img-fluid" alt="Titre Professionnel Concepteur développeur d'application Innocent Binyoma">
+      </a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <div class="card-title text-center">Titre Professionnel <br> Concepteur Développeur d'Application</div>
+        <div class="col-lg-10 col-md-10 m-auto lignefooter mt-2 "></div><br>
+        <h5 class="card-text text-center">Innocent Binyoma</h5>
+        <p class="card-text text-center"><small class="text-muted">Mise à jour du site fiertesamiens.fr 
+                          <br>Refonte du modéle conceptuel des données du site lesbavardes.org</small></p>
+        <a href="<?php echo base_url(); ?>assets\img\memory\rapport.pdf" class="footlink"
+        download="rapport.pdf"><i class="fas fa-file-download fa-3x float-right mb-5"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------         FIN NOS MEMOIRE AUDREY JADE MEGANE      -----------------------------------------------

@@ -296,7 +296,7 @@
     $lang['footer_line1'] = 'THE LESBIAN AND FEMINIST COLLECTIVE COMMITED TO THE VISIBILITY OF ALL WOMEN';
     $lang['footer_line2'] = 'A Question? A crazy project? Contact Us !';
     $lang['footer_body_text'] = $lang['acc_body_text1'];
-    $lang['footer_button_support'] = '2021 Membership';
+    $lang['footer_button_support'] = '2022 Membership';
     $lang['footer_line3'] = 'To Support Us !';
 
     $lang['footer_mentions'] = 'Legal Notices';

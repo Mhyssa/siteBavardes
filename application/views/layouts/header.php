@@ -215,10 +215,12 @@
           <h1 id="titre"><?php echo $header_titre; ?></h1>
         </div>
         <div class="col-2 col-md-2 col-lg-2 my-auto">
-        <a href="https://www.facebook.com/bavardes/"><img src="<?php echo base_url(); ?>assets/img/navbar/facebook.jpg" width="35"></a>
-        <a href="https://www.instagram.com/les.bavardes/"><img src="<?php echo base_url(); ?>assets/img/navbar/instagram.jpg" width="35"></a>
-        <a href="https://twitter.com/lesbavardes_"><img src="<?php echo base_url(); ?>assets/img/navbar/twitter.jpg" width="35"></a>
-        <a href="https://www.youtube.com/c/LESBAVARDES"><img src="<?php echo base_url(); ?>assets/img/navbar/youtube.jpg" width="35"></a>
+        <a href="https://www.facebook.com/bavardes/" target="_blank"><img src="<?php echo base_url(); ?>assets/img/navbar/facebook.jpg" width="35"></a>
+        <a href="https://www.instagram.com/les.bavardes/" target="_blank"><img src="<?php echo base_url(); ?>assets/img/navbar/instagram.jpg" width="35"></a>
+        <a href="https://twitter.com/lesbavardes_" target="_blank"><img src="<?php echo base_url(); ?>assets/img/navbar/twitter.jpg" width="35"></a>
+        <a href="https://www.youtube.com/c/LESBAVARDES" target="_blank"><img src="<?php echo base_url(); ?>assets/img/navbar/youtube.jpg" width="35"></a>
+        <a href="https://soundcloud.com/lesbavardes" target="_blank"><img src="<?php echo base_url(); ?>assets/img/navbar/soundcloud.jpg" width="35"></a>
+
       </div>
       </div>
 
