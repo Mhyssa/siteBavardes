@@ -37,7 +37,7 @@
 
   <div class="col-12 col-sm-12 p-0">
     <a href="<?php echo base_url(); ?>assets/img/index/alaune/Bon-de-commandev3.pdf">
-  <img src="<?php echo base_url(); ?>assets\img\index\alaune\08032021\livret_pedago.png" class="d-block w-100" alt="le bon de commande pour le dvd livret pédagogique à destination des colléges et des lycées">
+  <img src="<?php echo base_url(); ?>assets/img/index/alaune/08032021/livret_pedago.png" class="d-block w-100" alt="le bon de commande pour le dvd livret pédagogique à destination des colléges et des lycées">
 </a>
   
 </div>
