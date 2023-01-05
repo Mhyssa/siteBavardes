@@ -21,7 +21,7 @@
         $lang['header_ppl'] = 'Artists & Speakers';
 
         // id titre
-        $lang['header_titre'] = 'Les Bavardes, Feminist and lesbian collective in amiens since 2017';
+        $lang['header_titre'] = 'Les Bavardes, Feminist and lesbian collective in amiens </br> 20 oct.2017 - 16 oct.2022';
 
 
 
@@ -51,7 +51,7 @@
     in schools, co-organization of events that contribute to local and national advocacy work to reduce inequalities, fight against sexism, lesbophobia, 
     transphobia and racism. We use popular, participatory, inclusive and caring education methods so that all the women we meet feel supported and valued.';
     
-    $lang['about_body_text2'] = 'With more than 50 projects and nearly 4000 people affected, we are proud to be able to affirm that not only do our actions make 
+    $lang['about_body_text2'] = 'With more than 200 projects and nearly 10.000 people affected, we are proud to be able to affirm that not only do our actions make 
     sense, but also have an impact. We are happy to be recognized and legitimate, even beyond the territory of Amiens. We are trying to respond to the many 
     requests, but it now seems important to us to both solidify our actions and volunteer network, to have the ambition to spread our activist feminist practices, 
     both in the action repertory and on the organizational methods that the society project that we defend. "';

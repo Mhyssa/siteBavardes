@@ -21,7 +21,7 @@
         $lang['header_ppl'] = 'Artistes & Intervenant·es';
 
         // id titre
-        $lang['header_titre'] = 'Les Bavardes collectif féministe & lesbien à Amiens depuis 2017';
+        $lang['header_titre'] = 'Les Bavardes collectif féministe & lesbien à Amiens </br> 20 oct.2017 - 16 oct.2022';
 
 
 
@@ -56,7 +56,7 @@
     Nous employons des méthodes d\'éducation populaire, participatives, inclusives et bienveillantes afin que toutes les femmes que nous 
     rencontrons se sentent accompagnées et valorisées.';
 
-    $lang['about_body_text2'] = 'Avec plus de 90 projets et près de 4000 personnes touchées, nous sommes fières de pouvoir affirmer que non seulement 
+    $lang['about_body_text2'] = 'Avec plus de 200 projets et près de 10.000 personnes touchées, nous sommes fières de pouvoir affirmer que non seulement 
     nos actions ont du sens, mais aussi de l\'impact. Nous sommes heureuses d\'être reconnues et légitimes et ce, même au delà du territoire amiénois.
 
     Nous tentons de répondre aux nombreuses sollicitations, mais il nous semble désormais important d\'à la fois solidifier nos actions, 

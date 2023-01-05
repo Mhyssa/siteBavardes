@@ -10,7 +10,7 @@
                 <div class="col-lg-5 col-md-12 m-auto lignefooter"></div>
 
                 <p class="px-5">
-                    Marion Joly.<br>
+                  
 
                     <?php echo $mention_body_text1_pt1; ?><br>
                     <?php echo $mention_body_text1_pt2; ?><br>

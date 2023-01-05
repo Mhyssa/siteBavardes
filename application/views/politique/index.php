@@ -7,8 +7,7 @@
                 <h2 class="text-center"><?php echo $politique_h2_n1; ?> </h2>
                 <div class="col-lg-5 col-md-12 m-auto lignefooter"></div>
                 <p class="text-center">
-                    Marion Joly.
-
+                  
                     <?php echo $politique_body_text1_p1 ;?> <br>
                     <?php echo $politique_body_text1_p2 ;?> <br>
                     <?php echo $politique_body_text1_p3 ;?>
